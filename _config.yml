@@ -6,8 +6,20 @@ url: https://hz1ulqu01gmnZH4.github.io
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 theme: null
+
+# SEO and Social
+author: Simple Notes
+lang: en_US
+
+# Social profiles (optional - customize as needed)
+twitter:
+  username: your_twitter
+  card: summary
+
 plugins:
 - jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
 exclude:
 - Gemfile
 - Gemfile.lock

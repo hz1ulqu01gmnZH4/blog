@@ -1,0 +1,6 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hz1ulqu01gmnZH4.github.io/blog/sitemap.xml
