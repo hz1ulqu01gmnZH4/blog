@@ -1,0 +1,15 @@
+# Writing & Development
+WRITING_STYLE_GUIDE.md
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+
+# Playwright
+.playwright-mcp/
