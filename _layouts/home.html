@@ -2,38 +2,26 @@
 layout: default
 ---
 <div class="home-layout">
-  <div class="home-main">
-    {% if content %}
-    <div class="home-intro">
-      {{ content }}
-    </div>
-    {% endif %}
-    <section class="posts">
-      {% if site.posts.size > 0 %}
-      <ul class="post-list">
-        {% for post in site.posts %}
-        <li class="post-item">
-          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
-          {% if post.excerpt %}
-          <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-      {% else %}
-      <p>No posts yet. Create your first post in the <code>_posts</code> directory.</p>
-      {% endif %}
-    </section>
+  {% if content %}
+  <div class="home-intro">
+    {{ content }}
   </div>
-  <aside class="home-sidebar" aria-label="Site notes">
-    <div class="home-sidebar-card">
-      <h2 class="home-sidebar-title">About</h2>
-      <p>{{ site.description }}</p>
-    </div>
-    <div class="home-sidebar-card">
-      <h2 class="home-sidebar-title">Stay in touch</h2>
-      <p><a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a></p>
-    </div>
-  </aside>
+  {% endif %}
+  <section class="posts">
+    {% if site.posts.size > 0 %}
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li class="post-item">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
+        {% if post.excerpt %}
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No posts yet. Create your first post in the <code>_posts</code> directory.</p>
+    {% endif %}
+  </section>
 </div>

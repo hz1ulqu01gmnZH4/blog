@@ -78,11 +78,6 @@ a:hover {
 }
 
 .home-layout {
-  display: grid;
-  gap: 2rem;
-}
-
-.home-main {
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
@@ -94,26 +89,6 @@ a:hover {
 
 .home-intro p:last-child {
   margin-bottom: 0;
-}
-
-.home-sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.home-sidebar-card {
-  border: 1px solid var(--border-color);
-  padding: 1.35rem;
-  background: transparent;
-}
-
-.home-sidebar-title {
-  margin: 0 0 0.75rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted-color);
 }
 
 .post-list {
@@ -191,11 +166,4 @@ blockquote {
   padding-left: 1rem;
   border-left: 2px solid var(--border-color);
   color: var(--muted-color);
-}
-
-@media (min-width: 960px) {
-  .home-layout {
-    grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr);
-    align-items: start;
-  }
 }
