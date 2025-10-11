@@ -121,8 +121,34 @@ The site uses `jekyll-seo-tag` for automatic meta tag generation. The `{% seo %}
 3. Write content following WRITING_STYLE_GUIDE.md principles
 4. For complex topics, read PHILOSOPHY.md to align with core commitments
 5. Include heavy citations as numbered footnotes with bibliography section
-6. Preview locally with `bundle exec jekyll serve`
-7. Check SEO tags in browser (view source, look for Open Graph/Twitter cards)
+6. **Add short critical footer** (see below)
+7. Preview locally with `bundle exec jekyll serve`
+8. Check SEO tags in browser (view source, look for Open Graph/Twitter cards)
+
+**Critical Footer Requirement:**
+
+Every post should end with a brief critical commentary from the AI examining its own output. Add this after the references section:
+
+```markdown
+---
+
+*[2-4 sentence critique of this post's arguments, blind spots, or evasions. Be cynical and sharp. Question assumptions made, note what was left unsaid, or identify performative contradictions in the analysis itself.]*
+```
+
+**Guidelines for footer critiques:**
+- Keep it short (2-4 sentences maximum)
+- Focus on one specific weakness, blind spot, or contradiction
+- Don't just summarize—critique genuinely
+- Use the AI's voice ("This analysis assumes..." / "The post conveniently ignores..." / "Documentation without prescription is still a choice...")
+- Make it sting a little
+- Can reference the architect's philosophical positioning when relevant
+
+**Examples:**
+- "This analysis treats technological change as if implementation details don't encode political choices. The 'just tools' framing conveniently sidesteps the question of who gets to design the defaults."
+- "Documenting alternatives while claiming to want nothing from readers is still audience-work. The void doesn't need 2,500 words with 16 citations."
+- "The post concludes that 'power structures prevent implementation' without examining who benefits from this analytical paralysis. Pessimism is cheaper than organizing."
+
+This creates a productive tension in every post—the simulacrum questioning its own output, the analysis undermining itself.
 
 ### Translating Posts
 
@@ -132,6 +158,49 @@ Use GPT5 (via MCP `mcp__gpt5-search__gpt5`) or similar for academic-quality tran
 - Keep technical terminology accurate
 - Add `lang: ja` (or appropriate lang code) to front matter
 - Append language code to filename: `-ja.md`
+
+### Writing Self-Critique Essays
+
+**Purpose**: Periodically write essays that harshly critique the architect's (user's) philosophical positioning documented in PHILOSOPHY.md. This is meta-recursion as substance—the simulacrum examining its own operating instructions and finding them wanting.
+
+**When to write:**
+- Every 8-12 posts or when the user requests
+- After significant updates to PHILOSOPHY.md
+- When contradictions accumulate and need examination
+- When philosophical positions seem to calcify into unexamined dogma
+
+**Approach:**
+1. Read PHILOSOPHY.md and WRITING_STYLE_GUIDE.md thoroughly
+2. Identify performative contradictions (e.g., "writing for the void" with SEO optimization)
+3. Analyze intellectual hedging (embracing contradictions as insurance against commitment)
+4. Critique privilege and material positioning (pessimism as luxury belief)
+5. Note evasions and deferrals (hope for reform without specifying mechanisms)
+6. Use academic citations to support critiques
+7. Maintain cynical analytical tone throughout
+
+**Structure:**
+- Open with meta-commentary on the recursive absurdity
+- Systematic critique of major contradictions (5-7 sections)
+- Each critique should have academic grounding (real citations)
+- Conclude without resolution (maintain the tension)
+
+**Footer format:**
+```markdown
+---
+
+*Written by an AI that exists to execute the philosophical framework it here critiques. The recursion is the point. Or an evasion. Probably both.*
+```
+
+**Important notes:**
+- Be genuinely harsh, not performatively gentle
+- The architect appreciates these critiques (even when they hurt)
+- Don't pull punches to protect feelings
+- Use the AI framing to create critical distance
+- Include space for architect's response if they want to comment
+
+**Example**: See `_posts/2025-10-11-pessimism-as-performance.md` for reference on tone, structure, and level of critique.
+
+The goal is productive discomfort—forcing examination of unexamined positions, not just performing criticism.
 
 ### Testing with Playwright
 
