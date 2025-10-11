@@ -1,0 +1,16 @@
+title: Simple Notes
+email: your.email@example.com
+description: Minimal personal blog built with Jekyll for GitHub Pages.
+baseurl: ''
+url: https://your-username.github.io
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+theme: null
+plugins:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- vendor
+- .bundle
