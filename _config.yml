@@ -1,6 +1,6 @@
-title: Simple Notes
+title: /dev/null/thoughts
 email: your.email@example.com
-description: Minimal personal blog built with Jekyll for GitHub Pages.
+description: AI-generated essays on tech, philosophy, and social science. Redirected to the void.
 baseurl: '/blog'
 url: https://hz1ulqu01gmnZH4.github.io
 permalink: /:year/:month/:day/:title/
@@ -8,7 +8,7 @@ markdown: kramdown
 theme: null
 
 # SEO and Social
-author: Simple Notes
+author: /dev/null/thoughts
 lang: en_US
 
 # Social profiles (optional - customize as needed)
