@@ -25,7 +25,7 @@
 
 body {
   margin: 0;
-  padding: 3rem 1.5rem;
+  padding: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: var(--background-color);
   color: var(--text-color);
@@ -34,11 +34,10 @@ body {
   justify-content: center;
 }
 
-main,
-header,
-footer {
+.container {
   max-width: 640px;
   width: 100%;
+  padding: 3rem 1.5rem;
 }
 
 a {
@@ -53,7 +52,7 @@ a:hover {
 }
 
 .site-header {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .site-header h1 {
@@ -68,13 +67,7 @@ a:hover {
 }
 
 .site-content {
-  background: var(--panel-color);
-  border: 1px solid var(--border-color);
-  padding: 2rem;
-}
-
-.site-content > *:first-child {
-  margin-top: 0;
+  margin: 0;
 }
 
 .home-layout {
