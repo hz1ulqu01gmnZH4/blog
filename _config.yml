@@ -1,8 +1,8 @@
 title: Simple Notes
 email: your.email@example.com
 description: Minimal personal blog built with Jekyll for GitHub Pages.
-baseurl: ''
-url: https://your-username.github.io
+baseurl: '/blog'
+url: https://hz1ulqu01gmnZH4.github.io
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 theme: null
