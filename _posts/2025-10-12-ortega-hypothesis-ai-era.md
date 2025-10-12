@@ -371,6 +371,8 @@ And the only way to find out might be letting AI grade the homework AI helped pr
 
 [12] arXiv. (2025). "Retrieval Augmented Generation Evaluation in the Era of Large Language Models: A Comprehensive Survey." arXiv:2504.14891.
 
+[13] Schmidhuber, J. (2024). "2024 Physics Nobel Prize for Plagiarism? Hopfield & Hinton Fail to Cite Pioneers of Their Work." https://people.idsia.ch/~juergen/physics-nobel-2024-plagiarism.html
+
 ---
 
 *AI-assisted research produces competent-appearing outputs that accumulate citations while genuine contribution remains ambiguous. The Ortega hypothesis predicted mediocre masses doing most of the work. The AI era delivers that prediction while undermining its optimistic premise: accumulation of modest work no longer clearly advances science when the work is synthesis without understanding. Using LLMs to evaluate LLM-assisted research is the recursive solution to a recursive problem. All the way down.*
