@@ -27,7 +27,81 @@ Citation analysis consistently favored Newton over Ortega:
 
 The data seemed clear: giants matter more than the mass of mediocre contributors.
 
-But this research predates widespread AI assistance in research production.
+But this research predates widespread AI assistance in research production. And it may rest on a foundation more fragile than it appears.
+
+## When "Giants" Stand on Unacknowledged Shoulders: The 2024 Nobel Case
+
+Before examining AI-era research, consider a case that challenges the entire "giants vs. masses" framing: the 2024 Physics Nobel Prize.
+
+Jürgen Schmidhuber argues the 2024 Nobel awarded to Hopfield and Hinton represents systematic misattribution of foundational work—what he terms "a prize for plagiarism."[13] The specific claims:
+
+**Hopfield Networks (1982)**: Schmidhuber contends Hopfield's architecture was fundamentally based on Shun-Ichi Amari's 1972 adaptive learning system. Amari "made the Ising recurrent net adaptive" a decade before Hopfield's publication, yet Hopfield's subsequent surveys and articles failed to cite this pioneering work.
+
+**Boltzmann Machines (1985)**: Hinton's work did not cite Ivakhnenko & Lapa's 1965 deep learning algorithm or Amari's 1967-68 work on learning internal representations.
+
+**Deep Learning Pre-training (2006)**: Hinton's influential method neither cited "the original layer-wise training of deep NNs by Ivakhnenko & Lapa" nor earlier unsupervised pre-training work from 1991.
+
+Schmidhuber distinguishes unintentional from intentional plagiarism: the failure to issue errata and proper citations across multiple publications "apparently turns even unintentional plagiarism into an intentional form."
+
+**The question this raises for our purposes**: If Nobel-winning "giants" built their work on unacknowledged foundations—if Hopfield and Hinton accumulated massive citations for methodologies developed by others—what does this say about the citation analysis that supposedly vindicated the Newton hypothesis?
+
+### Citation Networks Can Systematically Misattribute Value
+
+The Cole & Cole (1972) study and subsequent research assumed citation networks accurately reflect intellectual contribution. But the 2024 Nobel case suggests citation networks can systematically favor certain researchers while obscuring foundational contributions.
+
+Mechanisms of misattribution:
+1. **Geographic/institutional bias**: Work from less prominent institutions (like Amari's Japanese research or Ivakhnenko's Soviet-era contributions) gets less visibility
+2. **Language barriers**: Non-English foundational work cited less frequently
+3. **Network effects**: Once certain researchers become highly cited, subsequent work cites them even when earlier sources exist
+4. **Deliberate omission**: Failure to cite prior work, intentional or not, redirects credit accumulation
+
+If this pattern is widespread—if recognized "giants" systematically built on unacknowledged foundations—then the entire citation-based verdict on the Ortega hypothesis becomes suspect.
+
+**Perhaps the Ortega hypothesis wasn't fairly tested**. Perhaps the "mediocre" masses *did* contribute foundational work, but citation networks systematically failed to recognize it—attributing credit instead to later, more visible researchers who republished or extended those foundations.
+
+Amari's 1972 adaptive learning system: foundational but uncited. Ivakhnenko & Lapa's 1965 deep learning: pioneering but forgotten. These aren't "mediocre" contributions—they're giant contributions systematically erased from the citation record.
+
+### What LLM/RAG Evaluation Could Detect
+
+This is precisely where LLM/RAG-based research evaluation becomes critical. Unlike citation analysis, which measures *what people cite*, RAG systems could assess *what should be cited* by:
+
+**Corpus-wide similarity detection**:
+- Compare methodologies across entire research history
+- Identify conceptually identical or derivative work
+- Flag papers that introduce "novel" methods suspiciously similar to earlier publications
+- Weight citations by actual conceptual distance from prior work
+
+**Attribution validation**:
+- Cross-reference claims of novelty against comprehensive historical corpus
+- Detect when highly-cited work builds on uncited foundations
+- Identify systematic patterns of omission (geographic, linguistic, institutional)
+- Generate "proper citation" suggestions based on conceptual similarity
+
+**Temporal precedence analysis**:
+- Track when specific methodologies first appeared in literature
+- Identify subsequent papers using same methodology without attribution
+- Flag cases where citation credit flows to later, more visible publications
+
+Had such a system existed, it might have flagged:
+- Hopfield (1982) for not citing Amari (1972) when introducing nearly identical architecture
+- Hinton et al. (1985) for not citing Ivakhnenko & Lapa (1965) or Amari (1967-68)
+- Hinton (2006) for not citing earlier layer-wise training and unsupervised pre-training
+
+The irony: we need AI to detect what human citation networks systematically miss—including at the highest levels of scientific recognition.
+
+### Schmidhuber's Uncomfortable Question
+
+Schmidhuber asks: "Is it now acceptable for me to direct young Ph.D. students to read old papers and rewrite and resubmit them as if they were their own works?"
+
+This connects directly to our AI-era concern. If recognized giants can republish others' methods without attribution and receive Nobel Prizes, what message does this send about:
+- The value of proper citation
+- The reliability of citation metrics
+- The fairness of credit attribution
+- The actual contribution of "highly-cited" vs. "forgotten" researchers
+
+And critically: if this happened in the pre-AI era, how much worse will it become when AI can systematically search and synthesize old papers, repackage them competently, and flood submission systems?
+
+The 2024 Nobel case isn't an anomaly—it's evidence that citation networks have always been unreliable measures of true contribution. The AI era just makes the problem scalable.
 
 ## False AI Overconfidence Meets Academic Output
 
