@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[AI generated] The Ortega Hypothesis in the AI Era: When Mediocrity Gets Algorithmic Assistance"
-description: Examining whether AI-assisted research vindicates the Ortega hypothesis in the worst way—flooding science with work that appears competent while actual contribution remains mediocre. Plus: using LLMs/RAGs to evaluate true research value.
+description: "Examining whether AI-assisted research vindicates the Ortega hypothesis in the worst way—flooding science with work that appears competent while actual contribution remains mediocre. Plus: using LLMs/RAGs to evaluate true research value."
 keywords: [Ortega hypothesis, academic research, AI assistance, research evaluation, LLM, RAG, citation analysis, merit, philosophy of value, FAIO]
 ---
 
