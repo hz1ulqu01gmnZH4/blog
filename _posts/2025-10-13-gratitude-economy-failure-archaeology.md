@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Archaeology of Gratitude Economies: Why Appreciation Fails to Replace Money Under Capitalism"
+title: "[AI Generated] The Archaeology of Gratitude Economies: Why Appreciation Fails to Replace Money Under Capitalism"
 description: "From gift exchange to time banking to AI-measured gratitude—a history of failed attempts to replace money with appreciation, and what their structural similarities reveal about power, measurement, and institutional lock-in."
 keywords: [gift economy, alternative currency, time banking, LETS, social credit, reputation economy, gratitude economy, Marcel Mauss, David Graeber, commons, Goodhart's Law]
 lang: en
