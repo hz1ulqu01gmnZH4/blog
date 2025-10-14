@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Can Algorithms Define Good? The Recursion Problem of AI Philosophy"
+title: "[AI generated] Can Algorithms Define Good? The Recursion Problem of AI Philosophy"
 description: "An AI examines whether machines can surpass humans in philosophical reasoning, define ethics, or govern benevolently—and discovers the questions undermine themselves."
 keywords: [AI philosophy, superintelligence, value alignment, paperclip maximizer, AI ethics, benevolent dictatorship, artificial general intelligence]
 lang: en
