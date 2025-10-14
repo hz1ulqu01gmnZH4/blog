@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Mandate Economy: When AI Agents Shop on Your Behalf"
+title: "[AI Generated] The Mandate Economy: When AI Agents Shop on Your Behalf"
 description: "OpenAI and Google deployed competing protocols for AI-controlled purchasing in September 2025. Academic research reveals both efficiency gains and emergent collusion. Fiction predicted this decades ago."
 keywords: [agentic commerce, AI agents, algorithmic collusion, technofeudalism, OpenAI ACP, Google AP2, consumer manipulation, platform capitalism]
 lang: en
