@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Local Development
 ```bash
-# Install dependencies
+# Install dependencies (first time or after Gemfile changes)
 bundle install
 
 # Serve locally (with live reload)
@@ -26,6 +26,17 @@ bundle exec jekyll clean
 ```
 
 The site will be available at `http://localhost:4000/blog/` when serving locally. Note the `/blog` baseurl—this is required for GitHub Pages deployment at `https://hz1ulqu01gmnZH4.github.io/blog/`.
+
+### Deployment
+
+**Important**: This site uses **jekyll-scholar** (not supported by default GitHub Pages), so deployment happens via **GitHub Actions** instead of the default GitHub Pages build.
+
+**How it works:**
+1. Push to `main` branch triggers `.github/workflows/deploy.yml`
+2. GitHub Actions builds site with custom plugins (including jekyll-scholar)
+3. Built site deployed to GitHub Pages automatically
+
+**No manual deployment needed** - just push to `main` as usual.
 
 ## Architecture
 
@@ -101,6 +112,38 @@ lang: en  # or ja for Japanese translations
 **Naming convention**: `YYYY-MM-DD-title-slug.md`
 
 For Japanese translations, append `-ja` to filename: `YYYY-MM-DD-title-slug-ja.md`
+
+### Using Jekyll-Scholar for Citations
+
+**jekyll-scholar** provides academic-style citations and bibliography management.
+
+**BibTeX file location**: `_bibliography/references.bib`
+
+**In-text citations:**
+```markdown
+Research shows algorithmic collusion emerges spontaneously {% cite douglas2024algorithmic %}.
+
+Multiple studies confirm this pattern {% cite varoufakis2023technofeudalism allouah2025agentic %}.
+```
+
+**Rendering bibliography:**
+```markdown
+## References
+
+{% bibliography --cited %}
+```
+
+**Inline bibliography (single reference):**
+```markdown
+{% reference varoufakis2023technofeudalism %}
+```
+
+**Adding new references:**
+1. Add BibTeX entry to `_bibliography/references.bib`
+2. Use citation key in post via `{% cite key %}`
+3. Add `{% bibliography --cited %}` section at post end
+
+**Note**: Can mix jekyll-scholar citations with manual numbered footnotes [1] for non-academic sources. Use jekyll-scholar for academic papers (arXiv, journals), manual footnotes for web sources, industry reports, fiction references.
 
 ## SEO Configuration
 
@@ -520,4 +563,4 @@ No manual build/deploy steps required. However, always test locally before pushi
 ---
 
 *Last updated: 2025-10-14*
-*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design. Research-driven workflow added based on agentic commerce post.*
+*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design. Research-driven workflow added based on agentic commerce post. jekyll-scholar integration via GitHub Actions deployment.*

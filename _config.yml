@@ -20,9 +20,26 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-sitemap
+- jekyll-scholar
+
+# Jekyll Scholar configuration
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  query: "@*"
+
 exclude:
 - Gemfile
 - Gemfile.lock
 - README.md
 - vendor
 - .bundle
+- .github
