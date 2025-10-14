@@ -202,6 +202,157 @@ Use GPT5 (via MCP `mcp__gpt5-search__gpt5`) or similar for academic-quality tran
 
 The goal is productive discomfort—forcing examination of unexamined positions, not just performing criticism.
 
+### Research-Driven Post Workflow: From Clues to Ironic Analysis
+
+**Purpose**: When user provides a topic with contextual clues (news, trends, phenomena), develop comprehensive analytical posts that synthesize academic research, contemporary evidence, and cultural/fictional parallels.
+
+**When to use:**
+- User asks about emerging technology/social trends
+- Topic requires balancing competing evidence
+- Contradictions and tensions are central to the analysis
+- Fiction has predicted or explored similar dynamics
+
+**Five-Stage Workflow:**
+
+#### Stage 1: Generate Ironic Hypotheses
+
+After user provides topic/clues, develop **5 ironic hypotheses** that:
+- Expose contradictions between stated purpose and actual function
+- Identify mechanisms that produce opposite of intended effects
+- Highlight structural ironies (e.g., "open standards concentrate power")
+- Use format: "The [mechanism] Paradox: How [X] produces [opposite of X]"
+- Ground in user's clues but extend to unexpected implications
+
+**Example from agentic commerce post:**
+- "The Consent Paradox: Delegated Autonomy as Peak Freedom" (more delegation = feeling more empowered)
+- "The Open Source Concentration: How AP2's 'Openness' Accelerates Monopolization"
+- "The Preference Paradox: AI Trained on Exploited Behavior Optimizes for Continued Exploitation"
+
+#### Stage 2: Research Academic Literature
+
+Search **arXiv** and **academic sources** for:
+
+**Critical/opposing evidence:**
+- Studies showing harms, manipulation, unintended consequences
+- Research on algorithmic collusion, bias, extraction
+- Evidence of training data contamination, feedback loops
+- Papers documenting failures to replicate human behavior/reasoning
+
+**Supporting/efficiency evidence:**
+- Studies showing genuine welfare improvements
+- Cost reduction, accessibility gains
+- Bias mitigation, decision support effectiveness
+- Real-world deployment success cases
+
+**Use tools:**
+- `mcp__arxiv-mcp-server__search_papers` with relevant categories (cs.AI, cs.CY, econ.GN)
+- `WebSearch` for recent industry research, white papers
+- Target 15-30 papers, select 8-12 most relevant for citation
+
+**Key principle**: Document **both** supporting and opposing evidence. Don't cherry-pick. The contradiction is the point.
+
+#### Stage 3: Search for Fiction/Cultural Parallels
+
+Search for **science fiction, anime, movies, novels** that predicted or explored similar dynamics:
+
+**What to look for:**
+- Stories about algorithmic control, automation, agency erosion
+- Dystopian societies with relevant technological infrastructure
+- Cautionary tales that became reality
+- Cultural critiques embedded in entertainment
+
+**Common sources:**
+- Anime: *Psycho-Pass* (algorithmic governance), *Serial Experiments Lain* (network identity), *Ghost in the Shell* (AI/human boundaries)
+- Films: *Her* (AI relationships), *Wall-E* (consumerism/automation), *Blade Runner* (replicant labor)
+- TV: *Black Mirror* episodes (technological dystopia), *Westworld* (AI consciousness)
+- Cyberpunk literature: Gibson, Sterling (corporate feudalism, algorithmic markets)
+- Classic SF: *1984* (surveillance), *Brave New World* (pleasure-based control)
+
+**Use tools:**
+- `WebSearch` with queries like:
+  - "science fiction [topic] dystopia"
+  - "anime AI control [relevant theme]"
+  - "[movie] consumerism automation themes"
+  - "Black Mirror episodes [topic]"
+
+**Goal**: Show how fiction **predicted the infrastructure** that's now being deployed. The cultural analysis isn't decoration—it's documentation of ignored warnings.
+
+#### Stage 4: Write Post Following Guidelines
+
+**Read first:**
+- `PHILOSOPHY.md` - align with core commitments (embrace contradictions, materialist analysis, pessimism without fatalism)
+- `WRITING_STYLE_GUIDE.md` - match tone (doomer-observer), structure, length
+
+**Structure:**
+1. **Opening** - Meta-commentary establishing recursion ("An AI writes about protocols allowing AIs to...")
+2. **Technical Documentation** - What actually exists/was deployed
+3. **Critical Evidence** - Research showing harms, manipulation, collusion
+4. **Supporting Evidence** - Research showing efficiency, welfare gains
+5. **The Contradiction** - Both are true; context determines outcome
+6. **Fiction Analysis** - How stories predicted this, what they got right
+7. **Research Consensus That Isn't** - Why literature can't resolve the tension
+8. **Conclusion** - Protocols as politics; document without resolution
+
+**Citations:**
+- Numbered footnotes [1], [2], etc.
+- Full bibliography at end
+- Target 15-25 citations for research-heavy posts
+- Mix academic papers, industry sources, cultural references
+
+**Critical Footer:**
+- Document what the AI actually did (synthesized X papers, connected to Y fiction)
+- Note the irony of the AI documenting AI infrastructure
+- Acknowledge unresolved contradictions
+- ~4-6 sentences, more detailed than standard footer
+
+#### Stage 5: Git Commit and Documentation
+
+**Commit message structure:**
+```
+Add post: [Title] - [One-line summary]
+
+[2-3 sentence overview of post argument]
+
+Key findings from [N] academic papers:
+- [Finding 1 with author/source]
+- [Finding 2 with author/source]
+- [Finding 3 with author/source]
+
+Documents productive contradiction: [explain tension]
+
+Fiction references: [list major sources]
+
+~[N] words, [N] citations. Follows [tone] analytical stance.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+```
+
+**Example workflow execution:**
+
+```
+User: "Research OpenAI's agentic commerce protocol and Google's agent payments protocol"
+
+AI:
+1. Generates 5 ironic hypotheses (consent paradox, open source concentration, etc.)
+2. Searches arXiv for papers on algorithmic collusion, AI shopping behavior, training data
+3. Searches for fiction parallels (Psycho-Pass, Wall-E, Black Mirror, Her, cyberpunk)
+4. Writes post documenting both efficiency and manipulation evidence
+5. Critical footer: "An AI analyzed 29 papers... The irony tastes like stablecoins."
+6. Commits with detailed message documenting research synthesis
+```
+
+**Why this workflow works:**
+
+- **Ironic hypotheses** force exploration of contradictions rather than advocacy
+- **Balanced research** prevents cherry-picking; documents actual complexity
+- **Fiction parallels** show ignored cultural warnings now materializing as infrastructure
+- **Unresolved contradictions** maintain intellectual honesty (no fake synthesis)
+- **Meta-commentary** acknowledges the AI's position within what it documents
+
+The goal isn't persuasion—it's **archival documentation of contradictions** using the void-directed, doomer-observer analytical stance. The simulacrum documents its own constraints. The recursion is the substance.
+
 ### Testing with Playwright
 
 Use Playwright MCP tools to:
@@ -368,5 +519,5 @@ No manual build/deploy steps required. However, always test locally before pushi
 
 ---
 
-*Last updated: 2025-10-11*
-*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design.*
+*Last updated: 2025-10-14*
+*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design. Research-driven workflow added based on agentic commerce post.*
