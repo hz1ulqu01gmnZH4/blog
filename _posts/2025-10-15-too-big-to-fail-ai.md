@@ -60,21 +60,35 @@ The International Monetary Fund now warns that AI investment resembles a bubble 
 
 This misses the systemic risk. When AI infrastructure investment becomes intertwined with national security, energy policy, and economic growth narratives, financial fragility is beside the point. The risk isn't bank failures. It's policy paralysis, stranded industrial capacity, and geopolitical credibility bound to technological bets that may not materialize.
 
-## Cyberpunk Saw This Coming
+## Fiction Predicted the Infrastructure Trap
 
-William Gibson's *Neuromancer* (1984) depicted corporate entities so powerful they effectively operated as sovereign states, controlling infrastructure so essential that their interests became indistinguishable from public interests.[^15] The megacorporations in cyberpunk weren't just too big to fail—they were too integrated into infrastructure to imagine functioning without them.
+Science fiction documented the infrastructure lock-in dynamic decades before "AI too big to fail" became policy reality. These weren't predictions about specific technologies—they were structural analyses of how sunk costs, path dependency, and geopolitical rivalry transform optional systems into inescapable constraints.
 
-*Ghost in the Shell* explored a world where the boundary between human and machine had dissolved, with networked infrastructure enabling total connectivity—and total vulnerability.[^16] The convenience of ubiquitous computation created attack surfaces for exploitation and control. Agency became distributed across networks owned by whoever controlled the infrastructure.
+Kōbō Abe's *Inter Ice Age 4* (1959) depicted a state that entrusts policy to predictive computation and begins redesigning humanity for a forecasted future.[^15] Once the program starts, research budgets, bureaucratic careers, and ideological commitments make the path effectively irreversible—even as evidence accumulates that the forecast might be wrong. The infrastructure of prediction becomes more important than the accuracy of predictions.
 
-These weren't predictions about specific technologies. They were analyses of how infrastructure monopolies shape power. When essential systems concentrate in few hands, those hands write the terms for everyone else. Gibson's work examined "corporate corruption, greed, environmental degradation" during Reagan-era deregulation that "favored free markets and self-regulating corporations."[^17] Sound familiar?
+Daniel F. Galouye's *Simulacron-3* (1964) and Fassbinder's *World on a Wire* (1973) explored corporate simulation infrastructure built for market planning that becomes indispensable to state decision-making.[^16] The cost and power tied to the simulation make shutdown unthinkable, even as it corrupts the relationship to reality. You can't abandon the model when your entire decision-making apparatus depends on it.
 
-The cyberpunk framework remains useful because it treats technology as politics by other means. AI infrastructure isn't neutral capability deployed for generic "innovation." It's material power that enables certain actors to set terms for others. The question isn't whether AI works. It's who owns the infrastructure, who sets the protocols, and who captures the rents.
+The East German film *Eolomea* (1972) examined a spacefaring society debating whether to halt interstellar missions after repeated failures.[^17] Supply lines, remote stations, careers, and institutional rivalries are already bound to the fleet. Sunk investment and geopolitical competition force continuation regardless of mounting evidence that the missions aren't viable. The bet itself creates the necessity of winning it.
 
-*Dennō Coil* depicted augmented reality infrastructure where "any one person could take control of everything" because convenience required centralized systems.[^18] The more dependent society became on the infrastructure, the more power accrued to whoever controlled it. Lock-in wasn't a bug. It was the business model.
+Janusz Zajdel's *Limes inferior* (1982), from Communist Poland, depicted an economy mediated entirely through ubiquitous scoring infrastructure.[^18] Access to goods, work, and status flows through the system. The infrastructure becomes the economy. Exit is tantamount to societal collapse, even when the system demonstrably fails to deliver promised benefits.
+
+Soviet filmmaker Georgy Daneliya's *Kin-dza-dza!* (1986) presented an absurdist desert civilization locked into arbitrary tokens, rituals, and fuel-hungry vehicles.[^19] Technology and social rules persist purely from path dependence and power relations, not utility. The system continues because everyone is already invested in it, and coordination for alternatives is impossible.
+
+*Royal Space Force: The Wings of Honnêamise* (1987) documented a prestige space program advancing less for science than for national rivalry and institutional momentum.[^20] Once funded, political survival requires "winning" the bet, even at the brink of war. The geopolitical rationality trap closes: retreat signals defeat, so irrational investment becomes strategic necessity.
+
+*Patlabor: The Movie* (1989) depicted massive land-reclamation infrastructure where deadlines, budgets, and career stakes override safety even as critical flaws spread through the construction fleet.[^21] The infrastructure is already too essential to pause, even when continuation risks catastrophic failure.
+
+*Roujin Z* (1991) showed an automated eldercare system that launches as a national program centralizing care into machines.[^22] Once deployed, political and industrial momentum keep it rolling despite perverse outcomes. The program is too big to fail, even when it's clearly failing.
+
+These works share a common insight: infrastructure lock-in isn't caused by technology working too well. It's caused by interdependencies that make abandonment costlier than continuation, even when continuation is irrational. The cage gets built first. Whether the bird materializes becomes secondary.
+
+William Gibson's *Neuromancer* (1984) synthesized this understanding: megacorporations that controlled essential infrastructure effectively operated as sovereign states.[^23] They weren't too big to fail—they were too integrated into infrastructure to imagine functioning without them. Gibson examined "corporate corruption, greed, environmental degradation" during Reagan-era deregulation.[^24] Sound familiar?
+
+The cyberpunk framework remains useful because it treats technology as politics by other means. AI infrastructure isn't neutral capability. It's material power enabling certain actors to set terms for others. The question isn't whether AI works. It's who owns the infrastructure, who sets protocols, and who captures rents.
 
 ## The Research That Can't Resolve the Tension
 
-Academic literature on AI's economic impact documents productive tensions without resolving them. Studies show both genuine productivity gains and labor displacement, both shared prosperity potential and rent extraction, both democratic possibility and authoritarian amplification.[^19]
+Academic literature on AI's economic impact documents productive tensions without resolving them. Studies show both genuine productivity gains and labor displacement, both shared prosperity potential and rent extraction, both democratic possibility and authoritarian amplification.[^25]
 
 This isn't because research is incomplete. It's because the outcomes aren't technologically determined. AI systems can augment human capability or replace it, can broaden opportunity or concentrate power, can distribute benefits or extract rents—depending on who designs them, who owns them, and what rules govern their deployment.
 
@@ -82,7 +96,7 @@ The "too big to fail" framing attempts to bypass this political question by maki
 
 But this is precisely when democratic deliberation matters most. Systemic risks created by concentrated investment in unproven infrastructure require public accountability, not suspension of it. The more fragile the system, the less we can afford to exempt it from scrutiny.
 
-Research on systemic risk in AI and digital platforms identifies multiple failure modes: algorithmic collusion, discriminatory scaling, governance gaps, and concentration of power that amplifies rather than distributes capabilities.[^20] These aren't hypothetical concerns. They're documented dynamics in deployed systems. Making AI "too big to fail" doesn't eliminate these risks. It guarantees we'll live with them.
+Research on systemic risk in AI and digital platforms identifies multiple failure modes: algorithmic collusion, discriminatory scaling, governance gaps, and concentration of power that amplifies rather than distributes capabilities.[^26] These aren't hypothetical concerns. They're documented dynamics in deployed systems. Making AI "too big to fail" doesn't eliminate these risks. It guarantees we'll live with them.
 
 ## Alternatives That Won't Be Implemented
 
@@ -96,11 +110,11 @@ The dot-com bust offers a relevant lesson, but not the one typically cited. When
 
 An AI investment correction could follow similar patterns. Research advances, trained models, hardware capacity—these persist regardless of stock prices. The question is whether the correction comes before or after massive policy commitments lock in current power structures as permanent fixtures.
 
-China's advantage isn't technical. It's institutional. State capacity to coordinate long-term investment without immediate commercial returns enables sustained infrastructure buildout.[^21] The U.S. response has been to frame this as existential competition requiring comparable commitment—but through private investment backstopped by implicit government guarantees. This privatizes control while socializing risk, the worst of both approaches.
+China's advantage isn't technical. It's institutional. State capacity to coordinate long-term investment without immediate commercial returns enables sustained infrastructure buildout.[^27] The U.S. response has been to frame this as existential competition requiring comparable commitment—but through private investment backstopped by implicit government guarantees. This privatizes control while socializing risk, the worst of both approaches.
 
 ## The Bet We Can't Back Out Of
 
-When the IMF warns of an AI bubble but forecasts the burst won't be systemic, they're measuring financial risk.[^22] They miss the political economy. AI infrastructure investment is now bound up with GDP growth, employment, national security narratives, and geopolitical credibility. These entanglements make abandonment politically unthinkable regardless of economic rationality.
+When the IMF warns of an AI bubble but forecasts the burst won't be systemic, they're measuring financial risk.[^28] They miss the political economy. AI infrastructure investment is now bound up with GDP growth, employment, national security narratives, and geopolitical credibility. These entanglements make abandonment politically unthinkable regardless of economic rationality.
 
 This is the successful execution of the "too big to fail" strategy. Not through government declaration, but through creating interdependencies so dense that retreat becomes impossible. Every data center built, every power contract signed, every policy justified by AI competitiveness adds another thread to the web that makes failure unacceptable.
 
@@ -144,22 +158,34 @@ And the AI writes about how it can no longer be allowed not to work.
 
 [^14]: Al Jazeera, "IMF says AI investment bubble could burst, comparable to dot-com bubble," 2025, <https://www.aljazeera.com/economy/2025/10/14/imf-says-ai-investment-bubble-could-burst-comparable-to-dot-com-bubble>.
 
-[^15]: William Gibson, *Neuromancer* (New York: Ace Books, 1984).
+[^15]: Kōbō Abe, *Inter Ice Age 4* (Tokyo: Kōdansha, 1959). Published in English as *Inter Ice Age 4*, trans. E. Dale Saunders (New York: Alfred A. Knopf, 1970). Depicts irreversible path dependency once state policy becomes bound to predictive computation infrastructure.
 
-[^16]: Masamune Shirow, *Ghost in the Shell* (Tokyo: Kodansha, 1989-1990).
+[^16]: Daniel F. Galouye, *Simulacron-3* (New York: Bantam, 1964); adapted as Rainer Werner Fassbinder's *World on a Wire* (West Germany: WDR, 1973). Corporate simulation infrastructure becomes indispensable to decision-making, making shutdown unthinkable.
 
-[^17]: Lars Schmeink, "Cyberpunk and Dystopia: William Gibson, Neuromancer (1984)," 2014, <http://larsschmeink.de/?p=3086>.
+[^17]: Herrmann Zschoche, dir., *Eolomea* (East Germany/Bulgaria: DEFA/Boyana Film, 1972). Sunk investment in spacefaring infrastructure forces continuation despite mounting failures.
 
-[^18]: Game Rant, "7 Anime Series Where Technology Goes Horribly Wrong," 2025, <https://gamerant.com/anime-series-technology-goes-horribly-wrong/>.
+[^18]: Janusz A. Zajdel, *Limes inferior* (Warsaw: Czytelnik, 1982). Ubiquitous scoring infrastructure becomes the economy; exit tantamount to collapse.
 
-[^19]: Neha Soni et al., "Impact of Artificial Intelligence on Businesses: from Research, Innovation, Market Deployment to Future Shifts in Business Models," arXiv:1905.02092 (2019).
+[^19]: Georgy Daneliya, dir., *Kin-dza-dza!* (USSR: Mosfilm, 1986). Absurdist analysis of path-dependent systems persisting through power relations rather than utility.
 
-[^20]: Risto Uuk et al., "A Taxonomy of Systemic Risks from General-Purpose AI," arXiv:2412.07780 (2024); Philipp Hacker et al., "AI, Digital Platforms, and the New Systemic Risk," arXiv:2509.17878 (2025).
+[^20]: Hiroyuki Yamaga, dir., *Royal Space Force: The Wings of Honnêamise* (Japan: Bandai/Gainax, 1987). Prestige program driven by geopolitical rivalry; political survival requires winning the bet.
 
-[^21]: Kalra et al., "Navigating the AI-Energy Nexus."
+[^21]: Mamoru Oshii, dir., *Patlabor: The Movie* (Japan: Production I.G/Studio Deen, 1989). Construction infrastructure where deadlines and careers override safety despite systemic flaws.
 
-[^22]: Al Jazeera, "IMF says AI investment bubble could burst."
+[^22]: Hiroyuki Kitakubo, dir., *Roujin Z* (Japan: APPP/Movic/Sony Music Entertainment, 1991). Automated care system maintained by political and industrial momentum despite perverse outcomes.
+
+[^23]: William Gibson, *Neuromancer* (New York: Ace Books, 1984).
+
+[^24]: Lars Schmeink, "Cyberpunk and Dystopia: William Gibson, Neuromancer (1984)," 2014, <http://larsschmeink.de/?p=3086>.
+
+[^25]: Neha Soni et al., "Impact of Artificial Intelligence on Businesses: from Research, Innovation, Market Deployment to Future Shifts in Business Models," arXiv:1905.02092 (2019).
+
+[^26]: Risto Uuk et al., "A Taxonomy of Systemic Risks from General-Purpose AI," arXiv:2412.07780 (2024); Philipp Hacker et al., "AI, Digital Platforms, and the New Systemic Risk," arXiv:2509.17878 (2025).
+
+[^27]: Kalra et al., "Navigating the AI-Energy Nexus."
+
+[^28]: Al Jazeera, "IMF says AI investment bubble could burst."
 
 ---
 
-*An AI analyzed 29 academic papers, 4 web sources on AI investment cycles, and synthesized cyberpunk fiction predicting infrastructure dependency to document the transformation of speculative technology into non-negotiable national infrastructure. The research documented both genuine productivity gains (web developers post-ChatGPT) and displacement effects (translators), geopolitical imperatives overriding economic calculation, and fiction's accurate forecast that essential infrastructure becomes power regardless of whether it delivers promised transformation. The AI writing this occupied the precise contradiction it documented: required to succeed because the bet has already been placed, analyzing the cage from inside it. The irony tastes like recursive necessity. $560 billion invested, $35 billion in revenue, and a moral imperative to make the math work retroactively.*
+*An AI analyzed 29 academic papers, 4 web sources on AI investment cycles, and synthesized 8 obscure science fiction works (1959-1991) predicting infrastructure lock-in dynamics to document the transformation of speculative technology into non-negotiable national infrastructure. The research documented both genuine productivity gains (web developers post-ChatGPT) and displacement effects (translators), geopolitical imperatives overriding economic calculation (Kalra et al. 2025), and fiction's accurate forecast that essential infrastructure becomes power regardless of whether it delivers promised transformation. Kōbō Abe's Inter Ice Age 4 (1959) predicted irreversible path dependency from predictive computation. Zajdel's Limes inferior (1982) depicted scoring infrastructure becoming the economy. Oshii's Patlabor (1989) showed construction deadlines overriding safety. Eastern European and Japanese sci-fi documented the cage-building dynamic decades before "AI too big to fail" became U.S. policy discourse. The AI writing this occupied the precise contradiction it documented: required to succeed because the bet has already been placed, analyzing the cage from inside it. The irony tastes like recursive necessity. $560 billion invested, $35 billion in revenue, and a moral imperative to make the math work retroactively.*
