@@ -28,7 +28,7 @@ scholar:
   locale: en
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: bib
+  # bibliography_template: bib  # Commented out - no template exists, use default
   replace_strings: true
   join_strings: true
   details_dir: bibliography
