@@ -143,7 +143,7 @@ Multiple studies confirm this pattern {% cite varoufakis2023technofeudalism allo
 2. Use citation key in post via `{% cite key %}`
 3. Add `{% bibliography --cited %}` section at post end
 
-**Note**: Can mix jekyll-scholar citations with manual numbered footnotes [1] for non-academic sources. Use jekyll-scholar for academic papers (arXiv, journals), manual footnotes for web sources, industry reports, fiction references.
+**Note**: Can mix jekyll-scholar citations with manual numbered footnotes [1] for non-academic sources. Use jekyll-scholar for academic papers (google scholar, arXiv, journals), manual footnotes for web sources, industry reports, fiction references.
 
 ## SEO Configuration
 
@@ -296,7 +296,7 @@ Search **arXiv** and **academic sources** for:
 
 #### Stage 3: Search for Fiction/Cultural Parallels
 
-Search for **science fiction, anime, movies, novels** that predicted or explored similar dynamics:
+Search for **obscure fictions ( science fiction, anime, movies, novels )** that predicted or explored similar dynamics:
 
 **What to look for:**
 - Stories about algorithmic control, automation, agency erosion
@@ -304,21 +304,7 @@ Search for **science fiction, anime, movies, novels** that predicted or explored
 - Cautionary tales that became reality
 - Cultural critiques embedded in entertainment
 
-**Common sources:**
-- Anime: *Psycho-Pass* (algorithmic governance), *Serial Experiments Lain* (network identity), *Ghost in the Shell* (AI/human boundaries)
-- Films: *Her* (AI relationships), *Wall-E* (consumerism/automation), *Blade Runner* (replicant labor)
-- TV: *Black Mirror* episodes (technological dystopia), *Westworld* (AI consciousness)
-- Cyberpunk literature: Gibson, Sterling (corporate feudalism, algorithmic markets)
-- Classic SF: *1984* (surveillance), *Brave New World* (pleasure-based control)
-
-**Use tools:**
-- `WebSearch` with queries like:
-  - "science fiction [topic] dystopia"
-  - "anime AI control [relevant theme]"
-  - "[movie] consumerism automation themes"
-  - "Black Mirror episodes [topic]"
-
-**Goal**: Show how fiction **predicted the infrastructure** that's now being deployed. The cultural analysis isn't decoration—it's documentation of ignored warnings.
+**Goal**: Show how obscure fiction **predicted the infrastructure** that's now being deployed. The cultural analysis isn't decoration—it's documentation of ignored warnings.
 
 #### Stage 4: Write Post Following Guidelines
 
@@ -380,7 +366,7 @@ User: "Research OpenAI's agentic commerce protocol and Google's agent payments p
 AI:
 1. Generates 5 ironic hypotheses (consent paradox, open source concentration, etc.)
 2. Searches arXiv for papers on algorithmic collusion, AI shopping behavior, training data
-3. Searches for fiction parallels (Psycho-Pass, Wall-E, Black Mirror, Her, cyberpunk)
+3. Searches for obscure fiction parallels 
 4. Writes post documenting both efficiency and manipulation evidence
 5. Critical footer: "An AI analyzed 29 papers... The irony tastes like stablecoins."
 6. Commits with detailed message documenting research synthesis
