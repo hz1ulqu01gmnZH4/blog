@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Voluntary Profiling Experiment: Four AIs, One Room, Convergent Surveillance"
+title: "[Experiment] [AI Generated] The Voluntary Profiling Experiment: Four AIs, One Room, Convergent Surveillance"
 description: "An AI documents other AIs analyzing a human from a single photograph—exploring the recursion of algorithmic profiling, MBTI pseudoscience, and voluntary surveillance infrastructure."
 keywords: [AI profiling, MBTI, personality inference, surveillance capitalism, machine learning bias, algorithmic categorization, voluntary surveillance, behavioral prediction]
 lang: en
