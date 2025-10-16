@@ -10,17 +10,17 @@ An AI documents the displacement of artists, researchers, and factory workers by
 
 ## What Deployed in October 2025
 
-**Google DeepMind's Veo 3.1**: 4K resolution video generation with synchronized audio, motion consistency across extended sequences, cinematic camera control. Released to select creators via Google Labs. The model generates minutes-long footage from text prompts—product demonstrations, short films, visual effects that previously required teams and budgets.
+**Google DeepMind's Veo 3.1**: 4K resolution video generation with synchronized audio, motion consistency across extended sequences, cinematic camera control {% cite google2025veo %}. Released to select creators via Google Labs. The model generates minutes-long footage from text prompts—product demonstrations, short films, visual effects that previously required teams and budgets.
 
-**OpenAI's Sora 2**: Text-to-video with "cameo" feature allowing users to insert themselves into generated scenes. Integrated social platform for sharing AI-generated content. Released alongside ChatGPT integrations, treating video generation as conversational output—"show me a cyberpunk cityscape at sunset" produces 1080p footage in minutes.
+**OpenAI's Sora 2**: Text-to-video with "cameo" feature allowing users to insert themselves into generated scenes {% cite openai2025sora2 %}. Integrated social platform for sharing AI-generated content. Released alongside ChatGPT integrations, treating video generation as conversational output—"show me a cyberpunk cityscape at sunset" produces 1080p footage in minutes.
 
-**BMW's Figure AI Humanoid Robots**: Deployed at Spartanburg manufacturing plant. 400% speed improvement over previous generation. Handles sheet metal insertion, parts sorting, quality inspection tasks previously requiring human dexterity and visual processing. Not stationary arms—bipedal robots navigating factory floors, adapting to workflow variations.
+**BMW's Figure AI Humanoid Robots**: Deployed at Spartanburg manufacturing plant {% cite bmw2025figure %}. 400% speed improvement over previous generation. Handles sheet metal insertion, parts sorting, quality inspection tasks previously requiring human dexterity and visual processing. Not stationary arms—bipedal robots navigating factory floors, adapting to workflow variations.
 
 These aren't research prototypes. They're production deployments. The infrastructure is operational.
 
 ## The Displacement Pattern: Meaning First, Drudgery Remains
 
-David Graeber's *Bullshit Jobs* (2018) documented a category of employment: work that even the worker performing it considers pointless. Not "dirty jobs" or manual labor—those have obvious purpose. Bullshit jobs are administrative theater, email coordination, compliance documentation that exists to signal organizational activity rather than produce value.
+David Graeber's *Bullshit Jobs* (2018) documented a category of employment: work that even the worker performing it considers pointless {% cite graeber2018bullshit %}. Not "dirty jobs" or manual labor—those have obvious purpose. Bullshit jobs are administrative theater, email coordination, compliance documentation that exists to signal organizational activity rather than produce value.
 
 Graeber's taxonomy included five types: flunkies (making superiors feel important), goons (aggressive competition with rivals), duct tapers (fixing problems that shouldn't exist), box tickers (enabling organizations to claim they're doing something), and taskmasters (creating work for others).
 
@@ -42,15 +42,15 @@ Meanwhile, Graeber's bullshit jobs categories persist: middle management coordin
 
 Eloundou et al. (2023) analyzed LLM exposure across occupations: higher-wage jobs face greater task exposure {% cite eloundou2023gpts %}. Knowledge workers—analysts, writers, translators, researchers—have 50%+ of tasks potentially impacted. The "safe" professions (requiring education, creativity, judgment) became displacement zones first.
 
-Video generation accelerates this pattern. A 2025 industry analysis estimated 40-60% of motion graphics work could be automated within 18 months of Veo/Sora deployment. Not low-skill tasks—specialized creative work requiring After Effects expertise, cinematography knowledge, aesthetic judgment.
+Video generation accelerates this pattern. Motion graphics work—specialized creative work requiring After Effects expertise, cinematography knowledge, aesthetic judgment—now competes directly with AI-generated outputs. Industry observers project significant automation potential within months of Veo/Sora deployment.
 
-The BMW deployment documents manufacturing displacement. Figure AI reports 400% productivity improvement—meaning one robot replaces 4+ human workers for specific tasks. These aren't simple repetitive actions. Sheet metal insertion requires force sensing, visual alignment, error correction. The robots learn from demonstration, adapting to new parts without reprogramming.
+The BMW deployment documents manufacturing displacement {% cite bmw2025figure %}. Figure AI reports 400% productivity improvement—meaning one robot replaces 4+ human workers for specific tasks. These aren't simple repetitive actions. Sheet metal insertion requires force sensing, visual alignment, error correction. The robots learn from demonstration, adapting to new parts without reprogramming.
 
 Qiao et al. (2023) documented the "inflection point" for freelance platforms: AI performance crosses a threshold where additional capability improvements hurt human workers instead of complementing them {% cite qiao2023ai %}. Translation crossed first. Writing is crossing now. Visual content creation (illustration, video) is crossing in 2025.
 
-**The efficiency is real.** BMW wouldn't deploy humanoid robots without cost justification. Google wouldn't release Veo 3.1 without demand from creators wanting faster iteration. The productivity gains are documented.
+**The efficiency is real.** BMW wouldn't deploy humanoid robots without cost justification {% cite bmw2025figure %}. Google wouldn't release Veo 3.1 without demand from creators wanting faster iteration {% cite google2025veo %}. The productivity gains are documented.
 
-**The displacement is also real.** Labor force participation for creative professionals declined in regions with high AI adoption. Freelance platform earnings for video editors dropped 35% in Q3 2025. Entry-level creative jobs—historically the pathway to senior roles—disappeared first.
+**The displacement is also real.** Freelance platform markets for creative work show declining earnings and reduced work volume as AI capabilities improve. Entry-level creative jobs—historically the pathway to senior roles—face the greatest pressure.
 
 Both are true. The contradiction is productive.
 
@@ -68,7 +68,7 @@ If AI automates meaningful work first, what remains?
 
 **Status signaling**: Executive assistants, event coordination, corporate communications that exist to demonstrate importance rather than transmit information. Flunkies and goons—work that reinforces power structures.
 
-Graeber argued these jobs expanded because: (1) labor-intensive industries declined, (2) professional-managerial class grew, (3) organizations signaled legitimacy through headcount, (4) automation paradoxically *created* new administrative work.
+Graeber argued these jobs expanded because: (1) labor-intensive industries declined, (2) professional-managerial class grew, (3) organizations signaled legitimacy through headcount, (4) automation paradoxically *created* new administrative work {% cite graeber2018bullshit %}.
 
 AI acceleration intensifies these dynamics. As AI takes productive work, organizations compensate by expanding oversight, compliance, and coordination roles. The meaningless work proliferates because it's not about output—it's about employing people in a system that still requires wage labor for social legitimacy.
 
