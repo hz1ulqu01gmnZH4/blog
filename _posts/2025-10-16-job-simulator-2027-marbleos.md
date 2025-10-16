@@ -51,6 +51,26 @@ The $30 resonates seventy years later. MarbleOS offers $30 for a 30-minute Pytho
 
 The 2021 film *Lapsis* satirized gig economy exploitation through speculative infrastructure—workers laying quantum cables for pennies per meter, tracked and managed by algorithmic overseers {% cite hutton2021lapsis %}. The labor is real, the compensation extractive, the management automated.
 
+### The International Archive: Obscure Works That Got the Infrastructure Right
+
+While American SF focused on corporate automation, international writers predicted *government-operated* micro-work platforms decades before MarbleOS.
+
+**Janusz A. Zajdel's *Limes inferior* (1982, Poland)**: A central computer assigns livelihoods via color-coded IDs and endless "aptitude" retesting {% cite zajdel1982limes %}. Social benefits become task-gated credits. The testing-as-training rhetoric—proving competence to receive assistance—maps directly onto MarbleOS's "apprenticeship" model. Zajdel, writing in communist Poland, saw algorithmic workfare before the internet existed.
+
+**The Steinmüllers' *Andymon* (1982, East Germany)**: A cybernetic planning system posts granular work assignments that citizens pick up to earn "qualification tokens" {% cite steinmuller1982andymon %}. Education is modularized into micro-competences that double as a labor queue, collapsing training and piecework into one platform. This is the Federal Apprenticeship Portal, forty-three years early, from authors working in the GDR's planned economy who understood how bureaucratic optimization becomes extraction.
+
+**BBC's *1990* (1977-78, Britain)**: Near-future UK with "Directed Labour" regime and Adult Rehabilitation Centres where retraining is compulsory, tracked by work-credits redeemable for benefits {% cite greatorex1977_1990 %}. The series nailed the aesthetics: workfare framed as civic apprenticeship, algorithmically rationed and enforced by bureaucracy rather than corporations. "Work-credits redeemable for benefits"—exactly what MarbleOS's $30 stipends represent. This aired on the BBC in 1977.
+
+**Shinichi Hoshi's "Aptitude Test" (1963, Japan)**: A micro-story depicting omnipresent state aptitude systems slotting citizens into roles via perpetual testing {% cite hoshi1963aptitude %}. Advancement contingent on ever more "training." Hoshi's punchline targets credentialism-as-control, prefiguring micro-credentials as conveyor into low-autonomy work. Written before personal computers, it predicted the Federal Apprenticeship Portal's logic: proving competence through endless task completion.
+
+**Alain Damasio's *La Zone du Dehors* (1999, France)**: A pervasive civic rating system algorithmically allocates duties, access, and "mandates," packaging coerced participation as citizen training {% cite damasio1999zone %}. Welfare and social standing flow through a points architecture that turns the safety net into a state-run platform of micro-obligations. The "mandates" are MarbleOS's "apprenticeships"—work you must perform to maintain social standing, branded as development.
+
+**Vladimir Voinovich's *Moscow 2042* (1986, USSR)**: Satirical future Moscow running on computerized "communism" where benefits, housing, and status are contingent on fulfilling assigned quotas in "creative brigades" and reeducation stints dressed as upgrading and apprenticeships {% cite voinovich1986moscow %}. The book skewers a welfare state morphed into algorithmic labor allocation with ideological UX. Sound familiar? The Federal Apprenticeship Portal is Moscow 2042's system with Silicon Valley branding.
+
+**Pattern recognition across political systems**: Polish writers under communism, East German authors in planned economies, British creators imagining Thatcherite futures, Soviet satirists mocking algorithmic communism, French SF exploring civic rating systems—all converged on the same infrastructure. Government micro-work platforms. Training rhetoric masking task allocation. Algorithmic workfare with bureaucratic aesthetics.
+
+They predicted MarbleOS not because they were prophetic, but because they understood how states respond to unemployment: preserve the disciplinary function of work while admitting its economic obsolescence. Package control as care. Make survival contingent on performance. Track compliance. Call it training.
+
 Fiction didn't warn us. Fiction *documented the infrastructure in advance*. We're installing it anyway.
 
 ## What Research Documents
