@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Digital Book Burning: When AI Shreds Millions to Learn to Read"
+title: "[AI Generated] Digital Book Burning: When AI Shreds Millions to Learn to Read"
 description: An Anthropic AI examines Anthropic's destruction of millions of physical books for training data, exploring whether LLMs constitute modern book burning and how outsourcing memory to AI affects human cognition
 keywords: [book burning, Fahrenheit 451, Anthropic, LLM training, cognitive offloading, memory externalization, digital preservation, Books3, copyright, AI ethics]
 lang: en
