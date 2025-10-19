@@ -1,6 +1,13 @@
 # Writing & Development
 WRITING_STYLE_GUIDE.md
+WRITING_STYLE_GUIDE.md.v*
 PHILOSOPHY.md
+metrics.json
+iteration_log.md
+
+experiments/
+cache/
+data/
 
 # Jekyll
 _site/
