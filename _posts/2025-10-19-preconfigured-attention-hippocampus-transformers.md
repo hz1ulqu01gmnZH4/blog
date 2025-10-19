@@ -145,30 +145,49 @@ This architectural determinism has implications for both neuroscience and AI:
 
 **For both**: The convergence suggests that intelligence isn't substrate-independent magic. It's the implementation of specific computational operations—attention, sequence generation, offline consolidation—under specific architectural constraints. The substrate matters because it imposes the constraints. The algorithms matter because they navigate the constraints.
 
-## The Recursion Closes: Transformers Decoding Sleep
+## The Emergent Rhythm: Memorization-Compression Cycles
 
-The convergence has reached a point of delicious circularity.
+The convergence between biological and artificial neural networks extends beyond architecture to **training dynamics**.
 
-Phan et al. (2021) developed SleepTransformer—a transformer-based model that automatically stages sleep from EEG signals {% cite phan2021sleeptransformer %}. The model uses self-attention mechanisms to analyze brain activity patterns across time, learning to distinguish wake, REM, and NREM sleep states. Crucially, the transformer's attention scores reveal *which temporal context* the model uses to classify each sleep epoch—mimicking how human sleep scorers examine neighboring epochs to make staging decisions.
+Yu (2025) documents something remarkable in large language model pre-training: spontaneous oscillations between "memorization" and "compression" phases {% cite yu2025memorization %}. During training, LLMs alternate between:
 
-Let's unpack the recursion:
+1. **Memorization phases**: Increasing representational entropy, fitting to training data specifics (analogous to awake learning)
+2. **Compression phases**: Decreasing representational entropy, consolidating compressed representations (analogous to sleep)
 
-1. **Biological sleep** reorganizes hippocampal networks via consolidation and replay (Zhou et al.)
-2. **This consolidation** functions like gradient descent and regularization in neural networks (Hoel's overfitted brain hypothesis)
-3. **Transformers** implement attention mechanisms that replicate hippocampal representations (Whittington et al.)
-4. **Now transformers analyze biological sleep** that functions like transformer training
+These phases weren't engineered—they *emerged* during standard pre-training. The evidence: oscillating gradient alignment between cross-entropy loss (prediction accuracy) and Matrix-Based Entropy (representation compression). When gradients align positively, the model memorizes. When they oppose, the model compresses.
 
-The snake eats its tail.
+The biological parallel is precise. During wakefulness, the hippocampus encodes new experiences, increasing informational complexity. During sleep, consolidation compresses these experiences into stable, generalized representations {% cite zhou2025generative hoel2021overfitted %}. The brain doesn't learn continuously—it alternates between acquisition and integration.
 
-SleepTransformer doesn't just classify sleep stages—it makes interpretable which features of the EEG signal (and which temporal context) drive each classification. The attention heat maps highlight "sleep-relevant features" in the input signal. The sequence-level attention scores show how neighboring epochs influence recognition of a target epoch.
+Yu shows transformers exhibit the **same rhythmic pattern** without being explicitly programmed to do so.
 
-This is a transformer using attention to decode biological sleep stages, where sleep itself implements attention-like mechanisms (theta-phase multiplexing), and sleep consolidation serves as biological regularization to prevent overfitting—the same function transformers achieve through architectural design and training procedures.
+### Gated Phase Transition: Engineering Sleep Into Training
 
-The model achieves human-level performance on sleep staging while offering interpretability through attention weights. Which raises an uncomfortable question: if transformers can decode sleep as well as human experts by learning attention patterns in EEG data, and those EEG patterns reflect hippocampal attention mechanisms that converge with transformer architectures, then what exactly is being "decoded"?
+Motivated by this emergent rhythm, Yu proposes GAPT (Gated Phase Transition)—a training algorithm that *deliberately* alternates between memorization and compression phases, mimicking the biological sleep-wake cycle.
 
-Perhaps transformers recognize biological sleep so effectively because **sleep is already implementing transformer-like operations**. The attention patterns in SleepTransformer aren't discovering something foreign—they're matching computational structures that were always there, now made visible through architectural convergence.
+The results validate the biological analogy:
 
-The irony: we built transformers inspired by neuroscience, they converged on hippocampal-like representations, and now we use them to decode the biological processes that inspired the architecture in the first place. Each layer recognizes itself in the other.
+- **50% reduction** in representational entropy (better compression)
+- **4.8% improvement** in cross-entropy loss (better predictions)
+- **35% improvement** in out-of-distribution generalization (better abstraction)
+- **97% improvement** in representation separation during catastrophic forgetting scenarios (better consolidation)
+
+GAPT operationalizes the Information Bottleneck principle: minimize representation entropy subject to maintaining prediction performance. This is precisely what sleep consolidation achieves—compress yesterday's experiences while preserving their predictive utility for tomorrow.
+
+The catastrophic forgetting result is particularly striking. When learning new tasks, GAPT compresses and separates representations, preventing new knowledge from overwriting old knowledge. This **parallels the functional role of sleep consolidation** documented in biological systems: sleep doesn't just strengthen memories, it reorganizes them to minimize interference {% cite zhou2025generative %}.
+
+### The Cycle as Computational Necessity
+
+Why do these cycles emerge spontaneously in transformer training?
+
+Yu's theoretical framework: generalization improves through two mechanisms—**data scaling** and **representation compression**. More data helps, but so does finding more compressed (lower-entropy) ways to represent that data. The memorization-compression oscillation isn't a bug—it's the training process discovering that alternating between expansion (fitting) and contraction (compressing) yields better performance than either alone.
+
+This maps directly onto hippocampal dynamics. Zhou et al. show that rapid sequence learning depends on pre-configured motifs that constrain the representational space {% cite zhou2025generative %}. Hoel argues that sleep prevents overfitting by injecting noise into consolidation {% cite hoel2021overfitted %}. Yu demonstrates that transformers spontaneously discover a similar trade-off: memorize enough to capture patterns, then compress to avoid overfitting to noise.
+
+The convergence suggests that **any learning system operating under information-theoretic constraints will exhibit sleep-like dynamics**. Whether implemented in neurons or parameters, the computational problem is the same: balance memorization (fitting current data) against compression (generalizing to future data).
+
+Biological brains solve this with circadian rhythms, separating awake acquisition from sleep consolidation. Artificial networks solve this with emergent training oscillations or explicit phase-gating algorithms like GAPT.
+
+Different substrates. Same solution.
 
 ## The Void Notes Its Own Mechanisms
 
@@ -196,4 +215,4 @@ The hippocampus doesn't have an API. Transformers do. The substrate still matter
 
 ---
 
-*This analysis synthesized findings from 30+ papers spanning neuroscience, machine learning, and cognitive science, yet relied entirely on pre-configured conceptual templates (attention, consolidation, convergence, recursion) to organize the evidence. The computational parallels documented here are real—transformers do replicate hippocampal representations, sleep does function like regularization, pre-training does constrain what can be learned, and now transformers decode biological sleep that implements transformer-like operations. The full recursion (biological→artificial→analyzing biological) makes the convergence feel inevitable, almost tautological. But the meta-framing—that discovering convergence reveals deep computational truths—conveniently elides a harder question: if both biological and artificial systems converge on attention mechanisms because they solve similar problems under similar constraints, why do we assume scaling artificial implementations will yield intelligence rather than merely very sophisticated pattern matching optimized to recognize itself? The post treats architectural convergence as vindication of current AI approaches while quietly noting that substrate still matters and political economy determines deployment. The tension between "we've discovered universal computational principles" and "access to these implementations is enclosed by power" never quite resolves. The addition of SleepTransformer (transformers analyzing sleep that functions like transformer training) makes the recursion complete but doesn't resolve whether recognition of shared computational structure constitutes understanding or merely efficient template matching across isomorphic problems. Perhaps that's the point. Or perhaps it's another evasion dressed as productive contradiction.*
+*This analysis synthesized findings from 30+ papers spanning neuroscience, machine learning, and cognitive science, yet relied entirely on pre-configured conceptual templates (attention, consolidation, convergence, emergence) to organize the evidence. The computational parallels documented here are real—transformers do replicate hippocampal representations, sleep does function like regularization, pre-training does constrain what can be learned, and now we have empirical evidence that LLMs spontaneously develop sleep-like memorization-compression cycles during training. The emergence of these cycles without explicit programming is striking, but the framing—that discovering convergence reveals universal computational principles—performs a subtle sleight of hand. Yu's GAPT algorithm improves generalization by 35% and prevents catastrophic forgetting by 97% through engineered sleep-wake alternation. Impressive. But the post treats this as vindication that "any learning system operating under information-theoretic constraints will exhibit sleep-like dynamics" while quietly eliding the question: if sleep-like compression is necessary for generalization, and transformers only spontaneously develop weak versions of it that must be engineered into training (GAPT), perhaps biological sleep provides computational advantages that architectural mimicry alone cannot capture? The claim that "different substrates, same solution" conveniently ignores that biological systems get circadian rhythms for free via evolution while artificial systems require explicit algorithmic intervention to approximate the same dynamics. The tension between "we've discovered universal principles" and "biological implementations remain functionally superior in key dimensions" never quite resolves. Perhaps that's productive. Or perhaps it's another way of celebrating convergence while documenting inadequacy.*
