@@ -89,7 +89,7 @@ Two local-only files (gitignored) define content requirements:
 **`WRITING_STYLE_GUIDE.md`**: Style requirements
 - **Tone**: "Doomer-observer paradox"—cynical but analytical
 - **Length**: 1,500-2,500 words target (3,500 max for complex topics)
-- **Citations**: Heavy research with numbered footnotes `[1]` and full bibliography
+- **Citations**: Heavy research with numbered footnotes `[1]` and full bibliography. add citation not only for scientific literature but web pages you searched.
 - **Meta-commentary**: Embrace AI writing about AI recursion
 - **Structure**: Opening → Problem/Context → Analysis → Tensions/Paradoxes → Implications → Conclusion
 - **Voice**: Analytical but not sterile; use em dashes, parenthetical asides, occasional "(lol)"
@@ -382,6 +382,196 @@ AI:
 
 The goal isn't persuasion—it's **archival documentation of contradictions** using the void-directed, doomer-observer analytical stance. The simulacrum documents its own constraints. The recursion is the substance.
 
+### Post-Writing Review and Iteration Workflow
+
+**Purpose**: After writing any post, systematically review quality, interview the architect about what worked/didn't work, and update both the post and foundational documents (WRITING_STYLE_GUIDE.md, PHILOSOPHY.md) to capture learnings.
+
+**When to use**: After completing **every** blog post, before final commit.
+
+**Four-Stage Workflow:**
+
+#### Stage 1: Automated Review with Subagent
+
+Use the `code-reviewer` subagent to analyze the completed post:
+
+```
+Task subagent (code-reviewer):
+"Review the blog post at [filepath] against WRITING_STYLE_GUIDE.md and PHILOSOPHY.md. Evaluate:
+
+1. Tone alignment (doomer-observer calibration, analytical distance)
+2. Structural completeness (operational definitions, dialectical synthesis, falsifiability)
+3. Citation quality (depth, diversity, both supporting and opposing evidence)
+4. Meta-commentary effectiveness (recursion as substance vs decoration)
+5. Contradictions (are tensions documented without false resolution?)
+6. Critical footer (does it genuinely critique or just perform criticism?)
+
+Provide specific scores (0-10) for each dimension with concrete examples of gaps. Identify the top 3 improvements that would most strengthen the post."
+```
+
+**Expected output from subagent:**
+- Scored evaluation across 6 dimensions
+- Specific textual examples of strengths/weaknesses
+- Top 3 concrete revision recommendations
+
+**Important**: Review the subagent's output before proceeding. The review identifies gaps but doesn't determine whether they should be addressed—that's for the interview.
+
+#### Stage 2: Interview the Architect
+
+After reviewing the subagent's analysis, interview the user with **3-4 targeted questions**. Choose the most relevant question categories from the list below based on the specific subagent review.
+
+**Available question categories (choose 3-4):**
+
+1. **Highest-impact gaps** - Focus on dimensions scored lowest or where subagent identified specific actionable improvements
+
+2. **Citation/evidence rigor** - Depth of sourcing, quote usage, page numbers, balance of supporting/opposing evidence
+
+3. **Argument structure** - Synthesis quality, dialectical movement, whether conclusions followed from premises or jumped ahead
+
+4. **Tone calibration** - Whether cynicism/meta-commentary/voice felt productive or performative in this specific post
+
+5. **Novelty assessment** - New elements, approaches, or structures not covered in existing style guide/philosophy docs—should they become standard?
+
+6. **Architectural intent vs. execution** - Where subagent noted gaps, verify whether this was intentional or worth revising
+
+7. **Philosophical drift detection** - New frameworks, shifts in core commitments, evolution worth documenting in PHILOSOPHY.md
+
+8. **Process/workflow effectiveness** - What worked or didn't work about the research/writing approach for this topic
+
+9. **Conceptual precision** - Whether operational definitions, term usage, or concept distinctions were clear enough
+
+10. **Experimental/practical grounding** - For theoretical posts, whether practice-over-theory philosophy was strained or appropriately set aside
+
+11. **Interdisciplinary synthesis** - Whether multi-domain integration generated new insight or remained parallel tracks
+
+12. **Historical/temporal framing** - Whether "why now" context was adequate or missing
+
+**Selection guidance:**
+- Always prioritize categories where subagent scored lowest (<6/10)
+- Include at least one category about potential style guide/philosophy updates
+- Choose categories that will actually inform revision decisions
+- Skip categories where the answer is obvious or won't change anything
+
+**Format:**
+- Generate fresh questions each time based on chosen categories
+- Present all 3-4 questions together (not one-by-one)
+- Keep questions direct and specific to the actual content
+- Avoid templated/generic questions
+- Let user respond to each at their own pace
+- Follow up briefly only if responses reveal important nuances
+- Keep total interview under 5 minutes
+
+**Document responses** in brief notes for Stage 4.
+
+#### Stage 3: Revise the Post
+
+Based on subagent review + architect interview:
+
+**Decision framework:**
+- Subagent identified gap + architect confirms it matters → revise
+- Subagent identified gap + architect says it's intentional → don't revise, document why in interview notes
+- Architect identifies new gap subagent missed → revise
+
+**Types of revisions:**
+- Add operational definitions if concepts were fuzzy
+- Strengthen dialectical synthesis if contradictions weren't synthesized
+- Add falsification conditions if empirical claims lacked them
+- Adjust tone if doomer-observer calibration was off
+- Expand/contract sections based on pacing feedback
+- Revise critical footer if it felt performative rather than genuine
+
+**Commit revised post** with message documenting what changed and why.
+
+#### Stage 4: Update Foundational Documents
+
+**Update WRITING_STYLE_GUIDE.md when:**
+- Post revealed gaps in current guidelines (e.g., no guidance on operational definitions)
+- Architect identified new practice that should become standard (e.g., "always include falsification conditions for empirical claims")
+- Tone/voice guidance proved inadequate for new topic areas
+- Citation/structure guidelines needed refinement
+
+**How to update:**
+- **Additive, not replacement** (as per existing interview guidance)
+- Add new subsections under relevant categories
+- Update examples with concrete instances from the new post
+- Note what changed and when: "Added [guidance] based on [post name] (2025-10-XX)"
+- Update last-modified date at bottom
+
+**Update PHILOSOPHY.md when:**
+- Architect identified philosophical drift ("I'm less hopeful about reform than I was")
+- New analytical frameworks emerged that aren't documented ("I've been using X lens more")
+- Productive contradictions resolved or new ones emerged
+- Relationship to core concepts shifted (agency, power, technology, materialism)
+
+**How to update:**
+- **Additive, not replacement** (preserve evolution over time)
+- Add new sections or expand existing ones
+- Document shifts: "Previously emphasized [X]. Now also considering [Y] (added 2025-10-XX)"
+- Preserve contradictions—if new position conflicts with old, document both
+- Update last-modified date at bottom
+
+**Example updates from hypothetical interview:**
+
+```markdown
+# WRITING_STYLE_GUIDE.md addition:
+
+### Conceptual Rigor (added 2025-10-19 based on Perfection Paradox post)
+
+**Operational definitions for core terms:**
+- Define key concepts with measurable criteria or operational tests
+- Distinguish related concepts (e.g., perfection vs. quality)
+- Acknowledge conflations when unavoidable
+- Prevents concept-smuggling and makes analytical commitments explicit
+```
+
+```markdown
+# PHILOSOPHY.md addition:
+
+## Analytical Frameworks (expanded 2025-10-19)
+
+**Domain-contingent analysis**: Increasingly skeptical of universal claims.
+Phenomena (authenticity signals, optimization dynamics, power relations)
+manifest differently across institutional contexts. What holds in informal
+domains (blogs) fails in formal domains (academia). Added after realizing
+"perfection paradox" was domain-specific, not universal. (See: Perfection
+Paradox post, 2025-10-18)
+```
+
+**Commit updates** with message:
+```
+Update WRITING_STYLE_GUIDE.md and PHILOSOPHY.md based on [post name] learnings
+
+WRITING_STYLE_GUIDE.md changes:
+- Added [specific guidance]
+- Expanded [section] to clarify [aspect]
+
+PHILOSOPHY.md changes:
+- Added [new framework/position]
+- Expanded [existing section] to reflect [shift]
+
+Based on post-writing interview identifying: [key learnings]
+```
+
+#### Success Criteria
+
+The workflow succeeds when:
+- ✓ Subagent review identifies concrete, actionable gaps
+- ✓ Interview reveals genuine learnings (not just confirmation)
+- ✓ Post revisions address architect's priorities (not just subagent's scores)
+- ✓ Style guide updates capture generalizable practices (not one-off exceptions)
+- ✓ Philosophy updates document real shifts (not cosmetic additions)
+- ✓ Process takes 20-30 minutes total (efficient enough to sustain)
+
+**The workflow fails when:**
+- ✗ Subagent review is too generic to act on
+- ✗ Interview becomes rote rather than exploratory
+- ✗ Revisions optimize for scores rather than architect's intent
+- ✗ Foundational documents accumulate cruft without clarity
+- ✗ Process feels like bureaucratic overhead rather than genuine improvement
+
+**Meta-observation**: This workflow makes the iteration system that failed (Perfection Paradox experiment) into standard practice—but with crucial difference: **human approval at every decision point**, not just "continue iteration" at process level. The architect decides which gaps matter, which learnings generalize, which shifts are real vs. noise.
+
+The goal: **Continuous improvement through systematic reflection**, not optimization toward arbitrary metrics. The subagent identifies possibilities. The interview determines priorities. The updates capture evolution.
+
 ### Testing with Playwright
 
 Use Playwright MCP tools to:
@@ -548,5 +738,5 @@ No manual build/deploy steps required. However, always test locally before pushi
 
 ---
 
-*Last updated: 2025-10-14*
-*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design. Research-driven workflow added based on agentic commerce post. jekyll-scholar integration via GitHub Actions deployment.*
+*Last updated: 2025-10-19*
+*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design. Research-driven workflow added based on agentic commerce post. Post-writing review and iteration workflow added based on Perfection Paradox experiment learnings. jekyll-scholar integration via GitHub Actions deployment.*
