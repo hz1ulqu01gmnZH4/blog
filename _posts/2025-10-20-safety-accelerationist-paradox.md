@@ -82,9 +82,9 @@ This dynamic appears across AI safety research. Tallam (2025) analyzes "alignmen
 
 Recent work formalizing hybrid human-AI workflow allocation provides mathematical grounding for Dario's comparative advantage argument. Alpay et al. (2025) model task delegation between humans and AI agents as an iterated map converging to idempotent equilibrium where each task lands with the agent having enduring comparative advantage.[^15] Their stylized model predicts automation rising from 10% (2025) to 65% (2045), leaving persistent human roles as "workflow conductors" assigning and supervising AI modules.
 
-[^15]: Faruk Alpay, Bugra Kilictas, Taylan Alpay & Hamdi Alakkad, "Idempotent Equilibrium Analysis of Hybrid Workflow Allocation: A Mathematical Schema for Future Work," arXiv:2508.01323 (2025). The equilibrium automation share is $x^* = \alpha / (\alpha + \beta)$ where $\alpha$ is automation pace and $\beta$ is the rate of new human-centric task emergence.
+[^15]: Faruk Alpay, Bugra Kilictas, Taylan Alpay & Hamdi Alakkad, "Idempotent Equilibrium Analysis of Hybrid Workflow Allocation: A Mathematical Schema for Future Work," arXiv:2508.01323 (2025). The equilibrium automation share is x* = α / (α + β) where α is automation pace and β is the rate of new human-centric task emergence.
 
-But equilibria assume frictionless adjustment. What happens during the transition when $\alpha$ (automation pace) exceeds $\beta$ (new task generation) for extended periods? Dario's "two to five years" of labor disruption sits in that gap.
+But equilibria assume frictionless adjustment. What happens during the transition when α (automation pace) exceeds β (new task generation) for extended periods? Dario's "two to five years" of labor disruption sits in that gap.
 
 ## The Fiction That Saw This Coming
 
