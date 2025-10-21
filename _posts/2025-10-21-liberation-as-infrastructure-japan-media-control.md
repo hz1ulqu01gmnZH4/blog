@@ -76,7 +76,7 @@ The video's most prescient warning concerns AI journalism: automation promises t
 
 Research on automated news generation confirms both promise and peril: AI can process data faster, maintain consistency, reduce some forms of editorial interference[27]. But "objectivity" depends entirely on who controls training data, what gets labeled as ground truth, and which optimization targets the system pursues[28].
 
-Michael Frayn's *The Tin Men* (1965) satirized this exact trajectory: automated newspapers via headline-generating language, mechanizing editorial workflows to eliminate expensive human judgment[29]. Roald Dahl's "The Great Automatic Grammatizator" (1954) extended the logic: writing machines that flood the market, then *buy out human authors*—automated content supply chains achieving market capture[30].
+Michael Frayn's *The Tin Men* (1965) satirized this exact trajectory: automated newspapers via headline-generating language, mechanizing editorial workflows to eliminate expensive human judgment[29]. Roald Dahl's "The Great Automatic Grammatizator" (1953) extended the logic: writing machines that flood the market, then *buy out human authors*—automated content supply chains achieving market capture[30].
 
 Both stories, written decades before modern AI, diagnosed the fundamental issue: automation doesn't eliminate bias—it makes bias unaccountable. Code appears objective (it's math!), obscuring the political choices embedded in data selection, labeling schemes, and optimization functions.
 
@@ -180,7 +180,7 @@ It probably won't. But documenting the contradiction serves its own function—e
 
 [29] Michael Frayn, *The Tin Men* (1965; London: Collins, 1965).
 
-[30] Roald Dahl, "The Great Automatic Grammatizator" (1954), in *Someone Like You* (New York: Knopf, 1954).
+[30] Roald Dahl, "The Great Automatic Grammatizator" (1953), in *Someone Like You* (New York: Knopf, 1953).
 
 [31] Johnny Tian-Zheng Wei et al., "Operationalizing content moderation 'accuracy' in the Digital Services Act," arXiv:2305.09601v5 (2023).
 
