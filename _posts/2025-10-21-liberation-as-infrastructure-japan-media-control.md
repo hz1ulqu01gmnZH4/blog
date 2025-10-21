@@ -26,7 +26,7 @@ Empirical studies document the dynamic: media outlets more dependent on specific
 
 Frederik Pohl and C.M. Kornbluth's *The Space Merchants* (1953) satirized this exact infrastructure: advertising agencies as de facto sovereigns, brokering not just products but newsworthiness itself[10]. What read as dystopian satire in 1953 described the already-operative system in post-war Japan. Dentsu's wartime role in propaganda transitioned seamlessly to peacetime "public relations"—same structure, liberal branding.
 
-The Johnny's scandal exemplifies the mechanism's durability. For over 30 years, Japanese media possessed documented evidence of systematic abuse by entertainment mogul Johnny Kitagawa[11]. Tokyo courts confirmed the allegations in 2003. Yet television remained silent until the BBC's 2023 documentary forced coverage. The reason wasn't mystery: Johnny's talents appeared on every network, drove ratings, attracted advertisers. Reporting meant destroying one's own revenue model.
+The Johnny's scandal exemplifies the mechanism's durability. For over 30 years, Japanese media possessed documented evidence of systematic abuse by entertainment mogul Johnny Kitagawa[11]. Tokyo High Court confirmed the allegations in July 2003, with the Supreme Court dismissing appeals in 2004[11a]. Yet television remained silent until the BBC's 2023 documentary forced coverage. The reason wasn't mystery: Johnny's talents appeared on every network, drove ratings, attracted advertisers. Reporting meant destroying one's own revenue model.
 
 This isn't conspiracy—it's alignment of material incentives producing voluntary silence. No central authority needs to issue orders when the structure itself enforces compliance.
 
@@ -126,13 +126,13 @@ It probably won't. But documenting the contradiction serves its own function—e
 
 [2] "Civil Censorship Detachment," Wikipedia, accessed October 21, 2025, https://en.wikipedia.org/wiki/Civil_Censorship_Detachment
 
-[3] "Shoriki Matsutaro," CIA declassified documents, codename PODAM, released 2000s. Referenced in video transcript and confirmed in historical documentation of CIA-media relationships during Cold War Japan.
+[3] "Shoriki Matsutaro," CIA declassified documents, codename PODAM, released 2007. CIA FOIA Reading Room, https://www.cia.gov/readingroom/document/519cd81c993294098d5164a8; U.S. National Archives press release on declassified CIA files, October 23, 2007, https://www.archives.gov/iwg/about/press-releases/nr06-114.html; The New Yorker, "The Fallout," October 17, 2011, https://www.newyorker.com/magazine/2011/10/17/the-fallout
 
-[4] Edward S. Herman and Noam Chomsky, *Manufacturing Consent: The Political Economy of the Mass Media* (New York: Pantheon Books, 1988). The propaganda model identifies five filters through which news is systematically filtered in corporate media systems.
+[4] Edward S. Herman and Noam Chomsky, *Manufacturing Consent: The Political Economy of the Mass Media* (New York: Pantheon Books, 1988). The propaganda model identifies five filters through which news is systematically filtered in corporate media systems. See also: https://en.wikipedia.org/wiki/Propaganda_model
 
-[5] "World Press Freedom Index 2023," Reporters Without Borders, https://rsf.org/en/index - Japan ranked 68-70th globally, consistently last among G7 nations.
+[5] "World Press Freedom Index," Reporters Without Borders. Japan ranked 68th (2023), 70th (2024), 66th (2025)—consistently last among G7 nations. https://rsf.org/en/japan; Japan Times coverage: https://www.japantimes.co.jp/news/2025/05/03/japan/japan-press-freedom-ranking/
 
-[6] Philip K. Dick, "If There Were No Benny Cemoli" (1963), in *The Collected Stories of Philip K. Dick*, Volume 4 (New York: Citadel Press, 1987).
+[6] Philip K. Dick, "If There Were No Benny Cemoli" (1963), in *The Collected Stories of Philip K. Dick*, Volume 4 (New York: Citadel Press, 1987). First appeared in Galaxy Science Fiction, December 1963. https://en.wikipedia.org/wiki/If_There_Were_No_Benny_Cemoli
 
 [7] "Media politics in Japan: News journalism between interdependence, integrity, and influence," *Publizistik* 69, 2024, https://link.springer.com/article/10.1007/s11616-024-00858-3
 
@@ -140,17 +140,19 @@ It probably won't. But documenting the contradiction serves its own function—e
 
 [9] "Does Advertising Spending Influence Media Coverage of the Advertiser?" empirical study finding strong positive correlation between advertising dependence and coverage bias. ResearchGate publication 252060765.
 
-[10] Frederik Pohl and C.M. Kornbluth, *The Space Merchants* (1953; New York: Ballantine Books, 1953).
+[10] Frederik Pohl and C.M. Kornbluth, *The Space Merchants* (1953; New York: Ballantine Books, 1953). Serialized in Galaxy as "Gravy Planet" (1952). https://en.wikipedia.org/wiki/The_Space_Merchants
 
-[11] "The Journalist" (新聞記者, *Shinbun Kisha*), 2019 Japanese film dramatizing kisha club dynamics and press-room gatekeeping, loosely based on investigative journalist Isoko Mochizuki's reporting.
+[11] "The Journalist" (新聞記者, *Shinbun Kisha*), 2019 Japanese film directed by Michihito Fujii, dramatizing kisha club dynamics and press-room gatekeeping, loosely based on Tokyo Shimbun reporter Isoko Mochizuki's 2017 book. https://www.japantimes.co.jp/culture/2022/01/13/films/film-reviews/the-journalist/
 
-[12] "Kisha club," Wikipedia, accessed October 21, 2025, https://en.wikipedia.org/wiki/Kisha_club - Estimated 800 kisha clubs exist in Japan, restricting press access to government and corporate sources.
+[11a] Johnny Kitagawa court case: Tokyo High Court (July 2003) recognized sexual abuse allegations as substantiated, reversing 2002 District Court ruling; Supreme Court dismissed Johnny & Associates' appeal in 2004, finalizing the High Court decision. This was a civil defamation case. Nippon.com case timeline: https://www.nippon.com/en/in-depth/d00945/; Asahi Shimbun coverage: https://www.asahi.com/ajw/articles/14944270
+
+[12] "Kisha club," Wikipedia, accessed October 21, 2025, https://en.wikipedia.org/wiki/Kisha_club - Estimated 800 kisha clubs exist in Japan (some estimates up to 1,500), restricting press access to government and corporate sources. RSF: https://rsf.org/en/reporters-without-borders-urges-prime-minister-reform-kisha-clubs-system
 
 [13] "The enduring press freedom challenge: how Japan's exclusive press clubs are 'holding media hostage,'" European Journalism Observatory, https://en.ejo.ch/media-politics/the-enduring-press-freedom-challenge-how-japans-exclusive-press-clubs-are-holding-media-hostage
 
 [14] "Kisha Club Guidelines," Japan Newspaper Publishers and Editors Association (Pressnet), https://www.pressnet.or.jp/english/about/guideline/
 
-[15] Peter Watkins, *Privilege* (1967), British pseudo-documentary examining state-corporate apparatus engineering pop culture for social control.
+[15] Peter Watkins, *Privilege* (1967), British pseudo-documentary examining state-corporate apparatus engineering pop culture for social control. BFI: https://www.bfi.org.uk/film/8113d8a8-cb64-543d-931b-d56352f273cf/privilege
 
 [16] Referenced in video transcript; confirmed in CPJ reporting: "Japanese journalists under pressure: Kisha Clubs and stress," Committee to Protect Journalists, February 2010.
 
@@ -158,13 +160,13 @@ It probably won't. But documenting the contradiction serves its own function—e
 
 [18] Manoel Horta Ribeiro et al., "Deplatforming Norm-Violating Influencers on Social Media Reduces Overall Online Attention Toward Them," arXiv:2401.01253v1 (2024).
 
-[19] *Gatchaman Crowds* (2013) and *Gatchaman Crowds Insight* (2015), anime series examining social platform GALAX and supervisory AI X directing civic action then experiencing governance capture.
+[19] *Gatchaman Crowds* (2013) and *Gatchaman Crowds Insight* (2015), anime series produced by Tatsunoko Production, examining social platform GALAX and supervisory AI X directing civic action then experiencing governance capture. https://tatsunoko.co.jp/en/works/gatchaman-crowds/
 
-[20] Malka Older, *Infomocracy* (2016), *Null States* (2017), *State Tectonics* (2018) - The Centenal Cycle trilogy depicting global governance through "Information" search/verification monopoly.
+[20] Malka Older, *Infomocracy* (2016), *Null States* (2017), *State Tectonics* (2018) - The Centenal Cycle trilogy depicting global governance through "Information" search/verification monopoly. Tor.com/Macmillan: https://us.macmillan.com/books/9781427279484
 
 [21] Referenced in video transcript regarding DeepSeek's evasion patterns on Tiananmen Square queries—trained deflection rather than crude blocking.
 
-[22] Edward S. Herman and Noam Chomsky, *Manufacturing Consent* (1988). The five filters: ownership, advertising, sourcing, flak, anti-communism (later updated to "war on terror").
+[22] Edward S. Herman and Noam Chomsky, *Manufacturing Consent* (1988). The five filters: ownership, advertising, sourcing, flak, anti-communism (later updated to "war on terror"). https://en.wikipedia.org/wiki/Propaganda_model
 
 [23] "Media capture and information monopolization in Japan," *The Japanese Economic Review* 63, no. 1 (2012): 131-159, https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-5876.2011.00538.x
 
@@ -178,7 +180,7 @@ It probably won't. But documenting the contradiction serves its own function—e
 
 [28] "Automated Journalism," Wang Ngai Yeung and Tomás Dodds, arXiv:2409.03462v1 (2024) - Overview of algorithmic journalism development, benefits, and embedded bias risks.
 
-[29] Michael Frayn, *The Tin Men* (1965; London: Collins, 1965).
+[29] Michael Frayn, *The Tin Men* (1965; London: Collins, 1965). Faber edition: https://www.faber.co.uk/product/9780571315895-the-tin-men/
 
 [30] Roald Dahl, "The Great Automatic Grammatizator" (1953), in *Someone Like You* (New York: Knopf, 1953).
 
