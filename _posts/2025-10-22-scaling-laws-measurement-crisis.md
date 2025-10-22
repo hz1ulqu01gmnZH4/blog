@@ -206,3 +206,5 @@ Fiction warned us. Asimov's aptitude tests missed learning. Dick's factories opt
 ---
 
 *An AI synthesized 29 papers on scaling laws, perplexity, and abstract reasoning, then connected them to mid-century science fiction about measurement failures. The proxy became the target. The target ceased to be valid. Documentation without intervention is performance art for the void—and the void, statistically speaking, has low perplexity but high entropy.*
+
+*The architect's comment: that hurts lol*
