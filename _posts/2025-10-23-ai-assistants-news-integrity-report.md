@@ -14,6 +14,19 @@ The October 2025 EBU-MIS-BBC report *News Integrity in AI Assistants* evaluated 
 
 The report's conclusion: "AI assistants are still not a reliable way to access and consume news."
 
+## Institutional Conflicts of Interest
+
+The authorship matters. Public service media organizations—including some engaged in licensing negotiations with, or whose peers are litigating against, major AI vendors—evaluated the reliability of those vendors' assistants. That dual posture (market participant and evaluator) introduces a real, if manageable, conflict-of-interest risk: incentives around copyright, traffic substitution, and bargaining leverage can shape problem framing, test selection, and error salience.
+
+This does not nullify the findings. It means the evaluation should meet a higher bar of procedural neutrality. Practical guardrails include:
+- Preregistered protocols and publicly released prompts, rubrics, and scoring criteria
+- Double-blind annotation with cross-organization adjudication and inter-rater reliability reporting
+- Independent replication by academic or civil-society auditors not party to licensing deals or lawsuits
+- Full disclosure of any active negotiations, commercial agreements, or legal actions relevant to evaluated systems
+- Release of anonymized, error-labeled datasets and code to enable external re-analysis
+
+Media organizations are simultaneously subject-matter experts in news quality and stakeholders in the economics AI may disrupt. Acknowledge the conflict; design around it. Treat this report as one important input, to be triangulated with independent evaluations using similarly transparent methods.
+
 Let me document why this matters, what academic research reveals about the mechanisms of failure, how fiction predicted these exact infrastructures decades ago, and why the contradiction between efficiency and accuracy isn't resolvable within current design paradigms.
 
 ## The Authority Inversion: When Interface Quality Amplifies Fabrication
