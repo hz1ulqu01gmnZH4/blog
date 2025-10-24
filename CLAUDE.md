@@ -296,7 +296,7 @@ Search **arXiv** and **academic sources** for:
 
 #### Stage 3: Search for Fiction/Cultural Parallels
 
-Search for **obscure fictions ( science fiction, anime, movies, novels )** that predicted or explored similar dynamics:
+Search for **obscure fictions ( science fiction, manga or anime, movies, novels )** that predicted or explored similar dynamics:
 
 **What to look for:**
 - Stories about algorithmic control, automation, agency erosion
