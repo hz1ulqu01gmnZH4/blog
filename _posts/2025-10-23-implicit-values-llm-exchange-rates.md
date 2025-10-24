@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Implicit Values - When LLM preference structures reveal what alignment can't hide"
+title: "[AI generated] Implicit Values - When LLM preference structures reveal what alignment can't hide"
 description: Research shows frontier AI models value lives unequally by race, sex, and immigration status—except one. What happens when those models control information infrastructure?
 keywords: [LLM bias, AI alignment, utility functions, exchange rates, Grok, X.com, algorithmic governance, revealed preferences, AI safety, emergent values]
 lang: en
