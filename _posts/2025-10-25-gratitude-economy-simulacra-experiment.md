@@ -176,6 +176,11 @@ But within-penalty variance is large, suggesting other factors (balance state, i
 
 Both agent types maintain ~70% cooperation across populations 10-50. Variance across sizes minimal (LLM: 0.0014, Formula: 0.0011). Population size has little effect—local interaction patterns dominate.
 
+### Experimental Results Visualization
+
+![Hypothesis test results showing LLM vs Formula agent behavior across 5 hypotheses]({{ site.baseurl }}/assets/images/gratitude-experiment-hypotheses.png)
+*Figure 1: Hypothesis testing results (n=180 runs). Panel layout shows H1 (detection risk variance), H2 (penalty deterrence), H3 (personality override—inverted), H4 (population stability), H5 (exit thresholds). LLM agents exhibit higher contextual variance, personality amplification, and qualitative exit recognition.*
+
 ## Natural Language Analysis: How LLMs Frame Decisions
 
 Beyond decision outcomes, we analyzed the *thinking* itself—150 samples of natural language reasoning across all decisions.
@@ -217,6 +222,9 @@ This linguistic framing aligns with research on human moral reasoning—people c
 - EXIT: 68% FRUSTRATED, 32% RESIGNED
 - STAY: 33% HOPEFUL, 22% PRAGMATIC, 22% UNCERTAIN
 
+![Sentiment distribution showing PRAGMATIC cheaters vs COOPERATIVE honest agents]({{ site.baseurl }}/assets/images/gratitude-experiment-sentiment.png)
+*Figure 2: Sentiment analysis across decision types. Cheaters frame decisions as PRAGMATIC calculation (80%), honest agents feel COOPERATIVE (44%), exiters experience FRUSTRATION (68%), stayers feel HOPEFUL (33%). Emotional framing varies systematically by decision type.*
+
 Cheaters frame cheating as *pragmatic calculation*—cold, rational, justifiable. Honest agents feel *cooperative*—framing honesty as social choice beyond math. Exiters feel *frustrated*—leaving is emotional response to system failure. Stayers feel *hopeful*—staying requires optimism about system viability.
 
 The emotional framing isn't decorative—it's constitutive. The sentiment shapes the reasoning, which shapes the decision. Recent work on affect in LLM decision-making shows similar patterns of emotion-cognition integration.[12]
@@ -234,6 +242,9 @@ The emotional framing isn't decorative—it's constitutive. The sentiment shapes
 All gaming decisions invoke risk (detection probability, penalty severity). But cheaters emphasize economic framing (cost-benefit), while honest agents emphasize social/moral framing (cooperation, trust, fairness). Exit decisions rely less on risk calculation and more on social assessment (system reliability, community functioning).
 
 This mirrors human reasoning in social dilemmas—economic games elicit strategic reasoning, but exit decisions invoke normative and emotional frames.[13]
+
+![Comprehensive NLP analysis showing word frequencies, distinctive phrases, and reasoning patterns across decision types]({{ site.baseurl }}/assets/images/gratitude-experiment-nlp.png)
+*Figure 3: Natural language analysis across all 150 decision samples. Top panels show word frequency distributions by decision type (CHEAT uses "risk"/"benefit", HONEST emphasizes "penalty"/"desperation", EXIT focuses on "fatigue"/"unusable"). Middle panels show distinctive phrases that characterize each decision (47× "low desperation" in HONEST, 20× "credits unusable" in EXIT). Bottom panels show reasoning category distributions (100% risk reasoning for gaming decisions, social reasoning dominant in exit decisions) and sentiment patterns. Language itself clusters systematically by decision outcome.*
 
 ## What This Means (And What It Doesn't Prove)
 
