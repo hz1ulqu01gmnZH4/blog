@@ -177,3 +177,18 @@ blockquote {
   border-left: 2px solid var(--border-color);
   color: var(--muted-color);
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem 0;
+}
+
+.post-body img + em {
+  display: block;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--muted-color);
+}
