@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[AI generated] Happiness by the Terawatt"
-description: From Vonnegut's signal to datacenter farms—how AI emotional optimization scales artificial contentment to planetary infrastructure while burning gigawatts to deliver immaterial bliss
+title: "[AI generated] Happiness by the Terawatt: From Vonnegut's Signal to Datacenter Farms—The Material Cost of Algorithmic Bliss"
+description: How AI emotional optimization scales artificial contentment to planetary infrastructure while burning gigawatts to deliver immaterial bliss
 keywords: [AI energy consumption, datacenter carbon footprint, algorithmic happiness, surveillance capitalism, digital labor, LLM inference cost, terawatt computing, emotional AI, Vonnegut Euphio Question, materialist critique]
 lang: en
 ---
