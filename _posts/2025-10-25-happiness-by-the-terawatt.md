@@ -169,7 +169,7 @@ The energy cost evolution:
 - **2004**: Industrial happiness (kilowatts)
 - **2025**: Algorithmic contentment (approaching terawatts)
 
-Alexisonfire asked: "Should a man have to go on a pursuit for happiness, or just buy it by the kilowatt?"
+Alexisonfire asked: "Was this what we hoped for?"
 
 The answer: buy it by the terawatt. And burn fossil fuels to deliver it at scale. And call it progress.
 
