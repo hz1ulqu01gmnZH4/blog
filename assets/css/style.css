@@ -192,3 +192,56 @@ img {
   font-size: 0.9rem;
   color: var(--muted-color);
 }
+
+/* Image lightbox modal */
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  max-width: 95%;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+  border: 1px solid var(--border-color);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  color: var(--text-color);
+  font-size: 3rem;
+  font-weight: 300;
+  cursor: pointer;
+  user-select: none;
+  line-height: 1;
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+}
+
+.modal-close:hover {
+  color: var(--prompt-color);
+}
+
+.modal-caption {
+  margin-top: 1rem;
+  max-width: 800px;
+  text-align: center;
+  color: var(--muted-color);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

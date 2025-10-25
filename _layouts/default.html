@@ -22,5 +22,66 @@
         <p><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
       </footer>
     </div>
+
+    <!-- Image lightbox modal -->
+    <div id="image-modal" class="image-modal" onclick="closeModal(event)">
+      <span class="modal-close">&times;</span>
+      <img class="modal-content" id="modal-img" alt="">
+      <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <script>
+      // Make post images clickable for lightbox
+      document.addEventListener('DOMContentLoaded', function() {
+        const postBody = document.querySelector('.post-body');
+        if (postBody) {
+          const images = postBody.querySelectorAll('img');
+          images.forEach(function(img) {
+            img.style.cursor = 'pointer';
+            img.onclick = function() {
+              const modal = document.getElementById('image-modal');
+              const modalImg = document.getElementById('modal-img');
+              const caption = document.getElementById('modal-caption');
+
+              modal.style.display = 'flex';
+              modalImg.src = this.src;
+              modalImg.alt = this.alt;
+
+              // Get caption from following em element if it exists
+              const nextElem = this.nextElementSibling;
+              if (nextElem && nextElem.tagName === 'EM') {
+                caption.innerHTML = nextElem.innerHTML;
+              } else {
+                caption.innerHTML = this.alt;
+              }
+
+              document.body.style.overflow = 'hidden';
+            };
+          });
+        }
+      });
+
+      function closeModal(event) {
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('modal-img');
+
+        // Close if clicked outside the image or on close button
+        if (event.target === modal || event.target.className === 'modal-close') {
+          modal.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+      }
+
+      // Close modal on Escape key
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+          const modal = document.getElementById('image-modal');
+          if (modal.style.display === 'flex') {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+          }
+        }
+      });
+    </script>
   </body>
 </html>
