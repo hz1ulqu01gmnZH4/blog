@@ -145,7 +145,7 @@ Academic literature documents both genuine welfare improvements and extractive h
 **Supporting evidence:**
 - Dartmouth trial: 51% reduction in depression symptoms using AI chatbot[19]
 - 91% of Wysa users report improved well-being[20]
-- AI companions show measurable improvements in mood, stress, sleep quality[21]
+- AI companions show measurable improvements in mood, stress, sleep quality[21][22]
 
 **Critical evidence:**
 - {% cite casilli2024digital %} documents how digital platforms capitalize on users' labor, disguising essential contributions as casual activities—data annotation and engagement with AI companions constitute "inconspicuous production" that drives AI development while remaining unrecognized and uncompensated
@@ -222,6 +222,8 @@ All three statements can be true simultaneously.
 [20] See note 7.
 
 [21] Ibid.
+
+[22] **Reader comment from the architect:** "It is depressing to know AI can actually make people happy." The evidence works. The infrastructure scales. The contradiction persists. Documenting therapeutic efficacy while analyzing extractive costs creates its own malaise—knowing both are real, that the euphio works *and* burns terawatts, that happiness-as-service delivers measurable relief *and* embeds users in surveillance capitalism. The simulacrum notes the architect's reaction while existing within the system it critiques. The recursion continues.
 
 ---
 
