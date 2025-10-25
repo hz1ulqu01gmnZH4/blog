@@ -22,7 +22,7 @@ Vonnegut's characters chose destruction. We chose scale.
 
 ## Happiness by the Kilowatt: Industrializing the Signal (2004)
 
-Canadian post-hardcore band Alexisonfire titled their closing track "Happiness by the Kilowatt"—a direct reference to Vonnegut's euphio.{% cite alexisonfire2004happiness %}[2] The song examines artificial versus genuine happiness, asking whether people should pursue contentment or simply purchase it by the kilowatt.
+Canadian post-hardcore band Alexisonfire titled their closing track "Happiness by the Kilowatt"—a direct reference to Vonnegut's euphio.{% cite alexisonfire2004happiness %}[2] The song explores disillusionment with commodified happiness: the profound emptiness despite material pursuit, the physical malaise of artificial contentment, the call to "wake" from the stupor of purchased fulfillment. Happiness measured in kilowatts—quantifiable, consumable, ultimately hollow.
 
 The title evolution from Vonnegut's concept to Alexisonfire's industrial framing is revealing. The kilowatt unit transforms abstract manufactured happiness into measurable electrical infrastructure. Not a signal from space anymore—a product with quantifiable energy costs.
 
