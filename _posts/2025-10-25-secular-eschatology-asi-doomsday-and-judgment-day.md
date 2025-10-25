@@ -175,7 +175,7 @@ The academic consensus: AI doom rhetoric reproduces theological structures wheth
 
 Here's the productive tension: we obsess over AI-delivered judgment day while collapsing via pre-AI mechanisms.
 
-As documented in the earlier post *Failing Before the Robots Could* {% cite failing2025 %}, we are experiencing:
+As documented in the earlier post [*Failing Before the Robots Could*](https://hz1ulqu01gmnzh4.github.io/blog/2025/10/21/failing-before-robots-could/), we are experiencing:
 - Global debt exceeding $100 trillion, with 61 developing countries spending 10%+ of revenues on interest alone[^44]
 - Six of nine planetary boundaries transgressed[^45]
 - Five climate tipping points potentially triggered at current temperatures[^46]
