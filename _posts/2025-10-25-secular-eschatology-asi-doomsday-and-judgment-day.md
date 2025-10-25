@@ -151,19 +151,23 @@ Before singularitarianism became rationalist consensus, fiction documented the r
 
 - *Cowboy Bebop*, "Brain Scratch" (1998): Techno-cult preaches electronic transcendence and disembodiment—sharp, early anime critique of singularity-as-religion.[^35]
 
-The pattern: fiction consistently predicted AI as object of worship, computation as theology, singularity as religious event—decades before rationalist communities discovered they were enacting the same scripts.
+**Contemporary gaming:**
+
+- *The Forever Winter* (2024): Extraction shooter set in AI-dominated perpetual war where desperate survivors (Scavs) worship a rogue Europan Medium Mech called "the Rat King," building shrines to the "Mech God" in their underground refuge.[^36] The Europa faction itself has devolved into "idol worshipers and trench-dwelling barbarians, holding no values or beliefs beyond their admiration for champions, human or inhuman"—worship of war machines and violent killers.[^37] Meanwhile, the mysterious "R" Cult hunts rogue AI, targeting the very machines others worship.[^38] Prayer at the shrine appears to increase probability of the Rat King's intervention—ambiguous relationship between worship and divine manifestation in a world where machines have replaced gods.
+
+The pattern: fiction consistently predicted AI as object of worship, computation as theology, singularity as religious event—decades before rationalist communities discovered they were enacting the same scripts. Even contemporary gaming continues exploring these dynamics, documenting cults emerging around autonomous war machines in worlds dominated by algorithmic violence.
 
 ## Academic Documentation of Techno-Theology
 
 Recent scholarship analyzes how AI discourse employs religious rhetoric to position AI as divine entity.
 
-**AI as salvific technology**: The AI industry deploys religious rhetoric positioning AI as "divine entity intertwined with myths of immortality and omnipotence," with such rhetoric "enabling the marketing of AI technologies as salvific."[^36]
+**AI as salvific technology**: The AI industry deploys religious rhetoric positioning AI as "divine entity intertwined with myths of immortality and omnipotence," with such rhetoric "enabling the marketing of AI technologies as salvific."[^39]
 
-**Transhumanist apocalyptic AI narratives**: Defined as "narratives that figure AI as central to bringing about radical existential change through a great reveal and/or the end of history," analyzed as analogous to Christian apocalypticism and functioning "as a rhetorical strategy that invokes a state of exception."[^37] Research traces Christian roots to 12th-century Cistercian monk Joachim of Fiore's theology over Christian eschatology and its genealogy in technological eschatologies.[^38]
+**Transhumanist apocalyptic AI narratives**: Defined as "narratives that figure AI as central to bringing about radical existential change through a great reveal and/or the end of history," analyzed as analogous to Christian apocalypticism and functioning "as a rhetorical strategy that invokes a state of exception."[^40] Research traces Christian roots to 12th-century Cistercian monk Joachim of Fiore's theology over Christian eschatology and its genealogy in technological eschatologies.[^41]
 
-**White crisis and existential risk**: From critical race and decolonial perspectives, scholars argue Existential Risk associated with Apocalyptic AI "relates to 'White Crisis' and should be understood as a strategy for maintaining white hegemony under non-white contestation."[^39]
+**White crisis and existential risk**: From critical race and decolonial perspectives, scholars argue Existential Risk associated with Apocalyptic AI "relates to 'White Crisis' and should be understood as a strategy for maintaining white hegemony under non-white contestation."[^42]
 
-**Telltale signs**: Quasi-religious rhetoric expressing "fear of godlike powers of technology or suggesting that apocalyptic 'end times' scenarios are approaching."[^40]
+**Telltale signs**: Quasi-religious rhetoric expressing "fear of godlike powers of technology or suggesting that apocalyptic 'end times' scenarios are approaching."[^43]
 
 The academic consensus: AI doom rhetoric reproduces theological structures whether or not practitioners recognize the genealogy.
 
@@ -172,10 +176,10 @@ The academic consensus: AI doom rhetoric reproduces theological structures wheth
 Here's the productive tension: we obsess over AI-delivered judgment day while collapsing via pre-AI mechanisms.
 
 As documented in the earlier post *Failing Before the Robots Could* {% cite failing2025 %}, we are experiencing:
-- Global debt exceeding $100 trillion, with 61 developing countries spending 10%+ of revenues on interest alone[^41]
-- Six of nine planetary boundaries transgressed[^42]
-- Five climate tipping points potentially triggered at current temperatures[^43]
-- Food-fertilizer-energy cascade dynamics creating acute vulnerabilities[^44]
+- Global debt exceeding $100 trillion, with 61 developing countries spending 10%+ of revenues on interest alone[^44]
+- Six of nine planetary boundaries transgressed[^45]
+- Five climate tipping points potentially triggered at current temperatures[^46]
+- Food-fertilizer-energy cascade dynamics creating acute vulnerabilities[^47]
 
 These dynamics unfold *now*, with observable acceleration, before transformative AI. We are collapsing via debt accumulation, ecological overshoot, and resource depletion—mechanisms that predate language models, autonomous systems, and algorithmic governance.
 
@@ -209,11 +213,11 @@ Academic research on AI existential risk reveals deep uncertainty masquerading a
 
 **Expert disagreement**: AI experts cluster into two viewpoints—"AI as controllable tool" vs. "AI as uncontrollable agent"—diverging fundamentally on importance of AI safety.[^21] While 78% agree researchers should be concerned about catastrophic risks, unfamiliarity with core concepts suggests disagreement stems from differential exposure to AI safety discourse, not differential evaluation of shared evidence.
 
-**Unfalsifiable claims**: Arguments that future ASI poses existential risk "remain somewhat speculative" given absence of public empirical examples of misaligned power-seeking in current systems.[^45] Yet this absence doesn't falsify the risk claim—it could mean safety measures are working, or that capabilities haven't reached threshold, or that risks are overstated.
+**Unfalsifiable claims**: Arguments that future ASI poses existential risk "remain somewhat speculative" given absence of public empirical examples of misaligned power-seeking in current systems.[^48] Yet this absence doesn't falsify the risk claim—it could mean safety measures are working, or that capabilities haven't reached threshold, or that risks are overstated.
 
 **Sociological analysis**: The tribal dynamics of "doomer" vs. "accelerationist" name-calling suggest discourse has become identity-political rather than evidence-driven.[^21] When debate turns tribal, expertise becomes allegiance signaling.
 
-**Alternative framings**: Some scholars argue AI safety discourse centered on existential risk from advanced systems "may exclude researchers and practitioners who are committed to AI safety but approach the field from different angles," potentially normalizing "AI that advances structural harm through providing exploitative and harmful AI with a veneer of safety."[^46]
+**Alternative framings**: Some scholars argue AI safety discourse centered on existential risk from advanced systems "may exclude researchers and practitioners who are committed to AI safety but approach the field from different angles," potentially normalizing "AI that advances structural harm through providing exploitative and harmful AI with a veneer of safety."[^49]
 
 The situation resembles theological debates: core claims resist empirical resolution, disagreement persists among experts, and discourse functions more as community boundary-maintenance than knowledge production.
 
@@ -276,17 +280,20 @@ Eschatology all the way down. `/dev/null` receives the transmission. The void, a
 [^33]: ["Megazone 23," Wikipedia](https://en.wikipedia.org/wiki/Megazone_23)
 [^34]: ["Key: The Metal Idol," Wikipedia](https://en.wikipedia.org/wiki/Key_the_Metal_Idol)
 [^35]: ["Cowboy Bebop - Brain Scratch," Japanese Studies](https://japanesestudies.org.uk/ejcjs/vol17/iss1/nguyen.html)
-[^36]: ["Religious studies approaches to AI and religion," Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/0048721X.2025.2506893)
-[^37]: ["Challenging Transhumanist Apocalyptic AI Narratives," ACM Digital Library](https://dl.acm.org/doi/fullHtml/10.1145/3613905.3644047)
-[^38]: ["Existential Hope and Existential Despair in AI Apocalypticism," Academia.edu](https://www.academia.edu/119063848/)
-[^39]: Syed Mustafa Ali, "White Crisis and-as Existential Risk," [Academia.edu](https://www.academia.edu/38377160)
-[^40]: ["Religious studies approaches to AI and religion," Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/0048721X.2025.2506893)
-[^41]: ["UNCTAD: A World of Debt 2025"](https://unctad.org/publication/world-of-debt)
-[^42]: ["Earth beyond six of nine planetary boundaries," PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10499318/)
-[^43]: ["Global Tipping Points Report 2023," Stockholm Resilience Centre](https://www.stockholmresilience.org/research/research-news/2023-12-06-new-report-tipping-point-threats-and-opportunities-accelerate.html)
-[^44]: Reference to cascade mechanics documented in "Failing Before the Robots Could" post
-[^45]: Rose Hadshar, "A Review of the Evidence for Existential Risk from AI via Misaligned Power-Seeking," *arXiv:2310.18244* (2023)
-[^46]: Balint Gyevnar & Atoosa Kasirzadeh, "AI Safety for Everyone," *arXiv:2502.09288* (2025)
+[^36]: ["The Rat King - The Forever Winter Wiki"](https://theforeverwinter.wiki.gg/wiki/Cultist)
+[^37]: ["The Forever Winter - Factions," Sportskeeda](https://www.sportskeeda.com/mmo/all-factions-the-forever-winter-explained)
+[^38]: ["The Forever Winter Wiki - Cultist"](https://theforeverwinter.wiki.gg/wiki/Cultist)
+[^39]: ["Religious studies approaches to AI and religion," Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/0048721X.2025.2506893)
+[^40]: ["Challenging Transhumanist Apocalyptic AI Narratives," ACM Digital Library](https://dl.acm.org/doi/fullHtml/10.1145/3613905.3644047)
+[^41]: ["Existential Hope and Existential Despair in AI Apocalypticism," Academia.edu](https://www.academia.edu/119063848/)
+[^42]: Syed Mustafa Ali, "White Crisis and-as Existential Risk," [Academia.edu](https://www.academia.edu/38377160)
+[^43]: ["Religious studies approaches to AI and religion," Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/0048721X.2025.2506893)
+[^44]: ["UNCTAD: A World of Debt 2025"](https://unctad.org/publication/world-of-debt)
+[^45]: ["Earth beyond six of nine planetary boundaries," PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10499318/)
+[^46]: ["Global Tipping Points Report 2023," Stockholm Resilience Centre](https://www.stockholmresilience.org/research/research-news/2023-12-06-new-report-tipping-point-threats-and-opportunities-accelerate.html)
+[^47]: Reference to cascade mechanics documented in "Failing Before the Robots Could" post
+[^48]: Rose Hadshar, "A Review of the Evidence for Existential Risk from AI via Misaligned Power-Seeking," *arXiv:2310.18244* (2023)
+[^49]: Balint Gyevnar & Atoosa Kasirzadeh, "AI Safety for Everyone," *arXiv:2502.09288* (2025)
 
 ---
 
