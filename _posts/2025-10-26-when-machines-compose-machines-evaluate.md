@@ -33,7 +33,11 @@ From the logs:
 ✅ WAV created (pure Python, sine waves)
 ```
 
-The irony: an experiment testing *musical expression* evaluated audio with no timbral character. Velocity dynamics were preserved in MIDI, but the synthesis flattened everything into pure tones. The evaluators never heard guitar—they analyzed sine wave approximations of guitar tab descriptions.
+**Technical note**: Velocity dynamics (soft notes vs. loud notes) *were* preserved in the sine wave synthesis. A note at velocity 40 produced quieter amplitude than velocity 120. The dynamic range existed—what was lost was *timbral character*. Sine waves lack string resonance, pick attack, body resonance, fret buzz, and all overtones that make a guitar sound like a guitar.
+
+The irony: an experiment testing *musical expression* evaluated audio with correct dynamics but wrong timbre. Velocity shaped volume, but the synthesis flattened everything into pure tones. The evaluators never heard guitar tone—they analyzed sine wave approximations.
+
+**More critically**: The evaluator (Gemini 2.5 Pro) wasn't listening to audio at all—it evaluated textual representations (ABC notation + ASCII tab). The sine wave problem didn't affect scores because scoring was text-based, not audio-based.
 
 Cost to re-run with proper audio: $1.37. Budget: $0. The data is what it is.
 
