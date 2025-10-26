@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fashionable Interfaces: When Smartphones Became What You Wear, Not What You Use"
+title: "[AI generated] Fashionable Interfaces: When Smartphones Became What You Wear, Not What You Use"
 description: The cybernetic future arrived—exoskeletons, smart glasses, AR wearables—but the most popular digital equipment functions primarily as fashion. The contradiction between UX and symbol reveals what technology actually does.
 keywords: [wearable technology, fashion, smartphones, UX design, symbolic consumption, embodied interaction, status signaling, cyberpunk, augmented reality]
 lang: en
