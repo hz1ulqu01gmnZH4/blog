@@ -124,7 +124,7 @@ But the inflection point is **invisible until crossed.** Organizations measure c
 
 Displacement is legible—workers lose jobs, can demand retraining or UBI. The Jevons trap is insidious: **workers keep their jobs but work harder than ever.**
 
-{% cite narayanan2025jevons %} develops a formal framework showing how neural scaling laws activate Jevons' Paradox in labor markets: AI makes work more efficient → demand for that work increases → total labor hours increase despite automation. The paper identifies five distinct phases of market penetration, demonstrating that complete transformation requires elasticity of substitution to exceed unity—but the timing is determined by a compound parameter that makes the inflection point unpredictable.
+{% cite narayanan2025neural %} develops a formal framework showing how neural scaling laws activate Jevons' Paradox in labor markets: AI makes work more efficient → demand for that work increases → total labor hours increase despite automation. The paper identifies five distinct phases of market penetration, demonstrating that complete transformation requires elasticity of substitution to exceed unity—but the timing is determined by a compound parameter that makes the inflection point unpredictable.
 
 This connects to the prior analysis of the "Jevons Paradox Paradox" documented in this blog's earlier post: automation increases total work → workers have less time to consume → underconsumption crisis → frictionless dopamine consumption colonizes rest → velocity ≠ utility → psychological exhaustion.[^jevonspost2025]
 
