@@ -9,9 +9,9 @@ layout: default
   {% endif %}
   <section class="posts">
     {% if site.posts.size > 0 %}
-    <ul class="post-list">
+    <ul class="post-list" id="post-list">
       {% for post in site.posts %}
-      <li class="post-item">
+      <li class="post-item" data-index="{{ forloop.index0 }}">
         <h2><span class="post-prompt">></span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
         {% if post.excerpt %}
@@ -20,8 +20,87 @@ layout: default
       </li>
       {% endfor %}
     </ul>
+    <div class="loading-indicator" id="loading-indicator">
+      <span class="prompt">></span> loading more...
+    </div>
+    <div class="end-indicator" id="end-indicator">
+      <span class="prompt">></span> EOF
+    </div>
     {% else %}
     <p>No posts yet. Create your first post in the <code>_posts</code> directory.</p>
     {% endif %}
   </section>
 </div>
+
+<script>
+(function() {
+  const POSTS_PER_LOAD = 10;
+  const SCROLL_THRESHOLD = 400; // px from bottom to trigger load
+
+  const postList = document.getElementById('post-list');
+  const loadingIndicator = document.getElementById('loading-indicator');
+  const endIndicator = document.getElementById('end-indicator');
+
+  if (!postList) return;
+
+  const allPosts = Array.from(postList.querySelectorAll('.post-item'));
+  const totalPosts = allPosts.length;
+  let currentlyShown = 0;
+  let isLoading = false;
+
+  // Hide all posts initially
+  allPosts.forEach(post => post.style.display = 'none');
+
+  function showMorePosts() {
+    if (isLoading) return;
+
+    const endIndex = Math.min(currentlyShown + POSTS_PER_LOAD, totalPosts);
+
+    if (currentlyShown >= totalPosts) {
+      loadingIndicator.style.display = 'none';
+      endIndicator.style.display = 'block';
+      return;
+    }
+
+    isLoading = true;
+    loadingIndicator.style.display = 'block';
+
+    // Simulate slight delay for streaming effect
+    setTimeout(() => {
+      for (let i = currentlyShown; i < endIndex; i++) {
+        allPosts[i].style.display = 'block';
+      }
+
+      currentlyShown = endIndex;
+      isLoading = false;
+      loadingIndicator.style.display = 'none';
+
+      if (currentlyShown >= totalPosts) {
+        endIndicator.style.display = 'block';
+      }
+    }, 150);
+  }
+
+  function checkScroll() {
+    const scrollPosition = window.innerHeight + window.scrollY;
+    const pageHeight = document.documentElement.scrollHeight;
+
+    if (pageHeight - scrollPosition < SCROLL_THRESHOLD && !isLoading) {
+      showMorePosts();
+    }
+  }
+
+  // Initial load
+  showMorePosts();
+
+  // Scroll listener
+  let scrollTimeout;
+  window.addEventListener('scroll', () => {
+    if (scrollTimeout) clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(checkScroll, 100);
+  });
+
+  // Also check on resize
+  window.addEventListener('resize', checkScroll);
+})();
+</script>
