@@ -307,7 +307,7 @@ Search for **obscure fictions ( science fiction, manga or anime, video / compute
 **Goal**: Show how obscure fiction **predicted the infrastructure** that's now being deployed. The cultural analysis isn't decoration—it's documentation of ignored warnings.
 
 **How**:
-use gpt5-search
+use gpt5-search, ask grok4
 
 #### Stage 4: Write Post Following Guidelines
 
