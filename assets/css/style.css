@@ -122,6 +122,18 @@ a:hover {
   color: var(--muted-color);
   font-size: 0.85rem;
   font-family: "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.post-date {
+  flex-grow: 1;
+}
+
+.post-number {
+  flex-shrink: 0;
+  margin-left: 1rem;
 }
 
 .post-excerpt {
@@ -130,6 +142,10 @@ a:hover {
 
 .post {
   margin-bottom: 3rem;
+}
+
+.post header .post-meta {
+  margin: 0.75rem 0 2rem 0;
 }
 
 .post-body p {

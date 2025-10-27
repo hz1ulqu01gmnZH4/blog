@@ -13,7 +13,10 @@ layout: default
       {% for post in site.posts %}
       <li class="post-item" data-index="{{ forloop.index0 }}">
         <h2><span class="post-prompt">></span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: "%B %e, %Y" }}</p>
+        <div class="post-meta">
+          <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+          <span class="post-number">{% assign post_num = site.posts.size | minus: forloop.index %}{% if post_num < 1000 %}#{{ post_num | prepend: '00' | slice: -3, 3 }}{% else %}#{{ post_num }}{% endif %}</span>
+        </div>
         {% if post.excerpt %}
         <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
         {% endif %}
