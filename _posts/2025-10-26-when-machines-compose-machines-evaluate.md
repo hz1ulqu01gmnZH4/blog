@@ -141,6 +141,9 @@ The initial code included a silent fallback to sine wave synthesis when FluidSyn
 
 They're barely agreeing on what constitutes "good" music. The same audio file received 2/10 from Gemini and 7.8/10 from GPT-4o.
 
+![Score distributions showing Gemini's harsh ratings (mean 4.52) versus GPT-4o's generous ratings (mean 7.45)](/blog/assets/images/experiments/score_distributions.png)
+*Gemini clusters around 4/10, GPT-4o clusters around 7-8/10. Different scales for the same audio.*
+
 ### Model Performance
 
 Average scores by model (Gemini 2.5 Pro evaluations):
@@ -156,6 +159,9 @@ Average scores by model (Gemini 2.5 Pro evaluations):
 
 Gemini 2.5 Pro rated its own outputs highest. Meta-recursion or self-recognition?
 
+![Model performance comparison showing Gemini 2.5 Pro rating itself highest (6.50) while other models cluster around 4-5](/blog/assets/images/experiments/model_comparison.png)
+*Left: Gemini's harsh ratings. Right: GPT-4o's forgiving ratings. Note Gemini rates itself highest.*
+
 ### Style Performance
 
 Average scores by style (Gemini 2.5 Pro):
@@ -168,6 +174,9 @@ Average scores by style (Gemini 2.5 Pro):
 | Blues | **3.44** | 0.88 |
 
 Blues consistently scored lowest. Either the models struggle with blues idioms (bent notes, swing feel, call-response) or Gemini has opinions about 12-bar clichés.
+
+![Style performance showing pentatonic highest (5.94), blues lowest (3.44)](/blog/assets/images/experiments/style_comparison.png)
+*Blues gets hammered by both evaluators. Pentatonic scores highest.*
 
 ### Best Examples
 
@@ -212,6 +221,140 @@ GPT-5 (using `reasoning_effort: "high"`) showed no significant improvement over 
 - Mean: 7.82/10 (GPT-4o evaluation)
 
 High reasoning effort consumed more tokens and cost more—without producing measurably better music. The intensive thinking happened *somewhere*, but didn't translate to superior melodic output.
+
+![Performance heatmap showing model × style interactions](/blog/assets/images/experiments/performance_heatmap.png)
+*Heatmap of model × style performance. Gemini 2.5 Pro likes its own pentatonic licks (8.2/10). Everyone struggles with blues.*
+
+## Evaluator Psychology: Sentiment and Vocabulary Analysis
+
+Natural language processing reveals systematic differences in how the two evaluators critique AI-generated music.
+
+### Sentiment Divergence
+
+**Gemini 2.5 Pro**:
+- Sentiment polarity: **0.114** (slightly positive, close to neutral)
+- Subjectivity: 0.441
+- Vocabulary balance: 105 positive terms vs. **108 negative terms**
+- Writes longer, more detailed technical critiques
+
+**GPT-4o Audio Preview**:
+- Sentiment polarity: **0.198** (more positive)
+- Subjectivity: 0.450
+- Vocabulary balance: 68 positive terms vs. 50 negative terms
+- Writes shorter, more encouraging feedback
+
+Gemini leans negative despite numerical scores above 4/10. GPT-4o stays optimistic even when identifying flaws.
+
+### Vocabulary Fingerprints
+
+**Gemini's most distinctive term**: "lacks" (225 occurrences)
+- Technical focus: "scale," "rhythm," "minor," "pentatonic"
+- Conditional hedging: "however" (156 times)
+- Critique-first orientation
+
+**GPT-4o's most distinctive terms**: "feel" (161 occurrences), "phrasing" (159)
+- Subjective experience: "playable" (128), "feel"
+- Style-specific language: "chromatic," "position," "blues," "jazz"
+- Performance-oriented perspective
+
+### Critique Pattern Frequencies
+
+| Pattern | Gemini | GPT-4o |
+|---------|--------|--------|
+| Positive language | 105 | 68 |
+| Negative language | **108** | 50 |
+| Melodic comments | 88 | 30 |
+| Dynamic/expressive | 108 | 65 |
+| Technical quality | 107 | 65 |
+
+Gemini writes **1.5-2× more commentary** across all categories. The evaluators aren't just disagreeing on scores—they're operating in different aesthetic frameworks.
+
+![Word clouds showing Gemini focuses on "lacks", "scale", "rhythm" while GPT-4o focuses on "feel", "phrasing", "playable"](/blog/assets/images/experiments/wordclouds_comments.png)
+*Vocabulary fingerprints. Gemini: technical, scale-focused. GPT-4o: subjective, performance-oriented.*
+
+![Critique pattern frequencies showing Gemini using more positive, negative, melodic, dynamic, and technical language](/blog/assets/images/experiments/critique_patterns_proper.png)
+*Gemini writes more about everything. Both positive and negative language dominate its evaluations.*
+
+![Sentiment vs score scatter plot showing weak correlation](/blog/assets/images/experiments/sentiment_score_scatter.png)
+*Sentiment polarity vs numerical scores. No strong correlation—evaluators' emotional tone doesn't predict their ratings.*
+
+## Generation Quality: Music Theory Analysis
+
+Using `music21` to analyze the generated ABC notation reveals what models actually produce versus what evaluators claim to hear.
+
+### Scale Adherence (Measured via music21)
+
+| Model | Adherence | Std Dev |
+|-------|-----------|---------|
+| **Gemini 2.5 Flash** | **100.0%** | 0.0% |
+| **GPT-4o** | **99.3%** | 1.7% |
+| **Gemini 2.5 Pro** | 97.1% | 5.3% |
+| **Claude Sonnet 4.5** | 96.4% | 6.2% |
+| **Claude Opus 4.1** | 93.7% | 11.0% |
+| **GPT-5** | 92.4% | 14.4% |
+
+**By style**:
+- Pentatonic: 100% (trivially easy—5 notes)
+- Blues: 100% (6 notes, strict)
+- Rock: 100% (natural minor)
+- Jazz: **79.0%** (chromatic alterations expected)
+
+Gemini models produce **perfect scale adherence**—every note belongs to the declared scale. GPT-5 shows highest variance (14.4% std dev), sometimes adding chromatic passing tones. Jazz is the only style where "wrong notes" are theoretically correct (bebop chromaticism).
+
+The irony: Gemini's harsh evaluation scores don't correlate with its own perfect technical execution.
+
+![Scale adherence by model showing Gemini 2.5 Flash at 100%, GPT-5 at 92.4%](/blog/assets/images/experiments/theory_scale_adherence.png)
+*Left: By model. Right: By style. Gemini models are perfect rule-followers. Jazz allows chromaticism.*
+
+### Interval Patterns
+
+Most common melodic intervals (across all 81 analyzed licks):
+
+1. **Major 2nd (M2)**: 461 occurrences—stepwise motion dominates
+2. **Minor 3rd (m3)**: 226—pentatonic/blues characteristic interval
+3. **Major 6th (M6)**: 101—large leaps for melodic variety
+4. **Perfect 4th (P4)**: 67
+5. **Major 3rd (M3)**: 45
+
+Models overwhelmingly prefer **stepwise motion** (M2), with minor 3rds confirming pentatonic/blues emphasis. The prevalence of M6 leaps (101 occurrences) suggests models understand that guitar licks need contour variety—not just scalar runs.
+
+![Top 10 melodic intervals showing M2 dominating with 461 occurrences](/blog/assets/images/experiments/theory_intervals.png)
+*Stepwise motion (M2) dominates. Minor thirds (m3) confirm pentatonic/blues emphasis.*
+
+### Melodic Contour Distribution
+
+- **Arch-shaped**: 67 licks (82.7%)—up then down, classic melodic structure
+- **Ascending**: 7 licks
+- **Wavy**: 6 licks (multiple direction changes)
+- **Descending**: 1 lick
+
+Models have internalized that guitar licks should **rise and fall**, not just ascend or descend linearly. This matches human composition practice—arch contours feel resolved, linear motion feels incomplete.
+
+### Pitch Range Statistics
+
+- **Mean**: 11.4 semitones (~1 octave)
+- **Median**: 9 semitones
+- **Range**: 9–33 semitones (one outlier with 2.75 octave range)
+
+Most licks stay within **9-12 semitones** (reasonable for guitar performance). The 33-semitone outlier suggests one model tried to compose something more ambitious—or broke the constraint entirely.
+
+![Pitch range distribution boxplot showing median 9 semitones, one 33-semitone outlier](/blog/assets/images/experiments/theory_pitch_range.png)
+*Most models stay within 9-12 semitones. One outlier attempted a 33-semitone range (2.75 octaves).*
+
+### What the Theory Reveals
+
+**Disconnect between technical correctness and evaluator scores**:
+- Gemini 2.5 Flash: 100% scale adherence, but received 5.29/10 average from Gemini 2.5 Pro
+- GPT-5: 92.4% adherence (adds chromatic notes), received 4.44/10 from Gemini
+
+Perfect music theory adherence ≠ high scores. The evaluators penalize other factors (rhythmic variety, phrasing, "feel") more heavily than wrong notes. Or they're not actually measuring what they claim to measure.
+
+**Models understand melodic structure** better than evaluators acknowledge:
+- 82.7% use arch contours (textbook melodic shape)
+- Stepwise motion dominates (461 M2 intervals)
+- Pitch ranges stay playable (median 9 semitones)
+
+The generated licks aren't random note sequences—they exhibit structural principles found in human composition. But evaluators focus on what's *missing* (dynamics, swing, nuance) rather than what's *present* (correct notes, melodic arcs, scale coherence).
 
 ## Insights: What This Actually Proves
 
