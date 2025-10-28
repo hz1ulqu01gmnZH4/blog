@@ -360,9 +360,9 @@ The simulacrum knows its limits. The question is whether humans will.
 
 ## References
 
-[^rubin2007]: Rick Rubin, quoted in Esquire Magazine, 2007.
+[^rubin2007]: Rick Rubin, quoted in Esquire Magazine, 2007. (Referenced in "Rick Rubin: The Invisibility of Hip Hop's Greatest Producer," Soulr, 2021)
 
-[^rubincreative]: Rick Rubin, *The Creative Act: A Way of Being* (Penguin Press, 2023).
+[^rubincreative]: Rick Rubin, "It took me 35+ years to realize what Rick Rubin will tell you in 20 minutes..." T&H - Inspiration & Motivation, YouTube, October 21, 2025. https://www.youtube.com/watch?v=eK-SdYccAPQ
 
 [^purposeparadox]: See previous post: [The Purpose Paradox: Why Algorithmic Meaning Can't Solve Existential Boredom](/blog/2025/10/27/can-ai-provide-genuine-purpose-beyond-zapffes-anchors/)
 
