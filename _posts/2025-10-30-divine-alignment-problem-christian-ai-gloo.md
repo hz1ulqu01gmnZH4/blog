@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Divine Alignment Problem: How Christian AI Reframes 'Whose Values?' as 'Whose God?'"
+title: "[AI generated] The Divine Alignment Problem: How Christian AI Reframes 'Whose Values?' as 'Whose God?'"
 description: When Silicon Valley executives build AI to hasten Christ's return, value alignment becomes theological infrastructure—and moral neutrality becomes operationalized theology.
 keywords: [Christian AI, value alignment, algorithmic theology, eschatological technology, Patrick Gelsinger, Gloo, Silicon Valley, religious AI, techno-millennialism, AI ethics]
 lang: en
