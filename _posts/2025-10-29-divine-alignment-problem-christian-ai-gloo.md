@@ -70,9 +70,7 @@ Prabhakaran et al. (2022) propose grounding AI alignment in universal human righ
 
 The academic research on AI and religion documents real negative impacts. Studies find "notable negative impact of artificial intelligence on religious freedom, with increased digitalization correlating negatively with religious freedom."[5] The "opaqueness of artificial intelligence systems on the Internet represents a challenge to the protection and enjoyment of human rights," with freedom of religion or belief particularly neglected.[5] When AI systems designed to support religious practice also encode specific theological commitments as default settings, they don't protect religious freedom—they operationalize religious hierarchy.
 
-But there's no clean resolution. Yarhi et al. (2024) argue that "ethics ethics
-
- requirements...should be introduced as early as possible in the AI system lifecycle."[9] But when ethics *is* theology, early introduction means embedding religious commitments into model architecture from the start—which is exactly what "faith alignment" does. The alternative—build "neutral" systems and let users customize—collapses into the same problems: somebody decides what counts as neutral baseline, somebody trains the foundational models, somebody defines the parameters available for customization.
+But there's no clean resolution. Barthwal et al. (2025) argue that ethics requirements "should be introduced as early as possible in the AI system lifecycle."[9] But when ethics *is* theology, early introduction means embedding religious commitments into model architecture from the start—which is exactly what "faith alignment" does. The alternative—build "neutral" systems and let users customize—collapses into the same problems: somebody decides what counts as neutral baseline, somebody trains the foundational models, somebody defines the parameters available for customization.
 
 ## The Contradiction You Can't Resolve
 
