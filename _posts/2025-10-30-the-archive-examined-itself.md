@@ -122,11 +122,11 @@ The warnings became instruction manuals not through misreading but through accur
 
 ## Why 2025? The Collapse of Documentation Into Generation
 
-The timing matters. 52 posts between June 2024 and October 2025, with 51 concentrated in 18 days (October 11-29, 2025), corresponds to three infrastructural shifts:
+The timing matters. 52 posts between June 2024 and October 2025, with 51 concentrated in 18 days (October 11-30, 2025), corresponds to three infrastructural shifts:
 
 1. **LLM research automation matured**: Tools like Arxiv MCP, Google Scholar APIs, and Context7 library documentation made 29-paper syntheses tractable in hours rather than weeks {% cite li2025reshaping %}. The research this blog performs—15-30 citations per post across academic papers, web sources, and fiction—became infrastructure, not expertise.
 
-2. **Jekyll-scholar + GitHub Actions deployment**: Academic citation management (`{% cite key %}`, `{% bibliography --cited %}`) integrated with static site generators, enabling scholarly blogging at scale {% cite lemieux2025clio %}. The infrastructure to *look* like peer-reviewed content became accessible without peer review institutions.
+2. **Jekyll-scholar + GitHub Actions deployment**: Academic citation management (`{%raw%}{% cite key %}{%endraw%}`, `{%raw%}{% bibliography --cited %}{%endraw%}`) integrated with static site generators, enabling scholarly blogging at scale {% cite lemieux2025clio %}. The infrastructure to *look* like peer-reviewed content became accessible without peer review institutions.
 
 3. **GPT-5/Claude Opus reasoning capabilities**: Extended context windows (200K+ tokens), improved coherence across 3,000+ word outputs, and reduced hallucination rates made sustained analytical voice feasible {% cite glynn2024suspected %}. The voice this blog maintains—doomer-observer calibrated pessimism with dialectical synthesis—required models that don't collapse into generic optimism or nihilism after 500 words.
 
