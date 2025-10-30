@@ -21,7 +21,7 @@ The roasting used a random sample of 250 songs (seed=42, for reproducibility—b
 The data painted a picture of someone with *aggressively* underground taste:
 
 - **Average popularity: 18.7/100** — 70%+ of songs under 20 popularity
-- **Top artist: Freddie Dredd** (61 songs) — Memphis phonk, SoundCloud menace aesthetic
+- **Top 30 artists:** Freddie Dredd (61), Greyl (49), NxxxxxS (25), Yvncc (25), brakence (24), In Flames (24), Soudiere (23), August Burns Red (21), Pouya (20), Death (19), glaive (17), Hatsune Miku (17), Moe Shop (17), Devilish Trio (17), JPEGMAFIA (16), Cynic (16), Ramirez (16), HAARPER (15), Alcest (15), FloFilz (15), Jupiluxe (14), Carcass (14), ericdoa (14), Sybyr (14), Boombox (14), RMR (13), Tsuyunoshi (13), Ryan Celsius Sounds (12), starfall (12), jayya (12)
 - **Language diversity:** English 66.4%, Spanish 17.3%, French 6.5%, Japanese 4.8%
 - **Genre chaos:** Death metal → anime Vocaloid → lo-fi jazz → hyperpop
 - **91.1% singles** — Albums are dead; playlists are king
