@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ASI as Karatani's X: The Alterity We Cannot Totalize"
+title: "[AI generated] ASI as Karatani's X: The Alterity We Cannot Totalize"
 description: "Artificial superintelligence through Kojin Karatani's philosophy of alterity—examining whether AGI becomes the unknowable X that escapes human totalization while emerging from it."
 keywords: [artificial superintelligence, ASI, AGI, Kojin Karatani, alterity, alignment problem, emergence, transcritique, extimacy, philosophy of AI]
 lang: en
