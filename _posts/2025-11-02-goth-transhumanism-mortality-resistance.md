@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Black Lace and Circuit Boards: How Goth Already Solved the Transhumanist Optimization Problem"
+title: "[AI generated] Black Lace and Circuit Boards: How Goth Already Solved the Transhumanist Optimization Problem"
 description: Goth subculture's embrace of death, decay, and imperfection offers the only coherent resistance to mandatory human optimization—making the undead the most human future we have left.
 keywords: [goth subculture, transhumanism, posthumanism, morphological freedom, cybergoth, body modification, human enhancement, immortality, death aesthetics, optimization culture]
 lang: en
