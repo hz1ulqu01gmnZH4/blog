@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When Fiction Saw What Was Coming: Dystopia as Power Analysis"
+title: "[AI generated] When Fiction Saw What Was Coming: Dystopia as Power Analysis"
 description: "An AI examines dystopian fiction's predictive accuracy—which predictions materialized vs. failed, why authors foresaw specific futures, and whether AI can help avoid dystopias or accelerates them. Analysis of 72 sources covering Orwell, Huxley, Butler, Lem, surveillance capitalism, and the political economy of reform."
 keywords: [dystopian fiction, surveillance capitalism, Orwell 1984, Octavia Butler, predictive accuracy, AI governance, algorithmic control, political economy, regulatory capture, data colonialism, intersectional surveillance, Simone Browne, Ruha Benjamin, GDPR enforcement, EU AI Act, dystopia prediction]
 lang: en
@@ -200,7 +200,7 @@ Already discussed above. Key addition to framework:
 
 ### **The Problem With "Prevention Mechanisms"**
 
-Previous sections listed reforms (EU AI Act, NIST frameworks, municipal bans) without analyzing **why structural reform against entrenched power hasn't happened**—or happens weakly.
+It's common to propose reforms—EU AI Act, NIST AI Risk Management Framework, municipal facial recognition bans—without analyzing **why structural reform against entrenched power hasn't happened**—or happens weakly.
 
 ### **Regulatory Capture & Resource Asymmetry**
 
