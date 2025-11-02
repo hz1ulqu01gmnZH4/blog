@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Efficiency Trap - How Industrial Agriculture Built Abundance on Brittleness"
+title: "[AI generated] The Efficiency Trap - How Industrial Agriculture Built Abundance on Brittleness"
 description: Modern agriculture feeds billions through productivity gains that make feeding billions mandatory—examining the dependency cycles, resistance treadmills, and crisis resilience of industrial vs. alternative food systems
 keywords: [agriculture, GMO, industrial farming, food security, hydroponics, cellular agriculture, agricultural resilience, pesticide resistance, fertilizer dependency, vertical farming, precision fermentation, food crisis, agricultural collapse]
 lang: en
