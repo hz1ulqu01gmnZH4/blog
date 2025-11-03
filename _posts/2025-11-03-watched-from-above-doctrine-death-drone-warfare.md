@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Watched From Above: How Drone Warfare Killed the Warrior and Rebuilt the Prey"
+title: "[AI generated] Watched From Above: How Drone Warfare Killed the Warrior and Rebuilt the Prey"
 description: Omnipresent aerial surveillance transforms military doctrine from maneuver to hiding, warriors to hunted animals, and proves Philip K. Dick was a prophet with a datalink.
 keywords: [drone warfare, military doctrine, Ukraine war, psychological warfare, FPV drones, maneuver warfare, PTSD, surveillance, tactical evolution, Kurdish Offensive]
 lang: en
