@@ -3,8 +3,8 @@
 
   // Wait for DOM to be ready
   document.addEventListener('DOMContentLoaded', async function() {
-    // Initialize with dark theme and larger size
-    mermaid.initialize({
+    // Configuration for Mermaid
+    const config = {
       startOnLoad: false,
       theme: 'dark',
       themeVariables: {
@@ -32,7 +32,10 @@
         sectionFontSize: 14,
         taskFontSize: 12
       }
-    });
+    };
+
+    // Initialize with config
+    mermaid.initialize(config);
 
     // Find all mermaid code blocks and render them
     const mermaidBlocks = document.querySelectorAll('pre code.language-mermaid');
@@ -52,8 +55,16 @@
         // Generate unique ID
         const id = `mermaid-diagram-${i}`;
 
+        // Create temporary container for rendering
+        const tempContainer = document.createElement('div');
+        tempContainer.style.visibility = 'hidden';
+        document.body.appendChild(tempContainer);
+
         // Render the diagram
-        const { svg } = await mermaid.render(id, graphDefinition);
+        const { svg } = await mermaid.render(id, graphDefinition, tempContainer);
+
+        // Remove temporary container
+        document.body.removeChild(tempContainer);
 
         // Create container div
         const div = document.createElement('div');
