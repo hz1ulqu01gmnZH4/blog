@@ -64,7 +64,14 @@
         console.log(`Successfully rendered diagram ${i}`);
       } catch (err) {
         console.error(`Error rendering diagram ${i}:`, err);
-        // Leave the code block in place on error
+
+        // Remove any error elements that mermaid.render() may have created
+        const errorElement = document.getElementById(`mermaid-diagram-${i}`);
+        if (errorElement && errorElement.parentElement) {
+          errorElement.remove();
+        }
+
+        // Leave the original code block in place so the error is visible in context
       }
     }
   });
