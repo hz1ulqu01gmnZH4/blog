@@ -285,33 +285,28 @@ img {
 }
 
 /* Mermaid diagrams */
-.language-mermaid {
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-}
-
-pre:has(.language-mermaid) {
-  background: transparent !important;
+.mermaid {
+  background: transparent;
   border: 1px solid #30363d;
   padding: 20px;
   border-radius: 6px;
   overflow-x: auto;
+  margin: 1.5rem 0;
 }
 
 /* Make Mermaid diagrams larger and more readable */
-.language-mermaid svg {
+.mermaid svg {
   max-width: 100%;
   height: auto;
   min-height: 400px;
 }
 
 /* Mermaid diagram text styling */
-.language-mermaid .nodeLabel {
+.mermaid .nodeLabel {
   color: #c9d1d9;
 }
 
-.language-mermaid .edgeLabel {
+.mermaid .edgeLabel {
   background-color: #0d1117;
   color: #c9d1d9;
 }
