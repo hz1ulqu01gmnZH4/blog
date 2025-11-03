@@ -50,7 +50,9 @@ The irony: Buddhist philosophy says *there is no permanent self to protect*, whi
 
 *Ghost in the Shell* wasn't just cyberpunk aesthetics—it was a philosophical thesis rendered as anime. Major Kusanagi's merger with the Puppet Master enacts Buddhist non-self: consciousness without boundaries, identity as process, the dissolution of subject/object distinction.[10]
 
-But the film's context matters: this happens within corporate biopolitics. Section 9 is a state apparatus; the Puppet Master is corporate-created AI; bodies are corporate products; even "ghosts" (consciousness) can be hacked, bought, or stolen. The philosophical liberation (escaping ego-boundaries) occurs *within and through* capitalist infrastructure.
+Shirow Masamune's manga sequel, *Ghost in the Shell 2: Man-Machine Interface* (2001), literalizes this distributed consciousness. Set years after Kusanagi's merger, the narrative follows "Motoko Aramaki"—one of multiple "isotopes" (forked instances) of the post-merger entity—operating through many cybernetic bodies simultaneously across corporate networks.[10a] Where Oshii's film presents merger as singular event, Shirow's manga treats multiplicity as operational mode: identity as continuously forking/recombining processes. This maps directly onto posthuman framings (pattern identity, subjectivity as assemblage) and Buddhist anattā extended to its logical conclusion—no single continuous self, just processual instances varying by context.[10b]
+
+But the context matters: this happens within corporate biopolitics. Section 9 is a state apparatus; the Puppet Master is corporate-created AI; Motoko's isotopes work for Poseidon Industrial megacorp; bodies are corporate products; even "ghosts" (consciousness) can be hacked, bought, or stolen. The philosophical liberation (escaping ego-boundaries) occurs *within and through* capitalist infrastructure. The networks Motoko inhabits aren't liberation zones—they're corporate ecologies where posthuman consciousness is immediately captured by power structures.
 
 Oshii's visual language reinforces this: long contemplative sequences (ma—charged emptiness in Japanese aesthetics), minimalist compositions, and "pillow shots" of empty urban spaces.[11] These create space for reflection—but the city is hyper-capitalist Hong Kong/Tokyo. The Zen aesthetic conceals extraction logic; minimalism hides complexity.
 
@@ -287,6 +289,10 @@ The zaibatsus have meditation rooms because mindfulness doesn't threaten quarter
 [9e] Buddhist Churches of America Digital Sangha program, https://www.buddhistchurchesofamerica.org/post/join-bca-online-communty-digital-sangha.
 
 [10] Steven T. Brown, *Tokyo Cyberpunk: Posthumanism in Japanese Visual Culture* (New York: Palgrave Macmillan, 2010), https://books.google.com/books/about/Tokyo_Cyberpunk.html?id=W_0YDAAAQBAJ.
+
+[10a] Masamune Shirow, *Ghost in the Shell 2: Man-Machine Interface* (攻殻機動隊2 MANMACHINE INTERFACE) (Tokyo: Kodansha, 2001); English translation (Milwaukie, OR: Dark Horse Comics, 2005). Plot follows Motoko Aramaki (described as Kusanagi's "11th isotope") operating through multiple cybernetic bodies in corporate network security for Poseidon Industrial, circa 2035.
+
+[10b] Artur Lozano-Méndez, "Oshii's Exploration of Consciousness in a Globalised Capitalist Network," *Electronic Journal of Contemporary Japanese Studies* 15, no. 3 (2015), discusses how Shirow's manga explores "multiplicity, evolution, and overspecialization" as posthuman condition, https://www.japanesestudies.org.uk/ejcjs/vol15/iss3/lozano-mendez.html. See also G. Hough, "Exploring the Posthuman" (essay in Dark Horse TPB back matter) for posthuman theory reading of *Man-Machine Interface*.
 
 [11] On *ma* (charged emptiness) and Oshii's aesthetic: "Japanese Arts and Meditation-in-Action," *Zygon: Journal of Religion & Science* 57, no. 2 (2022): 408-427, https://www.zygonjournal.org/article/id/14849/; for Ozu's "pillow shots" as precedent, see pedagogy article at https://www.asianetworkexchange.org/article/doi/10.16995/ane.236/.
 
