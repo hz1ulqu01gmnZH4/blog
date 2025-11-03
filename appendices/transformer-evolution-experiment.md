@@ -189,58 +189,28 @@ graph TD
 
 ```mermaid
 graph TD
-    Input[Input Tokens] --> Embed[Token Embedding<br/>vocab_size → d_model]
-    Embed --> PosEmb[+ Positional Embedding<br/>Learned]
+    Input[Input Tokens] --> Embed["Token Embedding: vocab_size → d_model"]
+    Embed --> PosEmb["+ Positional Embedding (Learned)"]
 
     PosEmb --> EBlock1[Evolved Block 1]
     EBlock1 --> EBlock2[Evolved Block 2]
-    EBlock2 --> EBlockN[... × 6 layers]
+    EBlock2 --> EBlockN["... × 6 layers"]
 
-    EBlockN --> LMHead[Language Model Head<br/>d_model → vocab_size]
+    EBlockN --> LMHead["Language Model Head: d_model → vocab_size"]
     LMHead --> Output[Output Logits]
 
-    subgraph "Evolved Transformer Block"
-        EInput[x] --> RMS1[RMSNorm<br/>⚡ No bias, faster]
-        RMS1 --> ParAttn[Parallel Attention Branches]
+    EInput["Block Input: x"] --> RMS1["RMSNorm ⚡ No bias, faster"]
+    RMS1 --> ParAttn["Parallel Attention Branches (Multi-Scale)"]
+    ParAttn --> Scale1["× LayerScale ⚡ Learnable α₁"]
+    EInput --> Scale1
+    Scale1 --> ERes1["+ Residual Connection"]
 
-        ParAttn --> Scale1[× LayerScale<br/>⚡ Learnable α₁]
-        EInput --> Scale1
-        Scale1 --> ERes1[+ Residual]
-
-        ERes1 --> RMS2[RMSNorm]
-        RMS2 --> SwiGLU[SwiGLU MLP<br/>⚡ Gating mechanism]
-        SwiGLU --> Scale2[× LayerScale<br/>⚡ Learnable α₂]
-        ERes1 --> Scale2
-        Scale2 --> ERes2[+ Residual]
-        ERes2 --> EOutput[Output]
-    end
-
-    subgraph "Parallel Attention (Multi-Scale)"
-        PAInput[x] --> Branch1[Branch 1: Heads 1-2<br/>Local patterns]
-        PAInput --> Branch2[Branch 2: Heads 3-4<br/>Global patterns]
-
-        Branch1 --> Attn1[Scaled Dot-Product<br/>Attention]
-        Branch2 --> Attn2[Scaled Dot-Product<br/>Attention]
-
-        Attn1 --> Concat[Concatenate]
-        Attn2 --> Concat
-        Concat --> Project[Output Projection]
-        Project --> PAOutput[Output]
-    end
-
-    subgraph "SwiGLU MLP Block"
-        SGInput[x] --> Gate[Linear: d_model → 4×d_model<br/>128 → 512<br/>Gate branch]
-        SGInput --> Value[Linear: d_model → 4×d_model<br/>128 → 512<br/>Value branch]
-
-        Gate --> Swish[Swish/SiLU<br/>x × sigmoid(x)]
-        Value --> Mult[⊗ Element-wise multiply]
-        Swish --> Mult
-
-        Mult --> Drop1[Dropout p=0.1]
-        Drop1 --> Out[Linear: 4×d_model → d_model<br/>512 → 128]
-        Out --> Drop2[Dropout p=0.1]
-        Drop2 --> SGOutput[Output]
-    end
+    ERes1 --> RMS2[RMSNorm]
+    RMS2 --> SwiGLU["SwiGLU MLP ⚡ Gating mechanism"]
+    SwiGLU --> Scale2["× LayerScale ⚡ Learnable α₂"]
+    ERes1 --> Scale2
+    Scale2 --> ERes2["+ Residual Connection"]
+    ERes2 --> EOutput["Block Output"]
 
     style Input fill:#e1f5ff
     style Output fill:#ffe1e1
@@ -279,17 +249,17 @@ graph TD
 ```mermaid
 graph LR
     subgraph "Key Differences"
-        B1[Baseline] -->|Normalization| BN[LayerNorm<br/>with bias]
-        E1[Evolved] -->|Normalization| EN[RMSNorm<br/>no bias<br/>⚡ Faster]
+        B1[Baseline] -->|Normalization| BN[LayerNorm with bias]
+        E1[Evolved] -->|Normalization| EN[RMSNorm no bias ⚡ Faster]
 
-        B2[Baseline] -->|Activation| BA[GELU<br/>Single path]
-        E2[Evolved] -->|Activation| EA[SwiGLU<br/>Gated path<br/>⚡ More params]
+        B2[Baseline] -->|Activation| BA[GELU Single path]
+        E2[Evolved] -->|Activation| EA[SwiGLU Gated path ⚡ More params]
 
-        B3[Baseline] -->|Attention| BA2[Sequential<br/>4 heads]
-        E3[Evolved] -->|Attention| EA2[Parallel branches<br/>2+2 heads<br/>⚡ Multi-scale]
+        B3[Baseline] -->|Attention| BA2[Sequential 4 heads]
+        E3[Evolved] -->|Attention| EA2[Parallel branches 2+2 heads ⚡ Multi-scale]
 
-        B4[Baseline] -->|Residual| BR[Direct addition<br/>x + layer(x)]
-        E4[Evolved] -->|Residual| ER[LayerScale<br/>x + α·layer(x)<br/>⚡ Learnable]
+        B4[Baseline] -->|Residual| BR["Direct addition: x + layer(x)"]
+        E4[Evolved] -->|Residual| ER["LayerScale: x + α·layer(x) ⚡ Learnable"]
     end
 
     style BN fill:#ffeaa7
