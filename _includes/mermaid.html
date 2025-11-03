@@ -2,7 +2,7 @@
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
 
   // Wait for DOM to be ready
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', async function() {
     // Initialize with dark theme and larger size
     mermaid.initialize({
       startOnLoad: false,
@@ -34,25 +34,38 @@
 
     // Find all mermaid code blocks and render them
     const mermaidBlocks = document.querySelectorAll('pre code.language-mermaid');
-    mermaidBlocks.forEach((block, index) => {
-      // Create a div to hold the rendered diagram
-      const div = document.createElement('div');
-      div.classList.add('mermaid');
+    console.log('Found', mermaidBlocks.length, 'mermaid diagrams');
 
-      // Get text content and decode HTML entities (Jekyll escapes <br/>, -->, etc.)
-      const textarea = document.createElement('textarea');
-      textarea.innerHTML = block.innerHTML;
-      div.textContent = textarea.value;
+    for (let i = 0; i < mermaidBlocks.length; i++) {
+      const block = mermaidBlocks[i];
 
-      div.id = `mermaid-diagram-${index}`;
+      try {
+        // Get text content and decode HTML entities (Jekyll escapes <br/>, -->, etc.)
+        const textarea = document.createElement('textarea');
+        textarea.innerHTML = block.innerHTML;
+        const graphDefinition = textarea.value;
 
-      // Replace the code block with the div
-      block.parentElement.replaceWith(div);
-    });
+        console.log(`Rendering diagram ${i}:`, graphDefinition.substring(0, 100));
 
-    // Run mermaid on all diagram divs
-    mermaid.run({
-      querySelector: '.mermaid'
-    });
+        // Generate unique ID
+        const id = `mermaid-diagram-${i}`;
+
+        // Render the diagram
+        const { svg } = await mermaid.render(id, graphDefinition);
+
+        // Create container div
+        const div = document.createElement('div');
+        div.classList.add('mermaid');
+        div.innerHTML = svg;
+
+        // Replace the code block with the rendered SVG
+        block.parentElement.replaceWith(div);
+
+        console.log(`Successfully rendered diagram ${i}`);
+      } catch (err) {
+        console.error(`Error rendering diagram ${i}:`, err);
+        // Leave the code block in place on error
+      }
+    }
   });
 </script>
