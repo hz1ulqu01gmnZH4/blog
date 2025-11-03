@@ -1,7 +1,37 @@
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
+
+  // Initialize with dark theme and larger size
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'dark',
+    themeVariables: {
+      darkMode: true,
+      background: '#0d1117',
+      primaryColor: '#58a6ff',
+      primaryTextColor: '#c9d1d9',
+      primaryBorderColor: '#30363d',
+      lineColor: '#8b949e',
+      secondaryColor: '#21262d',
+      tertiaryColor: '#161b22',
+      fontSize: '16px'
+    },
+    flowchart: {
+      useMaxWidth: true,
+      htmlLabels: true,
+      curve: 'basis'
+    },
+    gantt: {
+      useMaxWidth: true,
+      leftPadding: 75,
+      gridLineStartPadding: 10,
+      fontSize: 14,
+      numberSectionStyles: 5
+    }
+  });
+
+  // Run on all mermaid code blocks
   await mermaid.run({
-      querySelector: '.language-mermaid',
+    querySelector: '.language-mermaid',
   });
 </script>
