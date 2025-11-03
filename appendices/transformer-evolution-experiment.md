@@ -2,6 +2,7 @@
 layout: default
 title: "Appendix: Full Transformer Evolution Experiment Report"
 permalink: /appendices/transformer-evolution-experiment/
+mermaid: true
 ---
 
 # Appendix: Full Transformer Evolution Experiment Report

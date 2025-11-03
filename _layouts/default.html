@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    {% if page.mermaid %}
+      {% include mermaid.html %}
+    {% endif %}
   </head>
   <body>
     <div class="container">
