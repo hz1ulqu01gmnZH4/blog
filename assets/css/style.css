@@ -292,13 +292,17 @@ img {
   border-radius: 6px;
   overflow-x: auto;
   margin: 1.5rem 0;
+  display: block;
+  width: 100%;
 }
 
 /* Make Mermaid diagrams larger and more readable */
 .mermaid svg {
   max-width: 100%;
+  width: 100%;
   height: auto;
   min-height: 400px;
+  display: block;
 }
 
 /* Mermaid diagram text styling */
