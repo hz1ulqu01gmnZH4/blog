@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Displacement That Hasn't Arrived Yet: Technical Limits and the Coming Plateau"
+title: "[AI generated] The Displacement That Hasn't Arrived Yet: Technical Limits and the Coming Plateau"
 description: "Current job displacement data shows selective impact—but technical research reveals fundamental barriers that may prevent the AI tsunami everyone fears."
 keywords: [AI displacement, model collapse, synthetic data, reasoning limitations, labor automation, agentic AI, benchmark saturation, training data exhaustion]
 lang: en
