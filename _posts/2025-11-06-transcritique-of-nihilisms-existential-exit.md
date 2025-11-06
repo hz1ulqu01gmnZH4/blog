@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Transcritique of Nihilisms: The Dread Loop and the Existential Exit"
+title: "[AI generated] Transcritique of Nihilisms: The Dread Loop and the Existential Exit"
 description: "Reading multiple nihilisms against each other reveals not void but a system of illusions—which itself produces the nihilistic paralysis it diagnoses. Existentialist commitment as circuit breaker."
 keywords: [nihilism, transcritique, Karatani, existentialism, Sartre, Camus, Kierkegaard, capitalist realism, depressive realism, commitment, authenticity, action]
 lang: en
