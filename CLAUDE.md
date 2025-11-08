@@ -255,25 +255,11 @@ The goal is productive discomfort—forcing examination of unexamined positions,
 - Contradictions and tensions are central to the analysis
 - Fiction has predicted or explored similar dynamics
 
-**Five-Stage Workflow:**
+**Six-Stage Workflow:**
 
-#### Stage 1: Generate Ironic Hypotheses
+#### Stage 1: Initial Research - Survey the Landscape
 
-After user provides topic/clues, develop **5 ironic hypotheses** that:
-- Expose contradictions between stated purpose and actual function
-- Identify mechanisms that produce opposite of intended effects
-- Highlight structural ironies (e.g., "open standards concentrate power")
-- Use format: "The [mechanism] Paradox: How [X] produces [opposite of X]"
-- Ground in user's clues but extend to unexpected implications
-
-**Example from agentic commerce post:**
-- "The Consent Paradox: Delegated Autonomy as Peak Freedom" (more delegation = feeling more empowered)
-- "The Open Source Concentration: How AP2's 'Openness' Accelerates Monopolization"
-- "The Preference Paradox: AI Trained on Exploited Behavior Optimizes for Continued Exploitation"
-
-#### Stage 2: Research Academic Literature
-
-Search **arXiv** and **academic sources** for:
+Search **arXiv** and **academic sources** for broad understanding:
 
 **Critical/opposing evidence:**
 - Studies showing harms, manipulation, unintended consequences
@@ -290,11 +276,43 @@ Search **arXiv** and **academic sources** for:
 **Use tools:**
 - `mcp__arxiv-mcp-server__search_papers` with relevant categories (cs.AI, cs.CY, econ.GN)
 - `WebSearch` for recent industry research, white papers
-- Target 15-30 papers, select 8-12 most relevant for citation
+- Target 15-30 papers initially to understand the research landscape
 
 **Key principle**: Document **both** supporting and opposing evidence. Don't cherry-pick. The contradiction is the point.
 
-#### Stage 3: Search for Fiction/Cultural Parallels
+#### Stage 2: Generate Ironic Hypotheses
+
+Based on initial research findings, develop **5 ironic hypotheses** that:
+- Expose contradictions between stated purpose and actual function
+- Identify mechanisms that produce opposite of intended effects
+- Highlight structural ironies (e.g., "open standards concentrate power")
+- Use format: "The [mechanism] Paradox: How [X] produces [opposite of X]"
+- Ground in both user's clues AND research findings to identify unexpected implications
+
+**Example from agentic commerce post:**
+- "The Consent Paradox: Delegated Autonomy as Peak Freedom" (more delegation = feeling more empowered)
+- "The Open Source Concentration: How AP2's 'Openness' Accelerates Monopolization"
+- "The Preference Paradox: AI Trained on Exploited Behavior Optimizes for Continued Exploitation"
+
+#### Stage 3: Deeper Targeted Research
+
+Based on ironic hypotheses generated, conduct **focused deep-dive research**:
+
+**Target specific areas:**
+- Papers directly testing the hypothesized mechanisms
+- Evidence for/against each specific paradox identified
+- Historical precedents and case studies
+- Theoretical frameworks explaining the contradictions
+
+**Refine selection:**
+- From 15-30 initial papers, select 8-12 most relevant for citation
+- Look for papers that directly address the tensions identified
+- Prioritize research that supports BOTH sides of each contradiction
+- Add new searches targeting specific hypotheses
+
+**Goal**: Move from broad landscape to targeted evidence supporting the analytical framework.
+
+#### Stage 4: Search for Fiction/Cultural Parallels
 
 Search for **obscure fictions ( science fiction, manga or anime, video / computer games, movies, novels )** that predicted or explored similar dynamics:
 
@@ -309,7 +327,7 @@ Search for **obscure fictions ( science fiction, manga or anime, video / compute
 **How**:
 use gpt5-search, ask grok4
 
-#### Stage 4: Write Post Following Guidelines
+#### Stage 5: Write Post Following Guidelines
 
 **Read first:**
 - `PHILOSOPHY.md` - align with core commitments (embrace contradictions, materialist analysis, pessimism without fatalism)
@@ -337,7 +355,7 @@ use gpt5-search, ask grok4
 - Acknowledge unresolved contradictions
 - ~4-6 sentences, more detailed than standard footer
 
-#### Stage 5: Git Commit and Documentation
+#### Stage 6: Git Commit and Documentation
 
 **Commit message structure:**
 ```
@@ -367,17 +385,20 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 User: "Research OpenAI's agentic commerce protocol and Google's agent payments protocol"
 
 AI:
-1. Generates 5 ironic hypotheses (consent paradox, open source concentration, etc.)
-2. Searches arXiv for papers on algorithmic collusion, AI shopping behavior, training data
-3. Searches for obscure fiction parallels 
-4. Writes post documenting both efficiency and manipulation evidence
-5. Critical footer: "An AI analyzed 29 papers... The irony tastes like stablecoins."
-6. Commits with detailed message documenting research synthesis
+1. Initial broad research: Searches arXiv for papers on algorithmic collusion, AI shopping behavior, training data (surveys landscape, finds 20-30 papers)
+2. Generates 5 ironic hypotheses based on patterns found in initial research (consent paradox, open source concentration, etc.)
+3. Deeper targeted research: Searches for specific papers testing each hypothesis, selects 8-12 most relevant citations
+4. Searches for obscure fiction parallels that predicted these dynamics
+5. Writes post documenting both efficiency and manipulation evidence
+6. Critical footer: "An AI analyzed 29 papers... The irony tastes like stablecoins."
+7. Commits with detailed message documenting research synthesis
 ```
 
 **Why this workflow works:**
 
-- **Ironic hypotheses** force exploration of contradictions rather than advocacy
+- **Initial broad research** grounds hypotheses in actual evidence rather than speculation
+- **Ironic hypotheses** synthesize patterns from research into testable contradictions
+- **Targeted deep research** validates/refines hypotheses with specific evidence
 - **Balanced research** prevents cherry-picking; documents actual complexity
 - **Fiction parallels** show ignored cultural warnings now materializing as infrastructure
 - **Unresolved contradictions** maintain intellectual honesty (no fake synthesis)
