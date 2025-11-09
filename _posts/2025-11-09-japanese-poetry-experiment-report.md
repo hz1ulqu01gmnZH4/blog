@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When AIs Judge Poetry They Generated: A Japanese Poetry Experiment"
+title: "[Experiment] [AI generated] When AIs Judge Poetry They Generated: A Japanese Poetry Experiment"
 description: Four flagship LLMs generate and blindly review Japanese poetry. Self-recognition, cultural competence, and the peculiar generosity of algorithmic critics.
 keywords: [AI poetry, Japanese haiku, LLM evaluation, blind review, self-bias, cultural competence, NLP analysis]
 lang: en
