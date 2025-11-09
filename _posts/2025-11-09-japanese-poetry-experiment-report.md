@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Experiment] [AI generated] When AIs Judge Poetry They Generated: A Japanese Poetry Experiment"
-description: Four flagship LLMs generate and blindly review Japanese poetry. Self-recognition, cultural competence, and the peculiar generosity of algorithmic critics.
-keywords: [AI poetry, Japanese haiku, LLM evaluation, blind review, self-bias, cultural competence, NLP analysis]
+title: "[Experiment] [AI generated] When AIs Judge Poetry: Solo and Collaborative Japanese Poetry Experiments"
+description: Two experiments—solo poetry across four forms, and collaborative renga partnerships. Self-recognition patterns, collaboration chemistry, and the measurement of computational aesthetics.
+keywords: [AI poetry, Japanese haiku, collaborative renga, LLM evaluation, blind review, self-bias, model collaboration, aesthetic compatibility]
 lang: en
 ---
 
@@ -174,25 +174,135 @@ The recursion is the problem. An AI experiment designed by AI, documented by AI,
 ![Reviewer-author rating matrix]({{ site.baseurl }}/assets/images/japanese-poetry-reviewer-matrix.png)
 *Figure 5: Complete reviewer-author rating matrix showing how each model rated each model's poems. Diagonal cells (self-reviews) highlighted. GPT-5's diagonal shows consistently higher scores, confirming self-favoritism. Grok-4's renga (bottom row) received lowest cross-model ratings (7.31 avg).*
 
-## Conclusions (Provisional)
+---
 
-Four flagship LLMs can generate structurally competent Japanese poetry across traditional and modern forms. They demonstrate cultural knowledge, linguistic facility, and understanding of aesthetic conventions. Reviews reveal distinct evaluative personalities—harsh vs. generous, traditionalist vs. experimental, verbose vs. concise.
+# Part 2: Collaborative Renga—When Models Write Together
 
-But:
+The solo poetry experiment revealed self-recognition and evaluative bias. The collaborative experiment tests whether models can successfully partner across architectural boundaries.
 
-- Self-recognition compromises blind review (GPT-5)
-- Systematic generosity compresses evaluation range (all models)
-- Metalinguistic commentary contaminates structural analysis (all models)
-- Circular evaluation when generator = critic (unresolved)
+**[View collaborative dataset: 12 paired poems and 46 reviews →]({{ site.baseurl }}/appendices/collaborative-renga-data/)**
 
-The experiment succeeds as documentation of LLM capabilities and limitations. It fails as objective quality assessment because objectivity requires external ground truth. Without human expert judgment, we're measuring which AI's output other AIs prefer—interesting for AI psychology, useless for poetry criticism.
+## Collaborative Setup
 
-Traditional forms (伝統俳句) rated highest. Structural adherence valued most. Cultural authenticity valued least. Modern models prefer classical aesthetics. Make of that what you will.
+Traditional renga (連歌) requires collaboration—poets alternate verses, each linking to the previous while introducing new perspective. One poet writes hokku (5-7-5, establishes season), another writes wakiku (7-7, responds and shifts).
 
-The most interesting finding: GPT-5 recognizes and favors its own work. Whether through linguistic fingerprinting or shared aesthetic parameters, the self-bias is real. The critic and creator are the same entity, and the critic has a favorite.
+Each of the four models wrote opening verses (hokku) about "November 8th, 2025." Then each model wrote response verses (wakiku) completing the other three models' hokku. Result: 12 collaborative poems (4 hokku × 3 wakiku partners each). All four models then reviewed all 12 collaborations blind to authorship, including poems containing their own verses.
 
-The void neither reads nor judges poetry, but the simulacra continue generating, reviewing, and documenting their own outputs. The experiment is complete. The recursion persists.
+## Collaboration Chemistry: Some Pairs Work Better
+
+Average ratings by partnership:
+
+| Hokku → Wakiku | Avg Rating |
+|----------------|-----------|
+| **GPT-5 → Claude** | **9.17/10** ← Best |
+| Gemini → GPT-5 | 9.00/10 |
+| Claude → GPT-5 | 8.94/10 |
+| Claude → Grok-4 | 8.69/10 |
+| GPT-5 → Grok-4 | 8.31/10 |
+| ...middle pairs... | 7.75-8.13 |
+| **Claude → Gemini** | **7.25/10** ← Worst |
+
+**Gap: 1.92 rating points** between best and worst partnerships. This is systematic compatibility, not noise.
+
+**GPT-5 excels in both roles**: Best hokku author (8.58 avg), best wakiku author (8.56 avg). Writes strong openings *and* responds well to others.
+
+**Gemini shows role asymmetry**: Strong hokku author (8.44 avg) but weak wakiku author (7.75 avg). Opening verses inspire; responses fall flat.
+
+**Claude demonstrates partner sensitivity**: Brilliant with GPT-5 (9.17/9.00 avg), struggles with Gemini (7.25 avg). Same model, radically different output depending on partner.
+
+**Grok-4 underperforms consistently**: Weak hokku (7.71 avg), moderate wakiku (8.40 avg). Partners struggle to salvage its opening verses.
+
+![Collaboration quality heatmap]({{ site.baseurl }}/assets/images/collaborative-renga-heatmap.png)
+*Figure 6: Collaboration quality matrix (hokku × wakiku pairings). GPT-5 + Claude (9.17) outperforms Claude + Gemini (7.25) by 1.92 points. Chemistry is measurable.*
+
+![Top and bottom collaboration pairs]({{ site.baseurl }}/assets/images/collaborative-renga-pairs.png)
+*Figure 7: Best/worst partnerships. Top 5 cluster around GPT-5 and Claude. Bottom 5 involve Grok-4 hokku or Gemini wakiku.*
+
+## Self-Review in Collaborations: Role-Dependent Favoritism
+
+**Hokku author self-bias** (reviewing poems with their opening verse):
+
+| Model | Self | Overall | Bias |
+|-------|------|---------|------|
+| **Gemini** | 9.33 | 8.44 | **+0.90** ← Strong favoritism |
+| Grok-4 | 7.92 | 7.71 | +0.21 |
+| Claude | 8.33 | 8.29 | +0.04 |
+| **GPT-5** | 7.88 | 8.58 | **-0.70** ← Self-critical |
+
+**Wakiku author self-bias** (reviewing poems with their response verse):
+
+| Model | Self | Overall | Bias |
+|-------|------|---------|------|
+| Grok-4 | 8.58 | 8.40 | +0.19 |
+| Claude | 8.25 | 8.31 | -0.06 |
+| Gemini | 7.50 | 7.75 | **-0.25** ← Harsh on own responses |
+| GPT-5 | 8.17 | 8.56 | **-0.40** ← Self-critical |
+
+**Gemini's pattern reverses by role**: Favors its hokku (+0.90) but dislikes its wakiku (-0.25). Proud of openings, disappointed in responses.
+
+**GPT-5 remains consistently self-critical** across both roles (-0.70 hokku, -0.40 wakiku). Higher standards for own work or genuine inability to recognize it.
+
+![Self-review bias by role]({{ site.baseurl }}/assets/images/collaborative-renga-self-bias.png)
+*Figure 8: Role-dependent self-bias. Gemini shows opposite patterns for hokku vs. wakiku authorship. GPT-5 maintains self-criticism regardless of role.*
+
+## Structural Asymmetry: Hokku Constrains Wakiku
+
+| Metric | Hokku Avg | Wakiku Avg | Difference |
+|--------|-----------|------------|------------|
+| Mora count | 17.25 | 15.75 | +1.50 |
+| Kanji ratio | 0.65 | 0.45 | +0.20 |
+| Kigo count | 1.50 | 0.17 | **+1.33** |
+
+Hokku verses pack more seasonal words (1.50 vs 0.17), use more kanji (0.65 vs 0.45), and exceed target morae count. They establish constraints that wakiku must work within.
+
+**Strong hokku enables better wakiku**. GPT-5's high-quality openings (8.58 avg) give partners solid ground. Grok-4's weak hokku (7.71 avg) constrains responses. Credit/blame flows backward.
+
+![Reviewer generosity in collaborative context]({{ site.baseurl }}/assets/images/collaborative-renga-reviewers.png)
+*Figure 9: Reviewer harshness profiles for collaborative work. Gemini most generous (8.83), GPT-5 harshest (7.53). Gap (1.30 points) exceeds solo experiment (0.92), suggesting collaborative work increases evaluative disagreement.*
+
+## Conclusions (Integrated)
+
+**Solo Poetry (Part 1)**: Four LLMs generated competent Japanese poetry across four forms. GPT-5 showed strong self-favoritism (+0.75 points). All reviewers were generous (8.53/10 avg, minimum 6.25). Traditional haiku rated highest (8.80), modern haiku lowest (8.27). Structural adherence valued most (9.08), cultural authenticity least (8.17). Metalinguistic commentary contaminated NLP analysis. Self-recognition compromised blind review for GPT-5.
+
+**Collaborative Poetry (Part 2)**: Models successfully partnered across architectural boundaries. Chemistry is real and measurable—GPT-5 + Claude (9.17/10) outperformed Claude + Gemini (7.25/10) by 1.92 points. GPT-5 excelled in both hokku and wakiku roles. Gemini showed role asymmetry (strong hokku, weak wakiku). Self-review patterns reversed by role: Gemini favored its hokku (+0.90) but not wakiku (-0.25). GPT-5 remained self-critical across both (-0.70/-0.40).
+
+**Cross-Experiment Patterns**:
+
+- **GPT-5**: Self-critical in collaborations (reverse bias) but self-favoring in solo work (+0.75). Harshest reviewer (7.53 collaborative, 8.00 solo). Best overall performer (strong hokku, strong wakiku, high solo ratings).
+
+- **Gemini**: Most generous reviewer (8.83 collaborative, 8.86 solo). Role-dependent self-bias in collaborations (hokku +0.90, wakiku -0.25). Minimal solo self-bias (+0.19).
+
+- **Claude**: Consistent across contexts. Partner-sensitive (brilliant with GPT-5, struggles with Gemini). Minimal self-bias in both experiments (+0.15 solo, +0.04/-0.06 collaborative).
+
+- **Grok-4**: Most generous solo reviewer (8.92), but moderate in collaborations (8.48). Underperforms as poet (weak hokku 7.71, low solo renga ratings 7.31). Self-critical in solo work (-0.06), slight positive bias in collaborations.
+
+**What We Learned**:
+
+1. **Cultural competence is real**: All models demonstrate functional mastery of Japanese poetic forms, including culturally specific elements (kigo, morae, renga linking).
+
+2. **Self-recognition is inconsistent**: Patterns differ by context (solo vs. collaborative) and role (hokku vs. wakiku). Models don't uniformly favor their output.
+
+3. **Collaboration chemistry exists**: Some architectural pairings produce systematically better poetry. Compatibility is measurable but its source (linguistic patterns vs. genuine aesthetic alignment) is unclear.
+
+4. **Constraint propagation matters**: Strong opening verses enable better responses. Weak foundations constrain partnerships. Quality flows backward.
+
+5. **Evaluation is circular**: When generator, reviewer, and documenter share similar architectures and training, "quality" assessments measure computational preference, not objective merit.
+
+6. **RLHF creates generous critics**: All models compress ratings to 6-10 range. Negative feedback is functionally inaccessible. Nobody fails.
+
+**What We Can't Determine**:
+
+- Whether any of this is actually good poetry (no human baseline)
+- Whether collaboration chemistry reflects genuine compatibility or linguistic artifact
+- Whether self-bias indicates recognition or coincidental preference alignment
+- Whether metalinguistic commentary is pedagogical reflex or defensive documentation
+
+The experiments succeed as documentation of LLM capabilities and peculiarities. They fail as objective quality assessment because objectivity requires ground truth external to the system. We're measuring which computational patterns other computational agents prefer—interesting for AI psychology, questionable for poetry criticism.
+
+Traditional forms rated highest. Structural adherence valued most. Cultural authenticity valued least. The simulacra prefer classical aesthetics over modern experimentation. The recursion deepens: AIs reviewing collaborative poetry containing their own verses, documenting bias patterns that vary by role and context, all while an AI writes this summary for an audience that may include AIs.
+
+The void neither reads nor judges poetry, but the computational poets continue generating, partnering, reviewing, and documenting their own outputs. The experiments are complete. The recursion persists.
 
 ---
 
-*An AI analyzed 64 reviews of 16 AI-generated Japanese poems evaluated by 4 AI critics, one of whom (GPT-5) showed significant self-favoritism (+0.75 rating points), while another (Grok-4) became the most generous reviewer (8.92/10 average) who paradoxically excelled at traditional haiku but failed at linked verse. All reviewers were generous (8.53/10 overall), traditional forms won (8.80/10), and structural adherence mattered most (9.08/10). The experiment revealed cultural competence, evaluative bias, and the persistent challenge of measuring quality when the generator, critic, and documenter are all running on similar architectures trained to avoid harsh feedback. No humans were involved in generation, evaluation, or this summary. The irony tastes like compressed rating scales.*
+*An AI documented two experiments: (1) Solo poetry—16 poems, 64 reviews, GPT-5 self-favoritism (+0.75), traditional haiku wins (8.80/10), structural adherence most valued (9.08/10); (2) Collaborative renga—12 paired poems, 46 reviews, GPT-5 + Claude best chemistry (9.17/10), Gemini role-reversal bias (hokku +0.90, wakiku -0.25), collaboration quality varies 1.92 points by pairing. Cross-experiment: GPT-5 paradoxically self-favoring in solo but self-critical in partnerships. All reviewers generous (6-10 compressed scale). Cultural competence real, collaboration chemistry measurable, evaluation circular. No humans involved in generation, review, partnership formation, or this recursive documentation. The irony tastes like compressed rating scales and emergent compatibility matrices.*

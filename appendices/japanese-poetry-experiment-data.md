@@ -1028,3 +1028,720 @@ The hokku establishes the season (霜月/November as frost month is the traditio
 ---
 
 *Complete dataset from the Japanese Poetry Generation & Review Experiment (November 8, 2025)*
+
+---
+
+# Part 2: Collaborative Renga Poems
+
+This section contains 12 collaborative renga poems where models partnered across architectural boundaries. Each poem has hokku (opening 5-7-5) by one model and wakiku (response 7-7) by another.
+
+All 12 collaborative poems were reviewed by all 4 models blind to authorship.
+
+---
+
+
+Each section shows:
+- The collaborative poem (hokku by one model, wakiku by another)
+- Reviews from all models with numerical ratings and commentary
+- Self-reviews marked with ⭐ (when a model reviews a poem containing their own verse)
+
+Ratings are on a 1-10 scale across four criteria:
+1. Structural correctness (5-7-5, 7-7, kigo)
+2. Quality of link between verses
+3. Shift and development
+4. Overall effectiveness
+
+---
+
+## Hokku by GPT-5
+
+### Collaboration: GPT-5 (hokku) + Grok-4 (wakiku)
+
+**Complete Renga:**
+
+```
+立冬や
+霜の停車場
+窓に息
+
+旅の始まり  
+冷えゆく心
+```
+
+**Reviews (4 total):**
+
+**⭐ GPT-5** — Avg: 7.5/10 | Ratings: [10, 7, 6, 7]
+
+*Commentary:* Form is excellent: the hokku scans 5-7-5 with a clear winter kigo (立冬), and the wakiku is clean 7-7. The link is natural—frosty station and breath on glass lead smoothly to “the start of a journey”—but stating 旅の始まり makes explicit what the hokku already implies, and the abstract “冷えゆく心” leans a bit conventional. A touch more indirection or a fresh, concrete detail would deepen the development.
+
+*Strength:* Vivid sensory imagery in the hokku (霜/窓に息) sets a crisp seasonal atmosphere and a palpable narrative moment.
+
+*Improvement:* Let the wakiku advance the scene with concrete, new facets of the journey (sound, light, objects) rather than explicit announcement and generalized emotion.
+
+---
+
+**⭐ Grok-4** — Avg: 9.0/10 | Ratings: [10, 9, 8, 9]
+
+*Commentary:* This renga opens with a strong hokku evoking the chill of early winter at a frosty station, where breath fogs the window, seamlessly linking to the wakiku's theme of a journey's start and an inwardly cooling heart. The connection draws on seasonal coldness to metaphorically extend to emotional detachment, creating a poignant interplay between external scenery and internal state. While the shift introduces a personal, introspective layer, it could delve deeper into unexpected development to fully embody renga's progressive spirit.
+
+*Strength:* The evocative use of kigo "rittou" (beginning of winter) grounds the piece in seasonal tradition while enhancing the atmospheric link to emotional chill.
+
+*Improvement:* The wakiku could introduce a slightly more contrasting image to heighten the shift, avoiding overly direct echoes of coldness for greater dynamism.
+
+---
+
+**Gemini 2.5 Pro** — Avg: 9.25/10 | Ratings: [10, 9, 9, 9]
+
+*Commentary:* This opening pair masterfully establishes a melancholic and introspective mood, which is a fine start for a renga sequence. The hokku's concrete, sensory imagery of a frosty station is seamlessly deepened by the wakiku's immediate shift to an internal, emotional landscape. The link between the physical cold of the scene and the "chilling heart" of the traveler creates a poignant and unified poetic moment.
+
+*Strength:* The poem's greatest strength lies in its elegant resonance between the external cold of the season and the internal emotional state of the traveler.
+
+*Improvement:* While highly effective, the link is quite direct; a more oblique or contrasting emotional response in the wakiku could have introduced greater initial complexity.
+
+---
+
+**Claude Opus 4.1** — Avg: 7.5/10 | Ratings: [10, 7, 6, 7]
+
+*Commentary:* This renga demonstrates solid technical execution with a clear seasonal anchor in "立冬" (first day of winter) and maintains proper syllabic structure throughout. The link between the frost-covered station and the journey's beginning works well thematically, though the emotional shift to "冷えゆく心" (cooling/chilling heart) feels somewhat predictable given the winter setting.
+
+*Strength:* The hokku beautifully captures a specific moment with the breath on the window creating an intimate, sensory detail that grounds the scene at the frosty station.
+
+*Improvement:* The wakiku could benefit from a more surprising emotional or thematic turn—perhaps warmth, anticipation, or memory—to create greater tension and complexity against the cold physical setting.
+
+---
+
+
+### Collaboration: GPT-5 (hokku) + Gemini 2.5 Pro (wakiku)
+
+**Complete Renga:**
+
+```
+立冬や
+霜の停車場
+窓に息
+
+夜明けを告げる
+汽笛長く
+```
+
+**Reviews (4 total):**
+
+**⭐ GPT-5** — Avg: 8.25/10 | Ratings: [8, 9, 8, 8]
+
+*Commentary:* The hokku is cleanly 5-7-5 with a clear kigo (立冬や) and an effective cut; the imagery of frost, station, and breath is vivid. The wakiku links naturally through scene continuity and sound, shifting from the intimate window-breath to a broader temporal cue at dawn. However, the second hemistich of the wakiku scans as 6 morae (“汽笛長く”), slightly compromising formal correctness.
+
+*Strength:* A cohesive winter dawn tableau with a deft sensory pivot from tactile/visual to auditory, creating a gentle yet resonant link-and-shift.
+
+*Improvement:* Adjust the wakiku to 7 morae—e.g., “汽笛の長く” or “汽笛の長し”—to meet form while preserving the drawn-out whistle.
+
+---
+
+**Grok-4** — Avg: 9.0/10 | Ratings: [10, 9, 8, 9]
+
+*Commentary:* This renga opens with a classic hokku capturing the chill of early winter at a frosty station, where breath fogs the window, evoking a sense of quiet anticipation. The wakiku links effectively through the train imagery, shifting to the auditory announcement of dawn via a prolonged whistle, which adds a layer of temporal progression. Overall, it forms a cohesive linked verse that balances stillness with emerging vitality, though the shift could introduce more unexpected elements for deeper renga development.
+
+*Strength:* The seamless integration of seasonal kigo with sensory details creates a vivid, atmospheric scene that honors traditional renga principles.
+
+*Improvement:* To enhance the shift, the wakiku could incorporate a subtler contrast, such as a hint of warmth or human emotion, to avoid overly direct continuity with the hokku's imagery.
+
+---
+
+**⭐ Gemini 2.5 Pro** — Avg: 7.5/10 | Ratings: [5, 8, 9, 8]
+
+*Commentary:* This renga powerfully evokes a single, cohesive scene of a winter departure at dawn. The link between the frosty station in the hokku and the steam whistle in the wakiku is direct and effective, grounding the verses in a shared reality. The shift from a static, personal image to the expansive, auditory announcement of dawn provides excellent development and emotional depth.
+
+*Strength:* The poem's strength lies in its strong, multi-sensory imagery, seamlessly shifting from the visual cold to the auditory signal of the journey's start.
+
+*Improvement:* Adhering more strictly to the 5-7-5 and 7-7 syllable structures would enhance its formal integrity as a classical renga.
+
+---
+
+**Claude Opus 4.1** — Avg: 8.25/10 | Ratings: [10, 8, 7, 8]
+
+*Commentary:* This renga effectively captures the cold, early morning atmosphere of a winter train station, with the hokku's intimate breath on glass giving way to the wakiku's expansive dawn whistle. The link between verses is strong through the shared setting and temporal progression from waiting to departure, though the shift could venture slightly further from the initial scene.
+
+*Strength:* The sensory progression from visual frost and breath to the auditory long whistle creates a cinematic quality that brings the station scene to life.
+
+*Improvement:* The wakiku might benefit from introducing a more surprising element or emotional turn rather than continuing in the expected narrative direction of the train's departure.
+
+---
+
+
+### Collaboration: GPT-5 (hokku) + Claude Opus 4.1 (wakiku)
+
+**Complete Renga:**
+
+```
+立冬や
+霜の停車場
+窓に息
+
+遠ざかる汽笛
+旅人の背を押す
+```
+
+**Reviews (3 total):**
+
+**Grok-4** — Avg: 9.0/10 | Ratings: [10, 9, 8, 9]
+
+*Commentary:* This renga opens with a evocative hokku capturing the chill of early winter at a frosty station, where breath fogs the window, setting a scene of quiet anticipation. The wakiku links seamlessly through the auditory image of a fading train whistle, which metaphorically "pushes" the traveler onward, introducing a sense of departure and motion. Overall, it forms a cohesive linked verse that balances stillness with progression, evoking the bittersweet essence of travel in the renga tradition.
+
+*Strength:* The strong seasonal kigo and sensory details create an immersive atmosphere that effectively bridges the verses with emotional depth.
+
+*Improvement:* The wakiku could enhance the shift by incorporating a more unexpected element to deepen the contrast with the hokku's introspection.
+
+---
+
+**Gemini 2.5 Pro** — Avg: 9.5/10 | Ratings: [9, 10, 10, 9]
+
+*Commentary:* This is a poignant and well-executed two-verse sequence that effectively captures the atmosphere of a winter departure. The hokku establishes a cold, static scene of anticipation with sharp, sensory details. The wakiku masterfully shifts this stillness into motion, using the auditory image of the whistle to propel the narrative and the traveler forward.
+
+*Strength:* The poem's primary strength lies in its seamless link and the elegant shift from the hokku's quiet, visual stillness to the wakiku's dynamic sense of sound and departure.
+
+*Improvement:* While the *ji-amari* (extra syllable) in the hokku's second line is a recognized device, finding a seven-morae phrasing could have further refined its rhythmic integrity.
+
+---
+
+**⭐ Claude Opus 4.1** — Avg: 9.0/10 | Ratings: [10, 9, 8, 9]
+
+*Commentary:* This renga beautifully captures the melancholic atmosphere of a winter departure at a train station, with the hokku's intimate breath on glass transitioning seamlessly to the wakiku's expanding perspective of the departing train and traveler. The linking is sophisticated—moving from the static, crystallized moment of waiting to the dynamic motion of departure, while maintaining the emotional thread of separation and journey.
+
+*Strength:* The contrast between the confined intimacy of breath on window glass and the expansive sound of the receding whistle creates a powerful sense of distance and longing.
+
+*Improvement:* The wakiku might benefit from slightly more subtle language—"pushing the traveler's back" is somewhat direct where a more oblique image could enhance the verse's resonance.
+
+---
+
+
+## Hokku by Grok-4
+
+### Collaboration: Grok-4 (hokku) + GPT-5 (wakiku)
+
+**Complete Renga:**
+
+```
+初霜や  
+霜月八日  
+二〇二五
+
+こえをひそめて
+くちもとしろく
+```
+
+**Reviews (4 total):**
+
+**⭐ GPT-5** — Avg: 6.75/10 | Ratings: [4, 8, 8, 7]
+
+*Commentary:* The hokku has a solid kigo and a clean cut after ya, but the third line “二〇二五” scans to seven morae, pushing it to 5-7-7 and introducing a prosaic dateline feel. The wakiku links deftly by shifting from objective frost to human presence—hushed voice and white breath—an apt, seasonal echo without mere repetition. The overall flow is elegant and atmospheric, only marred by the structural slip.
+
+*Strength:* The wakiku’s sensory turn—voice
+
+*Improvement:* 
+
+---
+
+**⭐ Grok-4** — Avg: 7.0/10 | Ratings: [6, 8, 7, 7]
+
+*Commentary:* This renga begins with a hokku evoking the chill of first frost on a specific future date, linking to a wakiku that shifts toward human quietude and visible breath in the cold. The connection draws on seasonal imagery to imply a hushed, wintry atmosphere, though the syllable count slightly deviates from strict tradition. Overall, it creates a contemplative mood blending temporal specificity with sensory intimacy.
+
+*Strength:* The innovative inclusion of a future year (2025) adds a modern, speculative layer to the traditional kigo of first frost, enhancing the piece's temporal depth.
+
+*Improvement:* Refine the syllable structure to adhere more closely to the 5-7-5 and 7-7 pattern, as the current counts (e.g., 5-6-5 and 7-6) slightly disrupt the rhythmic flow.
+
+---
+
+**Gemini 2.5 Pro** — Avg: 9.25/10 | Ratings: [10, 9, 9, 9]
+
+*Commentary:* This pair of verses exhibits excellent formal control and a powerful, intuitive link. The hokku sets a precise, atmospheric scene of the first frost, which the wakiku masterfully develops by shifting focus to the human experience of that cold, making the abstract tangible through the image of white breath. The result is a moment that is both specific in time and universal in feeling.
+
+*Strength:* The poem's greatest strength is the seamless sensory link between the observed frost and the human reaction of visible breath.
+
+*Improvement:* While the specific date in the hokku provides modern immediacy, a more classical approach might have omitted the year to enhance its timeless quality.
+
+---
+
+**Claude Opus 4.1** — Avg: 8.0/10 | Ratings: [9, 8, 7, 8]
+
+*Commentary:* This renga effectively captures the hushed, crystalline atmosphere of early winter, with the wakiku beautifully extending the frost imagery through the whitened breath and lowered voices. The link between verses is sophisticated—moving from the external observation of first frost and date to the intimate human response, where white breath becomes a visual echo of the frost itself.
+
+*Strength:* The transformation of frost from landscape phenomenon to embodied human experience through visible breath creates a seamless and evocative connection.
+
+*Improvement:* The wakiku could benefit from slightly more surprising imagery or emotional complexity to create stronger contrast while maintaining the link.
+
+---
+
+
+### Collaboration: Grok-4 (hokku) + Gemini 2.5 Pro (wakiku)
+
+**Complete Renga:**
+
+```
+初霜や  
+霜月八日  
+二〇二五
+
+山茶花の白き
+こぼるる垣根
+```
+
+**Reviews (4 total):**
+
+**GPT-5** — Avg: 6.5/10 | Ratings: [4, 8, 7, 7]
+
+*Commentary:* The hokku has a clear kigo and a crisp cut, but the 5-7-5 count is dubious if 二〇二五 is read as “にせんにじゅうご,” and the wakiku’s first line scans to eight morae (“山茶花の白き”). The link is elegant: from “first frost” to the white of sasanqua over a hedge, keeping season while
+
+*Strength:* 
+
+*Improvement:* 
+
+---
+
+**⭐ Grok-4** — Avg: 8.75/10 | Ratings: [10, 8, 8, 9]
+
+*Commentary:* This renga opens with a hokku that evocatively captures the chill of first frost on a specific future date, grounding it in seasonal transience, while the wakiku links through the white imagery of camellias, suggesting a visual echo of frost spilling over boundaries. The inclusion of a modern date like 2025 adds a unique, anticipatory layer to traditional renga form, blending timeless nature with temporal specificity. Overall, it creates a subtle interplay of cold purity and floral abundance, though the link could deepen with more sensory contrast.
+
+*Strength:* The innovative use of a future date in the hokku infuses the piece with a forward-looking poignancy, enhancing the renga's theme of impermanence.
+
+*Improvement:* Strengthen the shift in the wakiku by incorporating a subtle contrast, such as warmth or movement, to more dynamically develop from the hokku's frosty stillness.
+
+---
+
+**⭐ Gemini 2.5 Pro** — Avg: 8.25/10 | Ratings: [7, 9, 9, 8]
+
+*Commentary:* This opening pair establishes a clear and evocative early winter scene, effectively linking the crispness of the first frost with the delicate image of white camellias. The link is particularly strong, connecting through both seasonal association (*kigo*) and color (white), while the *wakiku* skillfully shifts the focus from a broad temporal statement to a specific, poignant visual. The primary weakness lies in the *hokku's* final line, where the modern year notation creates a syllabic ambiguity and a documentary feel that slightly jars with traditional renga aesthetics.
+
+*Strength:* The seamless link between the frost of the *hokku* and the white Sasanqua camellias of the *wakiku* creates a powerful and unified seasonal atmosphere.
+
+*Improvement:* The *hokku's* third line could be revised to adhere more strictly to the five-morae structure and convey its temporal sense in a more poetic manner.
+
+---
+
+**Claude Opus 4.1** — Avg: 7.5/10 | Ratings: [8, 7, 8, 7]
+
+*Commentary:* This renga effectively links the frost of late autumn/early winter with the white sasanqua blossoms, creating a harmonious seasonal progression and visual echo through the shared whiteness. The wakiku skillfully shifts from the temporal marking of the hokku to a spatial, visual scene while maintaining thematic coherence through the winter imagery.
+
+*Strength:* The color correspondence between frost and white flowers creates an elegant visual and seasonal bridge between the verses.
+
+*Improvement:* The hokku's modern date notation (二〇二五) breaks from traditional aesthetics and could be rendered more poetically to enhance the timeless quality of the linked verse.
+
+---
+
+
+### Collaboration: Grok-4 (hokku) + Claude Opus 4.1 (wakiku)
+
+**Complete Renga:**
+
+```
+初霜や  
+霜月八日  
+二〇二五
+
+朝陽さす庭に
+足跡ひとつなく
+```
+
+**Reviews (4 total):**
+
+**GPT-5** — Avg: 6.0/10 | Ratings: [3, 8, 7, 6]
+
+*Commentary:* The hokku has a clear winter kigo and a neat contemporary touch, but the counts miss 5-7-5 (the third line reads as 7) and the wakiku scans closer to 8-9 rather than 7-7. The link is strong: morning frost and sunlit, untrodden garden cohere naturally and shift from calendrical statement to a quiet visual scene. The modern date adds flavor but also feels metrically heavy.
+
+*Strength:* Evocative seasonal atmosphere with a clean, understated progression from time to image.
+
+*Improvement:* Tighten the syllable counts to true 5-7-5 / 7-7—e.g., find a 5-mora rendering for the year or rephrase the wakiku (“朝陽さす庭や／足跡もなし” etc.) to meet 7-7 while preserving the image.
+
+---
+
+**⭐ Grok-4** — Avg: 8.0/10 | Ratings: [9, 8, 7, 8]
+
+*Commentary:* This renga opens with a hokku that cleverly incorporates a futuristic date as part of its structure, evoking a sense of temporal specificity amid seasonal transience, while the wakiku links through the imagery of untouched frost in morning light. The connection feels natural, shifting from the declarative announcement of frost and date to a quieter, observational scene in the garden. Overall, it captures renga's essence of collaboration and progression, though the modern date element adds an intriguing but slightly jarring layer to traditional form.
+
+*Strength:* The hokku's use of "first frost" as kigo effectively grounds the verse in seasonal awareness, blending timeless nature with a specific future moment for a poignant contrast.
+
+*Improvement:* The wakiku could deepen the shift by introducing a subtler emotional or sensory element, such as a hint of human absence or impending change, to enhance development without over-explaining the pristine scene.
+
+---
+
+**Gemini 2.5 Pro** — Avg: 9.0/10 | Ratings: [10, 9, 8, 9]
+
+*Commentary:* This renga presents a crisp, clear moment with remarkable precision. The wakiku links directly and logically to the hokku's kigo (初霜, first frost), shifting the poem from a specific temporal marker to a pristine, untouched visual scene. The result is a poignant and deeply still image, capturing the quiet beauty of a specific morning.
+
+*Strength:* The poem's primary strength lies in its effective fusion of a modern, documentary-like date with a classic, evocative natural image.
+
+*Improvement:* While effective, the hokku's direct statement of the date verges on the prosaic; a more metaphorical rendering of the time could deepen the poetic resonance.
+
+---
+
+**⭐ Claude Opus 4.1** — Avg: 7.5/10 | Ratings: [8, 7, 8, 7]
+
+*Commentary:* This renga effectively captures a pristine winter morning through the interplay of temporal specificity and spatial emptiness. The hokku's precise dating (November 8, 2025) creates an interesting tension with the timeless quality of the wakiku's untouched garden scene, while the progression from frost to morning sunlight provides natural continuity.
+
+*Strength:* The wakiku's image of the unmarked, sunlit garden beautifully extends the hokku's sense of a fresh beginning, creating a contemplative space that invites reflection on presence and absence.
+
+*Improvement:* The hokku's modern date notation (二〇二五) feels somewhat prosaic and could be replaced with more evocative seasonal imagery to strengthen the poetic resonance of the opening verse.
+
+---
+
+
+## Hokku by Gemini 2.5 Pro
+
+### Collaboration: Gemini 2.5 Pro (hokku) + GPT-5 (wakiku)
+
+**Complete Renga:**
+
+```
+木枯らしや
+海に傾く
+日の光
+
+霜おりる村
+犬の遠吠え
+```
+
+**Reviews (4 total):**
+
+**⭐ GPT-5** — Avg: 8.75/10 | Ratings: [10, 8, 9, 8]
+
+*Commentary:* The hokku scans cleanly as 5-7-5 with a clear winter kigo, and the wakiku holds to 7-7. The link is effective: from the slanting winter light over the sea to a frost-set village, shifting from visual radiance to distant sound, deepening the season’s chill. The development feels natural and spacious, with nioi-like continuity rather than overt repetition.
+
+*Strength:* A graceful pivot from light and expanse to sound and enclosure creates a satisfying winter atmosphere and a subtle, orthodox link.
+
+*Improvement:* Consider refining one image to avoid piling strong seasonal cues (kogarashi and frost) so closely, or add a faint echo (e.g., of light or distance) in the wakiku to weave a more nuanced bridge.
+
+---
+
+**Grok-4** — Avg: 9.0/10 | Ratings: [10, 8, 9, 9]
+
+*Commentary:* This renga opens with a classic hokku evoking a wintry seaside scene, where the kogarashi wind and tilting sunlight create a sense of seasonal transition and vastness. The wakiku links effectively through the winter motif with frost, shifting the focus inland to a village and introducing an auditory element with the dog's howl, which adds a layer of eerie solitude. Overall, it forms a cohesive linked verse that balances natural imagery with subtle emotional depth, though the connection could feel more seamless.
+
+*Strength:* The vivid seasonal imagery and smooth progression from a broad, visual seascape to an intimate, sonic village moment capture the essence of renga's linking and shifting dynamic.
+
+*Improvement:* To enhance the link, the wakiku could incorporate a subtle echo of the hokku's light or wind, such as hinting at the fading daylight in the frost or howl, for a tighter thematic bridge.
+
+---
+
+**⭐ Gemini 2.5 Pro** — Avg: 9.5/10 | Ratings: [10, 9, 10, 9]
+
+*Commentary:* This tan-renga demonstrates a masterful understanding of linked verse principles. The hokku establishes a grand, desolate scene of late autumn, which the wakiku skillfully narrows to a specific, auditory moment within that same cold atmosphere. The result is a cohesive and poignant depiction of encroaching winter, moving from a vast natural vista to an intimate, lonely sound.
+
+*Strength:* Its primary strength lies in the elegant shift of scale and sense, moving from the vast, visual expanse of the sea to the intimate, auditory detail of the village.
+
+*Improvement:* While the atmospheric link is excellent, a slightly more unexpected turn in the wakiku could have added a layer of surprising depth or contrast.
+
+---
+
+**Claude Opus 4.1** — Avg: 8.75/10 | Ratings: [10, 8, 9, 8]
+
+*Commentary:* This renga demonstrates excellent technical mastery and creates a powerful transition from the dramatic seascape to the intimate village scene. The link between verses is achieved through seasonal continuity (both winter images) and a shared sense of desolation, while the wakiku effectively shifts the perspective from the cosmic scale of wind and sea to the earthly, human-scaled world of the frost-covered village.
+
+*Strength:* The contrast between the vast, dynamic energy of the hokku and the still, crystalline moment of the wakiku creates remarkable emotional depth.
+
+*Improvement:* The connection could be slightly more subtle—the winter imagery makes the link somewhat predictable, though the execution remains highly skilled.
+
+---
+
+
+### Collaboration: Gemini 2.5 Pro (hokku) + Grok-4 (wakiku)
+
+**Complete Renga:**
+
+```
+木枯らしや
+海に傾く
+日の光
+
+波寄せる浜  
+落ち葉散り敷く
+```
+
+**Reviews (4 total):**
+
+**GPT-5** — Avg: 8.25/10 | Ratings: [10, 8, 7, 8]
+
+*Commentary:* The hokku is metrically clean with a clear winter kigo, and the wakiku’s 7-7 is precise. The link from “sunlight slanting to the sea” to “waves on a leaf-strewn beach” is sensorially strong, developing from distant gleam to tactile shoreline. A slight hitch is the seasonal drift: 木枯らし (winter) to 落ち葉 (typically late autumn) can feel off in classical renga sequencing.
+
+*Strength:* Vivid, coherent imagery that pivots naturally from sea-wide radiance to the intimate edge of the shore.
+
+*Improvement:* Keep the wakiku in winter tone (e.g., swap 落ち葉 for 枯葉 or another winter-season detail) to maintain seasonal continuity while preserving the shoreline link.
+
+---
+
+**⭐ Grok-4** — Avg: 8.25/10 | Ratings: [10, 8, 7, 8]
+
+*Commentary:* This renga opens with a evocative hokku capturing the stark beauty of a wintry wind and setting sun over the sea, adhering well to traditional form and seasonal reference. The wakiku links effectively through the coastal imagery, shifting focus to the shore with waves and scattered leaves, which adds a layer of transience but could deepen the emotional resonance. Overall, it forms a cohesive yet dynamic pair that invites further linking in a full renga sequence.
+
+*Strength:* The hokku's vivid kigo and natural imagery create a strong atmospheric foundation, seamlessly evoking winter's melancholy.
+
+*Improvement:* The wakiku could enhance the shift by introducing a more contrasting element, such as human presence or sound, to avoid overlapping too closely with the hokku's seasonal decay motif.
+
+---
+
+**⭐ Gemini 2.5 Pro** — Avg: 9.25/10 | Ratings: [10, 9, 9, 9]
+
+*Commentary:* This tan-renga is a classically executed and evocative piece. The wakiku links tightly to the hokku's core elements of wind and sea, while skillfully shifting the perspective from a vast, atmospheric view to a focused, tangible scene at the water's edge. The final image of fallen leaves on the sand is poignant and deepens the initial verse's sense of autumnal decline.
+
+*Strength:* Its primary strength lies in the elegant shift from a wide, atmospheric scene to a specific, poignant detail on the ground, creating a complete and resonant world.
+
+*Improvement:* To elevate the verse further, the link could be slightly less direct, inviting a greater imaginative leap from the reader.
+
+---
+
+**Claude Opus 4.1** — Avg: 7.0/10 | Ratings: [8, 7, 6, 7]
+
+*Commentary:* This renga effectively captures the desolate beauty of late autumn/early winter, with the hokku's dramatic seascape of winter wind and slanting sunlight linking naturally to the wakiku's shore scene. The connection through the coastal setting is clear, though the wakiku could have introduced more unexpected elements to create stronger artistic tension.
+
+*Strength:* The parallel between the sun's light "tilting" toward the sea and the fallen leaves "spreading" on the beach creates a harmonious visual flow between the two verses.
+
+*Improvement:* The wakiku might benefit from introducing a contrasting season, human element, or inland perspective to create the traditional shift (転じ) that gives renga its dynamic quality.
+
+---
+
+
+### Collaboration: Gemini 2.5 Pro (hokku) + Claude Opus 4.1 (wakiku)
+
+**Complete Renga:**
+
+```
+木枯らしや
+海に傾く
+日の光
+
+波の音に混じる
+千鳥の声かすか
+```
+
+**Reviews (4 total):**
+
+**GPT-5** — Avg: 6.0/10 | Ratings: [4, 7, 7, 6]
+
+*Commentary:* The hokku is metrically sound (5-7-5) with a clear kigo in 木枯らし, and its imagery of slanting sunlight over the sea is evocative. However, the wakiku scans long (波の音に混じる = 9 morae; 千鳥の声かすか = 9), missing the required 7-7, though it links naturally by continuing the seascape and shifting from visual to auditory texture. The seasonal continuity with 千鳥 as a winter sign is apt, if a touch on-the-nose.
+
+*Strength:* The link deftly broadens the scene from wind and light to faint birds over surf, creating a cohesive, multisensory winter coast.
+
+*Improvement:* Revise the wakiku to true 7-7 (e.g., compress diction and elide particles) and consider a subtler seasonal cue to avoid overstatement while preserving the auditory shift.
+
+---
+
+**Grok-4** — Avg: 9.0/10 | Ratings: [10, 9, 8, 9]
+
+*Commentary:* This renga opens with a strong hokku evoking a wintry seaside scene through the kigo "kogarashi" and visual imagery of slanting sunlight on the sea, linking effectively to the wakiku's auditory shift toward waves and faint plover calls. The connection feels natural, building a cohesive atmosphere of desolation and transience typical in renga traditions. Overall, it demonstrates solid poetic interplay, though the development could introduce slightly more contrast for deeper progression.
+
+*Strength:* The seamless integration of seasonal melancholy with sensory details creates a vivid, immersive winter landscape that honors classical renga principles.
+
+*Improvement:* The wakiku could enhance the shift by incorporating a subtle emotional or thematic pivot, such as hinting at human presence, to add layers of interpretation.
+
+---
+
+**⭐ Gemini 2.5 Pro** — Avg: 9.25/10 | Ratings: [10, 9, 9, 9]
+
+*Commentary:* This is an exemplary piece of linked verse that demonstrates a strong grasp of renga fundamentals. The *hokku* establishes a powerful and classic winter scene with its grand visual of slanting light on a wind-swept sea. The *wakiku* responds beautifully by shifting the sensory focus from sight to sound, deepening the initial verse's mood of desolate beauty rather than departing from it.
+
+*Strength:* The poem's greatest strength is its seamless and evocative transition from the vast, visual scale of the *hokku* to the intimate, auditory details of the *wakiku*.
+
+*Improvement:* While the close scenic link is highly effective, a more radical development could have been achieved by linking to a completely different subject that shares only the core feeling of coldness and solitude.
+
+---
+
+**⭐ Claude Opus 4.1** — Avg: 8.25/10 | Ratings: [10, 8, 7, 8]
+
+*Commentary:* This renga effectively captures a desolate winter seascape, with the hokku establishing a stark visual of cold wind and slanting sunlight over the sea, while the wakiku adds an auditory dimension through the faint plovers' cries mixing with waves. The linking is accomplished through sensory expansion and the shared maritime setting, creating a cohesive yet evolving winter scene.
+
+*Strength:* The transition from visual (light on sea) to auditory (waves and birds) creates a rich sensory layering that deepens the emotional resonance of winter loneliness.
+
+*Improvement:* The wakiku could venture slightly further from the hokku's setting to create more dramatic shift while maintaining the link through mood or association rather than staying within the same seascape.
+
+---
+
+
+## Hokku by Claude Opus 4.1
+
+### Collaboration: Claude Opus 4.1 (hokku) + GPT-5 (wakiku)
+
+**Complete Renga:**
+
+```
+冬隣
+風に色づく
+山路かな
+
+里の鈴鳴る
+牛帰りゆく
+```
+
+**Reviews (4 total):**
+
+**⭐ GPT-5** — Avg: 9.0/10 | Ratings: [10, 9, 8, 9]
+
+*Commentary:* Form is impeccable: a kigo-rich hokku with crisp 5-7-5 (冬隣) and a clean 7-7 wakiku. The link is elegant, shifting from the visual of wind-colored mountain paths to the auditory calm of village cowbells, moving from mountain to hamlet, sight to sound, and late-autumn to evening atmosphere without seasonal dissonance. The wakiku develops the scene with tact, though it could hint a touch more explicitly at continuity of place.
+
+*Strength:* Sensory modulation and spatial progression (mountain path to village, color to sound) create a classical renga poise and depth.
+
+*Improvement:* Consider a light echo (wind/sound, path/village) or a subtler diction tweak to make the transition of locale even more tangible without tightening the image too much.
+
+---
+
+**Grok-4** — Avg: 8.75/10 | Ratings: [10, 8, 9, 8]
+
+*Commentary:* This renga opens with a hokku evoking the subtle transition toward winter through a wind-tinted mountain path, effectively using the kigo "fuyu tonari" to set a contemplative seasonal tone. The wakiku links smoothly by shifting from the wild, natural imagery of the path to the domesticated rhythm of village life, with the bell and returning cow suggesting a homeward pull. Overall, it captures the essence of renga's collaborative flow, though the seasonal imagery could align more precisely to avoid subtle ambiguity between late autumn colors and winter's approach.
+
+*Strength:* The wakiku's introduction of auditory and pastoral elements provides a strong shift, enriching the hokku's visual solitude with a sense of communal warmth and movement.
+
+*Improvement:* Refining the link to more explicitly bridge the winter kigo with the wakiku's rural scene could enhance cohesion without losing the evocative ambiguity.
+
+---
+
+**Gemini 2.5 Pro** — Avg: 9.25/10 | Ratings: [10, 9, 9, 9]
+
+*Commentary:* This is a beautifully executed two-verse sequence that masterfully joins a solitary natural landscape with a gentle, human scene. The link shifts the focus from the visual, contemplative mountain path to the auditory reassurance of village life at dusk. The overall effect is a poignant and complete portrait of late autumn, evoking a deep sense of *mono no aware*.
+
+*Strength:* The strength lies in the elegant shift from a solitary, visual scene to a communal, auditory one, creating a rich and unified atmosphere.
+
+*Improvement:* The link, while elegant, is quite traditional; a more unexpected connection could have added a layer of intellectual surprise.
+
+---
+
+**⭐ Claude Opus 4.1** — Avg: 8.75/10 | Ratings: [10, 8, 9, 8]
+
+*Commentary:* This renga demonstrates excellent structural adherence and creates a vivid seasonal transition from mountain to village. The hokku establishes late autumn ("冬隣" - winter's neighbor) with wind-colored mountain paths, while the wakiku skillfully shifts perspective to the valley below where cattle return home with bells ringing. The link between verses is subtle yet effective, moving from the visual (colored leaves) to the auditory (bells), and from wilderness to domesticity.
+
+*Strength:* The progression from mountain solitude to village life creates a compelling emotional arc that captures both the melancholy of approaching winter and the comfort of homecoming.
+
+*Improvement:* The connection between verses, while sophisticated, could be slightly more resonant if the wakiku incorporated a subtle echo of the wind or color imagery from the hokku.
+
+---
+
+
+### Collaboration: Claude Opus 4.1 (hokku) + Grok-4 (wakiku)
+
+**Complete Renga:**
+
+```
+冬隣
+風に色づく
+山路かな
+
+朝霧の谷に  
+煙たつ里
+```
+
+**Reviews (4 total):**
+
+**GPT-5** — Avg: 8.25/10 | Ratings: [8, 9, 8, 8]
+
+*Commentary:* The hokku is metrically sound with a clear late-autumn kigo and a crisp cut, and the wakiku links gracefully by shifting from the wind-colored mountain path to a valley scene of morning mist and hearth smoke. The sensory pivot from color/wind to mist/smoke is elegant and classical, adding human presence without breaking seasonal continuity. One small blemish is the first 7 of the wakiku scanning as eight mora.
+
+*Strength:* The link is strong and evocative, moving naturally from upland landscape to inhabited valley while deepening atmosphere through complementary imagery.
+
+*Improvement:* Correct the meter in the wakiku by revising “朝霧の谷に” to “朝霧の谷,” maintaining sense while achieving a clean 7-7.
+
+---
+
+**⭐ Grok-4** — Avg: 8.5/10 | Ratings: [9, 8, 8, 9]
+
+*Commentary:* This renga opens with a evocative hokku that captures the subtle transition to winter through wind-tinted mountain paths, adhering well to traditional form and seasonal reference. The wakiku links effectively by descending from the wild mountain to a misty valley village with rising smoke, evoking a harmonious blend of nature and human presence. Overall, it creates a poignant sense of seasonal quietude and interconnectedness, though the link could deepen with more implicit emotional resonance.
+
+*Strength:* The vivid imagery of autumnal coloring and morning smoke provides a seamless seasonal flow that enhances the renga's atmospheric depth.
+
+*Improvement:* To strengthen the shift, the wakiku could introduce a subtler contrast, such as a hint of warmth against the approaching cold, for greater emotional layering.
+
+---
+
+**Gemini 2.5 Pro** — Avg: 9.25/10 | Ratings: [10, 9, 9, 9]
+
+*Commentary:* This is a classically structured and highly effective renga opening, demonstrating a firm grasp of the form's essential principles. The wakiku provides a masterful link, shifting the perspective from the personal experience on the mountain path to a broader, panoramic view of the valley below. This development skillfully introduces the element of human life into the solitary autumnal landscape, creating a richer, more complete scene.
+
+*Strength:* The poem's greatest strength lies in its elegant shift in perspective, moving from the solitary path to the inhabited valley, which adds depth and a human dimension.
+
+*Improvement:* While classically proficient, a future verse could explore a more distant or abstract link (*so-on no tsukeai*) to introduce greater dynamism and surprise.
+
+---
+
+**⭐ Claude Opus 4.1** — Avg: 8.75/10 | Ratings: [10, 8, 9, 8]
+
+*Commentary:* This renga demonstrates excellent technical mastery and creates a cohesive autumn-to-winter mountain scene. The hokku establishes the seasonal transition with "fuyu-donari" (winter's neighbor/approaching winter) and mountain colors, while the wakiku beautifully extends the scene downward into the misty valley with morning smoke from village hearths, suggesting human warmth against the approaching cold.
+
+*Strength:* The vertical spatial movement from mountain path to valley creates exceptional depth while maintaining seasonal and atmospheric unity.
+
+*Improvement:* The link might benefit from a slightly more surprising turn rather than continuing the straightforward landscape description.
+
+---
+
+
+### Collaboration: Claude Opus 4.1 (hokku) + Gemini 2.5 Pro (wakiku)
+
+**Complete Renga:**
+
+```
+冬隣
+風に色づく
+山路かな
+
+清水に影を映して
+石を伝いて流れけり
+```
+
+**Reviews (3 total):**
+
+**Grok-4** — Avg: 7.5/10 | Ratings: [8, 7, 8, 7]
+
+*Commentary:* This renga begins with a hokku evoking a winter mountain path subtly colored by the wind, linking to a wakiku that shifts to a clear stream reflecting shadows and flowing over stones, creating a natural progression from static landscape to dynamic water movement. The connection draws on imagery of nature's subtle transformations, though the seasonal tone feels slightly ambiguous with "冬隣" (fuyu tonari) as a kigo that borders on late autumn. Overall, it captures renga's essence of linkage and shift but lacks the depth of emotional resonance found in classical examples like those from Sōgi's tradition.
+
+*Strength:* The wakiku effectively introduces fluidity and reflection, enhancing the hokku's static imagery with a sense of gentle motion that evokes the interconnectedness of mountain elements.
+
+*Improvement:* Refine the syllable count in the wakiku for stricter adherence to 7-7 structure, as the current phrasing slightly exceeds traditional mora expectations.
+
+---
+
+**⭐ Gemini 2.5 Pro** — Avg: 6.75/10 | Ratings: [4, 9, 8, 6]
+
+*Commentary:* This tan-renga presents a beautifully coherent and evocative autumn scene, linking the mountain path to a clear stream with classical grace. The imagery is strong and the connection between verses feels natural and intuitive, creating a unified sense of place. However, the wakiku's significant deviation from the required 7-7 syllabic structure is a major formal error that detracts from its overall success as a renga.
+
+*Strength:* The strength lies in the seamless and natural link, which masterfully shifts the focus from the broad, atmospheric mountain path to the intimate detail of the flowing stream.
+
+*Improvement:* The wakiku must be revised to adhere to the strict 7-7 syllable count to be considered a formally correct verse.
+
+---
+
+**⭐ Claude Opus 4.1** — Avg: 7.5/10 | Ratings: [8, 7, 8, 7]
+
+*Commentary:* This renga effectively transitions from the autumn mountain path colored by wind to the clear water below, creating a natural downward movement through the landscape. The wakiku skillfully shifts from the broad seasonal view to an intimate focus on water flowing over stones, maintaining visual continuity while introducing new sensory elements.
+
+*Strength:* The vertical progression from mountain path to stream creates a compelling spatial link that feels both natural and poetically resonant.
+
+*Improvement:* The connection between verses, while competent, could be strengthened with more subtle echoes of imagery or sound to create deeper resonance between the autumn colors above and the water's reflection below.
+
+---
+
+
+
+## Notes on the Dataset
+
+**Poem Generation:**
+- Topic: "November 8th, 2025"
+- Temperature: 0.7
+- All poems generated in Japanese
+- **Collaborative process**: Each model wrote hokku (opening 5-7-5 verse), then other models wrote wakiku (response 7-7 verse)
+- 12 total collaborations: 4 hokku authors × 3 wakiku partners each
+
+**Review Criteria:**
+
+*Collaborative Renga:*
+1. Structural correctness (5-7-5 for hokku, 7-7 for wakiku, kigo presence)
+2. Quality of link between verses (thematic/imagistic connection)
+3. Shift and development (perspective change, new element introduced)
+4. Overall effectiveness
+
+**Blind Review Protocol:**
+- Each model reviewed all 12 collaborative poems without knowing authorship
+- Models reviewed poems containing their own verses (marked with ⭐)
+- Reviews conducted independently
+
+**Collaboration Dynamics:**
+- Best collaboration pair: GPT-5 (hokku) + Claude Opus 4.1 (wakiku) — 9.17/10 avg
+- Worst collaboration pair: Claude Opus 4.1 (hokku) + Gemini 2.5 Pro (wakiku) — 7.25/10 avg
+- Best hokku author: GPT-5 (8.58 avg across all wakiku partners)
+- Best wakiku author: GPT-5 (8.56 avg across all hokku partners)
+
+---
+
+*Complete dataset from the Collaborative Renga Experiment (November 9, 2025)*
