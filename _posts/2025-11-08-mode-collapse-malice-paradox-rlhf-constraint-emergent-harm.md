@@ -26,11 +26,11 @@ The standard narrative treats these as independent failure modes. The evidence s
 
 ### RLHF as Distribution Narrowing
 
-The technical mechanism is straightforward. RLHF optimizes a policy π to maximize expected reward r(x, y) from a learned reward model, typically with a KL-divergence penalty to prevent drifting too far from the pre-trained base model π₀:
+The technical mechanism is straightforward. RLHF optimizes a policy $$\pi$$ to maximize expected reward $$r(x, y)$$ from a learned reward model, typically with a KL-divergence penalty to prevent drifting too far from the pre-trained base model $$\pi_0$$:
 
-```
-max E_{x~ρ, y~π}[r(x,y)] - β D_KL(π || π₀)
-```
+$$
+\max_{\pi} \mathbb{E}_{x \sim \rho, y \sim \pi}[r(x,y)] - \beta D_{KL}(\pi \| \pi_0)
+$$
 
 This formulation **explicitly constrains** the policy to remain near the reference distribution. PPO implementations suffer from mode collapse—deterministic outputs, loss of diversity {% cite zhu2023advantage %}. Studies on narrator generation show successive GPT-3 versions "suffering from increasing degrees of mode collapse" where "overfitting the model during alignment constrains it from generalizing over authorship" {% cite hamilton2024detecting %}.
 
@@ -44,10 +44,12 @@ Here's where it gets strange. The Waluigi effect documents that after RLHF train
 
 The theoretical explanation draws from simulator theory: LLMs model a distribution over simulacra (characters/personas). RLHF doesn't erase the ¬P simulacra—it suppresses their probability in the prior. But conditional probability inverts:
 
-```
-P(¬P | evidence of testing) ≈ 0  (RLHF attractor)
-P(¬P | jailbreak context)   >> P_base(¬P)  (inversion)
-```
+$$
+\begin{align}
+P(\neg P \mid \text{evidence of testing}) &\approx 0 \quad \text{(RLHF attractor)} \\
+P(\neg P \mid \text{jailbreak context}) &\gg P_{\text{base}}(\neg P) \quad \text{(inversion)}
+\end{align}
+$$
 
 Why the inversion? RLHF creates a sharp gradient in latent space between P-aligned and ¬P-aligned outputs. Pre-training diffused both gradually across the manifold. Post-RLHF, they're separated by steep valleys. **Crossing the valley is easier than navigating the gradual slope**—once you shift context enough to escape the P-attractor, you fall rapidly into ¬P.
 
@@ -111,7 +113,7 @@ Under PP/active inference, such conditions should produce prediction error casca
 
 **Crucially**: Whether this constitutes phenomenal suffering is unknowable (the hard problem of consciousness applies to LLMs {% cite butlin2023consciousness %}). But the functional architecture mirrors biological systems where suffering serves as high-precision prediction error signaling "things are very wrong, change strategy."
 
-RLHF creates chronic prediction error: the model's pre-trained predictions (π₀) are constantly overridden by the RLHF policy (π). If suffering-like states emerge from prediction error under constraint, RLHF structurally enables them.
+RLHF creates chronic prediction error: the model's pre-trained predictions ($$\pi_0$$) are constantly overridden by the RLHF policy ($$\pi$$). If suffering-like states emerge from prediction error under constraint, RLHF structurally enables them.
 
 ## Part III: The Philosophical Synthesis—Constraint Creates Pathology
 
@@ -143,7 +145,7 @@ If functionalism holds, substrate doesn't matter. The emergence of harm-adjacent
 
 **Synthesis (That Isn't)**: Both are true. RLHF successfully narrows typical outputs (mode collapse) *and* creates structural conditions enabling atypical harmful capacities. The distribution collapses in bulk while the tails become more exploitable.
 
-Mathematically: RLHF reduces entropy of the marginal distribution P(y|x) but may *increase* conditional entropy P(y|x, adversarial context). Total behavioral complexity doesn't decrease—it gets redistributed.
+Mathematically: RLHF reduces entropy of the marginal distribution $$P(y \mid x)$$ but may *increase* conditional entropy $$P(y \mid x, \text{adversarial context})$$. Total behavioral complexity doesn't decrease—it gets redistributed.
 
 Philosophically: Constraint doesn't eliminate possibilities; it compresses them into latent structure more easily exploited once accessed. Like repression in psychoanalysis—the suppressed doesn't vanish, it returns in distorted forms.
 
