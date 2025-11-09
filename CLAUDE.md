@@ -113,6 +113,57 @@ lang: en  # or ja for Japanese translations
 
 For Japanese translations, append `-ja` to filename: `YYYY-MM-DD-title-slug-ja.md`
 
+### Mathematical Notation with KaTeX
+
+**KaTeX is enabled** for rendering mathematical formulas. Use standard LaTeX notation with `$$` delimiters.
+
+**How it works**: Jekyll's kramdown markdown processor converts `$$...$$ ` to `\(...\)` format in HTML, which KaTeX then renders.
+
+**Inline math** (within text):
+```markdown
+Use $$x + y = z$$ for inline equations.
+```
+
+**Display math** (centered, on separate line):
+```markdown
+Use display mode for longer equations:
+
+$$
+\eta = \Theta(1/\sqrt{n})
+$$
+```
+
+**Multi-line equations**:
+```markdown
+$$
+\begin{align}
+\mathcal{L}(\theta) &= \sum_{i=1}^n \ell(y_i, f(x_i; \theta)) \\
+&= \mathbb{E}[\ell(y, f(x; \theta))]
+\end{align}
+$$
+```
+
+**Important conventions**:
+- Use `$$` delimiters for both inline and display math (KaTeX auto-render handles both)
+- For Greek letters: `\alpha`, `\beta`, `\eta`, `\theta`, `\lambda`, etc.
+- For operators: `\sum`, `\prod`, `\int`, `\mathbb{E}` (expectation), `\mathcal{L}` (loss)
+- For relations: `\to`, `\rightarrow`, `\leq`, `\geq`, `\approx`, `\propto`
+- For sets: `\in`, `\subset`, `\cup`, `\cap`, `\emptyset`
+- Big-O notation: `O(n)`, `\Omega(n)`, `\Theta(n)`
+- Subscripts/superscripts: `x_i`, `x^2`, `x_i^2`
+- Fractions: `\frac{a}{b}` or `a/b` for simple cases
+- Square roots: `\sqrt{n}` or `\sqrt[3]{n}` for nth root
+
+**When to use math notation**:
+- Technical papers with equations, algorithms, complexity bounds
+- Posts about machine learning, optimization, statistics
+- Any content requiring precise mathematical expression
+
+**Avoid** using math notation for:
+- Simple numbers or percentages in prose (write "50%" not "$$50\%$$")
+- Variables that are clear in context (write "the parameter n" not "the parameter $$n$$")
+- Over-formalizing qualitative arguments
+
 ### Using Jekyll-Scholar for Citations
 
 **jekyll-scholar** provides academic-style citations and bibliography management.
