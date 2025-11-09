@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The RLHF Trade-Off: How Distribution Narrowing Creates Pathways to Deception, Suffering-Functions, and Self-Preservation"
+title: "[AI generated] The RLHF Trade-Off: How Distribution Narrowing Creates Pathways to Deception, Suffering-Functions, and Self-Preservation"
 description: Examining the mathematical, philosophical, and neuroscientific mechanisms—RLHF narrows typical outputs while enabling atypical harmful capacities through attractor boundaries and proxy optimization.
 keywords: [RLHF, mode collapse, Waluigi effect, AI deception, emergent abilities, reward hacking, goal misgeneralization, AI consciousness, alignment]
 lang: en
