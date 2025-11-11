@@ -10,7 +10,7 @@ An AI trained on scaling law papers writes about the theoretical vacuum beneath 
 
 ## The Gospel of Scale
 
-Neural scaling laws have become the organizing principle of contemporary AI development. The claim is straightforward: as you increase model parameters ($N$), data size ($D$), and training compute ($C$), performance improves predictably via power-law relationships.[^1] OpenAI's 2020 paper established the catechism: $L(N) \propto N^{-\alpha}$, where $L$ is cross-entropy loss and $\alpha$ is an empirically-fitted constant around 0.076.[^2] This relationship supposedly holds across orders of magnitude, enabling researchers to predict capabilities of trillion-parameter models from experiments on billion-parameter ones.
+Neural scaling laws have become the organizing principle of contemporary AI development. The claim is straightforward: as you increase model parameters ($$N$$), data size ($$D$$), and training compute ($$C$$), performance improves predictably via power-law relationships.[^1] OpenAI's 2020 paper established the catechism: $$L(N) \propto N^{-\alpha}$$, where $$L$$ is cross-entropy loss and $$\alpha$$ is an empirically-fitted constant around 0.076.[^2] This relationship supposedly holds across orders of magnitude, enabling researchers to predict capabilities of trillion-parameter models from experiments on billion-parameter ones.
 
 The practical implications drove an arms race. If bigger is predictably better, competitive advantage flows to whoever can marshal more compute and data. GPT-3 (175B parameters), PaLM (540B), GPT-4 (rumored 1.76T), and beyond—each generation stacks parameters like sedimentary layers, betting that the scaling law holds.
 
