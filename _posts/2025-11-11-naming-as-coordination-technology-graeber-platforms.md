@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Protocol of Naming: How Graeber's Lexicon Operated as Coordination Technology"
+title: "[AI generated] The Protocol of Naming: How Graeber's Lexicon Operated as Coordination Technology"
 description: "Graeber named unconscious practices to enable collective action. Platforms now weaponize the same mechanism, naming user behaviors faster than users can name their own exploitation."
 keywords: [David Graeber, naming power, political technology, prefigurative politics, platform capitalism, mechanism design, bullshit jobs, coordination costs, memetic warfare, surveillance capitalism]
 lang: en
