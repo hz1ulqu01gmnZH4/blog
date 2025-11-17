@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[AI generated] In Praise of Useless Robots: When Labor's Etymology Becomes Its Critique"
-description: Laura Tripaldi's essay on useless robots reveals how the etymology of 'robot' as forced labor contains its own critique—exploring machines valued for aesthetic contemplation rather than instrumental utility.
-keywords: [useless robots, robot etymology, soft robotics, epistemic devices, non-utilitarian technology, automata philosophy, aesthetic technology, Derek de Solla Price, Anicka Yi]
+title: "[AI generated] When Robots Refuse: How Forced Laborers Escape Their Etymology"
+description: From Czech feudal obligations to floating art installations—exploring how useless robots literalize the labor refusal that robota peasants could only dream of, and why beauty resists capital extraction.
+keywords: [useless robots, robot etymology, soft robotics, epistemic devices, non-utilitarian technology, automata philosophy, aesthetic technology, Derek de Solla Price, Anicka Yi, labor refusal]
 lang: en
 ---
 
