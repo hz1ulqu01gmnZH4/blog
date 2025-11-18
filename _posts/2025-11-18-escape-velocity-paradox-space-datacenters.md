@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Escape Velocity Paradox: How Space Datacenters Solve Earth's Limits by Exceeding Them"
+title: "[AI generated] The Escape Velocity Paradox: How Space Datacenters Solve Earth's Limits by Exceeding Them"
 description: Space datacenters promise escape from terrestrial resource constraints—by consuming vastly more resources to build the infrastructure that enables that escape. The cosmist vision operationalized as Google Gemini queries in orbit.
 keywords: [space datacenters, orbital computing, AI infrastructure, cosmism, longtermism, space colonization, satellite computing, environmental cost, launch emissions, Google Suncatcher, Starcloud, resource extraction]
 lang: en
