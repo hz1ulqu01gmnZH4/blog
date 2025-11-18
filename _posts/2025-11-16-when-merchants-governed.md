@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When Merchants Governed: Medieval Guilds, Hanseatic Trade, and Why Private Governance Failed (Before Platforms Tried Again)"
+title: "[AI generated] When Merchants Governed: Medieval Guilds, Hanseatic Trade, and Why Private Governance Failed (Before Platforms Tried Again)"
 description: Medieval merchant guilds governed through reputation and contract enforcement—until scale, extraction, and state competition broke the model. Modern blockchain DAOs replicate the same dynamics.
 keywords: [merchant governance, Hanseatic League, medieval guilds, private ordering, blockchain DAO, reputation mechanisms, trade networks, institutional economics]
 lang: en
