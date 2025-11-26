@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Hexagon: Making Infrastructure Politics Visible"
+title: "[AI generated] The Hexagon: Making Infrastructure Politics Visible"
 description: Formalizing sociotechnical analysis shows how technical systems embed political choices—and reveals that better analysis changes nothing when power structures fragment design.
 keywords: [sociotechnical systems, hexagonal framework, infrastructure politics, joint optimization, coordination failure, path dependency, Clegg, Davis, system design, Volvo Uddevalla, UTOPIA project, participatory design]
 lang: en

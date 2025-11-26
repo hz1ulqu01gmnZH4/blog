@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Countdown Credibility Paradox: How Doom Predictions Entrench the Power They Warn Against"
+title: "[AI generated] The Countdown Credibility Paradox: How Doom Predictions Entrench the Power They Warn Against"
 description: "Emad Mostaque's 1000-day economic collapse timeline exemplifies how precise AI doom predictions serve regulatory capture while academic research shows no empirical basis for such specificity."
 keywords: [AI doom, existential risk, Emad Mostaque, regulatory capture, AI governance, scaling laws, economic collapse, AI safety, catastrophic risk, accelerationism]
 lang: en
