@@ -9,6 +9,7 @@ experiments/
 experiment/
 cache/
 data/
+scripts/
 
 # Jekyll
 _site/
