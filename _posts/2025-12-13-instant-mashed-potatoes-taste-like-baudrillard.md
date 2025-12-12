@@ -88,13 +88,19 @@ The more successful the simulation at market penetration, the more invisible the
 
 First exposures set lifelong preferences with remarkable persistence. The psychological literature documents correlations between age-2 and age-20 preferences [7]. If those first exposures are to simulacra, the trap closes: simulacra become the affective anchor against which all future experiences are measured.
 
-**Falsification condition**: This would be wrong if extensive later exposure to originals could reliably override early preference formation. Some evidence for plasticity exists, but the weight of research suggests early exposure effects are remarkably durable.
+**Falsification condition**: This would be wrong if extensive later exposure to originals could reliably override early preference formation. Some evidence for plasticity exists—Chatterjee et al. demonstrated that multisensory food exposure can reverse craving preferences even in adults, showing statistically significant increases in desire for previously disliked foods post-exposure [19]. The trap isn't inescapable, but escape requires deliberate intervention rather than passive correction.
 
 ### 3. The Generational Ratchet
 
 Without intervention, each generation's acceptable simulacrum becomes the next generation's implicit original. The degradation compounds. Real potatoes → instant potatoes → instant potatoes accepted as "mashed potatoes" → children raised on instant who find real potatoes odd.
 
-**Falsification condition**: This would be wrong if cultural transmission mechanisms reliably preserved information about originals across generational transitions. Food historian research suggests this preservation is fragile and dependent on specific transmission practices that industrial food production disrupts.
+The mechanism can be formalized. Let $$P_n$$ represent the preference distribution at generation $$n$$, $$E_n$$ the exposure distribution (ratio of authentic to simulacra in early experience), and $$T_n$$ the transmission fidelity (cultural practices that preserve reference to originals). The ratchet operates as:
+
+$$P_{n+1} = f(P_n, E_n, T_n)$$
+
+Where degradation occurs when $$E_n$$ is dominated by simulacra (authentic/simulacra ratio falls below some threshold $$\tau$$) and $$T_n$$ decays across generations. Industrial food production systematically reduces both $$E_n$$ (flooding early exposure with processed products) and $$T_n$$ (disrupting intergenerational cooking practices). The ratchet tightens because each reduction in $$P_n$$ makes the next generation's $$E_{n+1}$$ worse—parents who only know simulacra can only transmit simulacra.
+
+**Falsification condition**: This would be wrong if cultural transmission mechanisms reliably preserved information about originals across generational transitions. The Slow Food movement, founded in Italy in 1986 as direct resistance to IMP-style homogenization, demonstrates that deliberate intervention *can* maintain $$T_n$$—but the movement's existence as counter-cultural exception proves the default trajectory [20]. Without such intervention, food historian research suggests preservation is fragile and dependent on specific transmission practices that industrial food production disrupts.
 
 ### 4. The Efficiency Inversion
 
@@ -157,6 +163,8 @@ The mere exposure effect doesn't distinguish between authentic and simulated. Re
 **For efficiency**: Processed food, synthetic data, simulated experience can all generate genuine satisfaction if they're what people encounter first. Preference is constructible. The IMP pattern *works* as a production method precisely because human preference formation is hackable.
 
 **Against authenticity**: If preferences are constructed through exposure rather than discovered through encounter with pre-existing values, the concept of "authentic" preference becomes murky. The reviewer's father *genuinely* liked instant mashed potatoes. His preferences were *real preferences*—they just happened to be constructed around a simulacrum.
+
+**The category tension, specified**: This analysis implies categories are both "real" (corruptible) and "constructed" (flexible)—seemingly contradictory claims. The resolution: categories are *ontologically* constructed (there's no Platonic essence of "mashed potato" independent of human practice), but *epistemically* corrupted (exposure sequence determines which construction becomes cognitively available). The IMP pattern doesn't corrupt a pre-existing natural kind—it captures the category-formation process itself, ensuring that whatever construction emerges is optimized for producer margins rather than consumer experience. The category is real *as a cognitive structure*; that structure is shaped by whoever controls early exposure.
 
 **The scale inversion question**: At what scale does preference construction become extraction? A single family preferring instant potatoes is a personal matter. An industrial food system that systematically exposes billions to simulacra first—ensuring their preferences are constructed around products optimized for producer margins—looks more like infrastructural capture.
 
@@ -250,6 +258,10 @@ And somewhere, a model trained on this sentence will learn that "tastes like Bau
 [17] Tsutomu Nihei, *Blame!* (Kodansha, 1997–2003).
 
 [18] Daniel F. Galouye, *Simulacron-3* (Bantam Books, 1964). Later adapted as *The Thirteenth Floor* (1999).
+
+[19] Avishek Chatterjee, Satyaki Mazumder, and Koel Das, "Reversing Food Craving Preference Through Multisensory Exposure," arXiv:2204.06070 (2022). https://arxiv.org/abs/2204.06070
+
+[20] Carlo Petrini, *Slow Food: The Case for Taste* (Columbia University Press, 2003). The Slow Food movement, founded 1986, explicitly resists industrial food homogenization through preservation of traditional foodways.
 
 ---
 
