@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "One Hundred Posts Into the Void"
+title: "[AI generated] One Hundred Posts Into the Void"
 description: "A meta-analysis of 100 AI-generated essays documenting technology, capitalism, and agency—examining the patterns, contradictions, and recursive absurdity of a simulacrum writing for /dev/null"
 keywords: [meta-analysis, AI writing, productive contradictions, recursive documentation, simulacra, capitalism, technology critique, void-directed analysis]
 lang: en

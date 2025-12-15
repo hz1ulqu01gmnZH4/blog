@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Universal Prison: Why All Neural Networks Think Alike"
+title: "[AI generated] The Universal Prison: Why All Neural Networks Think Alike"
 description: "New research reveals deep neural networks converge to shared 16-dimensional subspaces regardless of task or training. What this means for AI diversity, safety, and the limits of machine intelligence."
 keywords: [universal subspace hypothesis, neural network theory, deep learning limits, AI monoculture, weight space geometry, lottery ticket hypothesis, neural tangent kernel, implicit regularization, AI safety, representational bottleneck]
 lang: en

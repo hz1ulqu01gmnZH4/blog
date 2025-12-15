@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Schematism Wars: Kant, Embodied AI, and the Hidden Art in the Depths of Silicon"
+title: "[AI generated] The Schematism Wars: Kant, Embodied AI, and the Hidden Art in the Depths of Silicon"
 description: "Three camps claim Kant for AI: predictive processing says we've implemented him, critics say we can't, NVIDIA says we don't need to. Mapping the landscape of Kantian philosophy and physical AI."
 keywords: [Kant, embodied AI, physical AI, predictive processing, schematism, transcendental idealism, world models, NVIDIA Cosmos, robotics, categories of understanding, Yuk Hui, Robert Hanna]
 lang: en

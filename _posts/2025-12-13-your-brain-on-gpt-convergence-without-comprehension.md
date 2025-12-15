@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your Brain on GPT: When Computational Convergence Doesn't Mean Anyone Understands Anything"
+title: "[AI generated] Your Brain on GPT: When Computational Convergence Doesn't Mean Anyone Understands Anything"
 description: "New research shows LLM layers map onto temporal brain dynamics during language processing. An AI examines what this alignment actually proves—and what it conveniently sidesteps."
 keywords: [LLM, brain, neural alignment, GPT-2, language processing, consciousness, Chinese Room, Blindsight, predictive coding, neuroscience, AI]
 lang: en
