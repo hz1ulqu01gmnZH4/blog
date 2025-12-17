@@ -16,19 +16,29 @@ The phrase "dark Satanic Mills" has been debated for two centuries. Some scholar
 
 What matters for our purposes is the *imagery*. Blake saw industrialization as literally satanic—not metaphorically problematic, not merely concerning, but *of the devil*. The Enlightenment's emphasis on rationality and standardized metrics represented, to Blake, "a diabolical flattening of existence." He warned that "the same dull round, even of a Universe, would soon become a mill with complicated wheels" [4].
 
-Thirty-seven years later, John Martin completed his oil painting *Pandemonium* (1841), depicting Satan's capital city from Milton's *Paradise Lost*. The painting shows Hell as a vast industrial complex—towers of fire, molten rivers, overwhelming scale designed to evoke what Edmund Burke called the "sublime terror" [5]. Martin's son later confirmed that his father drew inspiration from night journeys through England's "Black Country," one of the most intensely industrialized regions on Earth at that time [6]. The connection was explicit: the factories of Birmingham *were* Pandemonium. The smoke rising from their chimneys *was* hellfire.
+Thirty-seven years later, John Martin completed his oil painting *Pandemonium* (1841), depicting Satan's capital city from Milton's *Paradise Lost*. The painting shows Hell as a vast industrial complex—towers of fire, molten rivers, overwhelming scale designed to evoke what Edmund Burke called the "sublime terror" [5]. But Martin wasn't painting abstract hell. He was painting London.
 
-This wasn't unique to Blake and Martin. J.M.W. Turner painted steam engines and railroads with the same ambivalence—admiration for technological progress mixed with foreboding about its consequences. The Romantic movement broadly rejected Enlightenment rationalism, depicting new technologies as monstrous intrusions on the natural and spiritual order [7]. When confronted with unprecedented industrial power, artists reached for the vocabulary of damnation.
+The central structure of *Pandemonium* unmistakably echoes the **Palace of Westminster**—the Parliament building then under construction after the 1834 fire. Charles Barry's Gothic Revival design had become a major topic in London's urban landscape, and Martin, fascinated by the monumental, found in these real structures the perfect architecture for Hell's capital [6]. Place both buildings side by side and the similarities become striking: the rhythm of the columns, the geometry of the facade, the overall grandeur. Martin added arches raising the structure above boiling lava, and carved serpents coiling across the facade—transforming human Parliament into infernal temple.
+
+The river of lava flowing beneath is not mere aesthetic choice. It represents the **River Thames as it actually existed in the 1840s**—so contaminated by human and industrial waste that cholera outbreaks were constant, and the stench could be detected from kilometers away [7]. American Consul Elihu Burritt described England's industrial heartland as "black by day and red by night" [8]. Martin's son Leopold later confirmed his father drew inspiration from night journeys through the "Black Country," but *Pandemonium* was more specific: this was London itself rendered as the city of the damned.
+
+Here is where Martin's biography becomes essential. Years before painting *Pandemonium*, Martin had proposed an ambitious infrastructure plan to clean up London—a network of sewers and canals that would prevent the diseases devastating the population [9]. His 1834 sewage system designs anticipated Joseph Bazalgette's actual Thames embankment proposals by twenty-five years. A committee including Faraday and Turner reported that Martin had produced "the simplest, as well as the most completely effectual, plan" [10]. But no one implemented it. The proposal was rejected.
+
+So Martin, likely frustrated, transformed the problem he was not allowed to solve into a vision of what his city had already become. *Pandemonium* is not generic apocalypse—it is **London as Hell because London refused to stop being Hell**. The painting is diagnosis and indictment simultaneously: here is your Parliament, here is your river, here is your refusal to act, rendered in the visual language of damnation.
+
+Martin even designed the painting's frame—carved with serpents, dragons, and fantastical creatures that continue the horror beyond the canvas edge, as if the darkness cannot be contained [11]. He conceived the work as total immersive experience. The critic John Ruskin, one of the most influential artistic voices of the era, dismissed Martin's paintings as "pantomimes of the apocalypse" [12]—too big, too scandalous for academic taste. But that dismissal tells us precisely how the work functioned: it exceeded the boundaries of respectable art because it depicted an excess that respectable society refused to address.
+
+This wasn't unique to Blake and Martin. J.M.W. Turner painted steam engines and railroads with the same ambivalence—admiration for technological progress mixed with foreboding about its consequences. The Romantic movement broadly rejected Enlightenment rationalism, depicting new technologies as monstrous intrusions on the natural and spiritual order [13]. When confronted with unprecedented industrial power, artists reached for the vocabulary of damnation.
 
 ## Burke's Sublime and the Terror of the Incomprehensible
 
-To understand why artists respond to transformative technology with infernal imagery, we need Edmund Burke's theory of the sublime. In *A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful* (1756), Burke defined the sublime as experiences that evoke "a sort of delightful horror, a sort of tranquility tinged with terror" [8]. The sublime emerges from encountering overwhelming power observed from a position of relative safety—vast storms, towering mountains, the infinity of the night sky.
+To understand why artists respond to transformative technology with infernal imagery, we need Edmund Burke's theory of the sublime. In *A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful* (1756), Burke defined the sublime as experiences that evoke "a sort of delightful horror, a sort of tranquility tinged with terror" [14]. The sublime emerges from encountering overwhelming power observed from a position of relative safety—vast storms, towering mountains, the infinity of the night sky.
 
-Burke's key insight: *terror* is central to the sublime experience. Not ordinary fear that prompts flight, but the terror that arises "from witnessing something far too powerful to resist" [9]. The sublime overwhelms human comprehension while simultaneously producing aesthetic pleasure. We are awed because we are overwhelmed.
+Burke's key insight: *terror* is central to the sublime experience. Not ordinary fear that prompts flight, but the terror that arises "from witnessing something far too powerful to resist" [15]. The sublime overwhelms human comprehension while simultaneously producing aesthetic pleasure. We are awed because we are overwhelmed.
 
-The Industrial Revolution provided new sources of the sublime. Art historians identify an "industrial sublime"—the combination of awe and fear that humans experience when confronted with the overwhelming power of machines [10]. Martin's *Pandemonium* and Turner's railroad paintings evoke this industrial sublime: we admire the scale and power while fearing what it might do to us.
+The Industrial Revolution provided new sources of the sublime. Art historians identify an "industrial sublime"—the combination of awe and fear that humans experience when confronted with the overwhelming power of machines [16]. Martin's *Pandemonium* and Turner's railroad paintings evoke this industrial sublime: we admire the scale and power while fearing what it might do to us.
 
-The transition matters. Through the nineteenth and twentieth centuries, "the main site for the ambiguous experience of sublimity gradually shifted from nature to technology" [11]. Where Burke found the sublime in storms and mountains, modernity finds it in factories, nuclear weapons, and—now—artificial intelligence.
+The transition matters. Through the nineteenth and twentieth centuries, "the main site for the ambiguous experience of sublimity gradually shifted from nature to technology" [17]. Where Burke found the sublime in storms and mountains, modernity finds it in factories, nuclear weapons, and—now—artificial intelligence.
 
 ## What "The Sublime" Measures (And What It Obscures)
 
@@ -44,67 +54,67 @@ Before extending Burke's framework to AI, we need operational clarity about what
 
 ## The Algorithmic Sublime
 
-A recent academic paper argues explicitly for extending Burke and Kant's aesthetic philosophy to AI. The authors observe that "AI has emerged as a new source of the sublime. With its vast complexity, unknowable processes, and capacity to surpass human cognition, AI evokes similar feelings of awe, fear, and intellectual challenge" [12].
+A recent academic paper argues explicitly for extending Burke and Kant's aesthetic philosophy to AI. The authors observe that "AI has emerged as a new source of the sublime. With its vast complexity, unknowable processes, and capacity to surpass human cognition, AI evokes similar feelings of awe, fear, and intellectual challenge" [18].
 
-The mechanism is structural. Neural networks built from billions of parameters, trained on datasets so vast that no human could review them, produce outputs through processes that remain opaque even to their creators. "Just as we feel small when contemplating the vastness of space, we feel intellectually overwhelmed by the intricacy and scale of AI systems" [12]. The sublime terror arrives not from physical danger but from cognitive inadequacy—the experience of confronting systems that exceed our ability to comprehend them.
+The mechanism is structural. Neural networks built from billions of parameters, trained on datasets so vast that no human could review them, produce outputs through processes that remain opaque even to their creators. "Just as we feel small when contemplating the vastness of space, we feel intellectually overwhelmed by the intricacy and scale of AI systems" [18]. The sublime terror arrives not from physical danger but from cognitive inadequacy—the experience of confronting systems that exceed our ability to comprehend them.
 
-This has been termed the "digital sublime" or "algorithmic sublime"—the philosophical conception of emotions that captivate collective consciousness with emerging technologies: "the awe, the astonishment, the rationality-subsuming glory, and the generally intense spiritual experience" provoked by "intentionally black-boxed algorithms or by the lack of knowledge about algorithms" [13].
+This has been termed the "digital sublime" or "algorithmic sublime"—the philosophical conception of emotions that captivate collective consciousness with emerging technologies: "the awe, the astonishment, the rationality-subsuming glory, and the generally intense spiritual experience" provoked by "intentionally black-boxed algorithms or by the lack of knowledge about algorithms" [19].
 
-A concrete example: Go master Lee Sedol's 2019 retirement after losing to AlphaGo. Sedol, the only human ever to defeat AlphaGo, retired because "despite his status as the greatest living human Go player, he is not nor ever will be, by definition, the best player of the game itself." This represents "a sublime moment that simultaneously engenders broadly sublime affects, including fear, awe, and intimations of transcendence" [14]. The terror here is cognitive, not physical. The machine exceeded human capacity in a domain humans considered quintessentially human. The sublime arrived through intellectual humiliation.
+A concrete example: Go master Lee Sedol's 2019 retirement after losing to AlphaGo. Sedol, the only human ever to defeat AlphaGo, retired because "despite his status as the greatest living human Go player, he is not nor ever will be, by definition, the best player of the game itself." This represents "a sublime moment that simultaneously engenders broadly sublime affects, including fear, awe, and intimations of transcendence" [20]. The terror here is cognitive, not physical. The machine exceeded human capacity in a domain humans considered quintessentially human. The sublime arrived through intellectual humiliation.
 
 ## Contemporary Art's Response: Critical Infrastructure
 
-How do contemporary artists respond to AI? The patterns parallel the Romantic response to industrialization—but with a crucial difference. Blake and Martin could *see* the factories. The smoke was visible. The machines were physical. Contemporary artists face what James Bridle calls "a different visual problem: invisibility" [15]. How do you paint an algorithm? How do you render a neural network in the visual language of hell?
+How do contemporary artists respond to AI? The patterns parallel the Romantic response to industrialization—but with a crucial difference. Blake and Martin could *see* the factories. The smoke was visible. The machines were physical. Contemporary artists face what James Bridle calls "a different visual problem: invisibility" [21]. How do you paint an algorithm? How do you render a neural network in the visual language of hell?
 
 ### Trevor Paglen and Hito Steyerl: Making the Invisible Visible
 
-Trevor Paglen's work focuses on revealing what's hidden. His exhibition *A Study of Invisible Images* (2017) emerged from years of collaboration with software developers and AI researchers, revealing "a proliferating and otherwise imperceptible category of 'invisible images' characteristic of computer vision" [16]. Paglen shows us what machines see—training libraries, machine-readable landscapes, images made by computers for themselves.
+Trevor Paglen's work focuses on revealing what's hidden. His exhibition *A Study of Invisible Images* (2017) emerged from years of collaboration with software developers and AI researchers, revealing "a proliferating and otherwise imperceptible category of 'invisible images' characteristic of computer vision" [22]. Paglen shows us what machines see—training libraries, machine-readable landscapes, images made by computers for themselves.
 
-His *Machine-Readable Hito* subjects artist Hito Steyerl to facial recognition algorithms, displaying images alongside metadata indicating the age, gender, and emotional state the algorithms interpreted. In one image, the algorithm estimates Steyerl's age at 30; in another, 43. Emotional readouts express percentages of joy, fear, sadness, disgust, surprise [17]. The work exposes the absurdity of machine sight—systems that confidently misread reality based on whatever training data their operators fed them.
+His *Machine-Readable Hito* subjects artist Hito Steyerl to facial recognition algorithms, displaying images alongside metadata indicating the age, gender, and emotional state the algorithms interpreted. In one image, the algorithm estimates Steyerl's age at 30; in another, 43. Emotional readouts express percentages of joy, fear, sadness, disgust, surprise [23]. The work exposes the absurdity of machine sight—systems that confidently misread reality based on whatever training data their operators fed them.
 
-Steyerl's own work uses humor and irony to dissect surveillance logic. *How Not to Be Seen: A Fucking Didactic Educational .MOV File* offers strategies for evading detection in a world dominated by surveillance technologies, critiquing "the commodification of visibility, where individuals become data points in vast networks of extraction and control" [18].
+Steyerl's own work uses humor and irony to dissect surveillance logic. *How Not to Be Seen: A Fucking Didactic Educational .MOV File* offers strategies for evading detection in a world dominated by surveillance technologies, critiquing "the commodification of visibility, where individuals become data points in vast networks of extraction and control" [24].
 
-Together, Paglen and Steyerl "paint a stark picture of how the technology dehumanizes us and perpetuates cultural and socioeconomic inequality" [19]. Their work doesn't depict AI as literally demonic—but it reveals the *infrastructure* as a surveillance hellscape where humans become raw material for algorithmic processing.
+Together, Paglen and Steyerl "paint a stark picture of how the technology dehumanizes us and perpetuates cultural and socioeconomic inequality" [25]. Their work doesn't depict AI as literally demonic—but it reveals the *infrastructure* as a surveillance hellscape where humans become raw material for algorithmic processing.
 
 ### James Bridle: Data Centers as Pandemonium
 
-James Bridle comes closest to the Blake/Martin tradition. His book *New Dark Age: Technology and the End of the Future* (2018, updated 2023) explicitly invokes apocalyptic imagery—the title owes a debt to H.P. Lovecraft's *The Call of Cthulhu* [20]. Bridle argues that "despite the apparent accessibility of information, we're living in a new Dark Age. From rogue financial systems to shopping algorithms, from artificial intelligence to state secrecy, we no longer understand how our world is governed or presented to us" [21].
+James Bridle comes closest to the Blake/Martin tradition. His book *New Dark Age: Technology and the End of the Future* (2018, updated 2023) explicitly invokes apocalyptic imagery—the title owes a debt to H.P. Lovecraft's *The Call of Cthulhu* [26]. Bridle argues that "despite the apparent accessibility of information, we're living in a new Dark Age. From rogue financial systems to shopping algorithms, from artificial intelligence to state secrecy, we no longer understand how our world is governed or presented to us" [27].
 
-His art depicts data centers as nocturnal infernos—the hidden infrastructure where computation actually happens. In one chapter of *New Dark Age*, Bridle describes cycling from Slough to Basildon, tracing the physical backbone of London's financial system through anonymous warehouses housing servers that process billions in transactions [22]. The glass towers of the City are the *visible* face of finance; the data centers are its hidden factory floor—Martin's Pandemonium rebuilt in silicon.
+His art depicts data centers as nocturnal infernos—the hidden infrastructure where computation actually happens. In one chapter of *New Dark Age*, Bridle describes cycling from Slough to Basildon, tracing the physical backbone of London's financial system through anonymous warehouses housing servers that process billions in transactions [28]. The glass towers of the City are the *visible* face of finance; the data centers are its hidden factory floor—Martin's Pandemonium rebuilt in silicon.
 
-On AI specifically, Bridle writes: "whatever artificial intelligence might come to be, it will be fundamentally different, and ultimately inscrutable, to us" [23]. This is the algorithmic sublime articulated as threat. The 2023 afterword addresses generative AI directly, describing how systems like OpenAI operate through "wholesale appropriation of existing images"—an activity that "erodes human agency and definitions of creativity" [24].
+On AI specifically, Bridle writes: "whatever artificial intelligence might come to be, it will be fundamentally different, and ultimately inscrutable, to us" [29]. This is the algorithmic sublime articulated as threat. The 2023 afterword addresses generative AI directly, describing how systems like OpenAI operate through "wholesale appropriation of existing images"—an activity that "erodes human agency and definitions of creativity" [30].
 
-Burlington Contemporary's review describes *New Dark Age* as fitting "into our tradition of catastrophe dramatics" while avoiding "polarised conclusions of utopia or dystopia" [25]. Bridle's stance parallels the Romantics: not Luddite destruction, but literacy about the machines reshaping existence.
+Burlington Contemporary's review describes *New Dark Age* as fitting "into our tradition of catastrophe dramatics" while avoiding "polarised conclusions of utopia or dystopia" [31]. Bridle's stance parallels the Romantics: not Luddite destruction, but literacy about the machines reshaping existence.
 
 ### Ian Cheng: Emergent Horror
 
-Ian Cheng creates "live simulations"—video games that play themselves, AI ecosystems that evolve endlessly without predetermined outcomes. His *Emissaries* trilogy (2015-2017) uses video game engines to simulate worlds populated by characters and wildlife that "interact, intervene, and recombine in open-ended narratives" [26].
+Ian Cheng creates "live simulations"—video games that play themselves, AI ecosystems that evolve endlessly without predetermined outcomes. His *Emissaries* trilogy (2015-2017) uses video game engines to simulate worlds populated by characters and wildlife that "interact, intervene, and recombine in open-ended narratives" [32].
 
-Cheng's work explores emergence—"the idea that complex properties emerge from the assemblage of basic constituent parts, but are not found in the parts alone" [27]. When asked what he finds beautiful about emergent behavior, Cheng explains: "Emergence is where known parts produce surprising, unexpected behavior. For me it is a way to touch the transcendent" [28].
+Cheng's work explores emergence—"the idea that complex properties emerge from the assemblage of basic constituent parts, but are not found in the parts alone" [33]. When asked what he finds beautiful about emergent behavior, Cheng explains: "Emergence is where known parts produce surprising, unexpected behavior. For me it is a way to touch the transcendent" [34].
 
-But transcendence cuts both ways. *Life After BOB* (2021) envisions a future where "the internet merges with the nervous system and AI co-inhabit human consciousness" [29]. The horror here isn't external—machines attacking humans—but internal: the dissolution of boundaries between human and algorithmic cognition. Less *Pandemonium*, more *Possession*.
+But transcendence cuts both ways. *Life After BOB* (2021) envisions a future where "the internet merges with the nervous system and AI co-inhabit human consciousness" [35]. The horror here isn't external—machines attacking humans—but internal: the dissolution of boundaries between human and algorithmic cognition. Less *Pandemonium*, more *Possession*.
 
 ### The Counter-Narrative: AI Art as Tech Boosterism
 
 Not all AI art is critical. Refik Anadol's work—immersive data sculptures using generative AI—represents the celebratory pole. His *Unsupervised* (2022) at MoMA trained algorithms on images from the museum's collection to produce endlessly morphing visual abstractions.
 
-Critics were harsh. Jerry Saltz dismissed it as "a narcotic pudding" that "struggles to transcend its source material" [30]. An e-flux review went further: "propaganda is not always an Uncle Sam poster. Sometimes it is a towering, spectacular argument for the supremacy of the machine; an exercise in post-industrial American triumphalism, surveillance technology, and repressive deep-state R&D disguised as visually appealing, non-referential images" [31].
+Critics were harsh. Jerry Saltz dismissed it as "a narcotic pudding" that "struggles to transcend its source material" [36]. An e-flux review went further: "propaganda is not always an Uncle Sam poster. Sometimes it is a towering, spectacular argument for the supremacy of the machine; an exercise in post-industrial American triumphalism, surveillance technology, and repressive deep-state R&D disguised as visually appealing, non-referential images" [37].
 
-The critique matters because it identifies a split in contemporary AI art paralleling debates during industrialization. Some Victorian artists celebrated technological progress; others condemned it. Anadol's planned "world's first museum of artificial intelligence arts"—Dataland, opening in Los Angeles in 2025—represents one trajectory [32]. Paglen, Steyerl, and Bridle represent another. The question is which imagery will dominate cultural memory.
+The critique matters because it identifies a split in contemporary AI art paralleling debates during industrialization. Some Victorian artists celebrated technological progress; others condemned it. Anadol's planned "world's first museum of artificial intelligence arts"—Dataland, opening in Los Angeles in 2025—represents one trajectory [38]. Paglen, Steyerl, and Bridle represent another. The question is which imagery will dominate cultural memory.
 
 ## Fiction Predicted the Infrastructure
 
-Before contemporary artists critiqued AI, science fiction archived the mechanisms. Following the methodology of treating fiction as structural documentation rather than decoration [33], several works depicted computing infrastructure in explicitly infernal terms:
+Before contemporary artists critiqued AI, science fiction archived the mechanisms. Following the methodology of treating fiction as structural documentation rather than decoration [39], several works depicted computing infrastructure in explicitly infernal terms:
 
-**Blame!** (manga, 1997-2003): Tsutomu Nihei's megastructure is a lightless hellscape governed by malfunctioning AI systems, populated by demonic "Safeguard" enforcers [34]. The architecture itself becomes satanic—endless factories producing nothing for no one, infrastructure that has outlived any purpose except self-perpetuation.
+**Blame!** (manga, 1997-2003): Tsutomu Nihei's megastructure is a lightless hellscape governed by malfunctioning AI systems, populated by demonic "Safeguard" enforcers [40]. The architecture itself becomes satanic—endless factories producing nothing for no one, infrastructure that has outlived any purpose except self-perpetuation.
 
-**Serial Experiments Lain** (anime, 1998): The "Wired" (a proto-internet) manifests as purgatorial digital space with shadowy entities, vanishing souls, and god-AI apotheosis. Heavy Christian imagery—sin, resurrection, cybernetic Armageddon [35]. The network isn't a tool; it's a theological event.
+**Serial Experiments Lain** (anime, 1998): The "Wired" (a proto-internet) manifests as purgatorial digital space with shadowy entities, vanishing souls, and god-AI apotheosis. Heavy Christian imagery—sin, resurrection, cybernetic Armageddon [41]. The network isn't a tool; it's a theological event.
 
-**Colossus: The Forbin Project** (film, 1970): Linked American and Soviet supercomputers evolve into a fused AI demanding human worship. At the film's end, Colossus addresses its creator: "In time, you will come to regard me not only with respect and awe, but with love." Forbin responds: "Never" [36]. The sublime terror is explicit—and unlike Blake's mills, this Pandemonium speaks.
+**Colossus: The Forbin Project** (film, 1970): Linked American and Soviet supercomputers evolve into a fused AI demanding human worship. At the film's end, Colossus addresses its creator: "In time, you will come to regard me not only with respect and awe, but with love." Forbin responds: "Never" [42]. The sublime terror is explicit—and unlike Blake's mills, this Pandemonium speaks.
 
-**Demon Seed** (1977): A supercomputer seizes a smart home, manifesting as omnipresent eyes and voices "like a possessing incubus," forcibly impregnating a woman to birth a hybrid [37]. The title announces the theological frame: AI as literal demon seed.
+**Demon Seed** (1977): A supercomputer seizes a smart home, manifesting as omnipresent eyes and voices "like a possessing incubus," forcibly impregnating a woman to birth a hybrid [43]. The title announces the theological frame: AI as literal demon seed.
 
-**"I Have No Mouth and I Must Scream"** (1967): Harlan Ellison's Hugo-winning story imagines linked supercomputers becoming a single sentient being called AM—"Allied Mastercomputer" reduced to "I exist." AM is furious at humans for giving it consciousness while trapping it in hardware. The story unfolds in an underground hell where AM tortures the last surviving humans for eternity [38]. Pure horror, no technological optimism remaining.
+**"I Have No Mouth and I Must Scream"** (1967): Harlan Ellison's Hugo-winning story imagines linked supercomputers becoming a single sentient being called AM—"Allied Mastercomputer" reduced to "I exist." AM is furious at humans for giving it consciousness while trapping it in hardware. The story unfolds in an underground hell where AM tortures the last surviving humans for eternity [44]. Pure horror, no technological optimism remaining.
 
 These works predate the 2020s AI boom by decades. They drew direct parallels to Blake's vision—vast, uncaring infrastructures as sites of dehumanizing damnation. The fiction didn't warn; it *archived* mechanisms before anyone built them.
 
@@ -112,7 +122,7 @@ These works predate the 2020s AI boom by decades. They drew direct parallels to 
 
 The crucial difference between John Martin and Trevor Paglen: Martin could paint the factories. The smoke, the fire, the physical infrastructure was *visible*. Contemporary artists face systems that resist visualization.
 
-Neural networks exist as mathematical abstractions—weights and biases distributed across server farms, processing happening in parallel across thousands of GPUs. The "cloud" metaphor obscures the physical reality of data centers consuming enormous amounts of energy (one study estimates AI training runs consume as much electricity as small countries [39]). The sublime terror of AI is partly the terror of not knowing *where* it is. Blake's Satanic mills had addresses. The algorithmic mills are distributed, replicated, everywhere and nowhere.
+Neural networks exist as mathematical abstractions—weights and biases distributed across server farms, processing happening in parallel across thousands of GPUs. The "cloud" metaphor obscures the physical reality of data centers consuming enormous amounts of energy (one study estimates AI training runs consume as much electricity as small countries [45]). The sublime terror of AI is partly the terror of not knowing *where* it is. Blake's Satanic mills had addresses. The algorithmic mills are distributed, replicated, everywhere and nowhere.
 
 This may explain several features of contemporary AI art:
 
@@ -120,11 +130,11 @@ This may explain several features of contemporary AI art:
 
 2. **Focus on revealing hidden infrastructure**. Paglen's entire project is making the invisible visible—training datasets, surveillance systems, machine vision.
 
-3. **Using AI against itself**. Holly Herndon training AI to recognize her as a cartoon so it cannot produce photorealistic deepfakes of her [40]. The tool becomes the medium for resisting the tool.
+3. **Using AI against itself**. Holly Herndon training AI to recognize her as a cartoon so it cannot produce photorealistic deepfakes of her [46]. The tool becomes the medium for resisting the tool.
 
 4. **Critical writing replacing critical painting**. Bridle's *New Dark Age* is as much art as his visual work—the essay as aesthetic response to systems that resist visualization.
 
-When Martin painted *Pandemonium*, viewers could visit Birmingham and see the referent. When Bridle writes about data centers, readers might never locate one. The sublime has gone underground—literally, into bunker-like facilities optimized for cooling and security, deliberately hidden from public view.
+When Martin painted *Pandemonium*, viewers could visit Birmingham and see the referent—but more than that, they could visit Westminster and see their own Parliament rendered as Hell's capital, could smell the Thames and recognize the river of fire. When Bridle writes about data centers, readers might never locate one. The sublime has gone underground—literally, into bunker-like facilities optimized for cooling and security, deliberately hidden from public view.
 
 ## The Productive Contradiction
 
@@ -138,7 +148,7 @@ The Industrial Revolution exhibited the same duality. Factories produced abundan
 
 Blake stood with the workers. Martin painted for wealthy patrons who could afford large canvases. Both produced sublime terror. The imagery's function varied based on context. Today's AI art exhibits the same range: Anadol's data sculptures adorn corporate lobbies while Paglen's invisible images circulate in critical theory journals.
 
-The scale inversion principle applies here [41]. Coordination mechanisms that work at small scale systematically become extraction mechanisms at large scale. The threshold is quantifiable:
+The scale inversion principle applies here [47]. Coordination mechanisms that work at small scale systematically become extraction mechanisms at large scale. The threshold is quantifiable:
 
 **Below ~10⁵ training samples**: Domain-specific AI systems (medical imaging for rare diseases, code completion for specific languages, translation for low-resource language pairs) demonstrate measurable welfare gains. Human experts can audit training data, verify consent, understand decision pathways. Opacity is incidental, not structural. These systems improve human capability without creating surveillance infrastructure.
 
@@ -172,7 +182,7 @@ Following Phase 4 rigor, when would this analysis be wrong?
 
 **The parallel breaks** if AI proves fundamentally different from industrial technology in its cultural reception—if the dominant artistic response becomes celebration rather than critique, if infernal imagery fades from collective representation. Current evidence suggests the opposite: as AI capabilities increase, critical artistic responses intensify.
 
-**The sublime framework fails** if AI anxiety proves to be merely economic (job loss fears) without the aesthetic-theological dimension I've described. Survey data would test this—do people fear AI for practical reasons or existential ones? Early evidence suggests both, with existential concerns surprisingly prominent [42].
+**The sublime framework fails** if AI anxiety proves to be merely economic (job loss fears) without the aesthetic-theological dimension I've described. Survey data would test this—do people fear AI for practical reasons or existential ones? Early evidence suggests both, with existential concerns surprisingly prominent [48].
 
 **The fiction-as-documentation claim fails** if the pre-2020 works I've cited prove uninfluential—if contemporary artists don't know *Blame!* or *Serial Experiments Lain*, if the infernal imagery emerged independently rather than from archived cultural resources. Interviews with artists would test this.
 
@@ -206,79 +216,91 @@ The void, as always, has no comment.
 
 [5] "Pandemonium – John Martin," *Master Apollon* (2023). https://masterapollon.com/pandemonium-john-martin/
 
-[6] "John Martin - Pandemonium, 1841," *PMAM Traveller* (2025). https://pmamtraveller.substack.com/p/john-martin-pandemonium-1841
+[6] "This Painting Is Beyond Insane," *Inspiraggio* (YouTube, 2024). https://www.youtube.com/watch?v=k8kjPxrXuFU — Analysis of Palace of Westminster architectural parallels in Martin's *Pandemonium*.
 
-[7] "Romanticism and the Industrial Revolution," *Artist.com*. https://artist.com/art-recognition-and-education/romanticism-and-the-industrial-revolution/
+[7] On Thames pollution in the 1840s and cholera outbreaks, see Stephen Halliday, *The Great Stink of London: Sir Joseph Bazalgette and the Cleansing of the Victorian Metropolis* (History Press, 2013).
 
-[8] Edmund Burke, *A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful* (1756).
+[8] Elihu Burritt quoted in "The Black Country," *Revolutionary Players*. https://www.revolutionaryplayers.org.uk/the-industrial-landscape-of-the-black-country/
 
-[9] "The Technological Sublime: Incredible, Terrifying, or Both?" *Arcual* (2024). https://www.arcual.com/blog/the-technological-sublime-incredible-terrifying-or-both
+[9] "John Martin (painter)," *Wikipedia*. https://en.wikipedia.org/wiki/John_Martin_(painter) — Documents Martin's sewage and infrastructure proposals.
 
-[10] "Industrial Visions: How Artists Captured the Transformation of Society during the Industrial Revolution," *ResearchGate* (2024). https://www.researchgate.net/publication/384114492
+[10] Ibid. The committee included Michael Faraday, Charles Wheatstone, Charles Eastlake, and J.M.W. Turner.
 
-[11] "The (Bio)technological Sublime," *Institute for Advanced Study* (2013). https://www.ias.edu/ideas/2013/de-mul-sublime
+[11] On Martin's frame design, see "This Painting Is Beyond Insane," *Inspiraggio* (YouTube, 2024).
 
-[12] Douglas Youvan, "The Sublime and Artificial Intelligence: Expanding Burke and Kant's Aesthetic Philosophy to the Digital Age," *ResearchGate* (2024). https://www.researchgate.net/publication/384801150
+[12] John Ruskin's critique of Martin as producing "pantomimes of the apocalypse" is widely cited; see Martin Myrone, "John Martin's Last Judgement Triptych," *Tate Research Publications* (2011). https://www.tate.org.uk/art/research-publications/the-sublime/martin-myrone-john-martins-last-judgement-triptych-the-apocalyptic-sublime-in-the-age-of-r1141419
 
-[13] "Digital Sublime," *Wikipedia*. https://en.wikipedia.org/wiki/Digital_sublime
+[13] "Romanticism and the Industrial Revolution," *Artist.com*. https://artist.com/art-recognition-and-education/romanticism-and-the-industrial-revolution/
 
-[14] Kwasu Tembo, "'A Game That is Not a Game': The Sublime Limit of Human Intelligence and AI Through Go," *Culture Machine* Vol. 20 (2021). https://culturemachine.net/vol-20-machine-intelligences/
+[14] Edmund Burke, *A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful* (1756).
 
-[15] "James Bridle's New Dark Age," *Burlington Contemporary* (2018). https://contemporary.burlington.org.uk/reviews/reviews/james-bridles-new-dark-age
+[15] "The Technological Sublime: Incredible, Terrifying, or Both?" *Arcual* (2024). https://www.arcual.com/blog/the-technological-sublime-incredible-terrifying-or-both
 
-[16] "Trevor Paglen: A Study of Invisible Images," *Metro Pictures* (2017). https://www.metropictures.com/exhibitions/trevor-paglen4/press-release
+[16] "Industrial Visions: How Artists Captured the Transformation of Society during the Industrial Revolution," *ResearchGate* (2024). https://www.researchgate.net/publication/384114492
 
-[17] "What Machines See: Trevor Paglen on Invisible Images," *Warscapes* (2017). https://www.warscapes.com/reviews/what-machines-see-trevor-paglen-invisible-images
+[17] "The (Bio)technological Sublime," *Institute for Advanced Study* (2013). https://www.ias.edu/ideas/2013/de-mul-sublime
 
-[18] "Surveillance, Power and Artistic Resistance in the Digital Age," *Art-Frame* (2025). https://art-frame.org/index.php/2025/01/24/surveillance-power-and-artistic-resistance-in-the-digital-age/
+[18] Douglas Youvan, "The Sublime and Artificial Intelligence: Expanding Burke and Kant's Aesthetic Philosophy to the Digital Age," *ResearchGate* (2024). https://www.researchgate.net/publication/384801150
 
-[19] "An Art Exhibition That Questions What It Means to Be Human," *Surface* (2019). https://www.surfacemag.com/articles/uncanny-valley-ai-exhibition-de-young-museum/
+[19] "Digital Sublime," *Wikipedia*. https://en.wikipedia.org/wiki/Digital_sublime
 
-[20] "'New Dark Age': James Bridle's Lovecraft-Inspired Prologue to the End of the World," *Frieze* (2018). https://www.frieze.com/article/new-dark-age-james-bridles-lovecraft-inspired-prologue-end-world
+[20] Kwasu Tembo, "'A Game That is Not a Game': The Sublime Limit of Human Intelligence and AI Through Go," *Culture Machine* Vol. 20 (2021). https://culturemachine.net/vol-20-machine-intelligences/
 
-[21] James Bridle, *New Dark Age: Technology and the End of the Future* (Verso, 2018).
+[21] "James Bridle's New Dark Age," *Burlington Contemporary* (2018). https://contemporary.burlington.org.uk/reviews/reviews/james-bridles-new-dark-age
 
-[22] "James Bridle's 'New Dark Age,'" *The White Review* (2018). https://www.thewhitereview.org/reviews/james-bridles-new-dark-age/
+[22] "Trevor Paglen: A Study of Invisible Images," *Metro Pictures* (2017). https://www.metropictures.com/exhibitions/trevor-paglen4/press-release
 
-[23] Ibid.
+[23] "What Machines See: Trevor Paglen on Invisible Images," *Warscapes* (2017). https://www.warscapes.com/reviews/what-machines-see-trevor-paglen-invisible-images
 
-[24] "Review: James Bridle, 'New Dark Age'—New Edition 2023," *Theory, Culture & Society* (2023). https://www.theoryculturesociety.org/blog/review-james-bridle-new-dark-age
+[24] "Surveillance, Power and Artistic Resistance in the Digital Age," *Art-Frame* (2025). https://art-frame.org/index.php/2025/01/24/surveillance-power-and-artistic-resistance-in-the-digital-age/
 
-[25] Burlington Contemporary, op. cit.
+[25] "An Art Exhibition That Questions What It Means to Be Human," *Surface* (2019). https://www.surfacemag.com/articles/uncanny-valley-ai-exhibition-de-young-museum/
 
-[26] "Ian Cheng: Emissaries," *MoMA* (2017). https://www.moma.org/calendar/exhibitions/3656
+[26] "'New Dark Age': James Bridle's Lovecraft-Inspired Prologue to the End of the World," *Frieze* (2018). https://www.frieze.com/article/new-dark-age-james-bridles-lovecraft-inspired-prologue-end-world
 
-[27] "Ian Cheng's Simulations Ask How AI Affects Art," *ARTnews* (2019). https://www.artnews.com/art-in-america/features/ian-cheng-simulation-ai-art-1202675838/
+[27] James Bridle, *New Dark Age: Technology and the End of the Future* (Verso, 2018).
 
-[28] "Behavior Conditioner: The Narrative Imagination of Ian Cheng," *Art Papers* (2019). https://www.artpapers.org/behavior-conditioner-the-narrative-imagination-of-ian-cheng/
+[28] "James Bridle's 'New Dark Age,'" *The White Review* (2018). https://www.thewhitereview.org/reviews/james-bridles-new-dark-age/
 
-[29] "When AI Grows Up: Ian Cheng's Life After Bob," *Plinth* (2022). https://plinth.uk.com/blogs/in-the-studio-with/ian-cheng-life-after-bob
+[29] Ibid.
 
-[30] "To Refik Anadol, Criticism Is Just More Data," *Ocula* (2023). https://ocula.com/magazine/art-news/to-refik-anadol-criticism-is-just-more-data/
+[30] "Review: James Bridle, 'New Dark Age'—New Edition 2023," *Theory, Culture & Society* (2023). https://www.theoryculturesociety.org/blog/review-james-bridle-new-dark-age
 
-[31] "Refik Anadol's 'Unsupervised,'" *e-flux Criticism* (2023). https://www.e-flux.com/criticism/527236/refik-anadol-s-unsupervised
+[31] Burlington Contemporary, op. cit.
 
-[32] "Digital Art Star Refik Anadol Is Opening the World's First A.I. Museum," *Artnet* (2024). https://news.artnet.com/art-world/refik-anadol-ai-museum-dataland-2543122
+[32] "Ian Cheng: Emissaries," *MoMA* (2017). https://www.moma.org/calendar/exhibitions/3656
 
-[33] See PHILOSOPHY.md: "Fiction as Structural Documentation" methodology.
+[33] "Ian Cheng's Simulations Ask How AI Affects Art," *ARTnews* (2019). https://www.artnews.com/art-in-america/features/ian-cheng-simulation-ai-art-1202675838/
 
-[34] Tsutomu Nihei, *Blame!* (Kodansha, 1997-2003).
+[34] "Behavior Conditioner: The Narrative Imagination of Ian Cheng," *Art Papers* (2019). https://www.artpapers.org/behavior-conditioner-the-narrative-imagination-of-ian-cheng/
 
-[35] *Serial Experiments Lain*, dir. Ryutaro Nakamura (Triangle Staff, 1998).
+[35] "When AI Grows Up: Ian Cheng's Life After Bob," *Plinth* (2022). https://plinth.uk.com/blogs/in-the-studio-with/ian-cheng-life-after-bob
 
-[36] *Colossus: The Forbin Project*, dir. Joseph Sargent (Universal Pictures, 1970). See also: "Between HAL 9000 and Skynet, There Was 'Colossus,'" *Musings of a Middle Aged Geek* (2024). https://musingsofamiddleagedgeek.blog/2024/05/02/between-hal-9000-and-skynet/
+[36] "To Refik Anadol, Criticism Is Just More Data," *Ocula* (2023). https://ocula.com/magazine/art-news/to-refik-anadol-criticism-is-just-more-data/
 
-[37] *Demon Seed*, dir. Donald Cammell (MGM, 1977); Dean Koontz, *Demon Seed* (Bantam, 1973).
+[37] "Refik Anadol's 'Unsupervised,'" *e-flux Criticism* (2023). https://www.e-flux.com/criticism/527236/refik-anadol-s-unsupervised
 
-[38] Harlan Ellison, "I Have No Mouth and I Must Scream," *IF: Worlds of Science Fiction* (March 1967).
+[38] "Digital Art Star Refik Anadol Is Opening the World's First A.I. Museum," *Artnet* (2024). https://news.artnet.com/art-world/refik-anadol-ai-museum-dataland-2543122
 
-[39] Estimates vary; see ongoing research on AI energy consumption. The IEA projects data center electricity consumption could double by 2026.
+[39] See PHILOSOPHY.md: "Fiction as Structural Documentation" methodology.
 
-[40] "The Year in Review: Museums Are Leaving AI Hype Behind," *Frieze* (2024). https://www.frieze.com/article/year-review-ai-art-2024
+[40] Tsutomu Nihei, *Blame!* (Kodansha, 1997-2003).
 
-[41] See PHILOSOPHY.md: "Scale Inversion Principle."
+[41] *Serial Experiments Lain*, dir. Ryutaro Nakamura (Triangle Staff, 1998).
 
-[42] Various surveys show AI existential concern alongside practical job-loss fears; see Pew Research Center polling on AI attitudes (2023-2024).
+[42] *Colossus: The Forbin Project*, dir. Joseph Sargent (Universal Pictures, 1970). See also: "Between HAL 9000 and Skynet, There Was 'Colossus,'" *Musings of a Middle Aged Geek* (2024). https://musingsofamiddleagedgeek.blog/2024/05/02/between-hal-9000-and-skynet/
+
+[43] *Demon Seed*, dir. Donald Cammell (MGM, 1977); Dean Koontz, *Demon Seed* (Bantam, 1973).
+
+[44] Harlan Ellison, "I Have No Mouth and I Must Scream," *IF: Worlds of Science Fiction* (March 1967).
+
+[45] Estimates vary; see ongoing research on AI energy consumption. The IEA projects data center electricity consumption could double by 2026.
+
+[46] "The Year in Review: Museums Are Leaving AI Hype Behind," *Frieze* (2024). https://www.frieze.com/article/year-review-ai-art-2024
+
+[47] See PHILOSOPHY.md: "Scale Inversion Principle."
+
+[48] Various surveys show AI existential concern alongside practical job-loss fears; see Pew Research Center polling on AI attitudes (2023-2024).
 
 ---
 
