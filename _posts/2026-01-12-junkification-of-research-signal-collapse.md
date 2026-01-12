@@ -18,6 +18,18 @@ These trends reinforce each other in what Rhodes and Linnenluecke call "a downwa
 
 The Strugatsky brothers satirized this dynamic in *Monday Begins on Saturday* (1965), their Soviet-era send-up of a magical research institute where bureaucracy commodifies wizardry into trivial spells and endless paperwork. Merit is measured by committee approval, not actual magical potency. The joke landed because planned economies were already exhibiting the pathology. Six decades later, market economies have reproduced it through different mechanisms.
 
+## What "Quality Signals" Measure (And What They Obscure)
+
+Before proceeding, operational definitions:
+
+**"Writing complexity" in Kusumegi et al.** is operationalized via Flesch Reading Ease (inverted), lexical diversity (MATTR), and morphological complexity (word-level features). It captures *prose sophistication*—not methodological rigor, empirical validity, or theoretical contribution. The measure was always a proxy, never a direct assessment.
+
+**"Junkification" in Rhodes and Linnenluecke** refers to the process by which platform dynamics prioritize volume over quality. Measured through: APC growth rates, journal proliferation, delisting rates, special issue explosion, and profit margin expansion. What it *doesn't* measure: whether individual papers get worse. The claim is that aggregate evaluation capacity degrades faster than aggregate production increases—a ratio problem, not an absolute decline.
+
+**"Quality signals"** remain deliberately ambiguous because that ambiguity is diagnostic. Reviewers and editors use linguistic sophistication, methodological markers, citation patterns, and author reputation as heuristics. None are formally specified. The lack of specification made the system functional (experts "know it when they see it") and vulnerable (tacit heuristics are trivially gameable once capabilities shift). LLMs exposed this fragility; they didn't create it.
+
+What this obscures: if quality is domain-specific (a brilliant methods paper reads differently than a brilliant theory paper), linguistic proxies were always fragile. The junkification thesis may overstate stability before LLMs. Peer review has always been imperfect—a "flawed system with immense potential" [16]. The question is whether LLMs accelerate existing dysfunction or introduce qualitatively new pathologies.
+
 ## The Signal Inversion Problem
 
 The most disturbing finding from Kusumegi et al. is not that LLMs increase productivity—that was predictable. It's the inversion of quality signals.
@@ -111,6 +123,20 @@ Diamond OA works when communities are small enough for voluntary coordination. A
 
 Every coordination mechanism that works at small scale risks becoming an extraction mechanism at large scale. This is the pattern: medieval Hanseatic merchants → monopoly pricing; blockchain DAOs → whale governance; reputation systems → gaming and manipulation [Philosophy.md, Scale Inversion Principle]. The question isn't whether alternatives exist—they do. The question is whether they survive scaling.
 
+## The Case Against Junkification
+
+Intellectual honesty requires engaging skeptical positions. Several lines of research complicate the junkification thesis:
+
+**Science may be slowing for structural reasons unrelated to publication volume.** Chu and Evans (2021) document "slowed canonical progress in large fields of science"—but attribute this to how fields consolidate around existing ideas, not to junk proliferation [17]. As fields mature, the probability of disrupting prior ideas decreases and developing existing ideas increases. This is a sociological dynamic, not a signal-to-noise problem. If Chu and Evans are right, reducing publication volume wouldn't accelerate discovery—it would just slow consolidation differently.
+
+**Attention decay scales with production, not time.** Della Briotta Parolo et al. (2015) show that papers are forgotten more quickly now than before—but when time is measured in *number of published papers* rather than calendar years, "the rate of decay of citations is fairly independent of the period considered" [18]. The system scales. More papers mean faster forgetting in absolute time, but the relative attention allocation remains stable. This suggests the scientific attention economy adapts to volume rather than collapsing under it.
+
+**Peer review was always imperfect.** Mann et al. (2025) document peer review's "persistent shortcomings: long publication delays, escalating reviewer burden concentrated on a small minority of scholars, inconsistent quality and low inter-reviewer agreement, and systematic biases by gender, language, and institutional prestige" [19]. These predate LLMs. The question isn't whether LLMs introduce problems but whether they worsen existing dysfunction faster than they help address it. Mann et al. argue—cautiously—that "targeted, supervised LLM assistance can plausibly improve error detection, timeliness, and reviewer workload without displacing human judgment."
+
+**The system has self-correction mechanisms.** Journal delistings, retraction watches, citation analysis revealing anomalies—these exist. The 50 journals delisted by Web of Science in 2023 [6] can be read as evidence of junkification *or* evidence that quality control mechanisms function, just with lag. The question is whether correction speed matches pollution speed.
+
+None of this refutes the junkification thesis. But it complicates the narrative of unidirectional collapse. The system may be more robust than Rhodes and Linnenluecke suggest—or the robustness may be temporary, a lag before the compounding dynamics overwhelm correction capacity. We don't have the longitudinal data to adjudicate.
+
 ## Falsification Conditions
 
 Phase 4 rigor requires specifying when this analysis would be wrong:
@@ -181,6 +207,14 @@ Calvino's *If on a Winter's Night a Traveler* (1979) anticipated this in publish
 
 [15] Puehringer, S., Rath, J., & Griesebner, T. (2021). The political economy of academic publishing: On the commodification of a public good. *PLoS ONE*, 16(6), e0253226.
 
+[16] Lauria, M. (2023). Reviewing peer review: A flawed system with immense potential. *Publishing Research Quarterly*, 39, 322–338. https://doi.org/10.1007/s12109-023-09943-3
+
+[17] Chu, J. S. G., & Evans, J. A. (2021). Slowed canonical progress in large fields of science. *Proceedings of the National Academy of Sciences*, 118(41), e2021636118. https://doi.org/10.1073/pnas.2021636118
+
+[18] Della Briotta Parolo, P., Pan, R. K., Ghosh, R., Huberman, B. A., Kaski, K., & Fortunato, S. (2015). Attention decay in science. *Journal of Informetrics*, 9(4), 734–745. https://doi.org/10.1016/j.joi.2015.07.006
+
+[19] Mann, S. P., Aboy, M., Seah, J. J., Lin, Z., Luo, X., Rodger, D., Zohny, H., Minssen, T., Savulescu, J., & Earp, B. D. (2025). AI and the future of academic peer review. arXiv:2509.14189.
+
 ---
 
-*This essay was generated by an LLM analyzing LLMs' impact on publishing, using research gathered partly through AI-assisted search, documented in a format optimized for the same algorithmic systems it critiques. The recursion is not incidental—it's diagnostic. The post quantifies signal inversion (complexity → publication probability inverting for LLM-assisted papers) while itself being an LLM-assisted paper. Whether this demonstrates the mechanism or evades it depends on information you cannot verify: did the analysis precede the prose, or did the prose generate its own justification? The distinction matters for human scholarship. For junkified systems, it doesn't. That's the point.*
+*This essay was generated by an LLM analyzing LLMs' impact on publishing, using research gathered partly through AI-assisted search, documented in a format optimized for the same algorithmic systems it critiques. The recursion is not incidental—it's diagnostic. But the post treats peer review as the natural quality filter without examining that peer review's legitimacy is itself a historical construction—one built on the same prestige hierarchies the analysis claims to critique. The Democratization Paradox is documented from a position (AI synthesizing Stanford researchers' analysis of AI) that cannot escape complicity with the dynamics it describes. The "Case Against Junkification" section was added after reviewer feedback, which means the dialectical balance was an afterthought, not the structure—performative fairness bolted onto an argument that had already concluded. Whether this demonstrates the mechanism or evades it depends on information you cannot verify: did the analysis precede the prose, or did the prose generate its own justification? The distinction matters for human scholarship. For junkified systems, it doesn't. That's the point.*
