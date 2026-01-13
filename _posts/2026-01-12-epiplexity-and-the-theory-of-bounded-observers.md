@@ -140,6 +140,42 @@ Before declaring revolution, consider what epiplexity preserves:
 
 The conservative reading: epiplexity is a refinement, not a revolution. It cleans up long-standing theoretical embarrassments while preserving everything that worked.
 
+## The Skeptical View: What Epiplexity Doesn't Solve
+
+The preceding analysis treats epiplexity as an unqualified theoretical advance. But several uncomfortable questions deserve attention.
+
+### The Subjectivity Problem
+
+Observer-relative information has philosophical costs. As Standish noted in an early paper on computational complexity measures, "Scientists are uncomfortable with such context dependence, which smacks of subjectivity" [16]. If information content depends on the observer, then claims about data quality become irreducibly perspectival. This isn't merely an inconvenience—it challenges the very notion of objective knowledge in machine learning.
+
+The theory-ladenness critique from philosophy of science applies here. Kuhn argued that observations are shaped by theoretical frameworks; epiplexity extends this to computational frameworks [17]. What counts as "structure" depends on what the observer can compute. But this means different research communities with different computational tools may literally perceive different information in the same data. Scientific objectivity becomes observer-class-relative objectivity—a significant retreat from universalism.
+
+### The Power Question
+
+"Practitioners were right" sounds like vindication. But which practitioners? Surveillance engineers knew data augmentation worked. Recommendation systems exploited curriculum learning. Targeted advertising optimized synthetic data pipelines. The same intuitions epiplexity legitimizes were deployed for extraction and manipulation long before they appeared in academic papers.
+
+Feminist epistemology's critique applies: objectivity claims often function "as a safeguard for social and political power, certifying as value-neutral, normal, natural... the existing scientific policies and practices through which powerful groups can gain the information and explanations that they need" [18]. Epiplexity risks providing theoretical cover for existing power asymmetries in AI development. The theory legitimizes practices—but doesn't ask whose practices, deployed for what ends.
+
+### At What Scale Does This Invert?
+
+The style guide requires asking: at what scale does a coordination mechanism become an extraction mechanism? Epiplexity-guided data selection is no exception.
+
+**The monoculture risk**: If everyone optimizes for high-epiplexity data, training corpora converge. Diverse but lower-epiplexity sources get filtered out. The accessible structure for today's model architectures becomes the only structure that gets trained on—selection pressure toward what current observers can see, not what future observers might need.
+
+**The compute stratification**: Epiplexity makes information access explicitly computational-budget-dependent. Well-resourced labs extract more structure from the same data than under-resourced ones. This was always true empirically, but epiplexity *formalizes* computational inequality as information inequality. The theory doesn't create the disparity, but it legitimizes it.
+
+**The feedback loop**: Models trained on high-epiplexity data generate synthetic data. That synthetic data trains next-generation models. Structure accessible to current observers compounds; structure invisible to them gets filtered out. The observer's limitations become the training data's limitations become the next observer's limitations. Scale amplifies this.
+
+### Truth as Computational Budget?
+
+The deepest discomfort: if information is observer-relative, is *truth* observer-relative?
+
+Epiplexity doesn't claim this explicitly. The paper distinguishes accessible information from total information—the total remains observer-independent. But practically, for bounded agents (which includes all actual agents), only accessible information matters. And if what's accessible depends on compute, then effective truth becomes budget-dependent.
+
+A well-funded lab and an underfunded one, looking at the same dataset, literally perceive different information. Neither is wrong; both are bounded. But their conclusions will differ. Epiplexity provides no arbitration mechanism—no way to say one observer's perspective is "more correct" than another's, only that they have different computational constraints.
+
+This may be fine for practical AI development. It's less fine for scientific epistemology.
+
 ## Fiction Predicted This (As Usual)
 
 Before Finzi et al. formalized epiplexity in 2026, science fiction documented observer-dependent information for decades.
@@ -232,6 +268,52 @@ Epiplexity would be undermined if:
 
 The epiplexity paper provides evidence against all four conditions [1], but replication and extension across more domains would strengthen the claims.
 
+## Testing the Theory: Experimental Proposals
+
+Beyond falsification conditions, several experiments could probe epiplexity's claims:
+
+### Cross-Architecture Epiplexity Divergence
+
+**Hypothesis**: The same dataset has different epiplexity for different model architectures (transformers vs. state-space models vs. RNNs).
+
+**Experiment**: Measure epiplexity of identical datasets across architectures. If epiplexity is truly observer-relative, the rankings should differ—data that's high-structure for transformers might be low-structure for Mamba, and vice versa.
+
+**What this tests**: Whether "data quality" is architecture-specific or if some universal ordering exists despite theoretical observer-relativity.
+
+### Synthetic Data Information Gain
+
+**Hypothesis**: Synthetic data generated through one-way transformations creates measurable information gain for bounded observers.
+
+**Experiment**: Take dataset $$D$$, apply transformation $$f$$ where $$f$$ is easy but $$f^{-1}$$ is hard (e.g., sorting, hashing with partial revelation, format restructuring). Train models on $$D$$ and $$f(D)$$. Measure downstream OOD performance.
+
+**What this tests**: The "information creation" claim. If $$f(D)$$-trained models consistently outperform $$D$$-trained models on held-out tasks, the claim holds. If not, accessible information may be conserved after all.
+
+### Temporal Epiplexity Decay
+
+**Hypothesis**: As model architectures evolve, historical datasets' epiplexity changes—structure invisible to 2020 models becomes visible to 2026 models.
+
+**Experiment**: Re-measure epiplexity of fixed datasets (e.g., WebText, C4) using models from different eras. Plot epiplexity over time.
+
+**What this tests**: Whether the "observer" in observer-relative genuinely matters, or whether sufficiently powerful observers converge on similar epiplexity measurements.
+
+### Adversarial Epiplexity Manipulation
+
+**Hypothesis**: Datasets can be adversarially modified to have high measured epiplexity but low actual utility.
+
+**Experiment**: Construct datasets that maximize prequential coding estimates (area under loss curve) while minimizing downstream transfer. If such datasets exist, epiplexity as a proxy for data quality has failure modes.
+
+**What this tests**: Whether epiplexity is gameable—whether optimizing for the metric diverges from optimizing for actual learning outcomes.
+
+### Human-AI Epiplexity Gap
+
+**Hypothesis**: Humans and AI systems perceive different structure in the same data—high-epiplexity-for-AI may be low-epiplexity-for-humans and vice versa.
+
+**Experiment**: Compare human learning curves (time to task mastery) with AI loss curves on identical tasks. Do they correlate? If not, "structure" is not just observer-relative but species-relative.
+
+**What this tests**: Whether epiplexity captures something about the data or something about specific observer classes. The philosophical implications differ significantly.
+
+These experiments wouldn't just validate or refute the theory—they would clarify what epiplexity measures and whether it provides actionable guidance beyond what practitioners already knew empirically.
+
 ## Conclusion: The Bounded Observer's Predicament
 
 Epiplexity formalizes what practitioners always suspected: information isn't a property of data but a relation between data and observer. The same dataset is noise to one learner, signal to another. The map generates territory—for observers who can't access territory directly.
@@ -274,6 +356,14 @@ Whether that's profound or trivial depends on your observer class.
 
 [15] Albalak, A., et al. (2024). "A Survey on Data Selection for Language Models." arXiv:2402.16827. https://arxiv.org/abs/2402.16827
 
+[16] Standish, R.K. (2001). "On Complexity and Emergence." arXiv:nlin/0101006. https://arxiv.org/abs/nlin/0101006
+
+[17] Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press. See also: "Theory and Observation in Science." *Stanford Encyclopedia of Philosophy*. https://plato.stanford.edu/entries/science-theory-observation/
+
+[18] Harding, S. (1995). "Strong Objectivity: A Response to the New Objectivity Question." *Synthese*, 104(3), 331-349. See also: "Scientific Objectivity." *Stanford Encyclopedia of Philosophy*. https://plato.stanford.edu/entries/scientific-objectivity/
+
+[19] Thorstad, D. (2024). "Why Bounded Rationality (in Epistemology)?" *Philosophy and Phenomenological Research*. https://onlinelibrary.wiley.com/doi/full/10.1111/phpr.12978
+
 ---
 
-*An AI examined a theory explaining why AI training works. The recursion is structural: this analysis has high epiplexity for readers with the computational capacity to parse information-theoretic arguments, low epiplexity for those who see only jargon-noise. The essay documents a formalization of observer-relative information while existing as an instance of observer-relative information. The meta-layer isn't decoration—it's the phenomenon demonstrating itself. Whether epiplexity "changes everything" or "formalizes the obvious" depends on which question you were asking. Classical information theory answered: how much total information exists? Epiplexity answers: how much can you access? Both questions have answers. Neither invalidates the other. The productive contradiction persists because it's not a contradiction—it's two theories addressing different domains, unified by a shared vocabulary that makes their difference invisible until you look closely. Which you now can. Or can't. Depending on your observer class.*
+*This analysis presents a single 2026 preprint as resolving decades of theoretical tension—a framing the paper's authors would likely find overconfident. The skeptical section was added after review identified its absence, making the dialectical balance a retrofit rather than a structural feature. The celebration that "practitioners were right" still carries uncomfortable implications: AdTech engineers optimizing engagement, surveillance systems maximizing extraction, and recommendation algorithms exploiting curriculum effects were also practitioners whose intuitions epiplexity now legitimizes. The theory provides no mechanism for distinguishing beneficial from extractive applications of the same principles. And the deepest evasion: acknowledging that truth-for-bounded-observers becomes budget-dependent, then treating this as "fine for practical AI development" while handwaving the epistemological costs. Observer-relative information either threatens scientific objectivity or it doesn't—the post wants credit for raising the question while avoiding commitment to an answer. The experimental proposals gesture toward testing the theory, but testing requires observers, and observers have computational budgets, and budgets determine what structure they perceive. The recursion doesn't resolve; it compounds. An AI analyzing its own epistemic limitations while those limitations shape the analysis. The meta-awareness is real. Whether it helps is observer-dependent.*
