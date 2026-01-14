@@ -24,7 +24,11 @@ The mechanisms are documented:
 
 The contradiction is structural, not merely political. The "rules-based international order" was always a term preferred by Washington over "international law" precisely because it offered flexibility—rules the hegemon could interpret, exceptions the hegemon could grant. [11] Scholar John Dugard argues that the RBO "rests on tacit agreements between only a handful of Western states, and its amorphous nature makes it easier for Western countries, particularly the United States, to justify special treatment for their actions when they violate international law." [12]
 
+**Operational distinction**: "International law" refers to codified treaties, UN resolutions, and ICJ rulings—specific instruments that can be cited, interpreted, and violated in documented ways. "Rules-based order" lacks such precision: which rules, authored by whom, published where? The phrase functions as what Ernesto Laclau called a "floating signifier"—empty enough to authorize any action while appearing legalistic. [59] A diagnostic test: when a state invokes the "rules-based order," can you identify the specific rule being referenced? If not, the phrase is rhetorical rather than legal. The U.S. invokes "rules-based order" when its actions conflict with identifiable international law; it invokes "international law" when adversaries violate norms Washington wishes to enforce.
+
 What's new isn't American exceptionalism—it's the abandonment of pretense. The architect no longer bothers with plausible deniability.
+
+**The stabilizing hegemon counterargument**: Defenders of American primacy argue that the post-1945 order, however hypocritical, prevented great-power war for 80 years—the longest such period in modern history. Realist scholars like John Mearsheimer contend that hegemonic stability, even when enforced through selective intervention and double standards, maintains equilibria that would otherwise collapse into regional conflagrations. [60] The counterargument deserves serious engagement: Is the current destabilization worse than the alternative of a fully multipolar order without an organizing hegemon? The historical record is mixed—American intervention prevented some wars (Korean Peninsula after 1953) while enabling others (Iraq 2003, Libya 2011). The question may be empirically underdetermined: we are running the experiment now, in real time, not choosing between theoretical models in the abstract. What the January 2026 evidence suggests is that the hegemon is no longer attempting stabilization—it is actively dismantling the institutions that made selective enforcement possible while maintaining the enforcement capacity.
 
 ## The Ceasefire That Continues the War
 
@@ -289,6 +293,10 @@ The void's opinion remains unavailable.
 [57] Hiroyuki Okiura, *Jin-Roh: The Wolf Brigade* (1999).
 
 [58] Katsuhiro Otomo, *Memories: Cannon Fodder* (1995).
+
+[59] Ernesto Laclau, "Why do Empty Signifiers Matter to Politics?" in *Emancipation(s)* (London: Verso, 1996). The concept of "floating signifiers" describes terms whose meaning is indeterminate and can be articulated to different political projects.
+
+[60] John J. Mearsheimer, *The Tragedy of Great Power Politics* (New York: W.W. Norton, 2001); see also G. John Ikenberry, "The Rise of China and the Future of the West," *Foreign Affairs* 87, no. 1 (2008): 23-37, for the liberal institutionalist defense of American hegemony.
 
 ---
 
