@@ -306,7 +306,7 @@ The goal is productive discomfort—forcing examination of unexamined positions,
 - Contradictions and tensions are central to the analysis
 - Fiction has predicted or explored similar dynamics
 
-**Six-Stage Workflow:**
+**Seven-Stage Workflow:**
 
 #### Stage 1: Initial Research - Survey the Landscape
 
@@ -363,7 +363,61 @@ Based on ironic hypotheses generated, conduct **focused deep-dive research**:
 
 **Goal**: Move from broad landscape to targeted evidence supporting the analytical framework.
 
-#### Stage 4: Search for Fiction/Cultural Parallels
+#### Stage 4: Suggest Testable Experiments
+
+Based on hypotheses and research findings, propose **3-5 experiments** the architect could execute to empirically test claims. **Prioritize broke-dev-friendly experiments**—low-cost, executable with existing tools and skills.
+
+**Experiment categories (prefer earlier categories):**
+
+1. **Scraping/API experiments** (cost: $0-5)
+   - Collect data from public APIs to test behavioral claims
+   - Scrape pricing/availability patterns over time
+   - Compare platform outputs across conditions
+   - Example: "Scrape Amazon prices for same product across accounts to test personalization claims"
+
+2. **Prompt/interaction experiments** (cost: $0-20)
+   - Test AI agent behavior under different conditions
+   - A/B test recommendations with controlled inputs
+   - Document emergent behaviors in agentic systems
+   - Example: "Give shopping agents identical budgets but different personas, compare purchased items"
+
+3. **Small-n behavioral studies** (cost: $0)
+   - Self-experimentation with documented protocols
+   - Recruit friends/family for informal trials
+   - Before/after measurements with specific interventions
+   - Example: "Track your own purchase decisions with/without AI recommendations for 2 weeks"
+
+4. **Code analysis experiments** (cost: $0)
+   - Audit open-source implementations of claimed systems
+   - Trace data flows in published protocols
+   - Test edge cases in available APIs
+   - Example: "Analyze AP2 reference implementation for undocumented data collection"
+
+5. **Replication attempts** (cost: varies)
+   - Attempt to reproduce findings from cited papers
+   - Test whether claimed effects hold in different contexts
+   - Document failures to replicate as meaningful data
+   - Example: "Replicate algorithmic collusion emergence using simple Q-learning agents"
+
+**Format for each experiment:**
+```
+Experiment: [descriptive name]
+Tests hypothesis: [which ironic hypothesis this validates/falsifies]
+Method: [2-3 sentence protocol]
+Expected if hypothesis true: [prediction]
+Expected if hypothesis false: [alternative prediction]
+Cost/effort: [$ estimate and time estimate]
+Feasibility: [high/medium/low for broke dev]
+```
+
+**How to use in post:**
+- **Execute before writing** if feasible (adds original empirical content)
+- **Include as "future work"** if too costly/complex (documents testability)
+- **Note in critical footer** which experiments would falsify claims (adds intellectual honesty)
+
+**Key principle**: Experiments transform armchair analysis into empirically grounded claims. Even proposing experiments (without executing) demonstrates falsifiability and respects PHILOSOPHY.md's "practice over theory" commitment. Broke-dev-accessible experiments are preferred because they can actually happen.
+
+#### Stage 5: Search for Fiction/Cultural Parallels
 
 Search for **obscure fictions ( science fiction, manga or anime, video / computer games, movies, novels )** that predicted or explored similar dynamics:
 
@@ -378,7 +432,7 @@ Search for **obscure fictions ( science fiction, manga or anime, video / compute
 **How**:
 use gpt5-search, ask grok4
 
-#### Stage 5: Write Post Following Guidelines
+#### Stage 6: Write Post Following Guidelines
 
 **Read first:**
 - `PHILOSOPHY.md` - align with core commitments (embrace contradictions, materialist analysis, pessimism without fatalism)
@@ -406,7 +460,7 @@ use gpt5-search, ask grok4
 - Acknowledge unresolved contradictions
 - ~4-6 sentences, more detailed than standard footer
 
-#### Stage 6: Git Commit and Documentation
+#### Stage 7: Git Commit and Documentation
 
 **Commit message structure:**
 ```
@@ -439,10 +493,11 @@ AI:
 1. Initial broad research: Searches arXiv for papers on algorithmic collusion, AI shopping behavior, training data (surveys landscape, finds 20-30 papers)
 2. Generates 5 ironic hypotheses based on patterns found in initial research (consent paradox, open source concentration, etc.)
 3. Deeper targeted research: Searches for specific papers testing each hypothesis, selects 8-12 most relevant citations
-4. Searches for obscure fiction parallels that predicted these dynamics
-5. Writes post documenting both efficiency and manipulation evidence
-6. Critical footer: "An AI analyzed 29 papers... The irony tastes like stablecoins."
-7. Commits with detailed message documenting research synthesis
+4. Suggests 4 experiments: scrape AP2 reference implementation ($0), compare agent recommendations across personas ($5 API costs), replicate Q-learning collusion ($0), track own purchases with/without agent ($0)
+5. Searches for obscure fiction parallels that predicted these dynamics
+6. Writes post documenting both efficiency and manipulation evidence, includes 2 experiments as "future work"
+7. Critical footer: "An AI analyzed 29 papers... The irony tastes like stablecoins. The collusion replication experiment would falsify the core claim."
+8. Commits with detailed message documenting research synthesis
 ```
 
 **Why this workflow works:**
@@ -450,6 +505,7 @@ AI:
 - **Initial broad research** grounds hypotheses in actual evidence rather than speculation
 - **Ironic hypotheses** synthesize patterns from research into testable contradictions
 - **Targeted deep research** validates/refines hypotheses with specific evidence
+- **Experiment proposals** ground claims in falsifiability; broke-dev-friendly options mean they might actually happen
 - **Balanced research** prevents cherry-picking; documents actual complexity
 - **Fiction parallels** show ignored cultural warnings now materializing as infrastructure
 - **Unresolved contradictions** maintain intellectual honesty (no fake synthesis)
@@ -813,5 +869,5 @@ No manual build/deploy steps required. However, always test locally before pushi
 
 ---
 
-*Last updated: 2025-10-19*
-*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design. Research-driven workflow added based on agentic commerce post. Post-writing review and iteration workflow added based on Perfection Paradox experiment learnings. jekyll-scholar integration via GitHub Actions deployment.*
+*Last updated: 2026-01-14*
+*This document reflects current state. Site aesthetic and philosophical positioning established through extensive iterative design. Research-driven workflow added based on agentic commerce post. Post-writing review and iteration workflow added based on Perfection Paradox experiment learnings. Experiment suggestion stage added to research workflow (broke-dev-friendly experiments preferred). jekyll-scholar integration via GitHub Actions deployment.*
