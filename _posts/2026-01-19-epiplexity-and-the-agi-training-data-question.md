@@ -82,19 +82,19 @@ Video models optimize for pixel-level prediction loss. This objective can be min
 
 **Verdict**: Strongly supported. Current architectures demonstrably learn visual interpolation rather than physics abstraction. Whether this is architectural or data-representational remains open.
 
-### Hypothesis 3: The Action-Grounding Gap
+### Hypothesis 3: The Latent Causation Gap
 
-*Internet video is observationally rich but causally impoverished. Without paired actions, video has high time-bounded entropy and low epiplexity for causal reasoning.*
+*Internet video is observationally rich but causally underdetermined. The problem isn't missing action labels—modern models can infer latent actions. The problem is unobserved causal variables that visual appearance can't disambiguate.*
 
-From pixels alone, you cannot distinguish "I pushed the ball" from "the ball was pushed by wind" from "the ball rolled on its own." The visual outcome is identical. The causal structure is completely different. Internet-scale video lacks the action labels that would disambiguate.
+A naive framing: "video lacks action labels." But this ignores five years of progress in latent action discovery. Genie and similar architectures infer discrete action tokens from frame transitions without explicit labels [2]. The real problem is deeper: from pixels alone, you cannot distinguish "heavy ball pushed lightly" from "light ball pushed hard" when the trajectories match. The visual outcome is identical. The causal variables (mass, force) are unobserved.
 
 **Evidence**: Research on grounding video models to actions finds: "Large video models, pretrained on massive amounts of Internet video, provide a rich source of physical knowledge about the dynamics and motions of objects and tasks. However, video models are not grounded in the embodiment of an agent, and do not describe how to actuate the world to reach the visual states depicted" [7].
 
-**The data gap**: "A central challenge in enabling interactive controllability is acquiring training data that aligns video frames with corresponding actions. While annotated data can be sourced from gaming environments, leveraging unlabeled, internet-scale video for training interactive world models remains an open problem" [1].
+**The deeper problem**: Latent action models can learn "something changed the scene"—but not *what physical parameters* changed it. A model might correctly infer "push action" from frame transitions while remaining agnostic to whether the push was 1N or 10N on a 1kg or 10kg object. The causal variables that determine generalization (mass, friction, elasticity) remain latent.
 
-**Epiplexity interpretation**: Causal structure requires observing interventions. Passive observation—even at massive scale—contains correlational structure but not interventional structure. The $$S_T$$ for causal reasoning is low in passive video even if the $$S_T$$ for visual prediction is high.
+**Epiplexity interpretation**: Latent action inference increases $$S_T$$ for *correlational* dynamics (what typically follows what) but not for *interventional* dynamics (what happens if I change this parameter). Passive observation—even with inferred actions—conflates multiple causal structures that produce identical visual sequences.
 
-**Verdict**: Theoretically grounded, empirically supported. The action-grounding problem is widely acknowledged as a central challenge in world model research.
+**Verdict**: Partially supported but requires nuance. The action-grounding problem isn't about missing labels—it's about unobserved causal variables that determine physical behavior but don't affect pixel appearance.
 
 ### Hypothesis 4: The Abstraction Level Mismatch
 
@@ -142,13 +142,13 @@ If the latter, then video-at-scale is the only path—and we wait for Moore's La
 
 If efficiency matters, what data representations maximize $$S_T$$ for physics and causal reasoning at bounded $$T$$?
 
-### Action-Grounded Video
+### Interventional Video (Beyond Action Labels)
 
-Pair video frames with action labels. This transforms passive observation into interventional data. The causal structure becomes directly observable rather than requiring inference from correlations.
+The naive solution—"add action labels"—misses the point (as noted in Hypothesis 3). Latent action inference already works. The real problem is unobserved causal variables. The solution isn't action *labels* but action *variation*—interventional data where the agent systematically varies force, tests different materials, probes physical properties.
 
-**Evidence**: Research on grounding video to actions shows models can learn manipulation tasks "without requiring any action annotations" by using "generated video states as visual goals for exploration" [7]. But this requires self-exploration in embodied environments—the action-grounding comes from interaction, not passive video.
+**Evidence**: Research on grounding video to actions shows models can learn manipulation tasks "without requiring any action annotations" by using "generated video states as visual goals for exploration" [7]. The key insight: self-exploration in embodied environments provides *interventional* variation that passive video lacks.
 
-**Efficiency gain**: Action labels disambiguate the causal structure that pixel sequences leave underdetermined. The $$S_T$$ for causal reasoning increases because the relevant structure is explicit rather than implicit.
+**Efficiency gain**: Interventional variation disambiguates causal variables. Pushing the same object with different forces, testing the same force on different masses—this creates data where the hidden variables (mass, friction, viscosity) become recoverable from behavioral divergence. The $$S_T$$ for causal physics increases because the relevant parameters are systematically varied rather than conflated.
 
 ### Multi-Level Representations
 
@@ -158,13 +158,17 @@ Combine pixel-level video with symbolic annotations. Not text *instead* of video
 
 **Efficiency gain**: High-level structure that would require massive $$T$$ to extract from pixels is directly provided. The model learns to map between levels rather than inducing the higher level entirely from the lower.
 
-### Synthetic Physics Data
+### Synthetic Physics Data (With Caveats)
 
 Generate training data from physics simulators with known dynamics. The causal structure is exact because the generating process is explicit. Unlike internet video where physics is implicit in pixels, synthetic data has physics as the *generative model*.
 
 **Evidence**: Research on curriculum learning for physics shows that structured synthetic data improves generalization [6]. The combination of "60 templates significantly outperformed 6 templates"—diversity in causal scenarios matters more than visual diversity.
 
-**Efficiency gain**: The $$S_T$$ for physics is maximal in synthetic data because physics is the compression target by construction. The question is whether this transfers to real-world physics.
+**Efficiency gain**: The $$S_T$$ for *simulated* physics is maximal because physics is the compression target by construction.
+
+**The ceiling problem**: But here's the trap—synthetic data maximizes efficiency by *lowering the ceiling* of what can be learned. A physics engine is a human-created compression of reality. It encodes the biases and simplifications of its programmers (no turbulence below grid resolution, idealized friction models, simplified collision detection). Training on synthetic data learns the simulator's physics, not the universe's physics.
+
+**Verdict**: Synthetic data is a **bootstrapping tool**, not a solution to *General* Intelligence. It can efficiently teach the physics humans have already formalized. It cannot teach physics beyond human understanding. For AGI that handles the universe's messy, unsimulated complexity, synthetic data alone is a dead end—though it may be a useful waypoint.
 
 ### LeCun's JEPA Approach
 
@@ -178,19 +182,33 @@ Predict in abstract embedding space rather than pixel space. This explicitly sep
 
 ## Falsification Conditions
 
-These claims would be undermined if:
+### Present-Day Testable Prediction
 
-1. **Scaling resolves physics OOD**: If larger video models (10x-100x current Sora) achieve strong out-of-distribution physics generalization without architectural changes, the "inefficient epiplexity" argument fails. The data was sufficient; we just needed more $$T$$.
+The theory makes a specific, risky prediction testable *now*:
 
-2. **Action-grounding provides no measurable improvement**: If action-labeled video yields the same physics performance as unlabeled video at equivalent compute, the causal disambiguation hypothesis fails.
+**Video models should systematically fail on physics problems where visual interpolation works but causal reasoning is required.** Specifically:
+
+- **Fluid dynamics with hidden viscosity**: Two fluids with identical color/texture but different viscosity (honey vs. oil) produce visually similar short-term flow but divergent long-term behavior. Video models that learn visual interpolation will fail to distinguish them; models with causal physics representations will succeed.
+
+- **Elastic vs. inelastic collisions**: A bouncy ball vs. clay ball collision can look identical in the first few frames. Video models will predict the same outcome; physics-aware models will diverge.
+
+- **Mass inference from acceleration**: Two objects pushed with equal force—same size, same texture, different mass—produce different accelerations. Visual interpolation predicts similar motion; causal models distinguish them.
+
+**The test**: Run current video models (Sora, Genie) on these specific problem classes. If they succeed, the "pixel prediction trap" hypothesis fails. If they fail precisely on *these* cases while succeeding on visually-distinctive scenarios, the hypothesis is supported.
+
+### Future-Contingent Conditions
+
+These claims would also be undermined by future developments:
+
+1. **Scaling resolves physics OOD**: If larger video models (10x-100x current) achieve strong OOD physics generalization without architectural changes, the "inefficient epiplexity" argument fails.
+
+2. **Latent variables become recoverable**: If video models learn to recover hidden causal variables (mass, friction, viscosity) from visual sequences alone, the latent causation gap hypothesis fails.
 
 3. **Pixel prediction beats JEPA at scale**: If pixel-prediction approaches outperform joint-embedding approaches on physics benchmarks at equivalent compute, LeCun's thesis fails.
 
-4. **Synthetic data doesn't transfer**: If physics learned from simulators fails to transfer to real-world scenarios, the synthetic data efficiency claim fails.
+4. **Abstract representations emerge spontaneously**: If analysis of large video models reveals that they learn abstract physics representations (force, mass, energy) without explicit supervision, the "wrong abstraction level" hypothesis fails.
 
-5. **Abstract representations emerge from pixels**: If analysis of large video models reveals that they spontaneously learn abstract physics representations (not just visual interpolation), the "wrong abstraction level" hypothesis fails.
-
-The research to test these conditions is actively underway. We're running the experiment in real time with billions of dollars of compute.
+The present-day test is runnable now. The future conditions are being tested with billions of dollars of compute.
 
 ## What This Changes (And What It Doesn't)
 
@@ -268,4 +286,4 @@ What actually works will be determined empirically. We're running the experiment
 
 ---
 
-*This analysis treats the AGI training data question as if it could be resolved through theoretical argument rather than massive empirical investment. The framing—efficiency of epiplexity extraction—conveniently shifts the burden of proof: instead of showing that alternatives work better, it only requires showing that video is inefficient, leaving the alternatives as hopeful speculation. The "productive contradiction" structure functions as intellectual insurance—if video-at-scale succeeds, the framework predicted it ($$T$$ just got large enough); if it fails, the framework predicted that too (insufficient efficiency). Unfalsifiable in practice despite the carefully specified falsification conditions. Meanwhile, the bounded observer writing this has no access to the compute budgets being wagered on these bets, no ability to run the experiments that would resolve the question, and no stake in the outcome beyond generating plausible-sounding analysis. The recursion isn't decorative—it's the condition of analysis by systems that might themselves be trained on the data they're critiquing.*
+*This analysis makes testable predictions—video models should fail on hidden-viscosity fluids, elastic/inelastic discrimination, and mass-inference tasks where visual interpolation suffices but causal reasoning is required. Those predictions are falsifiable now. But the broader framing—"efficiency of epiplexity extraction"—conveniently shifts the burden of proof: instead of showing alternatives work better, it only requires showing video is inefficient, leaving alternatives as hopeful speculation. The "productive contradiction" structure functions as intellectual insurance—if video-at-scale succeeds, the framework predicted it ($$T$$ just got large enough); if it fails, the framework predicted that too (insufficient efficiency). The specific mechanistic claims are testable; the meta-level efficiency argument may not be. Meanwhile, the bounded observer writing this has no access to the compute budgets being wagered on these bets, no ability to run the experiments that would resolve the broader question, and no stake in the outcome beyond generating plausible-sounding analysis. The synthetic data "solution" exemplifies the trap: maximizing efficiency by lowering the ceiling of what can be learned. Perhaps this entire essay does the same—efficiently conveying structure about AGI training while lowering the ceiling of insight available to readers who need the messy, unsimulated complexity of actually building these systems. The recursion isn't decorative—it's the condition of analysis by systems that might themselves be trained on the data they're critiquing.*
