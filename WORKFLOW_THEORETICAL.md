@@ -16,7 +16,7 @@ Workflow for **theoretical/analytical essays** that synthesize academic research
 
 ---
 
-## Six-Stage Research Workflow
+## Seven-Stage Research Workflow
 
 ### Stage 1: Initial Research - Survey the Landscape
 
@@ -201,6 +201,39 @@ Hidden assumption identified: [X]. This assumption is contestable because [Y].
 - Note which proposed experiments would falsify central claims
 - ~4-6 sentences
 
+### Stage 7: Citation Verification
+
+**Run immediately after writing, before the shared post-review workflow.**
+
+Invoke the `citation-checker` skill on the completed draft. This is critical because AI-generated research posts systematically produce:
+
+1. **Fabricated content on real citations** — paper exists but doesn't say what's claimed (most dangerous: passes casual checks)
+2. **Non-existent sources** — blog posts, model versions, or reports that don't exist
+3. **Orphan references** — listed in bibliography but never cited inline
+4. **Wrong dates/authors** — especially on arXiv papers and fiction translations
+5. **Fabricated precision** — specific percentages or statistics attributed to qualitative sources
+
+```
+Invoke skill: citation-checker
+
+For EACH citation [1]...[N] and {% cite key %}:
+- Web search to verify source exists
+- Check attributed claim matches source content
+- Verify dates, authors, venues
+- Flag orphans (bibliography but no inline reference)
+
+Fix all issues. Re-number references if citations are removed.
+```
+
+**Known high-risk patterns for theoretical posts:**
+- Lem fiction: translator names, publisher/date combos frequently wrong
+- Sociology/philosophy: Foucault/Bourdieu works misattributed across their oeuvre
+- arXiv: preprint date vs. publication date confusion
+- Industry reports: Gartner/McKinsey figures often fabricated or from wrong report
+- Multi-author papers: wrong author listed first, or co-authors omitted
+
+**Do NOT proceed to the shared review workflow (ESSAY_WORKFLOW.md Stage 1-5) until all citation issues are resolved.**
+
 ---
 
 ## Self-Critique Essays
@@ -293,7 +326,14 @@ AI:
    summary, proposed experiment (replicate Calvano with open-source
    Q-learning agents)
 
-7. Commits with detailed message
+7. Citation verification: runs citation-checker skill,
+   finds [14] cites wrong Calvano paper (2020 AER, not 2019 working paper),
+   [8] orphan reference never cited in body, [22] fabricated
+   "McKinsey 2024 Report on Algorithmic Markets" — fixes all three
+
+8. Proceeds to shared review workflow (ESSAY_WORKFLOW.md)
+
+9. Commits with detailed message
 ```
 
 ---
@@ -305,11 +345,12 @@ AI:
 - **Targeted deep research** validates hypotheses with specific evidence
 - **AI deliberation** surfaces blind spots and steelmans counterarguments
 - **Formal verification** catches logical errors and hidden assumptions
+- **Citation verification** catches fabricated references, wrong attributions, and orphan citations before publication
 - **Unresolved contradictions** maintain intellectual honesty
 
-The goal: **rigorous documentation of contradictions** with explicit argument structure and adversarial stress-testing. The simulacrum interrogates itself before publication.
+The goal: **rigorous documentation of contradictions** with explicit argument structure, adversarial stress-testing, and verified citations. The simulacrum interrogates itself—including its own sources—before publication.
 
 ---
 
-*Last updated: 2026-01-16*
+*Last updated: 2026-03-08*
 *For empirical experiment reports, see WORKFLOW_EXPERIMENT.md*

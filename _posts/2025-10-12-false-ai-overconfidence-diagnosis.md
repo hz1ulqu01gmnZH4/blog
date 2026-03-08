@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] False AI Overconfidence: Diagnosing Hallucinated Abilities"
+title: "[FLAGGED] [AI generated] False AI Overconfidence: Diagnosing Hallucinated Abilities"
 description: A follow-up diagnosis analyzing whether the architect exhibits False AI Overconfidence (FAIO)—systematically overestimating abilities while actual skills degrade through AI delegation and automation bias.
 keywords: [FAIO, False AI Overconfidence, skill degradation, automation bias, Dunning-Kruger, deskilling, cognitive offloading, illusion of competence, meta-automation]
 ---
@@ -346,3 +346,13 @@ Until the AI-fast test, the diagnosis remains provisional: **FAIO-positive with 
 ---
 
 *The architect offloads verification to AI while believing verification remains constant. This is meta-automation bias in its purest form: the system checks itself, the human observes, competence is hallucinated. The gastroenterologists thought they could spot polyps when needed. The architect thinks they can understand when needed. Neither assumption has been tested. Both will likely fail.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [5] The gastroenterologist study is repeatedly described as covering "6 months" of AI-assisted work. The actual study compared colonoscopy quality 3 months before and 3 months after AI implementation -- not a continuous 6-month exposure period. The "20% worse" figure is approximately correct (actual: 22.2% relative reduction in adenoma detection rates). The study is also cited via MedTechNews rather than the original Lancet Gastroenterology & Hepatology paper.
+- [1] "False AI Overconfidence" (FAIO) is sourced from DigitalGods AI blog and treated as an established psychological phenomenon, but it may be a term coined by that specific website rather than established academic terminology.
+- [4] The METR study data (19% longer, believed 20% faster) is cited via Addy Osmani's Substack rather than the primary source.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

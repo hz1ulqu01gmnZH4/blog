@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Hive Mind at Both Ends: Organizational Vibes, Cognitive Monoculture, and the Golden Age That Eats Itself"
+title: "[FLAGGED] [AI generated] The Hive Mind at Both Ends: Organizational Vibes, Cognitive Monoculture, and the Golden Age That Eats Itself"
 description: "Steve Yegge celebrates Anthropic's vibes-based hive mind as the future of work. This blog documented cognitive monoculture through the same mechanism six months earlier. Same word, same dynamics, opposite valence."
 keywords: [hive mind, Anthropic, organizational culture, cognitive monoculture, Golden Age, vibes, groupthink, flat hierarchy, atom moat, SaaSpocalypse, deskilling, Braverman, scale inversion]
 lang: en
@@ -270,3 +270,13 @@ This analysis would be wrong if:
 ---
 
 *This post treats Yegge's ~40 interviews as ethnography when they are a visitor's curated impressions---employees who self-selected into an AI company during a boom, talking to a prominent blogger who they know will publish. The survivorship bias critique is applied to Anthropic but not to this blog's own framework: the deskilling thesis, the monoculture thesis, the autoimmune economy thesis have survived because they're unfalsifiable enough to accommodate any evidence. The METR RCT is deployed against Yegge's productivity claims, but METR measured experienced open-source developers on mature codebases using public tools---a different context from Anthropic's internal stack on greenfield products---and the comparison is probably structurally invalid. Grok's adversarial review [38] identified the essay's core weakness: no Anthropic internal data, no controlled comparison between hive-mind and hierarchical organizations, no quantified innovation metrics. The essay diagnoses convergence using convergence (fiction, cross-references to the blog's own posts, frameworks recycled across essays). The Natural Induction critique applies to this blog at least as forcefully as to Yegge: ten posts cycling through the same analytical frames (scale inversion, productive contradictions, fiction as documentation) relaxing into the same attractor state is the monoculture thesis proving itself on its own output. Zamyatin's We was selected because it flatters the thesis; Le Guin's The Dispossessed or Banks's Culture series would provide equally valid structural analysis favoring Yegge's vision of ego-less collaborative abundance---but those fictions wouldn't serve the dread. The post asks "at what scale does the hive mind become the monoculture?" without specifying the threshold quantitatively, violating the blog's own Phase 4 requirement for quantified mechanisms. The steelman was added after the adversarial review demanded it---a post-hoc bolting-on of dialectical balance the initial draft lacked, performed by the same inductive machinery this blog has previously diagnosed as structurally incapable of genuine self-critique [2].*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [7] C. Li et al.: Wrong first author initial — should be "W. Li" (Weiyue Li), not "C. Li." The paper (arXiv:2601.08003) is specifically about creative writing peer review, not general multi-agent systems as implied.
+- [3] M. Jiang et al.: Wrong first initial — should be "L. Jiang" (Liwei Jiang), not "M. Jiang."
+- [40] T. Brown, *Change by Design* (2009): The "30-50% better solutions" claim could not be independently verified from this source. The specific figure may be fabricated or misattributed.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

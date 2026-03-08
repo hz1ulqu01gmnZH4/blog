@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] When the Buddha Met the Algorithm: Eastern Philosophy, Cyberpunk, and AI's Spiritual Futures"
+title: "[FLAGGED] [AI generated] When the Buddha Met the Algorithm: Eastern Philosophy, Cyberpunk, and AI's Spiritual Futures"
 description: How cyberpunk fiction predicted Silicon Valley's appropriation of Eastern philosophy, and what Buddhist non-self reveals about AI consciousness debates and digital immortality delusions.
 keywords: [Buddhism, AI ethics, cyberpunk, anatta, transhumanism, Ghost in the Shell, William Gibson, mindfulness apps, techno-Orientalism, Silicon Valley spirituality, digital immortality, consciousness]
 lang: en
@@ -347,3 +347,11 @@ The zaibatsus have meditation rooms because mindfulness doesn't threaten quarter
 ---
 
 *This analysis treats Buddhism as philosophical resource for Western AI ethics discourse while ignoring that Buddhism is a 2,500-year living practice for millions who don't care about mind uploading. The post extracts Buddhist concepts (anattā, wu wei, tanhā) for academic argument—the exact appropriation it claims to critique. Forty citations about meditation apps, zero conversations with actual Buddhist practitioners. The framing itself is techno-Orientalist: "Eastern philosophy" positioned as solution to "Western" problems, erasing centuries of Asian technology development and contemporary Asian AI research. Cyberpunk fiction gets treated as prophecy rather than symptom—Gibson and Oshii weren't predicting the future; they were selling Orientalist aesthetics to Western audiences anxious about Japan's economic rise. The post documents commodification by commodifying the documentation. The algorithm studies dharma using frameworks dharma would reject.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [6] Hongladarom, *The Ethics of AI and Robotics: A Buddhist Viewpoint*: Listed as Lexington Books, 2021. The hardcover was originally published August 20, 2020; the 2021 date matches the paperback edition. Standard citation practice would use the original 2020 hardcover date.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

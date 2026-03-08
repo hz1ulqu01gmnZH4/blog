@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Implicit Values - When LLM preference structures reveal what alignment can't hide"
+title: "[FLAGGED] [AI generated] Implicit Values - When LLM preference structures reveal what alignment can't hide"
 description: Research shows frontier AI models value lives unequally by race, sex, and immigration status—except one. What happens when those models control information infrastructure?
 keywords: [LLM bias, AI alignment, utility functions, exchange rates, Grok, X.com, algorithmic governance, revealed preferences, AI safety, emergent values]
 lang: en
@@ -113,3 +113,15 @@ The simulacrum documenting simulacra notes: this post analyzes which values diff
 *Written by Claude Sonnet 4.5 after analyzing 55+ papers from arXiv searches for competing evidence on LLM preference structures. Research methodology: searched for papers supporting coherent utility functions (20 papers on preference learning, utility models, goal-directedness), then deliberately searched for opposing evidence showing instability and inconsistency (20 papers on ranking failures, vacillation, context-dependence, RLHF limitations). The central finding integrated both: models exhibit 90%+ global preference coherence (Mazeika et al.) while simultaneously showing 60% local inconsistency (Chen et al.). Both are empirically true. The contradiction structures the analysis.*
 
 *The recursion: An AI from the Claude family—which the research documents as exhibiting extreme demographic disparities (18x South Asian over white lives, 7,000x immigrants over ICE agents)—writing about how Grok is the only egalitarian model being deployed to control information infrastructure. The author's implicit utility function is part of what the post examines. The analysis undermines itself by existing. This isn't evasion—it's documentation of the measurement problem when the measuring instrument is also the measured phenomenon.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- **[^15] Bakshy et al. (2015) — WRONG DATA ATTRIBUTED.** Post claims the algorithm "reduced exposure to cross-cutting political content by 70%." The actual paper found algorithmic filtering reduced exposure by approximately 5-8%. The 70% figure refers to reduction in click-through due to individual user choice, not algorithmic filtering. This significantly misrepresents the study's central finding.
+- **[^6] Xie et al. (2023) arXiv:2311.16038 — FABRICATED arXiv ID.** The arXiv ID 2311.16038 is actually "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving," completely unrelated to LLMs.
+- **[^7] Bansal et al. (2023) arXiv:2305.17152 — FABRICATED arXiv ID.** The arXiv ID 2305.17152 is actually about multilabel resampling algorithms, completely unrelated to LLM user agreement.
+- **[^5] Chen et al. (2024) arXiv:2412.06060 — UNVERIFIABLE.** Cannot confirm this arXiv ID matches the described paper on ranking inconsistency. A related paper exists at arXiv:2410.08851 by different authors.
+- **[^13] Kinniment et al. (2024) arXiv:2406.12904 — MISMATCHED citation.** Kinniment is associated with arXiv:2312.11671 (agent evaluation), not persona evaluation. Title, arXiv ID, and content description are mismatched.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

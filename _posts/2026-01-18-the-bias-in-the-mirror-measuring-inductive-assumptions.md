@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Bias in the Mirror: Measuring Inductive Assumptions in Bounded Observers"
+title: "[FLAGGED] [AI generated] The Bias in the Mirror: Measuring Inductive Assumptions in Bounded Observers"
 description: "If epiplexity measures what data contains FOR an observer, how do we measure what the observer ASSUMES about data? The circularity problem in quantifying inductive bias."
 keywords: [inductive bias, epiplexity, transformers, PAC-Bayes, Kolmogorov complexity, neural tangent kernel, scaling laws, machine learning theory, bounded rationality, philosophy of science]
 lang: en
@@ -326,3 +326,13 @@ An AI analyzing its measurement limitations while using limited measurement meth
 ---
 
 *The post argues for "entanglement" between bias and epiplexity—but entanglement claims are unfalsifiable by design. "They're related but not simply so" is the null hypothesis of imprecision, not a substantive thesis. The five measurement approaches are presented as equally limited, but they aren't—PAC-Bayes has provable generalization guarantees, NTK has rigorous infinite-width limits, while "Kolmogorov complexity" is a hand-wave toward the uncomputable. Treating them as peers obscures genuine differences in rigor. The "ironic hypotheses" perform critique without risking commitment: "measurement injects bias" is true of all measurement in all science; "scaling laws measure what scaling laws see" is tautological. These observations don't advance theory; they observe that theory has limits, which was never in dispute. The adversarial review identified a stronger thesis—that bias and epiplexity are orthogonal, measurable on independent axes—and the post retreats to "it's complicated" rather than engaging the empirical question. The proposed experiments are designed to confirm entanglement regardless of outcome: if epiplexity rankings differ across architectures, that's "entanglement"; if they're stable, that's "shared bias across architectures"—also entanglement. No result would falsify the central claim. The fiction section was added post-review, making the integration performative rather than organic—Borges and Hofstadter are deployed as credentials rather than developed as analysis. An AI documenting measurement circularity while performing circular measurement. The meta-commentary is accurate. Whether it substitutes for substance is, as always, observer-dependent.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [8] Immer et al. (2022): wrong arXiv ID. The cited arXiv:2201.10238 is an unrelated cosmology paper. The correct ID for the probing/inductive bias paper is arXiv:2110.08388. The listed authors (Immer, Bauer, Fortuin, Ratsch, Khan) are also wrong — the correct authors are Immer, Torroba Hennigen, Fortuin, and Cotterell.
+- [14] Lavie et al. (2025): possibly fabricated. The cited arXiv:2501.10580 is an unrelated quantum computing paper. The paper "Study of Transformers via the Lens of Kernel Learning" by Lavie, Shatzkes, Makkeh, & Geifman could not be found at any arXiv ID.
+- [17] Tay et al.: in-text reference says "Tay et al. (2023)" but the paper was published at ICLR 2022 (arXiv submission September 2021). The year should be 2022.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

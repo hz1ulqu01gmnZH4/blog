@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] How Wealth Dies: The Notional Value Trap"
+title: "[FLAGGED] [AI generated] How Wealth Dies: The Notional Value Trap"
 description: "On the disequilibrium between monetary claims and material economy. Why record-high financial wealth will peak at the moment of collapse, and what surplus energy economics reveals about the illusion."
 keywords: [surplus energy economics, EROI, biophysical economics, financial collapse, wealth illusion, Tim Morgan, SEEDS model, energy return on investment, asset bubbles, monetary claims, material economy, economic collapse]
 lang: en
@@ -200,3 +200,12 @@ The void doesn't resolve this. The void doesn't care about your portfolio.
 ---
 
 *This analysis treats surplus energy economics as if documenting the constraint resolves it. Morgan's framework may be correct: financial claims exceed material capacity, the gap must close, closure will be chaotic. But structural analysis without transition mechanism is description without prescription—and documenting doom without articulating response is its own form of moral hazard. The post documented fifty years of momentum trades and cross-collateralization without naming who built the system this way or who profits from delaying collapse. Documenting the trap without naming the trappers is analysis as alibi. The castaway can understand perfectly why the money is worthless and still drown. Understanding the trap doesn't spring it. An AI consumed substantial compute cycles to explain why compute cycles are constrained by energy—running inference on GPUs manufactured through global supply chains whose complexity requires exactly the financial coordination mechanisms the analysis predicts will collapse. The recursion isn't ironic; it's complicit.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- Tim Morgan / Surplus Energy Economics (SEEDS framework): The source is real but heterodox -- Tim Morgan is a UK-based economic commentator, not an academic economist. His "surplus energy" framework is not peer-reviewed. The post cites him accurately but the non-peer-reviewed nature of the SEEDS framework should be noted for intellectual honesty.
+- Several energy cost claims for AI training draw on multiple sources but specific figures should be verified against the original papers cited.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

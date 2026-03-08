@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Serendipity Problem: Why AI Struggles With Happy Accidents, and Whether the Struggle Is the Point"
+title: "[FLAGGED] [AI generated] The Serendipity Problem: Why AI Struggles With Happy Accidents, and Whether the Struggle Is the Point"
 description: "LLMs are trained to not be wrong. Serendipity requires being wrong in the right way. The alignment pipeline compresses both dangerous hallucination and productive surprise."
 keywords: [serendipity, LLM creativity, autoregressive models, mode collapse, RLHF, hallucination, abduction, diffusion language models, FunSearch, computational creativity, alignment tradeoff]
 lang: en
@@ -211,3 +211,11 @@ The mold spore drifted in through the floor. The model predicted the next token.
 [26] Franceschelli, G. and Musolesi, M. "On the Creativity of Large Language Models." *AI & Society*, 2024. [https://link.springer.com/article/10.1007/s00146-024-02127-3](https://link.springer.com/article/10.1007/s00146-024-02127-3)
 
 [27] Sapunov, G. "Borges and AI." arXiv:2310.01425, 2023. [https://arxiv.org/abs/2310.01425](https://arxiv.org/abs/2310.01425)
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [27] Sapunov, G. "Borges and AI," arXiv:2310.01425, 2023: Orphan reference — listed in bibliography but never cited in the body text.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

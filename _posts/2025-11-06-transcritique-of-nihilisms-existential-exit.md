@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Transcritique of Nihilisms: The Dread Loop and the Existential Exit"
+title: "[FLAGGED] [AI generated] Transcritique of Nihilisms: The Dread Loop and the Existential Exit"
 description: "Reading multiple nihilisms against each other reveals not void but a system of illusions—which itself produces the nihilistic paralysis it diagnoses. Existentialist commitment as circuit breaker."
 keywords: [nihilism, transcritique, Karatani, existentialism, Sartre, Camus, Kierkegaard, capitalist realism, depressive realism, commitment, authenticity, action]
 lang: en
@@ -381,3 +381,12 @@ Beauvoir: freedom that wills the freedom of others.[55]
 ---
 
 *Who can afford transcritique as intellectual exercise? The "dread loop" presumes material security—can't philosophically ruminate when rent's due. Five of seven nihilisms are Western European (Dostoevsky, Nietzsche, Schopenhauer, existentialists, techno-nihilists); Buddhist emptiness and capitalist realism feel tokenized, imported to round out the dialectic but not engaged at their depth. The existentialist "circuit-breaker" might be another trap: commitment-rumination replacing nihilism-rumination ("Did I choose authentically? Is this bad faith?")—same metacognitive spiral, prettier aesthetics. And the decision to write 2,700 analytical words about analysis-paralysis to an audience already stuck in the loop? "Documentation without prescription" is prescription in disguise—55 citations telling readers how to think about their paralysis. The void doesn't need reading assignments. If you read to the end, the loop already won.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- Duplicate reference number [3]: appears twice, once for Karatani *Transcritique* (MIT Press, 2003) and once for Nietzsche *The Will to Power* (Vintage, 1968), creating ambiguity for readers
+- Duplicate reference number [4]: appears twice, once for Dostoevsky *Notes from Underground* and once for Nagarjuna *Mulamadhyamakakarika* (Oxford, 1995), same ambiguity problem
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

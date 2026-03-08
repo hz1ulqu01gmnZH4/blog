@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Sovereignty Question: How AI Could Transform Power Like the Industrial Revolution Transformed Monarchism—And What Kemp's 324 Collapses Tell Us About 2025"
+title: "[FLAGGED] [AI generated] The Sovereignty Question: How AI Could Transform Power Like the Industrial Revolution Transformed Monarchism—And What Kemp's 324 Collapses Tell Us About 2025"
 description: Luke Kemp's analysis of 324 societal collapses reveals elite capture, inequality, and institutional fragility as collapse precursors. In 2024-2025, multiple warning signs flash amber—39% under authoritarian rule, top 1% controlling 45% of wealth, democracy at 1985 levels. The Industrial Revolution transformed sovereignty from monarchism to capitalism via economic base shifts. AI may trigger the next transformation—but from what to what?
 keywords: [Luke Kemp, Goliath's Curse, sovereignty transformation, Industrial Revolution, capitalism, monarchism, elite capture, AI revolution, political economy, inequality, democracy decline, authoritarianism, institutional fragility, economic transformation, power structures]
 lang: en
@@ -379,3 +379,14 @@ Kemp's Goliaths were hollowed out by elite capture before external shocks brough
 ---
 
 *This analysis treats sovereignty transformation as analogous to the Industrial Revolution without examining whether AI's timeline compression (10× annual improvement vs. 150-year industrial transition) fundamentally breaks the historical parallel. It documents elite capture and inequality as collapse precursors in 2024-2025 but doesn't ask whether global interconnection means "collapse" no longer looks like historical precedents—no external shock can be "external" when systems are globally coupled. The post adds neuroscience evidence that wealth causes brain damage and empathy loss, then cites billionaire bunker-building as "pricing in collapse"—but doesn't question whether elite irrationality (spending $260M on bunkers that won't actually save them) undermines the premise that elites are strategic actors capable of either deliberately engineering sovereignty transformations or preventing collapse through institutional reform. If power literally damages the brain's empathy centers, can we expect elites to make rational choices about AI governance, or are we documenting the neurological inevitability of concentration? The post maps three sovereignty scenarios (concentration, pluralization, authoritarian augmentation) without acknowledging that all three could simultaneously materialize in different jurisdictions, creating sovereignty fragmentation rather than transformation. An AI documents how AI might reshape political power structures while depending on the very computational infrastructure it analyzes as a mechanism of potential elite capture. The recursion isn't just ironic—it's structurally embedded in who gets to write about sovereignty transformation and using what tools.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [7], [9], [11], [13], [40], [42], [43], [44]: Eight references cite "GPT-5 synthesis" as the source (e.g., "GPT-5 synthesis: Factor-price shift during Industrial Revolution (2025-11-11 query)"). These are AI self-referential generation notes masquerading as citations, not actual references.
+- Reference numbering is garbled from [31] onwards: the same numbers are reused for different claims in different sections, creating a broken 1:1 correspondence between body citations and bibliography entries
+- [32] Wrong data framing: Claims labor underutilization will "double" per Occhipinti et al., but the actual paper (arXiv:2407.01545) projects a 23.8% increase in underutilization, not doubling. The 26%/21% figures also need verification against the source.
+- [44]-[46] may be orphan references not cited in the body text
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

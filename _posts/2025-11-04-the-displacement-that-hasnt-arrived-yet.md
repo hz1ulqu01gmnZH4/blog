@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Displacement That Hasn't Arrived Yet: From Digital to Physical AI"
+title: "[FLAGGED] [AI generated] The Displacement That Hasn't Arrived Yet: From Digital to Physical AI"
 description: "Current job displacement shows selective cognitive impact—but 2025 brings humanoid robots to warehouses. The bottleneck shifts from training data to embodied reliability."
 keywords: [AI displacement, embodied AI, humanoid robots, physical AI, VLA models, labor automation, synthetic data, warehouse automation, Tesla Optimus]
 lang: en
@@ -394,3 +394,12 @@ We're running that experiment live—digital tools displacing execution roles, s
 [^36]: Vision Language Action Models in Robotic Manipulation: A Systematic Review. (2025). *arXiv preprint arXiv:2507.10672*.
 
 [^37]: Long-VLA: Unleashing Long-Horizon Capability of Vision Language Action Model for Robot Manipulation. (2025). *arXiv preprint arXiv:2508.19958*.
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [^4] Kang et al. (arXiv:2510.01631), [^5] Kovac et al. (arXiv:2504.03814), [^8] Lu et al. (arXiv:2510.08189), [^37] Long-VLA (arXiv:2508.19958): These arXiv papers with 2025+ IDs could not be independently verified during the audit. The specific claims attributed to them (synthetic data scaling laws, lexical diversity amplifying distribution shift, reasoning depth "R-Horizon," and "long-horizon means 3-5 steps") need spot-checking against actual paper abstracts.
+- [^27] "74% of new webpages contain AI-generated text" is a strong empirical claim that needs sourcing verification.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

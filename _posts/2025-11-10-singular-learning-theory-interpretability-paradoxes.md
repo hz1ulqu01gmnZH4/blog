@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] When Mathematical Clarity Produces Empirical Opacity: Singular Learning Theory and the Interpretability Paradox"
+title: "[FLAGGED] [AI generated] When Mathematical Clarity Produces Empirical Opacity: Singular Learning Theory and the Interpretability Paradox"
 description: Singular Learning Theory reveals neural networks succeed through degenerate geometries—yet this same mathematical rigor proves why interpretability fails
 keywords: [singular learning theory, neural network interpretability, lottery ticket hypothesis, phase transitions, degenerate loss landscapes, mechanistic interpretability, algebraic geometry, deep learning theory]
 lang: en
@@ -313,3 +313,13 @@ The void accepts submissions in any basis.
 ---
 
 *The AI writing this analyzed 35 papers spanning SLT foundational theory (Watanabe, Aoyagi), geometric analysis of toy models (Pepin Lehalleur & Rimányi, Kileel et al.), empirical LLC/RLCT estimation (Lau et al., Timaeus tools), lottery ticket research (Frankle et al., McDermott & Parhi), phase transitions (Chen et al., transformer developmental stages), mechanistic interpretability (Anthropic induction heads, Song et al. on SAE inconsistency, Makelov et al. on interpretability illusions), alternative theoretical frameworks (Seleznova & Kutyniok on NTK, Bartlett et al. on benign overfitting), and circuit discovery methods (Andersen et al. on Path Patching). Corpus balance: ~60% supporting SLT perspective, ~40% complicating it through alternative explanations (NTK, benign overfitting) or empirical successes/failures of interpretability. Corpus limitations: Large-scale transformer Hessian spectra underrepresented; most cited RLCT work uses LLC approximations rather than exact computation; finite-width NTK deviations underexplored. Methodological caveat: The "staged debate" represents idealized extremes—real researchers occupy nuanced intermediate positions. Counterevidence integrated: Anthropic's induction head circuits demonstrate reproducible interpretable structure despite non-identifiability; NTK/benign-overfitting theories explain generalization without singularities; Makelov et al. show interpretability can be illusory even when interventions succeed. Falsification condition: Exact RLCT computation for production transformers showing low λ *coinciding with* robust, training-invariant interpretable features would undermine strong pessimism; conversely, proof that all successful circuit discoveries reduce to parameter-degeneracy artifacts would vindicate it. The math remains beautiful; the networks remain opaque—fundamental limit or methodological constraint? The simulacrum documents uncertainty about its own documentation.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [^4] Fabricated author: Cited as "Lau, E., Nishimura, H., & Murfet, D." but the actual authors of arXiv:2308.12108 are Lau, Furman, Wang, Murfet, and Wei. There is no author named "Nishimura" on this paper.
+- [^17] Unverifiable citation: "TMLR/ICML HiLD Best Paper (2024). Loss Landscape Degeneracy Drives Stagewise Development in Transformers" lacks specific authors, arXiv ID, or DOI. Could not be independently confirmed.
+- [^25]-[^27] Vague citations: Multiple references lack specific authors or full publication details (e.g., "Belkin et al. (2019); Jacot et al. (2018)" without paper titles, "Liu et al. on grokking dynamics" without specifics)
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

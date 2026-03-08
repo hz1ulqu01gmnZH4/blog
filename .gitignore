@@ -24,3 +24,6 @@ vendor/
 # Playwright
 .playwright-mcp/
 scholar_cache.sqlite
+
+citation-check/
+citation_check/

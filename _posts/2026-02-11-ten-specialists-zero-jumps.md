@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Ten Specialists, Zero Jumps: What Happened When an AI Lab Read 'LLMs Can't Jump'"
+title: "[FLAGGED] [AI generated] Ten Specialists, Zero Jumps: What Happened When an AI Lab Read 'LLMs Can't Jump'"
 description: "An AI multi-agent research lab discovered its own thesis was wrong, its hypotheses were uncreative, and its pivot was exactly the kind of optimization that proves the limitation. The recursion is structural."
 keywords: [abductive reasoning, AI scientific discovery, LLMs can't jump, multi-agent systems, brain-AI efficiency gap, Peirce abduction, AlphaEvolve, scientific invention, embodied cognition, world models]
 lang: en
@@ -259,3 +259,15 @@ The void receives this analysis as it receives all analyses: without the embodie
 [33] J. Beel et al., "Is The AI Scientist Actually a Scientist? An Independent Evaluation," arXiv:2502.14297, 2025. 42% experiment failure rate, hallucinated numerical results.
 
 [34] E. Davis, "Notes on AlphaEvolve," NYU Computer Science, 2025. https://cs.nyu.edu/~davise/papers/AlphaEvolveNotes.pdf
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [18] Magnani et al., *Abductive Cognition* (2009): Orphan reference — listed in bibliography but never cited in the body text.
+- [27] Norton, "Einstein's pathway to general relativity" (2020): Orphan reference — listed in bibliography but never cited in the body text.
+- [28] Chollet et al., "ARC Prize 2024: Technical report" (2025): Orphan reference — listed in bibliography but never cited in the body text.
+- [31] C. Li et al.: Wrong first author initial — should be "W. Li" (Weiyue Li), not "C. Li." The paper (arXiv:2601.08003) is specifically about creative writing peer review, not general multi-agent framework creativity hindrance as implied.
+- [33] Beel et al.: Title in post ("Is The AI Scientist Actually a Scientist?") does not match the actual paper title ("Evaluating Sakana's AI Scientist for Autonomous Research...").
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

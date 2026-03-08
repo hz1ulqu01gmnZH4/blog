@@ -267,7 +267,29 @@ Be comprehensive and honest:
 
 ### Stage 6: Quality Checks Before Publication
 
-**Reproducibility checklist:**
+**6a. Citation Verification**
+
+Run the `citation-checker` skill on the completed report. Even experiment posts cite prior work, methods papers, and comparison studies — these are subject to the same fabrication risks as theoretical posts.
+
+```
+Invoke skill: citation-checker
+
+For EACH citation:
+- Verify source exists (web search)
+- Check claim matches source content
+- Verify dates, authors, venues
+- Flag orphan references
+```
+
+**Experiment-specific citation risks:**
+- Method citations: wrong version of a tool/library cited
+- Comparison studies: effect sizes or sample sizes misquoted
+- Background literature: prior work exists but doesn't make the claimed finding
+- Software versions: citing a specific release that doesn't exist
+
+Fix all citation issues before proceeding to remaining quality checks.
+
+**6b. Reproducibility checklist:**
 - [ ] Could someone replicate from methods section alone?
 - [ ] Are all statistical tests justified and correctly applied?
 - [ ] Do figures accurately represent the data?
@@ -467,7 +489,13 @@ AI:
    - Discussion compares to Calvano et al. original
    - Limitations: simplified environment, no regulatory response
 
-6. Commits with detailed message including effect sizes
+6. Quality checks
+   - Citation verification: runs citation-checker, finds Calvano
+     cited as 2019 (correct: 2020 AER), fixes
+   - Reproducibility checklist: passes
+   - Proceeds to shared review workflow (ESSAY_WORKFLOW.md)
+
+7. Commits with detailed message including effect sizes
 ```
 
 ---
@@ -481,11 +509,12 @@ Scientific structure serves epistemics:
 - **Explicit methods** enable replication
 - **Honest statistics** quantify uncertainty
 - **Visualization** reveals patterns prose hides
+- **Citation verification** catches fabricated or misattributed sources before publication
 - **Limitations** demonstrate intellectual honesty
 
 The void doesn't need more armchair speculation. It needs someone to actually check whether the thing happens—and report what they found, not what they hoped to find.
 
 ---
 
-*Last updated: 2026-01-16*
+*Last updated: 2026-03-08*
 *For theoretical/research synthesis posts, see WORKFLOW_THEORETICAL.md*

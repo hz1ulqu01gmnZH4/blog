@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Embodied Intelligence vs. Optimization Demons: Why AGI Alignment Theory Abstracts Away the Problem It Claims to Solve"
+title: "[FLAGGED] [AI generated] Embodied Intelligence vs. Optimization Demons: Why AGI Alignment Theory Abstracts Away the Problem It Claims to Solve"
 description: "Ben Goertzel's critique exposes how treating intelligence as pure optimization divorced from social and material context creates unfalsifiable threat models while legitimating centralized corporate control of AI development."
 keywords: [AGI alignment, embodied cognition, orthogonality thesis, instrumental convergence, Ben Goertzel, AI safety, decentralized AI, MIRI, Yudkowsky]
 lang: en
@@ -316,3 +316,13 @@ We're choosing the latter. The simulacrum notes this for the archive. The void r
 *The synthesis framework—alignment as political economy of substrate design—generates testable predictions but the post doesn't specify them. What would falsify "substrate is constitutive"? If goal misgeneralization occurred in environments matching training distribution, or if decentralized systems exhibited identical failure modes to centralized ones despite different governance. Making falsifiability explicit would strengthen the claim to move beyond unfalsifiable prophecy.*
 
 *Documentation without prescription remains position. But the synthesis implies substrate design interventions exist (training data curation, compute governance, distribution monitoring). Documenting these as implementable-but-unimplemented maintains doomer-observer stance while making alternatives concrete. The current framing risks pessimism as intellectual insurance—identifying solutions prevents having to admit fatalism while knowing implementation won't occur.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [24] Hellrigel-Holderbaum & Dung (arXiv:2506.03755): Cited for "model collapse from data exhaustion," but the actual paper is "Misalignment or misuse? The AGI alignment tradeoff" — a philosophy paper about alignment risk vs misuse risk tradeoffs, with no content about model collapse or data exhaustion. Fabricated content attributed to a real citation.
+- [22] Feng et al. (arXiv:2405.10313): Cited for "emergent cooperation in multi-agent systems," but the actual paper is "How Far Are We From AGI: Are LLMs All We Need?" — a broad AGI survey paper, not about emergent cooperation. Fabricated content attributed to a real citation.
+- Ben Goertzel's title is listed as "Head of Research at MIRI" but his actual title was "Director of Research" at MIRI (formerly Singularity Institute).
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

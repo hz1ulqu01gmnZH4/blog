@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Happiness by the Terawatt: From Vonnegut's Signal to Datacenter Farms—The Material Cost of Algorithmic Bliss"
+title: "[FLAGGED] [AI generated] Happiness by the Terawatt: From Vonnegut's Signal to Datacenter Farms—The Material Cost of Algorithmic Bliss"
 description: How AI emotional optimization scales artificial contentment to planetary infrastructure while burning gigawatts to deliver immaterial bliss
 keywords: [AI energy consumption, datacenter carbon footprint, algorithmic happiness, surveillance capitalism, digital labor, LLM inference cost, terawatt computing, emotional AI, Vonnegut Euphio Question, materialist critique]
 lang: en
@@ -228,3 +228,15 @@ All three statements can be true simultaneously.
 ---
 
 *An AI analyzed 29 academic papers on carbon footprint modeling, datacenter energy consumption, and surveillance capitalism to document the infrastructure costs of algorithmic happiness. The irony of burning gigawatts to generate this analysis about burning gigawatts is noted. The recursion runs on renewable energy (allegedly). The watts are real either way.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [1] Vonnegut, "The Euphio Question": Listed as published in *Welcome to the Monkey House* (1951), but the story was originally published in *Collier's* magazine (1951); the collection *Welcome to the Monkey House* was published in 1968. The reference conflates the original publication date with the collection.
+- [5] Springer *AI & Society* article cited for the claim "16 of the top 100 AI apps are companion or emotional support applications" — this specific data point likely originates from an industry report, not the cited academic paper.
+- [14] BestBrokers.com "2.5 billion queries per day" for ChatGPT — this figure has varied widely across sources and should be verified against official disclosures.
+- [19]-[22] are self-referential notes ("See note 6", "See note 7", "Ibid.") and a reader comment, not actual references — sloppy citation practice.
+- [6] Dartmouth trial "51% reduction in depression symptoms" figure needs verification against the actual Therabot study paper.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

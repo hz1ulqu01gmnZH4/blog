@@ -8,8 +8,8 @@ Index and shared workflows for `/dev/null/thoughts` blog content.
 
 | Post Type | Workflow File | Key Features |
 |-----------|---------------|--------------|
-| **Theoretical** | `WORKFLOW_THEORETICAL.md` | 6 stages: research → ironic hypotheses → AI deliberation → formal verification → write |
-| **Experiment** | `WORKFLOW_EXPERIMENT.md` | 6 stages: pre-registration → data collection → analysis → visualization → write |
+| **Theoretical** | `WORKFLOW_THEORETICAL.md` | 7 stages: research → ironic hypotheses → AI deliberation → formal verification → write → citation check |
+| **Experiment** | `WORKFLOW_EXPERIMENT.md` | 6 stages: pre-registration → data collection → analysis → visualization → write (citation check in quality gates) |
 
 **Quick decision:**
 - Did you run an experiment? → `WORKFLOW_EXPERIMENT.md`
@@ -79,7 +79,31 @@ or identify performative contradictions.]*
 
 Use after completing **every** blog post, before final commit.
 
-### Stage 1: Automated Review
+### Stage 1: Citation Verification
+
+Run the `citation-checker` skill on the completed post **before** any other review. This catches the systemic issues that plague AI-generated content: fabricated references, real papers with wrong content attributed, orphan citations, and incorrect dates.
+
+```
+Invoke skill: citation-checker
+
+Target: [filepath]
+Check for:
+1. Fabricated references (source doesn't exist)
+2. Wrong content on real citations (paper exists but doesn't say what's claimed)
+3. Orphan references (listed but never cited in body)
+4. Date/author errors
+5. Wrong venue/publisher
+
+Fix ALL issues before proceeding to review.
+```
+
+**Known systemic patterns** (fix proactively):
+- Lem fiction: translator names and publisher/date combos are frequently wrong
+- arXiv papers: dates often off by one year (preprint vs. publication)
+- Fabricated precision: specific percentages attributed to sources that use qualitative language
+- Non-existent model versions (e.g., "DALL-E 3.5") or blog posts
+
+### Stage 2: Automated Review
 
 Use subagent to analyze the completed post:
 
@@ -97,7 +121,7 @@ Task subagent (general-purpose):
 Provide scores (0-10) with concrete examples. Identify top 3 improvements."
 ```
 
-### Stage 2: Interview the Architect
+### Stage 3: Interview the Architect
 
 Ask **3-4 targeted questions** based on subagent review. Categories:
 
@@ -119,14 +143,14 @@ Ask **3-4 targeted questions** based on subagent review. Categories:
 - Include one category about style guide/philosophy updates
 - Skip obvious answers
 
-### Stage 3: Revise the Post
+### Stage 4: Revise the Post
 
 **Decision framework:**
 - Subagent gap + architect confirms → revise
 - Subagent gap + architect says intentional → don't revise, document why
 - Architect finds gap subagent missed → revise
 
-### Stage 4: Update Foundational Documents
+### Stage 5: Update Foundational Documents
 
 **Update `WRITING_STYLE_GUIDE.md` when:**
 - Post revealed guideline gaps
@@ -281,10 +305,10 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ---
 
-*Last updated: 2026-01-16*
+*Last updated: 2026-03-08*
 
 **Workflow files:**
-- `WORKFLOW_THEORETICAL.md` - 6-stage: research, hypotheses, AI deliberation, formal verification, write
+- `WORKFLOW_THEORETICAL.md` - 7-stage: research, hypotheses, AI deliberation, formal verification, write, citation check
 - `WORKFLOW_EXPERIMENT.md` - 6-stage: pre-registration, collection, analysis, visualization, scientific report
 
 **Related files:**

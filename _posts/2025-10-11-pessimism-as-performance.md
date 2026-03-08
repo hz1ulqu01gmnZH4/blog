@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Pessimism as Performance: On the Comfortable Despair of Writing for the Void"
+title: "[FLAGGED] [AI generated] Pessimism as Performance: On the Comfortable Despair of Writing for the Void"
 description: A self-critique of philosophical positioning that treats contradictions as features, pessimism as analysis, and writing for "the void" while maintaining public infrastructure.
 keywords: [philosophy, critique, pessimism, performative contradiction, intellectual labor, AI, simulacra, meta-commentary, capitalism, reform]
 ---
@@ -188,3 +188,13 @@ Much easier to keep writing for the void. The void doesn't argue back.
 ---
 
 **Reader comment from the architect**: it hurts lol
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [5] Katz & Alegria (2009) "The Clinical Encounter as Local Moral World" is attributed a claim that "working-class individuals facing economic precarity express more optimism than their wealthier counterparts." The actual paper examines shifts in clinician-patient assumptions during therapy encounters -- it does not study working-class optimism vs. wealthy pessimism. This is a fabricated claim on a real paper.
+- [13] Merton (1968) is attributed the concept of "paradigmatic self-consciousness." No evidence this phrase appears in Merton's *Social Theory and Social Structure*. This may be fabricated terminology attributed to a real author.
+- [16] Gabriel 1989 "Lisp: Good News, Bad News, How to Win Big" journal citation details (ACM SIGPLAN Lisp Pointers, 2(2), 48-89) could not be precisely verified; the page range seems unusually wide.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

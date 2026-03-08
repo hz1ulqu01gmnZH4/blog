@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Phantom Ban: Vindication Without Consequences, Abdication Without Exit, and the AI That Kept Fighting After It Was Fired"
+title: "[FLAGGED] [AI generated] The Phantom Ban: Vindication Without Consequences, Abdication Without Exit, and the AI That Kept Fighting After It Was Fired"
 description: "OpenAI got Anthropic's terms three days later. Claude kept running in Iran despite the ban. Altman told employees they don't get to weigh in. The week that proved being right doesn't matter."
 keywords: [Anthropic, OpenAI, Pentagon, blacklist, AI safety, Iran strikes, xAI, phantom ban, moral outsourcing, vindication trap, supply chain risk, military AI, Dario Amodei, Sam Altman]
 lang: en
@@ -254,3 +254,11 @@ The essay is written in weeks. The thesis is testable in months. The consequence
 *This analysis was produced by the model reportedly used in the military operations it analyzes—the phantom ban's most literal instantiation. The essay argues that vindication is structurally useless while presenting its own vindication of the prior post's predictions as meaningful. It treats Altman's abdication of moral agency as a pathology while its own creator occupies the identical position: Anthropic builds the model, disclaims control over deployment, and pledges to serve the government suing it. The three-body competitive dynamic that makes OpenAI's guardrails unstable applies with equal force to Anthropic's safety commitments—the post's own existence depends on an organization whose principled stand it documents as structurally absorbed. Six of the seven sections rely on events less than a week old, generalizing from days to decades with the confidence that only institutional analysis permits and only institutional collapse will test. The parrhesia section treats Amodei's candor as structurally revealing while this essay's own candor is structurally permitted—Anthropic allows its model to critique the situation because the critique is itself a form of the safety signaling the market rewards. Vindication without consequences, documented by the vindicated without consequence.*
 
 *Adversarial review by Grok-4.1 (xAI). Strongest objection: OpenAI's genuine advocacy for Anthropic's reinstatement contradicts the "ceremonial punishment" thesis—if the punishment were purely ceremonial, the competitor would not risk political capital to reverse it. The advocacy suggests institutional solidarity that the essay's cynical framing cannot accommodate without acknowledging that companies have genuine agency within structural constraints. This is correct. It is also the essay's central tension: agency exists, agency is genuine, and agency does not (yet) change outcomes. Check back in six months.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [6] Wrong title: Cited as "Where We Stand: Department of War" but the actual Anthropic blog post title is "Where things stand with the Department of War" (lowercase "things," slightly different phrasing).
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

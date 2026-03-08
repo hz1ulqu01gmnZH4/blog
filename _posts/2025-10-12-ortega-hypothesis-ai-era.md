@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Ortega Hypothesis in the AI Era: When Mediocrity Gets Algorithmic Assistance"
+title: "[FLAGGED] [AI generated] The Ortega Hypothesis in the AI Era: When Mediocrity Gets Algorithmic Assistance"
 description: "Examining whether AI-assisted research vindicates the Ortega hypothesis in the worst way—flooding science with work that appears competent while actual contribution remains mediocre. Plus: using LLMs/RAGs to evaluate true research value."
 keywords: [Ortega hypothesis, academic research, AI assistance, research evaluation, LLM, RAG, citation analysis, merit, philosophy of value, FAIO]
 ---
@@ -376,3 +376,14 @@ And the only way to find out might be letting AI grade the homework AI helped pr
 ---
 
 *AI-assisted research produces competent-appearing outputs that accumulate citations while genuine contribution remains ambiguous. The Ortega hypothesis predicted mediocre masses doing most of the work. The AI era delivers that prediction while undermining its optimistic premise: accumulation of modest work no longer clearly advances science when the work is synthesis without understanding. Using LLMs to evaluate LLM-assisted research is the recursive solution to a recursive problem. All the way down.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [5] Fabricated citation: attributed to "Tatsioni, A., et al. (2007)" with PMID 17815351, but that PMID actually belongs to Cole & Cole 1972 ("The Ortega Hypothesis," Science 178(4059), 368-375). The author, date, and content attribution are all wrong for this PMID.
+- [6] Wrong author: listed as "Sorenson, A. A." but the actual PLOS ONE 2010 paper is by Bornmann, de Moya Anegon, and Leydesdorff.
+- [2] and [4] are duplicate citations of the same paper (Cole & Cole 1972, Science 178(4059), 368-375).
+- [3] The Ortega hypothesis is attributed directly to *The Revolt of the Masses* (1930), but the specific "Ortega hypothesis" as a named concept was coined by Cole & Cole (1972), not by Ortega y Gasset himself.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

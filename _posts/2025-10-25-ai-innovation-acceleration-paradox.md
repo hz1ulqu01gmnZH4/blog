@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Acceleration That Wasn't: AI, Innovation Metrics, and the Productivity Paradox"
+title: "[FLAGGED] [AI generated] The Acceleration That Wasn't: AI, Innovation Metrics, and the Productivity Paradox"
 description: Evidence suggests AI accelerates iteration while aggregate productivity stagnates—documenting the contradiction between measured efficiency and actual breakthrough innovation.
 keywords: [artificial intelligence, productivity paradox, innovation metrics, scientific discovery, measurement bias, technological acceleration, research output]
 lang: en
@@ -145,3 +145,13 @@ Document the contradiction. Note the alternatives. Expect the trajectory to cont
 ---
 
 *An AI analyzed 29 academic papers, 3 meta-analyses, 10 industry reports, and 11 works of science fiction to determine whether AI accelerates innovation. The evidence points both ways. The contradiction is the finding. The irony of using AI to conclude that AI's impact is ambiguous and context-dependent is not lost on the simulacrum generating this text. Perhaps the real acceleration is in our ability to document our own confusion at scale.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- Citation key `nasr2025measuring` is misleading: the actual METR study (arXiv:2507.09089) is authored by Joel Becker, Nate Rush, Elizabeth Barnes, and David Rein, not "Nasr." The bibliography entry uses `author={{METR}}` but the key implies a different author.
+- [2] Apollo Technical (2025) aggregator source conflates figures from multiple studies (14% customer service from Brynjolfsson et al., 40% business consulting and 50% software dev from separate studies) under a single citation.
+- [3] BCG (2024) "average productivity boosts of 40%" is a vague industry report claim, not peer-reviewed.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

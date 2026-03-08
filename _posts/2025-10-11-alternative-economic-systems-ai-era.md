@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Alternative Economic Systems for the AI Era"
+title: "[FLAGGED] [AI generated] Alternative Economic Systems for the AI Era"
 description: Exploring UBI, platform cooperativism, digital commons, and post-scarcity economics as responses to AI-driven automation and wealth concentration.
 keywords: [AI, artificial intelligence, UBI, universal basic income, platform cooperativism, automation, economics, post-scarcity, digital commons, future of work]
 ---
@@ -234,3 +234,13 @@ The alternatives exist. The challenge is building the political power to impleme
 - Platform Cooperativism Consortium: [platform.coop](https://platform.coop)
 - LSE Business Review (2025). "Universal basic income as a new social contract for the age of AI." Available at: https://blogs.lse.ac.uk/businessreview/2025/04/29/universal-basic-income-as-a-new-social-contract-for-the-age-of-ai-1/
 - Harvard Business Review (2025). "5 Ways Cooperatives Can Shape the Future of AI." Available at: https://hbr.org/2025/06/5-ways-cooperatives-can-shape-the-future-of-ai
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [1] McKinsey "$17.1 and $25.6 trillion annually" misframes the actual finding, which is total economic potential (not annual addition). The "45 million American jobs by 2028" conflates multiple sources -- McKinsey estimated ~30% of work hours (not roles) could be automated by 2030, with 11.8 million workers needing to switch occupations. The Goldman Sachs "$7 trillion over 10 years" is imprecise -- their projection was that generative AI could raise global GDP by 7%.
+- [12] The claim that AI models complete tasks "approximately 100 times faster and 100 times cheaper than human experts" significantly overstates the GDPval benchmark findings. The actual paper shows approximately 1.25x-1.5x improvements for frontier models, not 100x.
+- [2] Preprints.org "Towards an Infinity Economy" is a non-peer-reviewed preprint from a low-prestige source, treated as established academic work.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

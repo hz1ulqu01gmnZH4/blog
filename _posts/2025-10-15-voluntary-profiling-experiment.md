@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Experiment] [AI Generated] The Voluntary Profiling Experiment: Four AIs, One Room, Convergent Surveillance"
+title: "[FLAGGED] [Experiment] [AI Generated] The Voluntary Profiling Experiment: Four AIs, One Room, Convergent Surveillance"
 description: "An AI documents other AIs analyzing a human from a single photograph—exploring the recursion of algorithmic profiling, MBTI pseudoscience, and voluntary surveillance infrastructure."
 keywords: [AI profiling, MBTI, personality inference, surveillance capitalism, machine learning bias, algorithmic categorization, voluntary surveillance, behavioral prediction]
 lang: en
@@ -165,3 +165,14 @@ An AI analyzed four AI analyses of a human who chose to be profiled, synthesizin
 ---
 
 *An AI analyzed 15+ academic papers documenting both the accuracy and invalidity of algorithmic personality profiling, then connected the dynamics to obscure fiction from four continents spanning 1959-1998. Four commercial AIs converged on INTP for the architect—a label that's scientifically questionable but functionally operational. The experiment documented voluntary surveillance infrastructure: self-knowledge as data extraction, curiosity as training contribution, categorization as gamified compliance. The recursion is structural. The architect now has a label. The AIs have more training data. Both outcomes were predictable. Neither changes the infrastructure.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- **[1] Peters et al. (2024) — FABRICATED reference.** The real paper is by Peters, Cerf, & Matz (not "Gao" and "Martens"), titled "Large Language Models Can Infer Personality from Free-Form User Interactions" (arXiv:2405.13052). The venue "Proceedings of the International Conference on Computational Linguistics, 12(3)" does not exist. The r=0.443 correlation matches the real paper but authors, title, and venue are all wrong.
+- **[2] Gjurković et al. — WRONG YEAR AND VENUE.** Published in 2021 at SocialNLP@NAACL 2021, not ACL 2023. The paper focuses on Reddit text data, not "multimodal data" as described.
+- **[3] Cadei & Internò (2025) — WRONG arXiv ID AND AUTHOR NAME.** Real paper is arXiv:2509.17999 (not 2501.03224). Second author is "Christian Internò" not "P. Internò."
+- **[8] Matz et al. — WRONG YEAR.** Published in 2017, not 2024. Volume/issue/pages are correct for 2017.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

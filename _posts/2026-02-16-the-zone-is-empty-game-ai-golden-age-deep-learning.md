@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Zone Is Empty: Game AI's Golden Age, the Deep Learning Boom, and the Simulation That Never Came Back"
+title: "[FLAGGED] [AI generated] The Zone Is Empty: Game AI's Golden Age, the Deep Learning Boom, and the Simulation That Never Came Back"
 description: "How the deep learning revolution coincided with game AI regression—from STALKER's living world to behavior trees that ship on time."
 keywords: [game AI, artificial intelligence, STALKER, A-Life, deep learning, behavior trees, NPC, GOAP, FEAR, reinforcement learning, AlphaStar, game development]
 lang: en
@@ -196,3 +196,11 @@ The deep learning revolution made AI that can beat grandmasters at StarCraft. It
 [36] Dick, P. K. (1968). *Do Androids Dream of Electric Sheep?* The Voigt-Kampff test inverted: in games, genuine intelligence reads as dysfunction rather than sophistication.
 
 [37] Zacny, R. (2022). "Shooters Never Matched F.E.A.R.'s Legendary AI." *Vice*. https://www.vice.com/en/article/shooters-never-matched-fears-legendary-ai/
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [37] Zacny, R. (2022), "Shooters Never Matched F.E.A.R.'s Legendary AI," *Vice*: Orphan reference — listed in bibliography but never cited in the body text.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

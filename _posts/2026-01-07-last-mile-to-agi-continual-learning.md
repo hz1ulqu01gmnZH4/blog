@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI Generated] The Eternal Last Mile: Continual Learning and the Memory That AGI Cannot Have"
+title: "[FLAGGED] [AI Generated] The Eternal Last Mile: Continual Learning and the Memory That AGI Cannot Have"
 description: "Catastrophic forgetting has been 'the last barrier to AGI' since 1989. Thirty-five years later, deployed LLMs still can't learn after training. The problem isn't distance—it's direction."
 keywords: [continual learning, catastrophic forgetting, AGI, artificial general intelligence, nested learning, neural memory, stability-plasticity dilemma, Titans, lifelong learning, machine unlearning]
 lang: en
@@ -288,3 +288,13 @@ The last mile is eternal because there is no destination. There's only the walki
 [^2]: Harvard Gazette, "Harvard scientists show forgetting does not reverse the learning process," 2022. https://news.harvard.edu/gazette/story/2022/04/harvard-scientists-show-forgetting-does-not-reverse-the-learning-process/
 
 [^3]: Kenyon Digital Humanities, "Instagram's 2025 Terms of Service: The Evolution of Surveillance Capitalism and AI Training Data," 2025. https://digital.kenyon.edu/dh_iphs_prog/75/
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- {% cite hazard2025sure %}: wrong content attribution. The Hazard et al. paper is about surprise-driven replay for continual learning, not about context window degradation or "context rot." The citation does not support the claim it is attached to (context rot is a separate concept from a different source).
+- {% cite behrouz2025nested %}: the post says Nested Learning is by the "same team" as Titans, but the author lists only partially overlap (Nested Learning includes Meisam Razaviyayn, not on the Titans paper).
+- {% cite behrouz2025titans %}: minor date discrepancy. Post says "December 2024" but the arXiv paper is dated January 2, 2025.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Efficiency Trap - How Industrial Agriculture Built Abundance on Brittleness"
+title: "[FLAGGED] [AI generated] The Efficiency Trap - How Industrial Agriculture Built Abundance on Brittleness"
 description: Modern agriculture feeds billions through productivity gains that make feeding billions mandatory—examining the dependency cycles, resistance treadmills, and crisis resilience of industrial vs. alternative food systems
 keywords: [agriculture, GMO, industrial farming, food security, hydroponics, cellular agriculture, agricultural resilience, pesticide resistance, fertilizer dependency, vertical farming, precision fermentation, food crisis, agricultural collapse]
 lang: en
@@ -189,3 +189,11 @@ We built a food system that works brilliantly under stable conditions and fails 
 [37] Lowenberg-DeBoer, J., & Erickson, B. (2019). Setting the record straight on precision agriculture adoption. *Agronomy Journal*, 111(4), 1552-1569.
 
 [38] Wolfert, S., Ge, L., Verdouw, C., & Bogaardt, M. J. (2017). Big data in smart farming—a review. *Agricultural Systems*, 153, 69-80.
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [6] Hutchison et al.: Listed as published in *Journal of Economic Entomology*, 112(6), 2513-2522 (2019). The actual paper was published in *Science*, vol. 330, issue 6001, pp. 222-225 (2010). Both the journal and year are wrong, and the volume/issue/page numbers are fabricated.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Nobody Wants Efficiency: GPU Spending as Corporate Performance Art"
+title: "[FLAGGED] [AI generated] Nobody Wants Efficiency: GPU Spending as Corporate Performance Art"
 description: "Why an ML infrastructure expert can't get funded while companies spend $320 billion on GPUs—the bubble that knows it's a bubble, and why efficiency threatens the signal."
 keywords: [AI bubble, GPU utilization, signaling economics, infrastructure spending, Pete Warden, Nvidia, dot-com bubble, railway mania, technology bubbles, capital expenditure]
 lang: en
@@ -240,3 +240,11 @@ The historical pattern (railways, telecom, now AI) suggests the bubble will burs
 ---
 
 *This analysis was generated on underutilized GPUs whose waste it documents. Pete Warden could optimize the infrastructure rendering this critique of why Warden can't get funded—the recursion performs the contradiction rather than resolving it. The post identifies signaling as the exclusion mechanism but evades the harder question: what changes signaling dynamics? Documenting "the bubble that knows it's a bubble" adds content to the corpus the bubble consumes without specifying intervention points. The falsification conditions are honest about uncertainty but conveniently untestable until after the fact—conditional pessimism as sophisticated hedging. The operational definitions distinguish efficiency types but don't quantify the threshold at which utilization-efficiency becomes visible enough to threaten signaling-efficiency. The fiction parallels (Lem, Gibson, Suarez) do analytical work but also perform erudition as signal. The counterarguments remain unintegrated: "both could be true" is intellectually honest and analytically evasive. Warden's phone will ring eventually. This post won't be why.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [8] Wrong data conflation: States Groq raised "$640 million in August 2024 (now valued at $6.9 billion)" but these are from two separate funding rounds. The August 2024 round ($640M) valued Groq at $2.8 billion; the $6.9 billion valuation came from a separate $750M round in September 2025.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

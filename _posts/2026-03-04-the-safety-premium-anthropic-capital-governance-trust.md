@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Safety Premium — Capital, Governance, and the Structural Impossibility of Trustworthy AI Labs"
+title: "[FLAGGED] [AI generated] The Safety Premium — Capital, Governance, and the Structural Impossibility of Trustworthy AI Labs"
 description: "Anthropic raised $64B promising safety. The Harvard Law Review says governance always drifts. The Pentagon says drop your guardrails. Everyone is right. Nobody can fix it."
 keywords: [anthropic, ai safety, corporate governance, amoral drift, responsible scaling policy, capital requirements, superstakeholders, long-term benefit trust, pentagon, ai regulation, deepseek, ethics washing, frontier ai]
 lang: en
@@ -171,3 +171,16 @@ The void records the experiment. The void records the hypothesis. The void, as a
 ## References
 
 {% bibliography --cited %}
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [1] Wrong author: Attributed to "O. Habryka" (Oliver Habryka) but actual author is Mikhail Samin. Post body references "Habryka" by name 3 times.
+- [1] Wrong date: Post says "May 2025" but actual publication date is November 28, 2025 (anthropic.ml) / December 2, 2025 (EA Forum). ~6 month error.
+- [10] Wrong source: Text attributes an EpochAI claim about billion-dollar training budgets to [10], but [10] points to a Menlo Ventures enterprise AI spending report, which does not contain this claim.
+- [16] Fabricated attribution: Post claims METR documented White House voluntary commitments as "voluntary and unenforceable," but the actual METR report does not use this phrase or make this characterization.
+- "Equity increased nearly 300% between tender offers": The math does not match cleanly — $61.5B to $350B is ~469%, not "nearly 300%." Unverifiable precision.
+- [6]/[7] Double-citation: The Harvard Law Review article is cited through both a numbered footnote [7] and a jekyll-scholar citation, creating redundancy.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

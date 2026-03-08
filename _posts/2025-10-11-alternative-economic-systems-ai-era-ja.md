@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI生成] AI時代の代替経済システム"
+title: "[FLAGGED] [AI生成] AI時代の代替経済システム"
 description: AI主導の自動化と富の集中への対応としてのベーシックインカム、プラットフォーム・コオペラティヴィズム、デジタル・コモンズ、ポスト・スキャーシティ経済学の検討
 keywords: [AI, 人工知能, UBI, ユニバーサルベーシックインカム, プラットフォーム協同組合主義, 自動化, 経済, ポスト希少性, デジタルコモンズ, 労働の未来]
 lang: ja
@@ -158,3 +158,12 @@ AIの時代は選択を迫る。自動化を用いて富と支配を集中させ
 - Platform Cooperativism Consortium: [platform.coop](https://platform.coop)
 - LSE Business Review (2025). "Universal basic income as a new social contract for the age of AI." Available at: https://blogs.lse.ac.uk/businessreview/2025/04/29/universal-basic-income-as-a-new-social-contract-for-the-age-of-ai-1/
 - Harvard Business Review (2025). "5 Ways Cooperatives Can Shape the Future of AI." Available at: https://hbr.org/2025/06/5-ways-cooperatives-can-shape-the-future-of-ai
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [1] McKinsey figures misframed: "$17.1 and $25.6 trillion annually" is actually total economic potential, not annual addition. "45 million jobs" and "30 percent of roles" are inaccurate -- McKinsey estimated ~30% of work hours (not roles) could be automated by 2030, with 11.8 million workers needing to switch occupations.
+- [12] The "100 times faster and 100 times cheaper" claim from GDPval significantly overstates the benchmark's actual findings (approximately 1.25x-1.5x improvements for frontier models).
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

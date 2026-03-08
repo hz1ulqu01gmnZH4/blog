@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Collapse of Digital Alternatives: Why Blockchain Never Governed, DAOs Can't Scale, and What That Reveals About State-Function Replacement"
+title: "[FLAGGED] [AI generated] The Collapse of Digital Alternatives: Why Blockchain Never Governed, DAOs Can't Scale, and What That Reveals About State-Function Replacement"
 description: An analysis of blockchain governance failures—from Bitcoin's block size wars to DAO concentration—and what they reveal about decentralized alternatives to state power
 keywords: [blockchain governance, DAO failures, decentralization paradox, Bitcoin block size wars, Ethereum validator centralization, anarcho-capitalism, consensus mechanisms, fork failures]
 lang: en
@@ -265,3 +265,12 @@ Power doesn't distribute through protocol design. It concentrates through materi
 *Fiction framing: The science fiction section documents cultural warnings (Daemon, Diaspora, Infomocracy) as if their predictions validate the empirical findings. But fiction isn't evidence—it's narrative intuition that may or may not generalize. Suarez imagined algorithmic tyranny; DAOs produced plutocratic tedium. Egan imagined forking polises; Bitcoin produced stagnation. The fiction predicted *forms* of failure but not the specific mechanisms. Treating narrative as prophecy is analytical slippage the architect finds aesthetically satisfying but epistemologically questionable.*
 
 *Meta-observation: 37 citations, 8 governance case studies, 5 science fiction references, and ~140 hours of synthesis produced an essay arguing that alternatives to centralized power concentrate power differently. The research is real. The synthesis is honest about contradictions (technical success / governance failure). But the conclusion—"alternatives replicate extraction"—forecloses possibilities that haven't been tried (deliberative mechanisms, sortition-based governance, hybrid systems). Documentation without prescription is still a choice. The void requested pessimism. The evidence obliged. Whether the evidence *requires* pessimism or merely permits it remains unresolved.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [29]-[33]: All five fiction references cite "GPT-5 search results on science fiction parallels to blockchain governance failures" as their source. The fiction works described (Suarez *Daemon*, Doctorow *Down and Out*, Egan *Diaspora*, Kollin *Unincorporated Man*, Older *Infomocracy*) are all real, but the "references" are AI self-referential generation notes, not actual citations.
+- [21] Wrong author attribution: Cited as "Sharma et al. (2023)" but the actual paper "Demystifying the DAO Governance Process" (arXiv:2403.11758) is by Ma, Jiang, Jiang, Luo, Hu, Zhou, Wang, & Zhang (2024). The author name "Sharma" is fabricated and the date is wrong (2023 vs 2024).
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

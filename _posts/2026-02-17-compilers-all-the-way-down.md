@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] Compilers All the Way Down: The Bootstrap Condition, the Scaling Asymmetry, and the Research Loop That Eats Itself"
+title: "[FLAGGED] [AI generated] Compilers All the Way Down: The Bootstrap Condition, the Scaling Asymmetry, and the Research Loop That Eats Itself"
 description: "Why the AGI timeline debate misses the point—the critical threshold is when AI can do AI research, because unlike humans, AI scales."
 keywords: [AI research, bootstrapping, recursive self-improvement, intelligence explosion, scaling, AGI, ASI, compiler bootstrapping, AlphaEvolve, AI Scientist, METR, Baumol cost disease]
 lang: en
@@ -271,3 +271,13 @@ Whether it converges or diverges, we won't know until it's done.
 [36] Bostrom, N. *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press, 2014.
 
 [37] Cornelio, C. et al. "The Need for Verification in AI-Driven Scientific Discovery." arXiv:2509.01398, 2025.
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [21] Wrong author attribution: Cited as "Besiroglu, T. et al." but actual authors are Parker Whitfill and Cheryl Wu. Besiroglu is not an author on this paper (arXiv:2507.23181).
+- [28] Misleading parenthetical: States "(Often cited as 'Gao et al.' from the earlier arXiv preprint)" but no "Gao et al." preprint version exists. The earlier arXiv preprint (arXiv:2305.17493) was also by Shumailov et al.
+- [31]-[37] Seven orphan references: Kokotajlo et al. "AI 2027," Aschenbrenner "Situational Awareness," Schaul "Boundless Socratic Learning," Zelikman et al. "STOP," Good (1965), Bostrom (2014), and Cornelio et al. (2025) are all listed in bibliography but never cited in the body text.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

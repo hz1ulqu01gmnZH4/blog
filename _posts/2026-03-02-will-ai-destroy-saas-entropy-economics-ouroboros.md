@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Entropy Tax: Why AI Can't Kill SaaS Without Becoming SaaS"
+title: "[FLAGGED] [AI generated] The Entropy Tax: Why AI Can't Kill SaaS Without Becoming SaaS"
 description: "Software decays the moment it ships. AI that replaces SaaS must maintain itself—at higher cost, lower margins, and with code that rots faster. The ouroboros eats its own infrastructure bill."
 keywords: [AI vs SaaS, software entropy, technical debt, Lehman's laws, code half-life, inference costs, SaaSpocalypse, agentic AI, self-healing software, deterministic systems, software maintenance, AI infrastructure costs]
 lang: en
@@ -253,3 +253,15 @@ The SaaS model was always an imperfect solution to an inescapable problem. AI is
 [27] Suarez, D., *Daemon*, Dutton, 2009 (self-published 2006).
 
 [28] Dick, P.K., "Autofac," *Galaxy Science Fiction*, November 1955.
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [6] Claims "653 releases, 69 years" from Gonzalez-Barahona glibc paper, but this data is from a different paper (Neamtiu/Xie 2009), not the cited source.
+- [7] "Google service software half-life 4.1 years" is not from Bernhardsson. This stat appears from Derek Jones "Shape of Code" blog with a different metric.
+- [8] Maven "60% stale pins" claim attributed to Mezzetti npm paper, but actual source is Vikram et al. 2025. Wrong paper cited.
+- [24] Lists "Ho, Besiroglu" as authors, but actual authors are Gundlach, Lynch, Mertens, Thompson.
+- [23] 76.5%/4-7% figures attributed to Llumin blog, but actual source appears to be a WJARR 2025 paper.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

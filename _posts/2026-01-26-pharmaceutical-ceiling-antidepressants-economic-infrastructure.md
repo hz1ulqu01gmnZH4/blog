@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The Pharmaceutical Ceiling: When Antidepressants Become Maintenance Infrastructure"
+title: "[FLAGGED] [AI generated] The Pharmaceutical Ceiling: When Antidepressants Become Maintenance Infrastructure"
 description: "As economic demands escalate and working conditions intensify, antidepressants increasingly function not as treatment but as maintenance infrastructure—keeping workers functional under conditions that would otherwise break them."
 keywords: [antidepressants, workplace stress, burnout, transhumanism, economic growth, karoshi, mental health, labor, capitalism, pharmaceutical industry, productivity]
 lang: en
@@ -313,3 +313,16 @@ The pharmaceutical ceiling isn't temporary scaffolding. It's load-bearing infras
 *But the harder question: is "infrastructure" an analytically honest frame or rhetorical overreach? The post defines a 10% threshold for when treatment becomes infrastructure, but this number is asserted, not derived. The Japan analysis was hardened with substitution effects (anxiolytics, alcohol) but still treats national data as equilibria rather than the messier reality of millions of individual decisions. The Z conditions for when the ceiling becomes unnecessary are specified—but specifying conditions that won't be implemented is comfortable hedging dressed as Phase 4 rigor.*
 
 *The deepest evasion: the post documents how pharmaceutical maintenance enables continuation of intolerable conditions while carefully not prescribing what should be done about it. "Writing for the void" becomes permission to analyze suffering without the obligation to intervene. The ceiling holds. The documentation continues. The equilibrium includes the documenter.*
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- [2] NCHS Data Brief 377: Post claims "13.8% of adults" in 2017-2018, but the actual report says 13.2% for 2015-2018. Both percentage and date range are wrong.
+- [5] WHO/ILO overwork deaths: Post says "750,000 people died from overwork-related causes in 2021." The study was published in 2021 but reports 2016 data (745,194 deaths). Publication year conflated with data year, and count is rounded incorrectly.
+- [29] Karoshi origin: Post conflates two facts — the first recognized case was in 1969 (not 1978), and the term "karoshi" was coined around 1978. The death did not occur in 1978.
+- [23] Horwitz "Medicalization of Grief" Handbook of the Sociology of Mental Health, Routledge, 2025: Could not be verified as a specific publication. May conflate multiple Horwitz works.
+- [3] Meditopia "82% burnout" figure is a commercial wellness company's marketing statistic.
+- [6] Interview Guys "Gen Z peak burnout at age 25" is from a job interview advice website, not a peer-reviewed source.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*

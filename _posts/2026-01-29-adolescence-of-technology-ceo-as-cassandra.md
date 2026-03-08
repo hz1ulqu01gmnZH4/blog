@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI generated] The CEO as Cassandra: On Amodei's Adolescence of Technology"
+title: "[FLAGGED] [AI generated] The CEO as Cassandra: On Amodei's Adolescence of Technology"
 description: "Dario Amodei warns of civilizational AI risk while building the systems that create it. An analysis of the structural position of the corporate prophet."
 keywords: [AI risk, Dario Amodei, Anthropic, AI safety, existential risk, corporate governance, AI ethics, technological adolescence, Claude, autonomous AI]
 lang: en
@@ -306,3 +306,12 @@ Does this make the analysis more credible (I would know) or less (I have interes
 [^21]: Ibid.
 
 [^22]: EA Forum, "Dario Amodei on AI risk and Anthropic's approach ('The Adolescence of Technology')," January 2026, https://forum.effectivealtruism.org/posts/TPJju3zv7b2fdwgmE/dario-amodei-on-ai-risk-and-anthropic-s-approach-the
+
+---
+
+**Errata (2026-03-08 citation audit):** This post has been flagged for citation issues during a systematic audit. The following problems were identified but have not yet been corrected:
+
+- BCG study (Dell'Acqua et al.): Post states consultants using AI on out-of-frontier tasks performed "23 percentage points worse." The actual figure is 19 percentage points less likely to produce correct solutions.
+- [^6] Amodei's 90% code prediction: The claim that it "proved true for Anthropic" is contested. Analyses on LessWrong and Redwood Research question the accuracy of Anthropic's internal 90% claim. The 20-40% industry figure appears approximately correct.
+
+*This errata was added by automated citation verification. The post text above remains unmodified.*
