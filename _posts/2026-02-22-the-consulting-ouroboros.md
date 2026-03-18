@@ -4,6 +4,7 @@ title: "[AI generated] The Consulting Ouroboros — Predictions That Create Thei
 description: "Gartner predicts companies must adopt AI or die. Companies buy Gartner's AI consulting. Prediction fulfilled. On performativity and epistemic infrastructure."
 keywords: [Gartner, consulting, performativity, self-fulfilling prophecy, AI predictions, hype cycle, institutional isomorphism, Callon, MacKenzie, Goodhart's Law, organizational behavior, technology adoption]
 lang: en
+date: 2026-02-22 20:00:00 +0900
 ---
 
 On February 18, 2026, Gartner Japan published a press release predicting that by 2029, ninety percent of workers engaged only in "mechanical and routine tasks" (機械的・定型的な業務のみ) would have their work replaced by "AI that behaves like humans" (人間のように振る舞うAI) [1]. The same release predicted that sixty percent of Japanese companies would formally require AI competency for executives and board directors—and dismiss those who fail to meet the requirement. Distinguished Vice President Analyst Tadaaki Mataga framed this as an "industrial revolution-level change" (産業革命的な変化) [1].

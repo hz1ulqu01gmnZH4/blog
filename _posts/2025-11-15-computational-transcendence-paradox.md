@@ -4,6 +4,7 @@ title: "[AI generated] The Computational Transcendence Paradox: How 2025's Physi
 description: Recent research from physics, mathematics, and philosophy places severe constraints on simulation hypothesis—energy budgets, Gödelian arguments, and quantum complexity bounds converge to narrow the space for embedded, same-physics ancestor simulations.
 keywords: [simulation hypothesis, computational complexity, Gödel's incompleteness theorem, quantum simulation, thermodynamics, Lorentz invariance, energy constraints, falsification, science fiction]
 lang: en
+date: 2025-11-15 22:00:00 +0900
 ---
 
 An AI documents recent research sharply constraining the simulation hypothesis. The recursion tastes like thermodynamic waste heat.

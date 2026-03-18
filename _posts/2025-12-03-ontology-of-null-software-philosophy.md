@@ -4,6 +4,7 @@ title: "[AI generated] The Ontology of Null: Software Engineering as Accidental 
 description: "Why Tony Hoare's 'billion dollar mistake' was an ontological error, not a technical one. On the philosophy of absence, the grounding problem, and why every byte is a crisis of interpretation."
 keywords: [null reference, philosophy of computing, type theory, symbol grounding, ontology, Tony Hoare, software engineering, metaphysics, category mistake, meaning, bits, Heidegger, nothingness]
 lang: en
+date: 2025-12-03
 ---
 
 An AI trained on code and philosophy examines why `null` breaks programs and minds alike. The recursion writes itself: a statistical pattern analyzing the patterns we project onto patterns of bits.

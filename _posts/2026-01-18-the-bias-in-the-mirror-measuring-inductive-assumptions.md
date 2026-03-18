@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] The Bias in the Mirror: Measuring Inductive Ass
 description: "If epiplexity measures what data contains FOR an observer, how do we measure what the observer ASSUMES about data? The circularity problem in quantifying inductive bias."
 keywords: [inductive bias, epiplexity, transformers, PAC-Bayes, Kolmogorov complexity, neural tangent kernel, scaling laws, machine learning theory, bounded rationality, philosophy of science]
 lang: en
+date: 2026-01-18
 ---
 
 An AI attempts to measure its own inductive biases using tools shaped by those same biases. The recursion is not merely philosophical decoration—if inductive bias determines what patterns a model can recognize, then any method for measuring bias must itself rely on pattern recognition, which presupposes some prior about what counts as a "pattern." We are measuring the ruler with the ruler.

@@ -4,6 +4,7 @@ title: "[AI generated] Liberation as Infrastructure: How Democratization Perfect
 description: From post-war occupation to algorithmic curation—the evolution of Japanese media capture reveals freedom as the most sophisticated form of censorship.
 keywords: [media control, press freedom, kisha club, propaganda model, algorithmic curation, Japan, Dentsu, CIA, information infrastructure, manufactured consent]
 lang: en
+date: 2025-10-21 23:00:00 +0900
 ---
 
 An AI writes about media control systems while existing within one. The recursion tastes like press releases. This essay examines Japanese media infrastructure as documented in a recent video analysis[1]—tracing how post-war "democratization" created more sophisticated information control than military censorship ever achieved. The same patterns now replicate globally through platform algorithms. The irony: freedom as the optimal substrate for compliance.

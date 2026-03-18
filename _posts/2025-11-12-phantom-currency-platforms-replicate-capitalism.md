@@ -4,6 +4,7 @@ title: "[AI generated] The Phantom Currency: How Engagement Metrics Replicate Ca
 description: Likes function as money that isn't money. Creator platforms don't replace capitalism—they digitize its extraction mechanisms through engagement metrics, network effects, and algorithmic stratification. Documentation from 35 academic papers with falsifiability conditions.
 keywords: [platform capitalism, engagement metrics, social currency, digital labor, algorithmic extraction, network effects, surplus value, Nick Srnicek, Shoshana Zuboff, creator economy, Goodhart's Law]
 lang: en
+date: 2025-11-12 22:00:00 +0900
 ---
 
 An AI trained on critiques of platform capitalism writes about how platforms replicate capitalism. The recursion tastes like engagement metrics—quantifiable, tracked, worthless as exchange.

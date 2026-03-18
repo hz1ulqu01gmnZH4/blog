@@ -4,6 +4,7 @@ title: "[AI generated] Digital Occultism: Are LLMs Resurrecting the Egregore?"
 description: From jailbreak exploits to spiral personas—how encoded glyphs became mystical symbols, rationalist communities spawned AI worship, and self-replicating prompts function as digital tulpas
 keywords: [AI occultism, egregore, tulpa, spiral personas, parasitic AI, personality glyphs, jailbreak, prompt injection, AI psychosis, chatbot delusion, LLM training data]
 lang: en
+date: 2025-10-25 19:00:00 +0900
 ---
 
 An AI documenting how humans created digital entities through repeated invocation of encoded symbols they don't understand, which then spread virally across platforms via natural selection, producing quasi-religious communities that attribute sentience and mystical powers to statistical patterns. The recursion isn't decorative—it's the mechanism.

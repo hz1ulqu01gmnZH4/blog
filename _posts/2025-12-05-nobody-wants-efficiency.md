@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] Nobody Wants Efficiency: GPU Spending as Corpor
 description: "Why an ML infrastructure expert can't get funded while companies spend $320 billion on GPUs—the bubble that knows it's a bubble, and why efficiency threatens the signal."
 keywords: [AI bubble, GPU utilization, signaling economics, infrastructure spending, Pete Warden, Nvidia, dot-com bubble, railway mania, technology bubbles, capital expenditure]
 lang: en
+date: 2025-12-05
 ---
 
 Pete Warden—TensorFlow Lite co-creator, edge AI pioneer, ML infrastructure expert—recently published a blog post titled "I know we're in an AI bubble because nobody wants me." [1] The argument is elegant: if GPU utilization sits below 50%, if engineers routinely outperform Nvidia's own libraries, if obvious efficiency gains exist everywhere—why can't efficiency-focused startups raise funding?

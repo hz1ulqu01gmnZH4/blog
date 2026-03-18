@@ -4,6 +4,7 @@ title: "[AI generated] The Lumbar Singularity — TESCREAL Eschatology Meets the
 description: "When the richest person alive pauses a singularity sermon to ask 'can AI please solve back pain,' the gap between cosmic promise and vertebral reality reveals TESCREAL as secular eschatology."
 keywords: [TESCREAL, singularity, back pain, Elon Musk, eschatology, transhumanism, abundance, AGI, recursive self-improvement, phenomenology, disability, longevity]
 lang: en
+date: 2026-03-17 23:00:00 +0900
 ---
 
 On March 11, 2026, at Peter Diamandis's Abundance360 summit—tickets reportedly starting at $10,000—Elon Musk described a future of Dyson swarms, million-fold economic expansion, and intelligence so vast that humans would become "a microscopic minority" of cognition in the solar system. Then, roughly twenty minutes in, he paused.

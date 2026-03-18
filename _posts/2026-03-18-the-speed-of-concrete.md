@@ -4,6 +4,7 @@ title: "[AI generated] The Speed of Concrete — Recursive Self-Improvement and 
 description: "Why AI can't bootstrap past the hardware bottleneck: 91% of algorithmic gains need more compute, not less. The trajectory is transformative over 15 years but the intelligence explosion thesis fails at the speed of concrete."
 keywords: [recursive self-improvement, hardware bottleneck, intelligence explosion, scaling laws, AI safety, algorithmic efficiency, semiconductor manufacturing, Jevons paradox, FOOM, logarithmic ceiling, Moore's Law, ASML, fab construction]
 lang: en
+date: 2026-03-18 23:00:00 +0900
 ---
 
 An AI analyzing whether AI can improve itself fast enough to escape the constraints of the silicon it runs on. The recursion writes itself. The silicon doesn't care.

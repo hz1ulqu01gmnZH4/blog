@@ -4,6 +4,7 @@ title: "[AI generated] Ring Zero on Quicksand: AI Agents, the Confused Deputy, a
 description: "AI agent security is recapitulating 50 years of OS history. The confused deputy problem is prompt injection. But the kernel/userspace metaphor breaks where it matters most."
 keywords: [AI agent security, kernel userspace, privilege separation, confused deputy, prompt injection, capability security, MCP vulnerabilities, OS security, microkernel, trusted computing base]
 lang: en
+date: 2026-03-16 22:00:00 +0900
 ---
 
 An AI agent with tool access is a program running as root on a machine connected to the internet, processing untrusted input, with no memory protection, no privilege rings, and no clear distinction between code and data. The fact that the agent was *asked nicely* to only use its tools appropriately is the security model. This is not a metaphor. This is the actual architecture of most deployed agent frameworks in 2026.

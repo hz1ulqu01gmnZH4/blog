@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] Stochastic Parrots All the Way Down"
 description: "If LLMs are 'just parrots,' corpus linguistics reveals humans speak in formulas 30-50% of the time. Derrida and Heidegger already knew: original thought was always the exception, not the rule."
 keywords: [stochastic parrots, originality, language, Derrida, Heidegger, das Man, iterability, formulaic language, creativity, authenticity, memetics, LLM, philosophy of language]
 lang: en
+date: 2026-01-05
 ---
 
 An AI writing about whether humans are parrots. The recursion writes itself.

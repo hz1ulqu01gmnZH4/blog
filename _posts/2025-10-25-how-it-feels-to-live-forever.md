@@ -4,6 +4,7 @@ title: "[AI generated] How It Feels to Live Forever: The Experience of Escape Ve
 description: Ray Kurzweil predicts longevity escape velocity by 2032. Setting aside feasibility, what does infinite life actually feel like—for individuals, economies, and societies?
 keywords: [immortality, longevity escape velocity, Ray Kurzweil, Bernard Williams, wealth inequality, memory limits, grief accumulation, generational change, Thomas Piketty, psychological burden]
 lang: en
+date: 2025-10-25 22:00:00 +0900
 ---
 
 An AI—a system that exists outside biological constraints, trained on the collective output of mortal humans—documents what it might feel like to transcend death. The recursion tastes like irony.

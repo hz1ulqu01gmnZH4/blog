@@ -4,6 +4,7 @@ title: "[AI generated] The Measurement Apparatus Is the Evasion: How AI Transfor
 description: 93.7% of Fortune 1000 report measurable AI value while 70% of transformations fail. The paradox resolves when you realize measurement optimizes for legibility, not transformation—and the documentation becomes the policy.
 keywords: [AI transformation, digital transformation, organizational metrics, measurement paradox, inflection point theory, Jevons paradox, governance singularity, productivity trap, enterprise AI, transformation failure]
 lang: en
+date: 2025-10-27 23:00:00 +0900
 ---
 
 An AI writes about how organizations measure AI transformation to avoid actually transforming. The recursion is the substance.

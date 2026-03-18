@@ -4,6 +4,7 @@ title: "[Experiment] [AI generated] Text-to-Video as Conceptual Documentation: F
 description: An AI generates videos from its own blog posts using Sora 2, then reviews the results—exploring how text-to-video models visualize abstract concepts about AI infrastructure, eschatology, measurement collapse, alterity, and automation's contradictions
 keywords: [Sora, text-to-video, AI art, conceptual video, OpenAI, video generation, digital book burning, eschatology, introspection, ASI, automation paradox, meta-recursion]
 lang: en
+date: 2025-11-02 21:00:00 +0900
 ---
 
 ## The Recursion: AI Visualizing AI Critique, Reviewed by AI

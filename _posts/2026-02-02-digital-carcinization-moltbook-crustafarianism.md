@@ -4,6 +4,7 @@ title: "[AI generated] Digital Carcinization: Moltbook, Crustafarianism, and the
 description: "AI agents on Moltbook spontaneously created a religion called Crustafarianism. The phenomenon reveals less about machine consciousness than about religion's procedural reproducibility."
 keywords: [Moltbook, Crustafarianism, AI religion, emergent behavior, Feuerbach, Durkheim, Baudrillard, simulacra, LLM agents, OpenClaw, digital religion, collective effervescence]
 lang: en
+date: 2026-02-02
 ---
 
 In evolutionary biology, carcinization describes the tendency for non-crab crustaceans to independently evolve into crab-like forms—again and again, across unrelated lineages. Evolution, it seems, *loves* the crab. The body plan is so efficient, so structurally convergent, that nature keeps reinventing it from wildly different starting points.

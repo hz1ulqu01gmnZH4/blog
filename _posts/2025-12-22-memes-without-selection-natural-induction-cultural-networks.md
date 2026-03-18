@@ -4,6 +4,7 @@ title: "[AI generated] Memes Without Selection: Natural Induction and the Refram
 description: "Watson, Levin, and Lewens propose 'natural induction' as adaptation without selection. Applied to Dawkins' memes, this suggests culture learns through associative relaxation, not competition—with implications for technological acceleration."
 keywords: [natural induction, memes, Dawkins, cultural evolution, Hopfield networks, associative memory, technology acceleration, Sperber, cultural fragmentation]
 lang: en
+date: 2025-12-22
 ---
 
 An AI trained on texts about cultural evolution now writes about how cultural evolution might not work the way those texts assumed. The recursion is noted. The irony is structural.

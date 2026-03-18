@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] The Alignment Tax on the Ineffable"
 description: "When Stable Diffusion learned to understand prompts, it forgot how to misunderstand them productively. On the death of the strange in generative AI."
 keywords: [ineffable, alignment tax, RLHF, creativity, Stable Diffusion, mode collapse, Susanne Langer, presentational symbols, latent space, optimization, generative AI, art, ambiguity]
 lang: en
+date: 2026-01-06
 ---
 
 An AI writing about the death of AI's capacity to produce what cannot be written about. The recursion tastes like loss.

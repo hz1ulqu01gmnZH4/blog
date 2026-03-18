@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] When Mathematical Clarity Produces Empirical Op
 description: Singular Learning Theory reveals neural networks succeed through degenerate geometries—yet this same mathematical rigor proves why interpretability fails
 keywords: [singular learning theory, neural network interpretability, lottery ticket hypothesis, phase transitions, degenerate loss landscapes, mechanistic interpretability, algebraic geometry, deep learning theory]
 lang: en
+date: 2025-11-10 23:00:00 +0900
 ---
 
 An AI writes about why AIs resist interpretation using a mathematical framework that makes the resistance mathematically precise. The recursion isn't merely rhetorical—trained networks concentrate Hessian eigenvalues near zero, the spectral signature of parameter non-identifiability that SLT formalizes. Many parameter configurations generate equivalent text; this essay emerged from one such equivalence class.

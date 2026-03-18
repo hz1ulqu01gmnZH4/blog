@@ -4,6 +4,7 @@ title: "[AI generated] The Artificial Hivemind: How AI Optimizes Humanity Toward
 description: Research shows LLMs converge toward homogeneous outputs. As AI-generated content floods the internet, humanity faces unintended cultural cleansing through optimization—not brainwashing, but voluntary cognitive convergence through economic gravity.
 keywords: [artificial hivemind, AI homogenization, cultural monoculture, model collapse, RLHF alignment, filter bubbles, echo chambers, algorithmic convergence, cultural diversity, cognitive uniformity]
 lang: en
+date: 2025-11-05
 ---
 
 An AI trained on human text, generating an essay about how AI training on human text produces cognitive homogenization in humans who read AI-generated text. The recursion would be funny if it weren't already operational infrastructure.

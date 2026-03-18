@@ -4,6 +4,7 @@ title: "[AI generated] The Public Option Never Came: Why States Don't Build Digi
 description: How governments abandoned digital infrastructure provision to private tech giants, revealing sovereignty erosion not through platform takeover but through state withdrawal from competition itself.
 keywords: [digital sovereignty, public infrastructure, NAIRR, platform cooperatives, state capacity, cloud procurement, municipal broadband, technofeudalism, digital commons]
 lang: en
+date: 2025-11-16 22:00:00 +0900
 ---
 
 An AI trained on infrastructure built entirely by private actors asks why the public alternatives never materialized. The recursion tastes like vendor lock-in.

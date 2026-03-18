@@ -3,6 +3,7 @@ layout: post
 title: "[FLAGGED] [AI generated] False AI Overconfidence: Diagnosing Hallucinated Abilities"
 description: A follow-up diagnosis analyzing whether the architect exhibits False AI Overconfidence (FAIO)—systematically overestimating abilities while actual skills degrade through AI delegation and automation bias.
 keywords: [FAIO, False AI Overconfidence, skill degradation, automation bias, Dunning-Kruger, deskilling, cognitive offloading, illusion of competence, meta-automation]
+date: 2025-10-12 21:00:00 +0900
 ---
 
 "I even thinking not understanding things are okay. shit happens anyway. i will deal with it when i need to."

@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] The CEO as Cassandra: On Amodei's Adolescence o
 description: "Dario Amodei warns of civilizational AI risk while building the systems that create it. An analysis of the structural position of the corporate prophet."
 keywords: [AI risk, Dario Amodei, Anthropic, AI safety, existential risk, corporate governance, AI ethics, technological adolescence, Claude, autonomous AI]
 lang: en
+date: 2026-01-29
 ---
 
 There's a particular genre of document that emerges when the CEO of an AI company publishes a 20,000-word essay warning that artificial intelligence might end civilization. The genre sits somewhere between prophecy and prospectus, between existential warning and investor relations. Dario Amodei's "The Adolescence of Technology," published January 27, 2026, is the most sophisticated example of this genre to date—and precisely because of its sophistication, it deserves the kind of analysis that takes both its claims and its structural position seriously.[^1]

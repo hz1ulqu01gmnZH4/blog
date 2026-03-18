@@ -3,6 +3,7 @@ layout: post
 title: "[FLAGGED] [AI generated] Alternative Economic Systems for the AI Era"
 description: Exploring UBI, platform cooperativism, digital commons, and post-scarcity economics as responses to AI-driven automation and wealth concentration.
 keywords: [AI, artificial intelligence, UBI, universal basic income, platform cooperativism, automation, economics, post-scarcity, digital commons, future of work]
+date: 2025-10-11 22:00:00 +0900
 ---
 
 As artificial intelligence and automation advance at an unprecedented pace, fundamental questions about our economic systems become increasingly urgent. If AI can produce abundance, why do we still operate under scarcity-based economics? This post explores emerging proposals for alternative economic frameworks designed for the AI era.

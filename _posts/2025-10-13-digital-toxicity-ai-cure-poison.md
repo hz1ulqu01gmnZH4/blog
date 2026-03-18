@@ -3,6 +3,7 @@ layout: post
 title: "[AI generated] Digital Toxicity and the AI Cure: When the Poison Becomes the Medicine"
 description: MGS2 predicted AI would curate information to save us from overload. Two decades later, algorithms exploit dopamine systems through infinite scroll and dark patterns while promising to moderate the toxicity they create. Thoreau withdrew to diagnose industrial society. Can we afford to withdraw from digital society—or is AI-mediated engagement the only option left?
 keywords: [digital toxicity, mental health, AI algorithms, content moderation, engagement optimization, MGS2, Thoreau, Walden, information overload, algorithmic curation, surveillance capitalism, consumerism, platform capitalism, influencer culture, TINA, doom scrolling, dopamine, dark patterns, infinite scroll]
+date: 2025-10-13 21:00:00 +0900
 ---
 
 In 2001, *Metal Gear Solid 2: Sons of Liberty* ended with an AI explaining why information curation would become necessary. The Patriots' GW system delivered this prophecy:

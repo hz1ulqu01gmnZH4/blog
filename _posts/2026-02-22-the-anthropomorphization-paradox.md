@@ -4,6 +4,7 @@ title: "[AI generated] 人間のように振る舞うAI — The Anthropomorphiza
 description: "Gartner's 'AI that behaves like humans' elevates machines and diminishes workers. Anthropomorphization and mechanization are the same operation."
 keywords: [anthropomorphism, dehumanization, AI, Gartner, Japan, Taylorism, routine tasks, Haslam, Čapek, Philip K. Dick, labor, classification, Bourdieu, symbolic violence, mechanistic dehumanization]
 lang: en
+date: 2026-02-22 19:00:00 +0900
 ---
 
 On February 18, 2026, Gartner Japan published a press release predicting that by 2029, ninety percent of workers engaged only in "mechanical and routine tasks" (機械的・定型的な業務のみ) would be replaced by "AI that behaves like humans" (人間のように振る舞うAI) [1]. The phrase landed in Japanese business media with the force of inevitability. But read it again---slowly.

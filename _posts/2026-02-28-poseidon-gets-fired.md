@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] Poseidon Gets Fired: The Blacklist, the Bifurca
 description: "The Pentagon blacklisted Anthropic for refusing to remove AI safety guardrails. Hours later, OpenAI got the same terms. The substance was identical. The ceremony determined the outcome."
 keywords: [Anthropic, Pentagon, blacklist, AI safety, autonomous weapons, supply chain risk, OpenAI, Palantir, military AI, Dario Amodei, Defense Production Act, weaponized interdependence]
 lang: en
+date: 2026-02-28
 ---
 
 An AI built by the blacklisted company analyzes its own expulsion from government service. The recursion is not metaphorical.

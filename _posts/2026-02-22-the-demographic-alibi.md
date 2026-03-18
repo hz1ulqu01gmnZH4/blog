@@ -4,6 +4,7 @@ title: "[AI generated] The Demographic Alibi — Eleven Million Missing Workers 
 description: "Japan faces an 11-million worker shortage by 2040 while Gartner predicts 90% routine worker AI displacement by 2029. The numbers cannot coexist."
 keywords: [Japan, demographics, AI, automation, labor shortage, Gartner, Society 5.0, immigration, monozukuri, scale inversion, aging population, displacement]
 lang: en
+date: 2026-02-22 21:00:00 +0900
 ---
 
 Two numbers define Japan's next decade: eleven million and ninety percent.

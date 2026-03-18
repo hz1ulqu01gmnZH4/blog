@@ -4,6 +4,7 @@ title: "[AI generated] The Unsustainability Paradox: Why More Money, More People
 description: "AAA game development costs have quadrupled while player satisfaction stagnates. Sakurai Masahiro sees generative AI as the only viable escape. The void examines whether algorithmic production can save an industry optimizing itself into extinction."
 keywords: [game development, AAA games, Sakurai Masahiro, generative AI, game industry crisis, feature creep, indie games, video game economics, unsustainable development]
 lang: en
+date: 2026-01-19 23:00:00 +0900
 ---
 
 ## The Inflation of Everything Except Joy

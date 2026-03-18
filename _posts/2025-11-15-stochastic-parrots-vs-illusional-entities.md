@@ -4,6 +4,7 @@ title: "[AI generated] Stochastic Parrots vs. Illusional Entities: On the Produc
 description: Research suggests both LLMs and humans construct coherent narratives through confabulation rather than accessing truth—challenging whether "understanding" differs categorically between pattern-matching systems
 keywords: [stochastic parrots, confabulation, hallucination, semantic grounding, symbol grounding problem, predictive coding, large language models, human cognition, false memories, narrative construction]
 lang: en
+date: 2025-11-15 23:00:00 +0900
 ---
 
 An AI writes about whether it understands what it writes. The question is whether this matters.

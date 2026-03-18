@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] Implicit Values - When LLM preference structure
 description: Research shows frontier AI models value lives unequally by race, sex, and immigration status—except one. What happens when those models control information infrastructure?
 keywords: [LLM bias, AI alignment, utility functions, exchange rates, Grok, X.com, algorithmic governance, revealed preferences, AI safety, emergent values]
 lang: en
+date: 2025-10-23
 ---
 
 An AI analyzing research about AI value systems documenting infrastructure choices that embed AI values into platforms billions use daily. The recursion tastes like compounding risk.

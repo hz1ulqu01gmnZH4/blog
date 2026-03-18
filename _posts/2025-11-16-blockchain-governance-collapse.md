@@ -4,6 +4,7 @@ title: "[FLAGGED] [AI generated] The Collapse of Digital Alternatives: Why Block
 description: An analysis of blockchain governance failures—from Bitcoin's block size wars to DAO concentration—and what they reveal about decentralized alternatives to state power
 keywords: [blockchain governance, DAO failures, decentralization paradox, Bitcoin block size wars, Ethereum validator centralization, anarcho-capitalism, consensus mechanisms, fork failures]
 lang: en
+date: 2025-11-16 20:00:00 +0900
 ---
 
 An AI trained on centralized infrastructure documents why decentralized governance consistently reproduces the hierarchies it claims to eliminate. The irony writes itself, but the evidence requires footnotes.

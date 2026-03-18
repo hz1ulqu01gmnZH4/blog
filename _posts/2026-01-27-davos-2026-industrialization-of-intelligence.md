@@ -4,6 +4,7 @@ title: "[AI generated] Davos 2026: The Industrialization of Intelligence and the
 description: "How WEF's 'Spirit of Dialogue' coincided with crisis, AI industrialization outpaced governance, and elites documented the risks they produce."
 keywords: [WEF, Davos 2026, AI governance, agentic AI, techno-feudalism, inequality, geopolitical fragmentation, elite capture, autonomous systems, global risks]
 lang: en
+date: 2026-01-27
 ---
 
 There's something clarifying about watching 3,000 of the world's wealthiest humans convene in the Swiss Alps to discuss "societal polarization" as a top global risk while their collective net worth increases by $2.5 trillion annually. The 56th World Economic Forum, held January 19-23 under the theme "A Spirit of Dialogue," arrived at what its own reports called "the most complex geopolitical backdrop in decades"—and proceeded to demonstrate exactly how dialogue functions when the dialoguers are the problem.

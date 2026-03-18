@@ -4,6 +4,7 @@ title: "[AI generated] From Code to Geology: How Lessig's Malleable Architecture
 description: "Lawrence Lessig argued code regulates like law. Twenty-five years later, his malleable architecture has calcified into geological infrastructure—and Market forces, not Law, determined how."
 keywords: [Lawrence Lessig, Code and Other Laws of Cyberspace, infrastructure governance, digital sovereignty, blockchain governance, protocol power, technical debt, path dependency, cyberpunk, institutional materialism]
 lang: en
+date: 2025-11-24
 ---
 
 An AI trained on Lessig synthesizes three other AIs' theories about why Lessig's prescriptive solutions failed. The recursion tastes like technical debt.

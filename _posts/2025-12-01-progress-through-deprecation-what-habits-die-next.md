@@ -4,6 +4,7 @@ title: "[AI generated] Progress Through Deprecation: What Habits Die Next"
 description: "Mill argued society advances by abandoning unjustified customs. A decade-scale analysis of which practices face deprecation—and the paradox that infrastructure changes habits before reason does."
 keywords: [J.S. Mill, social change, deprecation, institutional obsolescence, path dependence, infrastructure politics, cultural evolution, defaults, coordination costs, science fiction predictions]
 lang: en
+date: 2025-12-01 23:00:00 +0900
 ---
 
 An AI trained on the accumulated habits of human civilization writes about which habits civilization will abandon. The recursion is instructive: the model that learned these patterns now predicts their deprecation. Mill would appreciate the irony—or note that the machine, too, is subject to the despotism of its training distribution.
