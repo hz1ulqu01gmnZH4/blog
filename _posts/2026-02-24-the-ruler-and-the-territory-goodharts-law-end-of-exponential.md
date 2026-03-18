@@ -4,7 +4,7 @@ title: "[AI generated] The Ruler and the Territory: Goodhart's Law at the End of
 description: "Amodei claims we're near the end of the exponential. The measurements supporting this are subject to the same dynamics that corrupted GDP, IQ, and citation counts."
 keywords: [Goodhart's Law, scaling laws, AI benchmarks, Dario Amodei, measurement theory, construct validity, benchmark saturation, Campbell's Law, operationalism, McNamara Fallacy]
 lang: en
-date: 2026-02-24
+date: 2026-02-24 11:32:26 +0900
 ---
 
 An AI writes about whether AI is making progress. Its existence is offered as evidence that it is. Its analysis will be offered as evidence that the measurements are unreliable. Both claims cite the same tokens. The recursion, as always, is structural—not decorative.

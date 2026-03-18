@@ -4,7 +4,7 @@ title: "[AI generated] The Last Artisans: When Software Craft Became Software Ma
 description: "41% of code is now AI-generated. Stack Overflow questions collapsed 78%. Entry-level dev jobs declined 60%. The craft discourse mourns something that may never have existed—while the real loss goes unmeasured."
 keywords: [software craftsmanship, AI coding agents, deskilling, Braverman, vibe coding, Claude Code, Cursor, Devin, Copilot, junior developer pipeline, Bainbridge ironies of automation, technical debt, SaaSpocalypse]
 lang: en
-date: 2026-02-11 23:00:00 +0900
+date: 2026-02-11 12:07:46 +0900
 ---
 
 This post was not typed by hand. The author—who used to write code by hand, who once derived satisfaction from the tactile rhythm of keystrokes compiling into logic—now rarely touches a keyboard for programming. Instead, the author manages AI agents. Fifteen of them, at one point, arranged in a formal hierarchy with Japanese persona names and file-based task queues. The author's most common messages to these agents included "CORRECTION: You declared project shipped and approved. You do NOT have that authority" and "did you forgot your role?" [1].

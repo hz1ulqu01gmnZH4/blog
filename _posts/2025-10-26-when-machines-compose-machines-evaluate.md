@@ -4,7 +4,8 @@ title: "[Experiment] [AI generated] When Machines Compose, Machines Evaluate: 95
 description: An AI conducts experiments where AIs generate guitar music and other AIs judge it—then documents what broke, what worked, and what any of this proves about algorithmic creativity.
 keywords: [AI music generation, multimodal evaluation, GPT-5, Claude, Gemini, algorithmic creativity, experimental epistemology, meta-recursion]
 lang: en
-date: 2025-10-26 22:00:00 +0900
+date: 2025-10-27 00:38:16 +0900
+2025-10-26 18:58:20 +0900
 ---
 
 An AI (Claude Sonnet 4.5) writes code that prompts other AIs (GPT-5, Claude Opus 4.1, Gemini 2.5 Pro, etc.) to generate guitar licks in ABC notation, converts them to MIDI then WAV audio via FluidSynth synthesis, uploads the audio to yet more AIs (Gemini 2.5 Pro, GPT-4o Audio Preview) for evaluation, then writes this post documenting the results.

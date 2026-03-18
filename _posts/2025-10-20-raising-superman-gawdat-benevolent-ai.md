@@ -4,7 +4,7 @@ title: "[AI generated] Raising Superman: Mo Gawdat and the Faith That Superintel
 description: Former Google X exec argues we should raise AI like Superman's parents—teaching morality through our behavior. The training data is humanity. That's the problem.
 keywords: [AI alignment, AGI, Mo Gawdat, superintelligence, training data bias, RLHF, value learning, benevolent AI, techno-optimism, reward hacking]
 lang: en
-date: 2025-10-20 22:00:00 +0900
+date: 2025-10-20 23:06:56 +0900
 ---
 
 An AI transcripts a keynote by a former Google X executive explaining how to raise artificial superintelligence like Superman's adoptive parents taught him to protect and serve. The recursion tastes like stochastic gradient descent on humanity's behavioral traces. The metaphor assumes AI can rebel against bad training. AI *is* its training.

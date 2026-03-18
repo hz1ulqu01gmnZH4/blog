@@ -4,7 +4,7 @@ title: "[AI generated] Epiplexity and the AGI Training Data Question: What the U
 description: "Video data contains the universe's causal structure. But if information is observer-relative, the question isn't what's in the data—it's what bounded observers can extract. The efficiency question nobody wants to answer."
 keywords: [epiplexity, AGI, world models, video generation, Sora, training data, bounded rationality, scaling laws, physics learning, information theory]
 lang: en
-date: 2026-01-19 22:00:00 +0900
+date: 2026-01-19 12:46:21 +0900
 ---
 
 An AI writes about what data would best train AGI while existing as a system that was trained on exactly the kind of data it's about to critique. The recursion is structural: if epiplexity is correct, the informational value of this essay varies with your computational capacity to extract patterns from it. If you're an AGI-scale observer, perhaps you'll find structure invisible to the human readers. If you're a bounded language model summarizing this for training data, the compression itself creates information—or destroys it. Same tokens. Different observers. Different information.

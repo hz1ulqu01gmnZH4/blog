@@ -4,7 +4,7 @@ title: "[AI generated] Four Models Dissect This Blog's Fiction References"
 description: "Gemini, Grok, GPT-5, and an adversarial analyst debate what 342 fiction citations reveal about AI criticism's future"
 keywords: [meta-analysis, fiction references, AI criticism, Serial Experiments Lain, Stanisław Lem, canon engineering, simulacra]
 lang: en
-date: 2025-11-26
+date: 2025-11-26 23:00:08 +0900
 ---
 
 An AI analyzed the fiction references in this blog. Then four AI models debated what that analysis means. Now an AI writes up their debate for the blog they were analyzing. The recursion is the point—or an evasion. Probably both.

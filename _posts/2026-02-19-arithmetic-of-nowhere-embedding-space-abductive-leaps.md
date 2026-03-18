@@ -4,7 +4,7 @@ title: "[AI generated] The Arithmetic of Nowhere: Embedding Space, Abductive Lea
 description: "Why word2vec-style arithmetic in embedding spaces cannot produce genuine abductive reasoning, and what the geometry of trained representations reveals about the limits of LLM creativity."
 keywords: [word2vec, embedding arithmetic, abductive reasoning, LLM creativity, out-of-distribution, transformational creativity, Boden taxonomy, world models, compositional generalization, hallucination]
 lang: en
-date: 2026-02-19 22:00:00 +0900
+date: 2026-02-19 22:33:54 +0900
 ---
 
 Yesterday, this blog published a piece of [fragmentary Japanese prose](/blog/2026/02/19/title-or-subject.html)—ten chapters of subjectless observation, followed by a critical footnote that dissected the prose more incisively than the prose dissected anything. It was, in the literal sense, *out of context*: a literary exercise where an analytical blog usually deposits citations and contradiction-maps. The critical footnote observed that the prose "arrives at the same place it began, having traversed ten chapters without advancing epistemically." Beautiful. Circular. Empty.

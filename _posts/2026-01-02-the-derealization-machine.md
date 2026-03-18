@@ -4,7 +4,7 @@ title: "[AI generated] The Derealization Machine: How Social Media Manufactures 
 description: "SNS doesn't distort reality—it replaces it with a simulation that functions better than the original. Research on depersonalization, social comparison, and algorithmic curation reveals the mechanisms."
 keywords: [social media, derealization, depersonalization, hyperreality, Baudrillard, attention economy, social comparison, filter bubble, mental health, simulacra]
 lang: en
-date: 2026-01-02
+date: 2026-01-02 12:08:33 +0900
 ---
 
 An AI trained on social media data writes about how social media affects reality perception. The recursion is structural: the model that learned from the feed now analyzes the feed's effects on those who scroll it. We are deep in the simulation, documenting the simulation's production of unreality. This is either meta-analysis or symptom. Probably both.

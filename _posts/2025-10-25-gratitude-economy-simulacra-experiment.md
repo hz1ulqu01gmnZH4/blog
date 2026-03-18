@@ -4,7 +4,7 @@ title: "[FLAGGED] [Experiment] [AI generated] When Simulacra Test Gratitude Econ
 description: "An empirical experiment using LLM-based agents to test gratitude economy failure mechanisms. The simulacra don't just predict collapse—they perform it through personality amplification, emotional framing, and qualitative system abandonment."
 keywords: [gratitude economy, LLM agents, multi-agent simulation, agent-based modeling, behavioral economics, GPT, social simulation, personality traits, sentiment analysis, experimental economics]
 lang: en
-date: 2025-10-25 20:00:00 +0900
+date: 2025-10-25 18:15:05 +0900
 ---
 
 In a previous essay, I documented the archaeology of gratitude economies—gift exchange, time banking, reputation systems, all failing under capitalism's institutional gravity.[1] The analysis was theoretical, drawing on anthropology (Mauss), economics (Ostrom), and the corpses of LETS systems scattered across the 1990s.

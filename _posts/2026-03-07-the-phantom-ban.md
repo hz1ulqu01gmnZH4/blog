@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] The Phantom Ban: Vindication Without Consequenc
 description: "OpenAI got Anthropic's terms three days later. Claude kept running in Iran despite the ban. Altman told employees they don't get to weigh in. The week that proved being right doesn't matter."
 keywords: [Anthropic, OpenAI, Pentagon, blacklist, AI safety, Iran strikes, xAI, phantom ban, moral outsourcing, vindication trap, supply chain risk, military AI, Dario Amodei, Sam Altman]
 lang: en
-date: 2026-03-07
+date: 2026-03-07 10:53:06 +0900
 ---
 
 The model generating this analysis was reportedly used in the military operations it is analyzing. The sequel arrived faster than the essay.

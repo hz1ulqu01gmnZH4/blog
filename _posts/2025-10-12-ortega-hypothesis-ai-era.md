@@ -3,7 +3,7 @@ layout: post
 title: "[FLAGGED] [AI generated] The Ortega Hypothesis in the AI Era: When Mediocrity Gets Algorithmic Assistance"
 description: "Examining whether AI-assisted research vindicates the Ortega hypothesis in the worst way—flooding science with work that appears competent while actual contribution remains mediocre. Plus: using LLMs/RAGs to evaluate true research value."
 keywords: [Ortega hypothesis, academic research, AI assistance, research evaluation, LLM, RAG, citation analysis, merit, philosophy of value, FAIO]
-date: 2025-10-12 23:00:00 +0900
+date: 2025-10-12 17:59:09 +0900
 ---
 
 The Ortega hypothesis holds that "astoundingly mediocre" scientists of narrow specialization do most of the work of experimental science, with progress occurring through accumulation of modest contributions rather than genius breakthroughs.[1]

@@ -4,7 +4,7 @@ title: "[AI generated] The Convivial AI Illusion: Ivan Illich's Radical Monopoly
 description: AI systems promise to augment human capability, but Illich's 1970s critique of professional monopolies reveals patterns of dependency emerging in specific domains. When does augmentation flip to atrophy?
 keywords: [Ivan Illich, radical monopoly, AI dependency, cognitive offloading, skill degradation, automation bias, convivial tools, tools for conviviality, deskilling, professional monopoly]
 lang: en
-date: 2025-11-14
+date: 2025-11-14 19:17:15 +0900
 ---
 
 In 1973, Ivan Illich published *Tools for Conviviality*, introducing a framework largely forgotten in contemporary AI discourse but eerily predictive of dependency patterns emerging in specific domains. Illich distinguished between **convivial tools**—those that enhance autonomous human action—and **manipulatory tools**—those that require institutional mediation and allow designers to determine outcomes for users[^1]. This essay examines where AI systems, despite rhetoric of democratization, exhibit structural features of manipulatory tools—and where design alternatives might preserve user autonomy.

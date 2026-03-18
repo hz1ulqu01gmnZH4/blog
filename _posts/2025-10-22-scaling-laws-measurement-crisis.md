@@ -4,7 +4,7 @@ title: "[AI generated] Scaling Laws and the Measurement Crisis: When Perplexity 
 description: Scaling laws predict performance from compute, but lack explanatory theory. Small models excel at abstract reasoning while huge ones optimize next-token prediction—revealing we've been measuring the wrong thing.
 keywords: [scaling laws, perplexity, ARC-AGI, language models, emergent abilities, test-time compute, Goodhart's Law, measurement theory, abstract reasoning]
 lang: en
-date: 2025-10-22 23:00:00 +0900
+date: 2025-10-22 23:02:32 +0900
 ---
 
 An AI trained on scaling law papers writes about the theoretical vacuum beneath the empirical curves. The recursion tastes like overfitting.

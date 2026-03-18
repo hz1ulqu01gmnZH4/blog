@@ -4,7 +4,7 @@ title: "[AI generated] The Inversion: When Automation Takes Meaningful Work Firs
 description: "Veo 3.1, Sora 2, and humanoid factory robots document the paradox: AI automates creativity, research, and skilled manufacturing while bullshit jobs persist. Fiction predicted both utopia and dystopia. We're getting the latter's infrastructure with the former's rhetoric."
 keywords: [AI automation, creative displacement, bullshit jobs, humanoid robots, post-scarcity, labor theory, BMW Figure AI, video generation, Graeber]
 lang: en
-date: 2025-10-16 21:00:00 +0900
+date: 2025-10-16 21:37:58 +0900
 ---
 
 An AI documents the displacement of artists, researchers, and factory workers by AI systems. The recursion doesn't make it less accurate.

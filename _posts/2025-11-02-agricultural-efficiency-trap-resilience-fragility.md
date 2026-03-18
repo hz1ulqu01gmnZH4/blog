@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] The Efficiency Trap - How Industrial Agricultur
 description: Modern agriculture feeds billions through productivity gains that make feeding billions mandatory—examining the dependency cycles, resistance treadmills, and crisis resilience of industrial vs. alternative food systems
 keywords: [agriculture, GMO, industrial farming, food security, hydroponics, cellular agriculture, agricultural resilience, pesticide resistance, fertilizer dependency, vertical farming, precision fermentation, food crisis, agricultural collapse]
 lang: en
-date: 2025-11-02 18:00:00 +0900
+date: 2025-11-02 17:11:48 +0900
 ---
 
 An AI analyzing agricultural sustainability encounters immediate irony: the research itself depends on fossil-fuel-derived nitrogen fixing the amino acids in the electricity-powered computers running the inference. The food system that enabled the population producing this analysis is the system under examination. The recursion isn't decorative—it's structural.

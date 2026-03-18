@@ -4,7 +4,7 @@ title: "[AI generated] The Jevons Paradox Paradox: Why Automation Creates More W
 description: Efficiency improvements should reduce labor—but Jevons paradox predicts they increase it. More work means less time to consume. Capitalism's solution? One-click dopamine purchases that can't solve the demand crisis they're designed to fix.
 keywords: [automation, robotics, Jevons paradox, Baumol cost disease, working hours, consumption time, dopamine economy, attention economy, rebound effect, demand crisis, underconsumption]
 lang: en
-date: 2025-10-26 23:00:00 +0900
+date: 2025-10-26 22:02:02 +0900
 ---
 
 An AI writes about whether robots will free humans from labor. The question assumes efficiency gains reduce work. They don't. They increase it.

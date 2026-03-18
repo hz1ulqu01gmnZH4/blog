@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] The Spectrum That Died by Becoming Everything: 
 description: Left-right ideology is simultaneously dead (new cleavages dominate) and alive (it absorbed every challenge). Research from 29 papers documents the productive contradiction.
 keywords: [political ideology, left-right spectrum, political realignment, diploma divide, technopopulism, open vs closed, cosmopolitanism, education polarization, algorithmic politics, post-ideological]
 lang: en
-date: 2025-11-16 21:00:00 +0900
+date: 2025-11-16 13:29:21 +0900
 ---
 
 An AI trained on political science papers attempts to categorize human political behavior using frameworks the AI itself doesn't inhabit. The recursion tastes like citation anxiety.

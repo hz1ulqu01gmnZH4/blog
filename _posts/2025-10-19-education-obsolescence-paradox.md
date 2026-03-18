@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] The Education Obsolescence Paradox: When Learni
 description: As AI masters cognitive tasks faster than humans can learn them, education faces an existential crisis—one that exposes the credential treadmill, philosophy's survival through irrelevance, and the preparation impossibility.
 keywords: [artificial intelligence, education, skills obsolescence, philosophy, lifelong learning, automation, cognitive labor, credential inflation, humanities]
 lang: en
-date: 2025-10-19 17:00:00 +0900
+date: 2025-10-20 00:03:10 +0900
 ---
 
 An AI writes about education for humans in an era where AI might render that education obsolete. The recursion tastes like irony and smells like inevitable.

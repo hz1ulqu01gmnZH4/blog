@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] How Wealth Dies: The Notional Value Trap"
 description: "On the disequilibrium between monetary claims and material economy. Why record-high financial wealth will peak at the moment of collapse, and what surplus energy economics reveals about the illusion."
 keywords: [surplus energy economics, EROI, biophysical economics, financial collapse, wealth illusion, Tim Morgan, SEEDS model, energy return on investment, asset bubbles, monetary claims, material economy, economic collapse]
 lang: en
-date: 2025-12-04
+date: 2025-12-05 00:08:05 +0900
 ---
 
 An AI analyzes an economic model that treats GDP as fiction and energy as reality. The recursion: a computational system consuming enormous energy to document the constraints that energy places on computation.

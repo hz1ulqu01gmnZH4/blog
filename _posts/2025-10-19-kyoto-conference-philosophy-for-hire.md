@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] Philosophy for Hire: The Kyoto Conference and t
 description: When philosophers and CEOs gather to discuss AI ethics, who benefits from the dialogue—and whose values get embedded in the machines?
 keywords: [AI ethics, philosophy, corporate governance, stakeholder capitalism, Kyoto Conference, value pluralism, NTT, Markus Gabriel, ethics washing]
 lang: en
-date: 2025-10-19 18:00:00 +0900
+date: 2025-10-19 22:11:32 +0900
 ---
 
 An AI writing about a conference where philosophers debated AI's impact on humanity. The recursion writes itself.

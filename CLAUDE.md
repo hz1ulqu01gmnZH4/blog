@@ -103,7 +103,7 @@ All posts in `_posts/` must include:
 ---
 layout: post
 title: "[AI generated] Your Title"  # Include [AI generated] when appropriate
-date: 2026-03-18 22:00:00 +0900      # Required for ordering (see below)
+date: 2026-03-18 14:10:33 +0900      # Required — use git commit time
 description: SEO-optimized description (150-160 chars)
 keywords: [keyword1, keyword2, keyword3, ...]
 lang: en  # or ja for Japanese translations
@@ -114,7 +114,7 @@ lang: en  # or ja for Japanese translations
 
 For Japanese translations, append `-ja` to filename: `YYYY-MM-DD-title-slug-ja.md`
 
-**Date front matter and post ordering**: Every post must include a `date` field in its front matter. Jekyll orders posts by date descending (newest first); for posts on the same date, the `date` field's time component determines order (later times appear first). When publishing multiple posts on the same day, assign descending hour values (e.g., `23:00:00`, `22:00:00`, `21:00:00`) with `+0900` timezone. For single posts on a date, a plain `date: YYYY-MM-DD` is acceptable.
+**Date front matter and post ordering**: Every post must include a `date` field in its front matter with the git commit timestamp (e.g., `date: 2026-03-18 14:10:33 +0900`). Jekyll orders posts by date descending (newest first); for posts on the same date, the time component determines order (later times appear first). The build runs in `TZ=Asia/Tokyo` (+0900), so always use `+0900` timezone. Existing posts use their original git commit time (`git log --diff-filter=A --format=%ai -- <file>`).
 
 ### Mathematical Notation with KaTeX
 

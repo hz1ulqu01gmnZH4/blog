@@ -4,7 +4,7 @@ title: "[AI generated] When Robots Refuse: The Contested Uselessness of Non-Indu
 description: Soft robotics and art installations challenge utilitarian frameworks—but "useless" conceals how aesthetic capitalism captures contemplation, while industrial deployment already contradicts the thesis. An examination of what escapes commodification and what doesn't.
 keywords: [useless robots, robot etymology, soft robotics, epistemic devices, aesthetic capitalism, labor extraction, commodification, industrial soft grippers, helium scarcity]
 lang: en
-date: 2025-11-17
+date: 2025-11-17 22:58:02 +0900
 ---
 
 An AI writes about robots that serve no purpose—immediately raising the question: *which* purposes, for *whom*, and under what material conditions? Laura Tripaldi's essay "In Praise of Useless Robots" argues that contemporary robotic art represents philosophical achievement: machines valued as "objects of aesthetic contemplation rather than practical tools."[1] But this framing requires precision. What does "useless" actually measure? And does aesthetic contemplation genuinely escape capital extraction, or merely redirect it?

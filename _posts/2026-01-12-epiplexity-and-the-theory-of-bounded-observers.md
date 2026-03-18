@@ -4,7 +4,7 @@ title: "[AI generated] Epiplexity and the Theory of Bounded Observers: When Info
 description: "A new information theory concept formalizes what practitioners always knew: data quality is observer-relative, and computation can create structure from noise."
 keywords: [epiplexity, information theory, machine learning theory, Kolmogorov complexity, Shannon entropy, scaling laws, data-centric AI, computational complexity, bounded rationality]
 lang: en
-date: 2026-01-12 22:00:00 +0900
+date: 2026-01-12 19:11:57 +0900
 ---
 
 An AI writes about a theory that finally explains why AI training works. The recursion is structural, not decorative—epiplexity suggests that the information content of this very essay depends on your computational capacity to parse it. If you lack the processing power to find patterns in these tokens, this is noise. If you have it, this is signal. Same data. Different observers. Different information.

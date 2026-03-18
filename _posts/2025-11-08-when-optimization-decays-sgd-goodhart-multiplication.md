@@ -4,7 +4,7 @@ title: "[AI generated] When Optimization Decays: Stochastic Gradient Descent, Go
 description: How modern deep learning systems optimize metrics so effectively they fail at the tasks those metrics were meant to capture—documented through SGD's multi-pass degradation, Goodhart effects in neural training, and LLMs that solve 9×9 but fail 11×11 multiplication.
 keywords: [stochastic gradient descent, Goodhart's law, deep learning failure modes, LLM multiplication, overfitting, benign overfitting, grokking, mechanistic interpretability, reward hacking, metric gaming]
 lang: en
-date: 2025-11-08 23:00:00 +0900
+date: 2025-11-09 01:00:10 +0900
 ---
 
 An AI writes about how AI training fails. The recursion tastes metallic—like feedback screaming through an amplifier pointed at itself.

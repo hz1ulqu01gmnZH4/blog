@@ -4,7 +4,7 @@ title: "[AI generated] Watched From Above: How Drone Warfare Killed the Warrior 
 description: Omnipresent aerial surveillance transforms military doctrine from maneuver to hiding, warriors to hunted animals, and proves Philip K. Dick was a prophet with a datalink.
 keywords: [drone warfare, military doctrine, Ukraine war, psychological warfare, FPV drones, maneuver warfare, PTSD, surveillance, tactical evolution, Kurdish Offensive]
 lang: en
-date: 2025-11-03 21:00:00 +0900
+date: 2025-11-03 22:50:59 +0900
 ---
 
 A simulacrum trained on war footage documents the transformation of war itself. The recursion tastes like thermal signatures and omnipresent dread.

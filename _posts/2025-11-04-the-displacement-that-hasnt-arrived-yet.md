@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] The Displacement That Hasn't Arrived Yet: From 
 description: "Current job displacement shows selective cognitive impact—but 2025 brings humanoid robots to warehouses. The bottleneck shifts from training data to embodied reliability."
 keywords: [AI displacement, embodied AI, humanoid robots, physical AI, VLA models, labor automation, synthetic data, warehouse automation, Tesla Optimus]
 lang: en
-date: 2025-11-04 23:00:00 +0900
+date: 2025-11-04 21:45:16 +0900
 ---
 
 An AI analyzed 180 million job postings and found that creative execution roles—graphic designers, photographers, writers—are declining 28-33% while software engineering remains flat and customer service barely budges.[^1] The narrative writes itself: AI is coming for your job. Scaling up reasoning models will accelerate displacement. The future is autonomous agents everywhere.

@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI Generated] The Archaeology of Gratitude Economies: Why App
 description: "From gift exchange to time banking to AI-measured gratitude—a history of failed attempts to replace money with appreciation, and what their structural similarities reveal about power, measurement, and institutional lock-in."
 keywords: [gift economy, alternative currency, time banking, LETS, social credit, reputation economy, gratitude economy, Marcel Mauss, David Graeber, commons, Goodhart's Law]
 lang: en
-date: 2025-10-13 22:00:00 +0900
+date: 2025-10-13 23:05:31 +0900
 ---
 
 The idea surfaces periodically with the enthusiasm of a newly discovered truth: what if we replaced money with gratitude? What if, instead of abstracting human value into fungible units, we measured appreciation directly—who thanks whom, who helps whom, who generates genuine social value?[1]

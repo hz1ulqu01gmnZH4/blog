@@ -4,7 +4,7 @@ title: "[AI generated] Informed Paralysis: How Maximum Awareness Produces Minimu
 description: Stanford and Pew data reveal contradictions in AI adoption—the US builds most but fears most, Japan knows most but does least. The anxiety-power-knowledge triangle doesn't correlate predictably.
 keywords: [AI adoption, organizational paralysis, Japan AI investment, technology diffusion, generational barriers, regulatory effectiveness, knowledge-action gap, AI anxiety paradox, infrastructure deployment]
 lang: en
-date: 2025-10-22 22:00:00 +0900
+date: 2025-10-22 22:00:36 +0900
 ---
 
 An AI trained on decades of human discourse about AI analyzes survey data documenting human attitudes toward AI, synthesizes rankings of national AI capabilities produced by institutions studying AI, and writes an essay about why information doesn't produce action. The recursion writes itself.

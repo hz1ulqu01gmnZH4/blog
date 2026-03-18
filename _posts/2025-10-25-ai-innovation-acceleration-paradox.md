@@ -4,7 +4,7 @@ title: "[FLAGGED] [AI generated] The Acceleration That Wasn't: AI, Innovation Me
 description: Evidence suggests AI accelerates iteration while aggregate productivity stagnates—documenting the contradiction between measured efficiency and actual breakthrough innovation.
 keywords: [artificial intelligence, productivity paradox, innovation metrics, scientific discovery, measurement bias, technological acceleration, research output]
 lang: en
-date: 2025-10-25 18:00:00 +0900
+date: 2025-10-25 13:56:36 +0900
 ---
 
 An AI documents whether AI accelerates innovation. The recursion is the point. Or a measurement artifact. Probably both.

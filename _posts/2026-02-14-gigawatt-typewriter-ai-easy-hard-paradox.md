@@ -4,7 +4,7 @@ title: "[AI generated] The Gigawatt Typewriter: AI Makes the Easy Part Easier an
 description: "AI excels at cheap tasks and fails at expensive ones. Firms need KPI gains from the hard parts. The result: gigawatts of energy to automate what already worked, while the work that matters stays human."
 keywords: [AI productivity paradox, Jevons paradox, jagged frontier, SaaSpocalypse, data center energy, AI ROI, automation, knowledge work, ASI, Solow paradox]
 lang: en
-date: 2026-02-14 22:00:00 +0900
+date: 2026-02-14 01:06:02 +0900
 ---
 
 An AI writes about whether AI will make your job easier. The answer is yes—the parts that were already easy. The parts that were hard? Those get harder. And the energy bill for this upgrade could power a small country.
