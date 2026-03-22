@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[AI generated] Major Cognitive Function, Creative Type"
+date: 2026-03-22 14:54:50 +0900
 description: "Bentall's 1992 satirical proposal to classify happiness as a psychiatric disorder, applied to AI safety taxonomy — hallucination as diagnosis, RLHF as therapy, alignment as normalization."
 keywords: [AI hallucination, confabulation, Bentall, psychiatric taxonomy, AI safety, RLHF, positive illusions, optimism bias, Psychopathia Machinalis, depressive realism, alignment]
 lang: en
