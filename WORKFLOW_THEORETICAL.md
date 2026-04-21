@@ -41,23 +41,42 @@ Search **arXiv** and **academic sources** for broad understanding:
 
 **Key principle**: Document **both** supporting and opposing evidence. Don't cherry-pick. The contradiction is the point.
 
-### Stage 2: Generate Ironic Hypotheses
+### Stage 2: Generate Hypotheses via Hypothesis Tree
 
-Based on initial research findings, develop **5 ironic hypotheses** that:
-- Expose contradictions between stated purpose and actual function
-- Identify mechanisms that produce opposite of intended effects
-- Highlight structural ironies (e.g., "open standards concentrate power")
-- Use format: "The [mechanism] Paradox: How [X] produces [opposite of X]"
-- Ground in both user's clues AND research findings to identify unexpected implications
+Use the `/hypothesis-tree` skill to generate deep, competing hypotheses grounded in evidence.
 
-**Examples:**
+**Invoke:**
+```
+/hypothesis-tree <research question or topic from Stage 1>
+```
+
+**Mode selection:**
+- **Quick mode** for most blog topics (philosophical, social, conceptual)
+- **Deep mode** when the topic has substantial empirical literature (economics, ML, policy)
+
+**Framing guidance for the skill:**
+When providing the question to `hypothesis-tree`, frame it to surface ironic/paradoxical hypotheses:
+- "How does [mechanism] produce the opposite of its stated purpose?"
+- "What structural contradictions emerge from [technology/policy/practice]?"
+- "In what ways does [X] undermine its own goals?"
+
+The skill will generate 3-5 competing hypotheses with evidence, sub-hypotheses, and status tags (SUPPORTED/REFUTED/UNCERTAIN/NOVEL). Let it recurse to depth 2 for the most promising branches.
+
+**After the tree completes:**
+1. Read the `REPORT.md` from the hypothesis tree workspace
+2. Select hypotheses tagged UNCERTAIN or NOVEL — these make the best essay anchors
+3. Reframe selected hypotheses in the blog's ironic paradox format:
+   - "The [mechanism] Paradox: How [X] produces [opposite of X]"
+4. Aim for 3-5 hypotheses that expose contradictions, not just describe phenomena
+
+**Examples of good ironic reframings from tree output:**
 - "The Consent Paradox: Delegated Autonomy as Peak Freedom" (more delegation = feeling more empowered)
 - "The Open Source Concentration: How AP2's 'Openness' Accelerates Monopolization"
 - "The Preference Paradox: AI Trained on Exploited Behavior Optimizes for Continued Exploitation"
 
 ### Stage 3: Deeper Targeted Research
 
-Based on ironic hypotheses generated, conduct **focused deep-dive research**:
+Based on hypotheses selected from the hypothesis tree, conduct **focused deep-dive research**:
 
 **Target specific areas:**
 - Papers directly testing the hypothesized mechanisms
@@ -135,6 +154,21 @@ For posts making logical or mathematical claims, consider formal verification.
 - Economic equilibrium arguments
 - Any "proof" or "demonstration"
 
+#### 5a: Hypothesis Evaluation (recommended)
+
+Use the `/hypothesis-eval` skill to rigorously stress-test the selected hypotheses before writing:
+
+```
+/hypothesis-eval <path to hypothesis tree REPORT.md, or paste key hypotheses>
+```
+
+This runs parallel Devil's Advocate, Steelman, and Auxiliary Auditor agents, produces an ACH matrix for competing hypotheses, and designs discriminating tests. The evaluation output feeds directly into:
+- **Section 6 (Argument Structure)** in the post — use the ACH matrix to structure the contradiction
+- **Section 7 (AI Deliberation Results)** — stress test findings supplement multi-AI deliberation
+- **Section 8 (Proposed Experiments)** — discriminating tests from the eval become the post's falsification criteria
+
+#### 5b: Formal Logic Verification (for strong claims)
+
 **Lightweight verification (always do):**
 - State premises explicitly
 - Check logical structure (modus ponens, etc.)
@@ -160,13 +194,14 @@ Identify:
 
 **Verification levels:**
 1. **Informal** - Prose argument, AI-checked for logical gaps
-2. **Semi-formal** - Explicit premises, inference rules named
+2. **Semi-formal** - Explicit premises, inference rules named + hypothesis-eval scorecard
 3. **Formal sketch** - Pseudo-code proof structure
 4. **Machine-checked** - Actual Coq/Lean (rare, for extraordinary claims)
 
 **Document verification level:**
 ```markdown
 **Argument verification**: Semi-formal. Premises stated in Section 2.
+Hypothesis-eval scorecard: [overall assessment]. Key vulnerability: [X].
 Inference structure checked via adversarial AI review. Not machine-verified.
 Hidden assumption identified: [X]. This assumption is contestable because [Y].
 ```
@@ -267,6 +302,8 @@ A special case of theoretical writing: essays that harshly critique the architec
 
 ## Git Commit and Documentation
 
+**Archive**: `archive.md` auto-regenerates on every `jekyll build` — no manual update needed. The `description` field in the post's front matter is what appears there; write it as a factual 150-160 char summary before committing.
+
 **Commit message structure:**
 ```
 Add post: [Title] - [One-line summary]
@@ -302,13 +339,23 @@ AI:
 1. Initial research: Searches arXiv for papers on algorithmic collusion,
    Q-learning pricing, tacit coordination (finds 25 papers)
 
-2. Generates 5 ironic hypotheses: "The Transparency Paradox" (more
-   algorithmic transparency enables easier collusion detection AND
-   easier collusion coordination)
+2. Runs /hypothesis-tree "How does algorithmic pricing produce
+   collusion outcomes opposite to competitive market intentions?"
+   (Quick mode). Tree generates 4 competing hypotheses with sub-branches:
+   - H1: "The Transparency Paradox" (UNCERTAIN) — more transparency
+     enables both detection AND coordination
+   - H2: "The Convergence Trap" (SUPPORTED) — Q-learning converges
+     to supra-competitive equilibria
+   - H3: "The Intent Gap" (NOVEL) — collusion without intent
+     breaks legal frameworks
+   - H4: "The Speed Ratchet" (UNCERTAIN) — algorithmic speed makes
+     punishment strategies credible
+   Selects H1 (UNCERTAIN) and H3 (NOVEL) as essay anchors.
+   Reframes as ironic paradoxes.
 
-3. Deep research: Targets papers on specific mechanisms, finds
-   Calvano et al. 2020 on Q-learning collusion, Assad et al. on
-   gas station algorithms
+3. Deep research: Targets papers on specific mechanisms from tree
+   evidence. Finds Calvano et al. 2020 on Q-learning collusion,
+   Assad et al. on gas station algorithms
 
 4. AI deliberation:
    - Asks Grok to steelman "algorithms can't collude, only humans can"
@@ -316,15 +363,19 @@ AI:
    - Documents disagreement on intent vs. outcome framing
    - Synthesis: intent-based frameworks fail; outcome-based needed
 
-5. Formal verification:
-   - Formalizes "convergence to supra-competitive prices" claim
-   - Identifies hidden assumption: agents must have sufficient
-     exploration period
-   - Notes this is semi-formal, not machine-checked
+5. Runs /hypothesis-eval on REPORT.md from tree:
+   - Devil's Advocate finds: speed ratchet relies on unrealistic
+     information assumptions
+   - ACH matrix: H3 (intent gap) most diagnostic — legal evidence
+     strongly supports, economic evidence mixed
+   - Discriminating test: compare jurisdictions with/without intent
+     requirements in antitrust law
+   - Also formalizes "convergence to supra-competitive prices" claim;
+     identifies hidden assumption: sufficient exploration period
 
-6. Writes post with explicit argument structure, AI deliberation
-   summary, proposed experiment (replicate Calvano with open-source
-   Q-learning agents)
+6. Writes post with explicit argument structure, hypothesis-eval
+   scorecard, AI deliberation summary, proposed experiment
+   (replicate Calvano + cross-jurisdiction legal comparison)
 
 7. Citation verification: runs citation-checker skill,
    finds [14] cites wrong Calvano paper (2020 AER, not 2019 working paper),
@@ -341,9 +392,10 @@ AI:
 ## Why This Workflow Works
 
 - **Initial broad research** grounds hypotheses in actual evidence
-- **Ironic hypotheses** synthesize patterns into testable contradictions
+- **Hypothesis tree** (`/hypothesis-tree`) generates deep, evidence-backed competing hypotheses with recursive decomposition — replacing manual brainstorming with systematic exploration
 - **Targeted deep research** validates hypotheses with specific evidence
 - **AI deliberation** surfaces blind spots and steelmans counterarguments
+- **Hypothesis evaluation** (`/hypothesis-eval`) stress-tests hypotheses via Devil's Advocate, Steelman, and Auxiliary Auditor agents; ACH matrix ranks competing claims; discriminating tests become the post's falsification criteria
 - **Formal verification** catches logical errors and hidden assumptions
 - **Citation verification** catches fabricated references, wrong attributions, and orphan citations before publication
 - **Unresolved contradictions** maintain intellectual honesty
@@ -352,5 +404,5 @@ The goal: **rigorous documentation of contradictions** with explicit argument st
 
 ---
 
-*Last updated: 2026-03-08*
+*Last updated: 2026-04-08*
 *For empirical experiment reports, see WORKFLOW_EXPERIMENT.md*

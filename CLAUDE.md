@@ -216,8 +216,8 @@ The site uses `jekyll-seo-tag` for automatic meta tag generation. The `{% seo %}
 | Post Type | File | Description |
 |-----------|------|-------------|
 | Index/Shared | `ESSAY_WORKFLOW.md` | Post creation basics, review workflow, translations, maintenance |
-| Theoretical | `WORKFLOW_THEORETICAL.md` | 6-stage: research → ironic hypotheses → multi-AI deliberation → formal verification → write |
-| Experiment | `WORKFLOW_EXPERIMENT.md` | 6-stage: pre-registration → data collection → analysis → visualization → scientific write-up |
+| Theoretical | `WORKFLOW_THEORETICAL.md` | 7-stage: research → `/hypothesis-tree` → deep research → multi-AI deliberation → `/hypothesis-eval` + formal verification → write → citation check |
+| Experiment | `WORKFLOW_EXPERIMENT.md` | 6+1-stage: (optional `/hypothesis-tree`) → pre-registration → data collection → analysis → visualization → scientific write-up (citation check in quality gates) |
 
 **Quick decision:**
 - Running/reporting an experiment? → `WORKFLOW_EXPERIMENT.md`

@@ -314,3 +314,61 @@ img {
   background-color: #0d1117;
   color: #c9d1d9;
 }
+
+/* Archive page */
+.archive-year {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  color: var(--prompt-color);
+  font-size: 1.1rem;
+  margin: 2rem 0 0.75rem;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 0.25rem;
+}
+
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.archive-entry {
+  margin: 0.9rem 0;
+}
+
+.archive-date {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.75rem;
+  color: var(--muted-color);
+  display: block;
+}
+
+.archive-title {
+  font-size: 0.95rem;
+  color: var(--link-color);
+}
+
+.archive-title:hover {
+  text-decoration: underline;
+}
+
+.archive-desc {
+  font-size: 0.8rem;
+  color: var(--muted-color);
+  margin: 0.2rem 0 0 0;
+  line-height: 1.5;
+}
+
+/* Site nav */
+.site-nav {
+  margin-top: 0.4rem;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.8rem;
+}
+
+.site-nav a {
+  color: var(--muted-color);
+}
+
+.site-nav a:hover {
+  color: var(--link-color);
+}

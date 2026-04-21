@@ -8,8 +8,8 @@ Index and shared workflows for `/dev/null/thoughts` blog content.
 
 | Post Type | Workflow File | Key Features |
 |-----------|---------------|--------------|
-| **Theoretical** | `WORKFLOW_THEORETICAL.md` | 7 stages: research → ironic hypotheses → AI deliberation → formal verification → write → citation check |
-| **Experiment** | `WORKFLOW_EXPERIMENT.md` | 6 stages: pre-registration → data collection → analysis → visualization → write (citation check in quality gates) |
+| **Theoretical** | `WORKFLOW_THEORETICAL.md` | 7 stages: research → `/hypothesis-tree` → AI deliberation → `/hypothesis-eval` + verification → write → citation check |
+| **Experiment** | `WORKFLOW_EXPERIMENT.md` | 6+1 stages: (optional `/hypothesis-tree`) → pre-registration → data collection → analysis → visualization → write (citation check in quality gates) |
 
 **Quick decision:**
 - Did you run an experiment? → `WORKFLOW_EXPERIMENT.md`
@@ -20,7 +20,7 @@ Index and shared workflows for `/dev/null/thoughts` blog content.
 | Aspect | Theoretical | Experiment |
 |--------|-------------|------------|
 | Starting point | Topic/research question | Data you've collected |
-| Specialized tools | Multi-AI deliberation, formal verification | Pre-registration, statistical analysis, visualization |
+| Specialized tools | `/hypothesis-tree`, `/hypothesis-eval`, multi-AI deliberation, formal verification | `/hypothesis-tree` (optional), pre-registration, statistical analysis, visualization |
 | Structure | Contradiction-focused | Scientific paper (IMRAD) |
 | Citations | 15-25 | 5-10 |
 | Length | 1,500-3,500 words | 1,000-2,000 words |
@@ -48,6 +48,7 @@ All posts follow these basics:
 6. **Add critical footer** (see below)
 7. Preview: `bundle exec jekyll serve`
 8. Check SEO tags in browser source
+9. **Archive auto-updates** — `archive.md` uses Liquid to list all posts; no manual step needed. The `description` field in front matter is what appears in the archive, so write it carefully (150-160 chars, factual summary).
 
 ### Critical Footer Requirement
 
@@ -305,11 +306,11 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ---
 
-*Last updated: 2026-03-08*
+*Last updated: 2026-04-08*
 
 **Workflow files:**
-- `WORKFLOW_THEORETICAL.md` - 7-stage: research, hypotheses, AI deliberation, formal verification, write, citation check
-- `WORKFLOW_EXPERIMENT.md` - 6-stage: pre-registration, collection, analysis, visualization, scientific report
+- `WORKFLOW_THEORETICAL.md` - 7-stage: research, `/hypothesis-tree`, AI deliberation, `/hypothesis-eval` + formal verification, write, citation check
+- `WORKFLOW_EXPERIMENT.md` - 6+1-stage: (optional `/hypothesis-tree`), pre-registration, collection, analysis, visualization, scientific report
 
 **Related files:**
 - `CLAUDE.md` - Project overview, architecture, constraints

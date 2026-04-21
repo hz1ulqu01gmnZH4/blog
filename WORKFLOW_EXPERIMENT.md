@@ -41,6 +41,26 @@ Follow standard scientific paper structure adapted for blog format:
 
 ## Six-Stage Experiment Report Workflow
 
+### Stage 0: Hypothesis Exploration (Optional, Before Pre-Registration)
+
+When the research question is broad or under-specified, use `/hypothesis-tree` to explore the hypothesis space before committing to an experimental design.
+
+```
+/hypothesis-tree <research question>
+```
+
+Use **Quick mode** unless the topic has deep empirical literature (then Deep mode). The tree output helps you:
+1. **Identify testable hypotheses** — select UNCERTAIN or NOVEL branches as experiment targets
+2. **Clarify H₀ vs H₁** — the tree's competing hypotheses map naturally to null vs. alternative
+3. **Discover confounds** — sub-hypotheses often reveal variables you'd otherwise miss
+4. **Design better controls** — REFUTED branches suggest what to control for
+
+**When to skip**: If you already have a specific, well-defined hypothesis from prior theoretical work or a specific user request, go directly to Stage 1.
+
+**When to use**: When starting from a vague question ("does X affect Y?"), when multiple competing mechanisms could explain an expected effect, or when you want to ensure you're testing the most informative hypothesis.
+
+After the tree completes, read its REPORT.md and select 1-2 hypotheses to formalize in pre-registration below.
+
 ### Stage 1: Pre-Registration (Before Running)
 
 Document your experimental design **before** collecting data to prevent p-hacking.
@@ -429,6 +449,8 @@ platforms may have changed behavior since data collection.*
 
 ## Git Commit and Documentation
 
+**Archive**: `archive.md` auto-regenerates on every `jekyll build` — no manual update needed. The `description` field in the post's front matter is what appears there; write it as a factual 150-160 char summary before committing.
+
 **Commit message structure:**
 ```
 Add post: [Experiment Title] - [One-line finding]
@@ -516,5 +538,5 @@ The void doesn't need more armchair speculation. It needs someone to actually ch
 
 ---
 
-*Last updated: 2026-03-08*
+*Last updated: 2026-04-08*
 *For theoretical/research synthesis posts, see WORKFLOW_THEORETICAL.md*
